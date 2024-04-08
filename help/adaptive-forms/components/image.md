@@ -3,9 +3,9 @@ title: アダプティブフォームのコアコンポーネント - 画像
 description: アダプティブフォームの画像コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1198'
+source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
+workflow-type: tm+mt
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。このオプションを使用すると、データソースを更新せずにデータを保存できます。また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
 
-- **レコードのドキュメントのバインド参照** - このオプションを使用すると、アダプティブフォームフィールドをレコードのドキュメントフィールドに関連付けることができます。 ユーザーがアダプティブフォームのリンクされたフィールドに値を入力すると、その値は対応するレコードのドキュメントのリンクされたフィールドにも表示されます。 例えば、レコードのドキュメントのバインド参照を使用して、フォームに入力された顧客の ID に基づいて、レコードのドキュメントに顧客の名前と住所を表示することができます。 この方法で AEM Forms を使用してレコードのドキュメントを生成し、データを収集および管理するためのシームレスなユーザーエクスペリエンスを提供します。
+<!--   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enable you to generate Document of Record and offers a seamless user experience for collecting and managing data.-->
 
 - **説明** - 説明とは、特定の画像の目的に関する追加情報や説明を提供する簡単な説明文です。
 
@@ -79,7 +79,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 
-- **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
+<!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-->
 
 ## デザインダイアログ {#design-dialog}
 

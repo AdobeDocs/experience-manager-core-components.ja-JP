@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - メール�
 description: アダプティブフォームのメール入力コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1917'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - 名前は、ルールエディター内でコンポーネントを一意に識別します。名前文字列では特殊文字とスペースを使用できません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -76,6 +80,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **デフォルト値** - このオプションを使用すると、フォームフィールドにデフォルト値を追加できます。「**無効なコンポーネント**」または「**読み取り専用コンポーネント**」が選択されている場合は、デフォルト値が画面に表示されます。ユーザーがフォームフィールドに値を入力しない場合、この値はフォーム送信時に送信されます
 
+- **自動入力属性**：このオプションを使用すると、ユーザーは、保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
 
 ### 「検証」タブ {#validation-tab}
 

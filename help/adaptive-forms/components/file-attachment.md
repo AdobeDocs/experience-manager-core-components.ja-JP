@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - ファイ�
 description: アダプティブフォームのファイル添付コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1740'
-ht-degree: 100%
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
+source-wordcount: '1726'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にする場合は、このオプションを選択します。
 
@@ -73,6 +77,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 - **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 - **複数の添付ファイルを許可** - **添付ファイル**&#x200B;ボタンから複数の添付ファイルをアップロードできます。
+- **ドラッグ&amp;ドロップ**  — これは、 **添付** ボタンをクリックして、ファイルの添付またはドラッグ&amp;ドロップをユーザーに促します。 上部に表示されるテキストをカスタマイズするオプションがあります。 **添付** 」ボタンをクリックします。 <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### 「検証」タブ {#validation-tab}
 
@@ -84,11 +89,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **スクリプト検証メッセージ** - このオプションを使用すると、スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
-- **最少ファイル数のエラーメッセージ** - このオプションでは、指定された最少数よりも少ないファイルをアップロードした場合に表示されるエラーメッセージを入力できます。
-
-- **最大ファイル数のエラーメッセージ** - このオプションでは、指定された最大数を超えるファイルをアップロードした場合に表示されるエラーメッセージを入力できます。
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **最大ファイルサイズ (MB)** - このオプションを使用すると、最大のファイルサイズを指定できます。ファイルサイズは MB 単位で指定します。
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **最大ファイルサイズのエラーメッセージ** - このオプションでは、**最大ファイルサイズ (MB)** オプションで指定したファイルサイズを超えるファイルをアップロードした場合に表示されるエラーメッセージを入力できます。
 

@@ -3,9 +3,9 @@ title: アダプティブフォームのコアコンポーネント - 数値入�
 description: アダプティブフォームの数値入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2035'
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1989'
 ht-degree: 100%
 
 ---
@@ -65,6 +65,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.   
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -121,9 +125,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **表示形式** - このオプションでは、表示する様々な整数の数値形式を選択できます。ユーザーが「**タイプ**」ドロップダウンメニューからオプションを選択すると、「**形式**」オプションがパネルに表示されます。ユーザーに表示する数値の形式を選択できます。
 
-- **小数点より前の桁数（1234.000）** - 小数点より前に表示する桁数を指定できます。
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **小数点より後の桁数（1234.000）** - 小数点より後に表示する桁数を指定できます。
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## デザインダイアログ {#design-dialog}
 

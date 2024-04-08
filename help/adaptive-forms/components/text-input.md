@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキスト入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1984'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1949'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -75,9 +79,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **複数行を許可** - このオプションを使用すると、ユーザーはフォームフィールドに複数行を入力できます。
 
-- **リッチテキストを許可** - 編集ダイアログには、ユーザーがテキストの書式を設定できる、標準のリッチテキスト形式ツールが用意されています。
-
-- **自動入力属性** -「自動入力」オプションは、パターンまたは以前に入力したテキストに従ってフォームフィールドに入力が行われます。ユーザーがフォームフィールドにテキストを入力し始めると、候補がドロップダウンリストに表示され、そこから適切なオプションを選択できます。
+- **自動入力属性**  — このオプションを使用すると、ユーザーは、保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
 
 ### 「検証」タブ {#validation-tab}
 

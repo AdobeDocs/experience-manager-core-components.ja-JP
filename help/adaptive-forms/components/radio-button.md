@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - ラジオ�
 description: アダプティブフォームのラジオボタンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1904'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1901'
+ht-degree: 97%
 
 ---
 
@@ -67,10 +67,24 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
-  「**オプション** 」タブでは、データ値を追加し、「**追加** 」ボタンからテキストのペアを表示できます。新しいオプションを追加したら、次の操作を実行できます。
+- **オプション**  — データ値を追加し、 **追加** 」ボタンをクリックします。
+  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
+
+  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
+
+  新しいオプションを追加した後、次のアクションを実行できます。
 
    - **データ値** — このオプションでは、オプションが選択された際に送信するコンテンツを指定できます。
    - **テキストを表示** - このオプションでは、アダプティブフォームに表示する内容を入力できます。
@@ -81,9 +95,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。このオプションを使用すると、データソースを更新せずにデータを保存できます。また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
 
-- **送信された値のデータタイプ** - このオプションでは、いずれかのオプションが選択された際に送信される値のデータタイプを指定します。 **送信された値のデータタイプ**&#x200B;が `Number` に設定されていて、「**オプション** 」タブの「**データ値**」に文字列データを追加すると、画面に `Value type mismatch` エラーメッセージが表示されます。
+- **送信された値のデータタイプ** - このオプションでは、いずれかのオプションが選択された際に送信される値のデータタイプを指定します。 「**送信された値のデータタイプ**」が「`Number`」に指定されている場合に、「**オプション** 」タブの「**データ値**」に文字列データを追加すると、画面に `Value type mismatch` エラーメッセージが表示されます。
 
-- **デフォルトのオプション** - このオプションを使用すると、フォームの読み込み時に事前に選択されたデフォルト値を追加できます。 **送信された値のデータタイプ**&#x200B;が `Number` に設定されていて、「**デフォルトのオプション**」に文字列データを追加した場合、画面には `Value type mismatch` エラーメッセージが表示されます。
+- **デフォルトのオプション**  — このオプションを使用すると、フォームの読み込み時に事前に選択されたデフォルト値を追加できます。 **送信された値のデータタイプ**&#x200B;が `Number` に設定されていて、「**デフォルトのオプション**」に文字列データを追加した場合、画面には `Value type mismatch` エラーメッセージが表示されます。
 
 - **表示オプション** - このオプションは、アダプティブフォームでラジオボタンの視覚的なアラインメントを設定するために使用されます。 次の 2 つのオプションがサポートされています。
    - **水平方向** - このオプションを選択すると、アダプティブフォームでラジオボタンが左から右に表示されます。

@@ -2,15 +2,13 @@
 title: アダプティブフォームのコアコンポーネント - スイッチコンポーネント
 description: アダプティブフォームのスイッチコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: ht
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 100%
 
 ---
-
 
 # スイッチコンポーネント{#switch-adaptive-forms-core-component}
 
@@ -59,6 +57,10 @@ ht-degree: 100%
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの横にタイトルが表示されます。タイトルを追加しない場合、コンポーネントは表示されません。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -68,6 +70,15 @@ ht-degree: 100%
    - **有効時の表示テキスト** - アダプティブフォームでスイッチが有効な場合にラベルとして表示するテキストを指定します。
    - **無効時のデータ値** - アダプティブフォームでスイッチが有効になっていない場合に送信される値を指定します。このオプションは、「**状態値をオフにして保持**」スイッチが有効になっている場合にのみ表示されます。
    - **無効時の表示テキスト** - アダプティブフォームでスイッチが有効になっていない場合にラベルとして表示するテキストを指定します。このオプションは、「**状態値をオフにして保持**」スイッチが有効になっている場合にのみ表示されます。
+
+<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このように AEM Formsで外部データソースとやり取りするフォームを作成して、データの収集と管理のためのシームレスなユーザーエクスペリエンスを提供できます。
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。このオプションを使用すると、データソースを更新せずにデータを保存できます。また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
@@ -139,7 +150,7 @@ ht-degree: 100%
 
    - **削除**：タップまたはクリックすると、カスタムプロパティ名とカスタムプロパティ値を削除できます。
 
-   - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値を並べ替えることができます。
+   - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
 
 ## 関連記事 {#related-articles}
 
@@ -148,12 +159,3 @@ ht-degree: 100%
 ## 関連トピック {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-

@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - 利用条�
 description: アダプティブフォームの利用条件コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '2690'
-ht-degree: 100%
+source-git-commit: c29798f15edb77fbc5912010685e97c1072e2034
+workflow-type: tm+mt
+source-wordcount: '2862'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 100%
 - **名前** - 名前によって、ルールエディターでコンポーネントを一意に識別できます。名前文字列には特殊文字とスペースを使用できません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **承認オプションを表示** - ユーザーから明示的な同意を得るために使用する同意チェックボックスを表示するには、このオプションを選択します。
 
@@ -114,7 +118,9 @@ ht-degree: 100%
 
 ![「アクセシビリティ」タブ](/help/adaptive-forms/assets/terms-and-conditions-accessibility-tab.png)
 
-**スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する、支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
+- **スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する、支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
+
+- **スクリーンリーダーが通知を行うための HTMLの役割** - HTMLの役割は、スクリーンリーダーなどの支援テクノロジーに対する HTML 要素の目的を指定するための属性です。役割の属性は、要素に追加のコンテキストと意味論的意味を提供するために使用されます。これにより、スクリーンリーダーがコンテンツを解釈して読み上げやすくなります。 例えば AEM Formsでは、フォームフィールドのラベルが「label」という役割を持ち、入力フィールドが「textbox」という役割を持つ場合があります。 これにより、スクリーンリーダーはラベルと入力フィールドの関係を理解し、ユーザーに対して正しく通知できるようになります。
 
 ## デザインダイアログ {#design-dialog}
 
@@ -163,10 +169,23 @@ ht-degree: 100%
 - **名前** - 名前によって、ルールエディターでコンポーネントを一意に識別できます。名前文字列には特殊文字とスペースを使用できません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
-- **リンク** - 同意テキストの代わりに使用するリンクと、対応する表示テキストを指定します。複数のリンクを追加するには、「**追加**」ボタンをクリックします。
+- **リンク** - 同意テキストの代わりに使用するリンクと、対応する表示テキストを指定します。複数のリンクを追加するには、 **追加** 」ボタンをクリックします。
+新しいオプションを追加した後、次のアクションを実行できます。
+   - **リンク**  — このオプションを使用すると、オプションが選択されている場合にリダイレクトする URL を入力できます。
+   - **テキストを表示** - このオプションでは、アダプティブフォームに表示する内容を入力できます。
+   - **削除** - タップまたはクリックすると、ラジオボタンのオプションが削除されます。
+   - **並べ替え** - タップまたはクリックしてドラッグすると、オプションの順序を並べ替えることができます。
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このように AEM Formsで外部データソースとやり取りするフォームを作成して、データの収集と管理のためのシームレスなユーザーエクスペリエンスを提供できます。
 

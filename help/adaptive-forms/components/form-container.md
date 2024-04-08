@@ -3,9 +3,9 @@ title: アダプティブフォームのコアコンポーネント - フォー�
 description: Web ページへのアダプティブフォームの追加。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
-workflow-type: ht
-source-wordcount: '1297'
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+workflow-type: tm+mt
+source-wordcount: '1340'
 ht-degree: 100%
 
 ---
@@ -62,6 +62,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![「基本」タブ](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+
 - **事前入力サービス** - このオプションを使用すると、ユーザーはアダプティブフォームのレンダリング時にデータを取得するための事前入力サービスを選択できます。詳しくは、[事前入力サービスの作成および設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ja#aem-forms-custom-prefill-service)を参照してください
 
 - **クライアントライブラリカテゴリ** - ユーザーはアダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 jQuery および underscore.js サードパーティライブラリに依存する再利用可能な関数のみを、ライブラリに保持することをお勧めします。
@@ -79,15 +81,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「送信」タブ {#submission-tab}
 
-![「送信」タブ](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 ユーザーは、アダプティブフォームの送信に対して様々なアクションを設定できます。
 
 - **リダイレクト URL／パス** - このオプションを使用すると、ユーザーはアダプティブフォームの送信後にユーザーがリダイレクトされる各フォームのページを設定できます。詳しくは、[リダイレクトページの設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=ja)を参照してください。
 
-![「メッセージを表示」タブ](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![「送信」タブ](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **メッセージを表示** - このオプションを使用すると、ユーザーはアダプティブフォームが正常に送信されたときに表示されるメッセージを追加できます。定義済みのテキストはダイアログボックスに含まれ、ユーザーが変更できます。「メッセージを表示」ダイアログでは、追加したテキストを書式設定できるリッチテキスト形式のツールがサポートされています。
+
+![「メッセージを表示」タブ](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **送信アクション** - 送信アクションは、ユーザーがアダプティブフォームの「送信」ボタンをクリックしたときにトリガーされます。ユーザーは、すぐに使用できるよう用意されているドロップダウンリストから「送信アクション」を選択することができます。詳しくは、[「送信」タブでの送信アクションの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#supporting-custom-functions-in-validation-expressions-br)を参照してください。
 

@@ -3,9 +3,9 @@ title: アダプティブフォームのコアコンポーネント - ウィザ�
 description: アダプティブフォームのウィザードコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2025'
+source-git-commit: 0e7bfe0d9a7263469d96227e37caf932a8c135c6
+workflow-type: tm+mt
+source-wordcount: '2100'
 ht-degree: 100%
 
 ---
@@ -81,15 +81,40 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
-- **オブジェクトにデータを含める** - このオプションを選択すると、ウィザードのフィールドデータを JSON オブジェクト内に配置できます。 これが選択されていない場合、JSON 送信データはウィザードのフィールド用のフラット構造を使用します。
+- **フォームの送信時に子コンポーネントのデータをグループ化（オブジェクトにデータを含める）** - このオプションを選択すると、子コンポーネントのデータが親コンポーネントの JSON オブジェクト内にネストされます。ただし、このオプションを選択しないと、送信した JSON データは、親コンポーネントのオブジェクトを持たないフラットな構造になります。例：
 
-- **レイアウト** - ウィザードには固定レイアウト（シンプル）または柔軟なレイアウト（レスポンシブグリッド）を使用できます。 シンプルなレイアウトでは、すべてを固定した状態に保ち、レスポンシブグリッドでは、必要に応じてコンポーネントの位置を調整できます。例えば、レスポンシブグリッドを使用して、「名」、「ミドルネーム」、「姓」を 1 行にフォーム内で整列できます。
+   - このオプションを選択すると、子コンポーネント（番地、市区町村、郵便番号など）のデータが、JSON オブジェクトとして親コンポーネント（住所）内にネストされます。これにより、階層構造が作成され、データは親コンポーネントの下に整理されます。
+
+     送信したデータの構造：
+
+     ```JSON
+     { "Address":
+     
+     { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     
+     }
+     ```
+
+   - このオプションを選択しないと、送信した JSON データは、親コンポーネント（住所）のオブジェクトを持たないフラットな構造になります。すべてのデータは同じレベルにあり、階層構造はありません。
+
+
+     送信したデータの構造：
+
+     ```JSON
+        { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     ```
+
+<!--   **Wrap data in an object** - Choose "Wrap data in an object" to put the field data from the Wizard inside a JSON object. If not chosen, the submit data JSON has a flat structure for the Wizard's fields.
+
+-   **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row.  -->
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このように AEM Formsで外部データソースとやり取りするフォームを作成して、データの収集と管理のためのシームレスなユーザーエクスペリエンスを提供できます。
 
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 
 - **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
+
+- **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
 ### 「繰り返しウィザード」タブ {#repeat-wizard-tab}
 
@@ -105,7 +130,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「項目」タブ {#items-tab}
 
-![「項目」タブ](/help/adaptive-forms/assets/wizard_helptab.png)
+![「項目」タブ](/help/adaptive-forms/assets/wizard_itemstab.png)
 
 このオプションを使用すると、「追加」ボタンをクリックしてアダプティブフォームコンポーネントを追加できます。このボタンは、ウィザードを編集モードで追加する際にデフォルトで表示されます。
 

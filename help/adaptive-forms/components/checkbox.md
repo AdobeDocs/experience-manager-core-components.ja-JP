@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - チェッ�
 description: アダプティブフォームのチェックボックスコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> AEM 6.5 Forms の場合、このコンポーネントは AEM 6.5 Forms Service Pack 19（6.5.19.0）で導入されました。このコンポーネントを有効にするには、Forms コアコンポーネントと WCM コアコンポーネントの両方に、必要なバージョンがインストールされていることを確認します。アダプティブフォームのコアコンポーネントのリリースについて詳しくは、[アダプティブフォームのコンポーネントリリース](/help/adaptive-forms/version.md)を参照してください。
+> AEM 6.5 Forms の場合、このコンポーネントは AEM 6.5 Forms Service Pack 19（6.5.19.0）で導入されました。このコンポーネントを有効にするには、Forms コアコンポーネントと WCM コアコンポーネントの両方に、必要なバージョンがインストールされていることを確認します。アダプティブフォームのコアコンポーネントのリリースについて詳しくは、[アダプティブフォームのコアコンポーネントリリース](/help/adaptive-forms/version.md)を参照してください。
 
 **例**
 
@@ -62,6 +62,11 @@ ht-degree: 100%
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの横にタイトルが表示されます。タイトルを追加しない場合、コンポーネントは表示されません。
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このように AEM Formsで外部データソースとやり取りするフォームを作成して、データの収集と管理のためのシームレスなユーザーエクスペリエンスを提供できます。
@@ -73,12 +78,9 @@ ht-degree: 100%
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 
 - **コンポーネントの無効化** - コンポーネントを無効にするかロックする場合は、このオプションを選択します。エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
-- **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **オンの場合は、値が返されます** - チェックボックスがオンまたは選択されている際にチェックボックスに関連付ける値を指定するには、このオプションを選択します。これは、チェックボックスをマークまたはオンにした際に発生するアクションです。
-- **オフを有効にします。** - 以前にオンにしたチェックボックスをオフにする機能を有効または無効にするには、このオプションを選択します。
-   - **オフを有効にします**&#x200B;が有効または true に設定されている場合、ユーザーは自分の裁量でチェックボックスをオンまたはオフにすることができます。必要に応じて、チェックボックスのオン／オフを切り替えることができます。
-
-   - **オフを有効にします**&#x200B;が無効または false に設定されている場合、チェックボックスをオンにすると、ユーザーはオフにすることができません。
+- **状態の値を保持解除** — このオプションは、チェックボックスコンポーネントが選択されていない場合に返される値を指定する場合に選択します。 次の場合 **状態の値を保持解除** が有効になっているか、true に設定されている。 **オフの場合、戻り値** オプションが表示されます。
 - **オフの場合は、値が返されます** - このオプションを使用すると、チェックボックスがオフまたは選択解除された状態にある際に、チェックボックスに関連付ける値を指定できます。
 
 - **デフォルト値** - このオプションを使用すると、フォームフィールドにデフォルト値を追加できます。**無効なコンポーネント**&#x200B;または&#x200B;**読み取り専用コンポーネント**&#x200B;が選択されている場合、デフォルト値が画面に表示されます。ユーザーがフォームフィールドに値を入力しない場合、この値はフォームの送信時に送信されます。
