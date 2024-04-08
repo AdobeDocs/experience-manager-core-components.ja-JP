@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - ファイ�
 description: アダプティブフォームのファイル添付コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 97%
@@ -84,7 +84,6 @@ To experience the Accordion Component as well as see examples of its configurati
 ![「検証」タブ](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
 - **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に添付ファイルを添付する必要があります。このオプションが選択されていると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」は選択できません。
-
 - **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンになっており、フィールドが空白の場合に表示されるメッセージを入力できます。
 
 - **スクリプト検証メッセージ** - このオプションを使用すると、スクリプトの検証が失敗した場合に表示するメッセージを入力できます。

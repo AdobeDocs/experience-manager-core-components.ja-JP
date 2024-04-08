@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - ドロッ�
 description: アダプティブフォームのドロップダウンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
 - **複数選択を許可** - ドロップダウンリストから複数のオプションを選択する場合は、このオプションを選択します。
-
 - **値に名前を付けて保存** - このオプションでは、いずれかのオプションが選択された場合に送信される値のデータタイプを指定します。「**値に名前を付けて保存**」が「`Number`」に設定されていて、「**オプション**」タブの「**データ値**」に文字列データを追加すると、画面に `Value type mismatch` エラーメッセージが表示されます。
 
   「**オプション**」タブでは、データ値を追加し、「**追加**」ボタンからデータ値と表示テキストのペアを追加できます。新しいオプションを追加すると、次のアクションが実行されます。

@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - 垂直タ�
 description: アダプティブフォームの垂直タブコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 100%
@@ -49,7 +49,6 @@ ht-degree: 100%
 ## 技術的詳細 {#technical-details}
 
 アダプティブフォームの垂直タブコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
-
 
 ## 設定ダイアログ {#configure-dialog}
 

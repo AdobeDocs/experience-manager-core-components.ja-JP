@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - 水平タ�
 description: アダプティブフォームの水平タブコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 98%
@@ -109,7 +109,6 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **上部のタブを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
 - **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
 - **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
-
 水平タブ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
 
 ### 「項目」タブ {#items-tab}

@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1048'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ CAPTCHA（コンピュータと人間を区別する完全に自動化された�
 AEM Forms as a Cloud Service は、アダプティブフォームで Google reCAPTCHA v2 をサポートします。これを使用して、フォームの送信時に CAPTCHA の課題を提示できます
 
 ## 使用方法 {#reasons-to-use-google-recaptcha}
-
 
 - **スパムとボットの防止**：reCAPTCHA を使用する主な理由の 1 つは、スパムの送信や悪意のあるボットがフォームにフラッディングするのを防止するためです。reCAPTCHA の高度なアルゴリズムでは、フォームの送信の自動試行を検出し、正規のユーザーのみがフォームを操作できるようにします。
 
@@ -75,8 +74,8 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 
 ## 関連トピック {#see-also}
 
-- [AEM アダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
-- [AEM Sites ページへの AEM アダプティブフォームの追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
+- [AEM アダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+- [AEM Sites ページへ AEM アダプティブフォームを追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
 - [AEM アダプティブフォームへテーマを適用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja)
 - [AEM アダプティブフォームへコンポーネントを追加](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
 - [AEM アダプティブフォームで reCAPTCHA を使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=ja)

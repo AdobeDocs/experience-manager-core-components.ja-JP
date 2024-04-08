@@ -2,9 +2,9 @@
 title: アダプティブフォームのコアコンポーネント - 上部のタブ
 description: 上部のコアコンポーネントで、アダプティブフォームのタブを使用するか、カスタマイズします。
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '473'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -89,5 +89,6 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [ウィザード](/help/adaptive-forms/components/wizard.md)
 
 ## 関連トピック {#see-also}
+
 
 {{see-also}}

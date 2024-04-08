@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - ラジオ�
 description: アダプティブフォームのラジオボタンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ To experience the Accordion Component as well as see examples of its configurati
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
 - **オプション**  — データ値を追加し、 **追加** 」ボタンをクリックします。
@@ -85,7 +84,6 @@ To experience the Accordion Component as well as see examples of its configurati
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   新しいオプションを追加した後、次のアクションを実行できます。
-
    - **データ値** — このオプションでは、オプションが選択された際に送信するコンテンツを指定できます。
    - **テキストを表示** - このオプションでは、アダプティブフォームに表示する内容を入力できます。
    - **削除** - タップまたはクリックすると、ラジオボタンのオプションが削除されます。
