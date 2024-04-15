@@ -3,7 +3,7 @@ title: アダプティブフォームフラグメント
 description: フォームフラグメントを使用して、フォームセグメントやフィールドのグループを作成し、アダプティブフォーム全体で再利用することで、効率性と再利用性を向上できます。
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 94%
@@ -152,6 +152,7 @@ ht-degree: 94%
    - **削除**：タップまたはクリックすると、カスタムプロパティ名とカスタムプロパティ値を削除できます。
 
    - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
+
 
 ## 関連記事 {#related-articles}
 

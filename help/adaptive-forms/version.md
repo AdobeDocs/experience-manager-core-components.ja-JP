@@ -3,7 +3,7 @@ title: AEM アダプティブフォームのコアコンポーネントのバー
 description: AEM コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ddb234ee5551fa3ecd47b4df073b97bef9a882f
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 55%
@@ -20,6 +20,7 @@ ht-degree: 55%
 AEMas a Cloud Serviceと互換性のあるコアコンポーネントリリースは、次の場所で入手できます [GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases).
 
 AEMas a Cloud Serviceのコアコンポーネントのバージョン履歴を確認するには、 [ここをクリック](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+
 
 <!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  

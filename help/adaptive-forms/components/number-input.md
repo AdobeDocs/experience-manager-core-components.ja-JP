@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - 数値入�
 description: アダプティブフォームの数値入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 94%
@@ -35,7 +35,6 @@ ht-degree: 94%
 - **データ範囲**：数値フィールドを使用すると、最小、最大、ステップの属性によって有効な値の範囲を設定できます。
 
 - **動的コンテンツ**：フォームフィールドに基づく動的データを表示できます。
-
 
 ## バージョンと互換性 {#version-and-compatibility}
 

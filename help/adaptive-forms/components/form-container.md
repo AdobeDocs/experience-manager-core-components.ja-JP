@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - フォー�
 description: Web ページへのアダプティブフォームの追加。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -34,7 +34,6 @@ ht-degree: 100%
 - **ユーザー認証**：フォームをユーザー認証に使用すると、web サイトの訪問者がアカウントを作成し、ログインして制限されたコンテンツや機能にアクセスできるようになります。
 
 - **コンバージョン率の向上**：適切に設計されたフォームがあると、製品の購入やサービスへの新規登録など、ユーザーが簡単に目的のアクションを完了できるようにすることで、コンバージョン率を高めることができます。
-
 
 ## バージョンと互換性 {#version-and-compatibility}
 

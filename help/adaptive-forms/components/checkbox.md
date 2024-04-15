@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - チェッ�
 description: アダプティブフォームのチェックボックスコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 91%
@@ -13,7 +13,6 @@ ht-degree: 91%
 # チェックボックスコンポーネント{#checkbox-component}
 
 <span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
-
 
 チェックボックスは、ソフトウェアアプリケーションやフォームで一般的に使用されるグラフィカルユーザーインターフェイス要素で、オン（選択）とオフ（選択解除）の 2 つのオプションをバイナリ選択できます。
 

@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - ラジオ�
 description: アダプティブフォームのラジオボタンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 88%
@@ -110,7 +110,6 @@ To experience the Accordion Component as well as see examples of its configurati
 ![「検証」タブ](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
 - **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に選択を行う必要があります。このオプションを選択すると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」は選択できなくなります。
-
 - **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンになっていて、フォームフィールドは空白の場合に表示されるメッセージを指定できます。
 
 - **スクリプト検証メッセージ** - このオプションを使用すると、スクリプトの検証が失敗した場合に表示するメッセージを入力できます。

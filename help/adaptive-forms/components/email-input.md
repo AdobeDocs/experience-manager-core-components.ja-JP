@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - メール�
 description: アダプティブフォームのメール入力コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 93%
@@ -79,7 +79,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
 - **デフォルト値** - このオプションを使用すると、フォームフィールドにデフォルト値を追加できます。「**無効なコンポーネント**」または「**読み取り専用コンポーネント**」が選択されている場合は、デフォルト値が画面に表示されます。ユーザーがフォームフィールドに値を入力しない場合、この値はフォーム送信時に送信されます
-
 - **自動入力属性**：このオプションを使用すると、ユーザーは保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
 
 ### 「検証」タブ {#validation-tab}

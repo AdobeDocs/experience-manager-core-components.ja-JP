@@ -2,10 +2,10 @@
 title: アダプティブフォームのコアコンポーネント - 上部のタブ
 description: 上部のコアコンポーネントで、アダプティブフォームのタブを使用するか、カスタマイズします。
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 93%
 
 ---
 
@@ -13,10 +13,9 @@ ht-degree: 100%
 # 上部のタブ {#tabs-on-top-adaptive-forms-core-component}
 
 アダプティブフォームの上部にあるタブレイアウトを使用すると、フォームの関連するフィールドやセクションを別々のタブに整理し、グループ化することができます。各タブはタブラベルで表され、通常はフォームの上部に配置され、特定のフォームフィールドとセクションのセットが含まれます。このレイアウトにより、ユーザーはフォームの様々なセクションに簡単に移動してアクセスできるので、より使いやすく無理のないフォームになります。これは、通常、フォームに多数のフィールドとセクションが含まれ、それらをより小さく管理しやすい塊に分割する必要がある場合に使用します。また、タブは、ユーザーがキーボードショートカットを使用してフォームを移動できるようにすることで、アクセシビリティを向上させるのにも役立ちます。これにより、障がいのあるユーザーがフォームに簡単にアクセスできるようになります。
-
 **例**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![上部のタブ](/help/adaptive-forms/assets/tabs.png)
 
 ## 使用方法 {#reasons-to-use-tab-on-the-top-layout}
 

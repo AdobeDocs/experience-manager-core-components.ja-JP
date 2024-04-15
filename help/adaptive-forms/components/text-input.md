@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキスト入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 93%
@@ -15,7 +15,6 @@ ht-degree: 93%
 <span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
 
 テキスト入力（テキストボックス）コンポーネントを使用すると、入力要素の type 属性に応じて、1 行または複数行のテキストを入力および編集できます。テキスト入力コンポーネントは、フォーム内に配置でき、通常は目的を簡単に識別できる便利なテキストでラベル付けされます。これらはあらゆるフォームの基本要素で、ユーザーから様々な種類のデータを収集するために広く利用されています。簡単で柔軟なこの要素は、入力を検証し、データ収集の精度を高めるために設定できます。
-
 
 **例**
 

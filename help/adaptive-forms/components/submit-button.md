@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - 送信ボ�
 description: アダプティブフォームの送信ボタンコアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 92%
@@ -31,7 +31,6 @@ ht-degree: 92%
 - **ユーザーエクスペリエンスの向上**：適切に設計された送信ボタンを使用すると、フォーム送信プロセスに関する明確なフィードバックを提供し、フォームが正常に送信されたことを示すことで、ユーザーエクスペリエンスを向上させることができます。
 
 - **データの検証**：送信ボタンを使用すると、データの検証チェックをトリガーし、フォームデータがサーバーに送信される前に完全かつ正確であることを確認できます。
-
 
 ## バージョンと互換性 {#version-and-compatibility}
 
