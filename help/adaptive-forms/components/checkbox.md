@@ -3,14 +3,17 @@ title: アダプティブフォームのコアコンポーネント - チェッ�
 description: アダプティブフォームのチェックボックスコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1780'
+ht-degree: 91%
 
 ---
 
 # チェックボックスコンポーネント{#checkbox-component}
+
+<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
+
 
 チェックボックスは、ソフトウェアアプリケーションやフォームで一般的に使用されるグラフィカルユーザーインターフェイス要素で、オン（選択）とオフ（選択解除）の 2 つのオプションをバイナリ選択できます。
 
@@ -62,10 +65,10 @@ ht-degree: 97%
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの横にタイトルが表示されます。タイトルを追加しない場合、コンポーネントは表示されません。
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
+  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -80,7 +83,7 @@ ht-degree: 97%
 - **コンポーネントの無効化** - コンポーネントを無効にするかロックする場合は、このオプションを選択します。エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **オンの場合は、値が返されます** - チェックボックスがオンまたは選択されている際にチェックボックスに関連付ける値を指定するには、このオプションを選択します。これは、チェックボックスをマークまたはオンにした際に発生するアクションです。
-- **状態の値を保持解除** — このオプションは、チェックボックスコンポーネントが選択されていない場合に返される値を指定する場合に選択します。 次の場合 **状態の値を保持解除** が有効になっているか、true に設定されている。 **オフの場合、戻り値** オプションが表示されます。
+- **チェック解除状態の値を保持**- チェックボックスコンポーネントが選択されていない場合に返される値を指定するには、このオプションを選択します。 次の場合 **チェック解除状態の値を保持** が有効になっているか、true に設定されている。 **オフの場合は値を返す** オプションが表示されます。
 - **オフの場合は、値が返されます** - このオプションを使用すると、チェックボックスがオフまたは選択解除された状態にある際に、チェックボックスに関連付ける値を指定できます。
 
 - **デフォルト値** - このオプションを使用すると、フォームフィールドにデフォルト値を追加できます。**無効なコンポーネント**&#x200B;または&#x200B;**読み取り専用コンポーネント**&#x200B;が選択されている場合、デフォルト値が画面に表示されます。ユーザーがフォームフィールドに値を入力しない場合、この値はフォームの送信時に送信されます。

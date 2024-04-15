@@ -3,14 +3,16 @@ title: アダプティブフォームのコアコンポーネント - 水平タ�
 description: アダプティブフォームの水平タブコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 98%
+source-wordcount: '2093'
+ht-degree: 93%
 
 ---
 
 # 水平タブ（上部のタブ）{#horizontal-tabs-adaptive-forms-core-component}
+
+<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
 
 アダプティブフォームの水平タブとは、フォームの複数のセクションがグループ化され、別々のタブとして水平方向に表示されるデザインパターンを指します。ユーザーはタブを切り替えて、フォームの異なるセクションにアクセスできます。 各タブは、関連するフォームコンテンツの表示と非表示を切り替えるトリガーとして機能します。 水平タブを使用すると、長いフォームを管理しやすいセクションに整理して、ユーザーエクスペリエンスを改善できます。 タブは、キーボードナビゲーションを使用してセクションを切り替えることができるので、障がいのあるユーザーがフォームにアクセスしやすくなります。
 
@@ -63,10 +65,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
+  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -106,7 +108,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 繰り返しオプションを使用すると、水平タブコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。水平タブコンポーネントを操作してその設定にアクセスすると、次のオプションが表示されます。
 
-- **上部のタブを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
+- **上部のタブを反復可能にする**：ユーザーが繰り返し性機能を有効または無効にできる切り替え機能。
 - **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
 - **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
 水平タブ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。

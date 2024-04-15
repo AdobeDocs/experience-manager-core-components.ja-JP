@@ -3,14 +3,16 @@ title: アダプティブフォームのコアコンポーネント - 日付選�
 description: アダプティブフォームの日付選択コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 98%
+source-wordcount: '2094'
+ht-degree: 92%
 
 ---
 
 # 日付選択 {#date-picker-adaptive-forms-core-component}
+
+<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
 
 アダプティブフォームの日付選択コンポーネントは、ユーザーがカレンダーから日付を選択したり、特定の形式で手動で日付を入力したりできるユーザーインターフェイス要素です。日付選択コンポーネントは、様々な形式、検証およびデフォルト値を持つように設定できます。
 
@@ -64,10 +66,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - 名前によって、ルールエディターでコンポーネントを一意に識別できます。名前文字列には特殊文字とスペースを使用できません。
 
 - **タイトル** - タイトルは、アダプティブフォームのコンポーネントの上部に表示される文字列です。タイトルによって、アダプティブフォームのツリー構造内のコンポーネントを一意に識別できます。タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
+  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - アダプティブフォーム内のコンポーネントタイプのタイトルを非表示にするには、このオプションを選択します。
 
@@ -95,13 +97,13 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最短の日付** - 必要となる最短の日付を指定できます。「最短の日付」で指定した日付より前の日付を入力すると、エラーメッセージが画面に表示されます。**最短エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
 
 - **最短エラーメッセージ** - **最短エラーメッセージ**&#x200B;ダイアログボックスでは、「**最短の日付**」オプションで指定した日付よりも前の日付を入力した場合に表示されるエラーメッセージを追加できます。
-- **最小日付を除外**  — このオプションを使用すると、指定した範囲または日付のセットの最小日付を省略できます。
+- **終了日を除外**  – このオプションを使用すると、指定された範囲または日付セットの最短の日付を省略できます。
 
 - **最長の日付** - 必要となる最長の日付を指定できます。「最長の日付」で指定した日付より後の日付を入力すると、エラーメッセージが画面に表示されます。**最長エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
 
 - **最長エラーメッセージ** - **最長エラーメッセージ**&#x200B;ダイアログボックスでは、「**最長の日付**」オプションで指定した日付より後の日付を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
 
-- **最大日付を除外**  — このオプションを使用すると、指定した範囲または日付のセットの最大日付を省略できます。
+- **最長の日付を除外**  – このオプションを使用すると、指定された範囲または日付セットの最大日付を省略できます。
 
 ### 「ヘルプコンテンツ」タブ {#help-content-tab}
 

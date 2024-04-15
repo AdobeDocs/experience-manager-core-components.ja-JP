@@ -3,14 +3,16 @@ title: アダプティブフォームのコアコンポーネント - スイッ�
 description: アダプティブフォームのスイッチコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 100%
+source-wordcount: '1867'
+ht-degree: 90%
 
 ---
 
 # スイッチコンポーネント{#switch-adaptive-forms-core-component}
+
+<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** および **オプションのリッチテキストを許可**  機能、プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
 
 スイッチコンポーネントは、フォームで使用されるグラフィカルユーザーインターフェイスです。このコンポーネントを使用すると、2 つのオプションから選択できるようになります。通常、2 つの状態を切り替えます。例えば、機能や設定を有効または無効にできます。スイッチコンポーネントは、現在の状態を視覚的に表し、特定の機能のオン／オフを表示するように設計されています。
 
@@ -57,10 +59,10 @@ ht-degree: 100%
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの横にタイトルが表示されます。タイトルを追加しない場合、コンポーネントは表示されません。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
+  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -71,13 +73,13 @@ ht-degree: 100%
    - **無効時のデータ値** - アダプティブフォームでスイッチが有効になっていない場合に送信される値を指定します。このオプションは、「**状態値をオフにして保持**」スイッチが有効になっている場合にのみ表示されます。
    - **無効時の表示テキスト** - アダプティブフォームでスイッチが有効になっていない場合にラベルとして表示するテキストを指定します。このオプションは、「**状態値をオフにして保持**」スイッチが有効になっている場合にのみ表示されます。
 
-<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+  次を使用して、スイッチコンポーネントのオプションを書式設定することもできます **オプションのリッチテキストを許可**.
 
-    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+  ![オプションのリッチテキストサポート](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+  のチェックボックスをオンにすると、 **オプションのリッチテキストを許可** 書式設定オプションが表示され、コンポーネントのオプションのスタイルが設定されます。 使用可能なすべての書式設定オプションにアクセスするには、 `Fullscreen` ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![オプションのリッチテキストサポート](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このように AEM Formsで外部データソースとやり取りするフォームを作成して、データの収集と管理のためのシームレスなユーザーエクスペリエンスを提供できます。
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。このオプションを使用すると、データソースを更新せずにデータを保存できます。また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。

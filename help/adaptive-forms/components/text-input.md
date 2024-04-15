@@ -3,14 +3,16 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキスト入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 98%
+source-wordcount: '2063'
+ht-degree: 93%
 
 ---
 
 # テキスト入力（テキストボックス） {#text-input-adaptive-forms-core-component}
+
+<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
 
 テキスト入力（テキストボックス）コンポーネントを使用すると、入力要素の type 属性に応じて、1 行または複数行のテキストを入力および編集できます。テキスト入力コンポーネントは、フォーム内に配置でき、通常は目的を簡単に識別できる便利なテキストでラベル付けされます。これらはあらゆるフォームの基本要素で、ユーザーから様々な種類のデータを収集するために広く利用されています。簡単で柔軟なこの要素は、入力を検証し、データ収集の精度を高めるために設定できます。
 
@@ -57,10 +59,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
+  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
@@ -78,7 +80,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **複数行を許可** - このオプションを使用すると、ユーザーはフォームフィールドに複数行を入力できます。
 
-- **自動入力属性**  — このオプションを使用すると、ユーザーは、保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
+- **自動入力属性** - オプションを使用すると、ユーザーは保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
 
 ### 「検証」タブ {#validation-tab}
 

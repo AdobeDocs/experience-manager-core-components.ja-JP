@@ -3,14 +3,16 @@ title: アダプティブフォームのコアコンポーネント - チェッ�
 description: アダプティブフォームのチェックボックスグループコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 98%
+source-wordcount: '2047'
+ht-degree: 90%
 
 ---
 
 # チェックボックスグループ {#button-component-adaptive-forms-core-component}
+
+<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** および **オプションのリッチテキストを許可**  機能、プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
 
 アダプティブフォームのチェックボックスグループは、ユーザーがリストから 1 つ以上のオプションを選択できる関連チェックボックスセットです。 各チェックボックスは、データ値（チェックボックスグループの項目を処理するために使用される値）と表示値（目的を説明する各チェックボックス項目のラベル）で表されます。
 
@@ -75,28 +77,26 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
+  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 `Fullscreen` ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
-- **オプション**  — データ値を追加し、 **追加** 」ボタンをクリックします。\
+- **オプション** - データ値を追加し、 **追加** ボタン。\
   新しいオプションを追加した後、次のアクションを実行できます。
    - **データ値** — このオプションでは、オプションが選択された際に送信するコンテンツを指定できます。
    - **表示テキスト** - このオプションでは、アダプティブフォームに表示するコンテンツを入力できます。
    - **削除** - タップまたはクリックすると、チェックボックスのオプションが削除されます。
    - **並べ替え** - タップまたはクリックしてドラッグすると、パネルを並べ替えることができます。
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+  次を使用して、チェックボックスグループのオプションを書式設定することもできます **オプションのリッチテキストを許可**.
 
-    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+  ![オプションのリッチテキストサポート](/help/adaptive-forms/assets/richtext-for-options.png)
 
-    -->
+  のチェックボックスをオンにすると、 **オプションのリッチテキストを許可** 書式設定オプションが表示され、コンポーネントのオプションのスタイルが設定されます。 使用可能なすべての書式設定オプションにアクセスするには、 `Fullscreen` ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+  ![オプションのリッチテキストサポート](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
 

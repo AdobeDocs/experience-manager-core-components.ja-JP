@@ -3,14 +3,16 @@ title: アダプティブフォームのアコーディオン
 description: アコーディオンを使用すると、長いフォームや複雑なフォームを、より小さく、管理しやすいセクションに分割して整理し、簡略化できます。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 100%
+source-wordcount: '2263'
+ht-degree: 95%
 
 ---
 
 # アコーディオンコンポーネント {#accordion-component-adaptive-forms-core-component}
+
+<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
 
 アコーディオンコアコンポーネントを使用すると、アダプティブフォーム内で展開と折りたたみが可能なセクションを作成できます。 多くの場合、長いフォームや複雑なフォームを、より小さく、管理しやすいセクションに分けて整理し、簡略化するために使用されます。アコーディオンの各セクションは通常、ヘッダーで表示されます。ヘッダーをクリックすると、対応するコンテンツを展開または折りたたむことができます。任意のコアコンポーネントをコンテンツにすることができます。
 
@@ -71,11 +73,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
 
-<!--
-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-      Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
+  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+
+  ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 - **フォームの送信時に子コンポーネントのデータをグループ化（オブジェクトにデータを含める）** - このオプションを選択すると、子コンポーネントのデータが親コンポーネントの JSON オブジェクト内にネストされます。ただし、このオプションを選択しないと、送信した JSON データは、親コンポーネントのオブジェクトを持たないフラットな構造になります。例：
