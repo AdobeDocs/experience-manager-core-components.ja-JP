@@ -6,7 +6,7 @@ exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **複数行を許可** - このオプションを使用すると、ユーザーはフォームフィールドに複数行を入力できます。
 
-- **自動入力属性** - オプションを使用すると、ユーザーは保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
+- **自動入力属性** - このオプションを使用すると、保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
 
 ### 「検証」タブ {#validation-tab}
 

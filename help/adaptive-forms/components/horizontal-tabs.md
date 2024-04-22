@@ -6,7 +6,7 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2093'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 繰り返しオプションを使用すると、水平タブコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。水平タブコンポーネントを操作してその設定にアクセスすると、次のオプションが表示されます。
 
-- **上部のタブを反復可能にする**：ユーザーが繰り返し性機能を有効または無効にできる切り替え機能。
+- **上部のタブを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチの機能です。
 - **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
 - **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
 水平タブ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
