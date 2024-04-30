@@ -3,9 +3,9 @@ title: アダプティブフォームのコアコンポーネント - 上部の�
 description: 上部のコアコンポーネントで、アダプティブフォームのタブを使用するか、カスタマイズします。
 role: Architect, Developer, Admin, User
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 

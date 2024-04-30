@@ -4,15 +4,15 @@ description: アダプティブフォームのメール入力コアコンポー�
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2054'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # メール入力 {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの電子メール入力コアコンポーネントは、ユーザーからメールアドレスを収集するために使用します。メール入力フィールドを使用すると、入力されたデータが有効なメールアドレス形式であるかどうかをブラウザーで検証できます。通常はテキストボックスとして表示され、有効なメールアドレスのみを受け入れるパターン検証が行われます。メール入力フィールドは、「必須」、「プレースホルダー」、「パターン」などの追加の属性を使用してさらにカスタマイズし、入力データの検証について設定できます。
 
@@ -64,8 +64,8 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - 名前は、ルールエディター内でコンポーネントを一意に識別します。名前文字列では特殊文字とスペースを使用できません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
-- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
-  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+- **タイトルのリッチテキストを許可** - この機能により、ユーザーは、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、カラー、追加オプションなどの機能を組み込んで、プレーンテキストのタイトルを書式設定でき、視覚的なプレゼンテーションとカスタマイズが強化されます。これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせる際の柔軟性とクリエイティブなコントロールが向上します。\
+  「**タイトルのリッチテキストを許可**」 チェックボックスをオンにすると、コンポーネントのタイトルをスタイル設定するための書式設定オプションが表示されます。使用可能なすべての書式設定オプションにアクセスするには、![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
 
   ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 

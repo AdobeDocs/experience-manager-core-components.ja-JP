@@ -4,15 +4,15 @@ description: アダプティブフォームの数値入力コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2103'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 数値入力 {#number-input-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの数値入力コンポーネントは、ユーザーが数値を入力できるフォームフィールドのひとつです。このコンポーネントは通常、数値を増やす上向き矢印と数値を減らす下向き矢印と共にテキストフィールドに表示されます。
 
@@ -66,8 +66,8 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
-- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
-  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+- **タイトルのリッチテキストを許可** - この機能により、ユーザーは、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、カラー、追加オプションなどの機能を組み込んで、プレーンテキストのタイトルを書式設定でき、視覚的なプレゼンテーションとカスタマイズが強化されます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせる際の柔軟性とクリエイティブなコントロールが向上します。\
+  「**タイトルのリッチテキストを許可**」 チェックボックスをオンにすると、コンポーネントのタイトルをスタイル設定するための書式設定オプションが表示されます。使用可能なすべての書式設定オプションにアクセスするには、![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
 
   ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 

@@ -4,9 +4,9 @@ description: AEM コアコンポーネントはリリースとして公開され
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 55%
 
 ## AEM as a Cloud Service のバージョン履歴 {#aem-as-cs-version-history}
 
-AEMas a Cloud Serviceと互換性のあるコアコンポーネントリリースは、次の場所で入手できます [GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases).
+AEM as a Cloud Service と互換性のあるコアコンポーネントリリースは、[GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases)で利用できます。
 
-AEMas a Cloud Serviceのコアコンポーネントのバージョン履歴を確認するには、 [ここをクリック](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+AEM as a Cloud Service のコアコンポーネントのバージョン履歴を確認するには、[こちらをクリック](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md)してください。
 
 
 <!--
@@ -117,9 +117,9 @@ AEMas a Cloud Serviceのコアコンポーネントのバージョン履歴を�
 
 ## AEM 6.5 Forms のバージョン履歴 {#aem-as-form-version-history}
 
-オンプレミスおよび AMS のAEM 6.5 Form と互換性のあるコアコンポーネントリリースがで利用可能です。 [GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases).
+オンプレミスおよび AMS の AEM 6.5 Form と互換性のあるコアコンポーネントリリースは、[GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases)で利用できます。
 
-オンプレミスおよび AMS のAEM 6.5 Form のコアコンポーネントのバージョン履歴を確認するには、 [ここをクリック](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+オンプレミスおよび AMS の AEM 6.5 Form のコアコンポーネントのバージョン履歴を確認するには、[こちらをクリック](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md)してください。
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

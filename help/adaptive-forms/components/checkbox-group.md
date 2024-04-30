@@ -4,15 +4,15 @@ description: アダプティブフォームのチェックボックスグルー�
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2047'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # チェックボックスグループ {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** および **オプションのリッチテキストを許可**  機能、プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能と&#x200B;**オプションのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームのチェックボックスグループは、ユーザーがリストから 1 つ以上のオプションを選択できる関連チェックボックスセットです。 各チェックボックスは、データ値（チェックボックスグループの項目を処理するために使用される値）と表示値（目的を説明する各チェックボックス項目のラベル）で表されます。
 **例**
@@ -76,8 +76,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
 
-- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
-  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 `Fullscreen` ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+- **タイトルのリッチテキストを許可** - この機能により、ユーザーは、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、カラー、追加オプションなどの機能を組み込んで、プレーンテキストのタイトルを書式設定でき、視覚的なプレゼンテーションとカスタマイズが強化されます。これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせる際の柔軟性とクリエイティブなコントロールが向上します。\
+  「**タイトルのリッチテキストを許可**」 チェックボックスをオンにすると、コンポーネントのタイトルをスタイル設定するための書式設定オプションが表示されます。使用可能なすべての書式設定オプションにアクセスするには、`Fullscreen` ![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
 
   ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -90,12 +90,12 @@ To experience the Accordion Component as well as see examples of its configurati
    - **削除** - タップまたはクリックすると、チェックボックスのオプションが削除されます。
    - **並べ替え** - タップまたはクリックしてドラッグすると、パネルを並べ替えることができます。
 
-  次を使用して、チェックボックスグループのオプションを書式設定することもできます **オプションのリッチテキストを許可**.
+  また、**オプションのリッチテキストを許可**&#x200B;を使用して、チェックボックスグループのオプションを書式設定することもできます。
 
-  ![オプションのリッチテキストサポート](/help/adaptive-forms/assets/richtext-for-options.png)
+  ![オプションのリッチテキストのサポート](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  のチェックボックスをオンにすると、 **オプションのリッチテキストを許可** 書式設定オプションが表示され、コンポーネントのオプションのスタイルが設定されます。 使用可能なすべての書式設定オプションにアクセスするには、 `Fullscreen` ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
-  ![オプションのリッチテキストサポート](/help/adaptive-forms/assets/richtextoptions-support.png)
+  「**オプションのリッチテキストを許可**」 チェックボックスをオンにすると、コンポーネントのオプションをスタイル設定するための書式設定オプションが表示されます。使用可能なすべての書式設定オプションにアクセスするには、`Fullscreen` ![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
+  ![オプションのリッチテキストのサポート](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
 

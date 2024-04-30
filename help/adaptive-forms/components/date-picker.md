@@ -4,15 +4,15 @@ description: アダプティブフォームの日付選択コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2094'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 日付選択 {#date-picker-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています **タイトルのリッチテキストを許可** 機能：プレリリース機能。 プレリリース機能には、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja?cloud-environments).</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの日付選択コンポーネントは、ユーザーがカレンダーから日付を選択したり、特定の形式で手動で日付を入力したりできるユーザーインターフェイス要素です。日付選択コンポーネントは、様々な形式、検証およびデフォルト値を持つように設定できます。
 
@@ -65,8 +65,8 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名前** - 名前によって、ルールエディターでコンポーネントを一意に識別できます。名前文字列には特殊文字とスペースを使用できません。
 
 - **タイトル** - タイトルは、アダプティブフォームのコンポーネントの上部に表示される文字列です。タイトルによって、アダプティブフォームのツリー構造内のコンポーネントを一意に識別できます。タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
-- **タイトルのリッチテキストを許可**  – この機能を使用すると、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、色、追加オプションなどの機能を組み込んで、ユーザーがプレーンテキストタイトルの書式を設定し、視覚的表現やカスタマイズを強化できます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせるための柔軟性とクリエイティブなコントロールが向上します。\
-  のチェックボックスを選択した場合 **タイトルのリッチテキストを許可** を選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、 ![フルスクリーンアイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブ。
+- **タイトルのリッチテキストを許可** - この機能により、ユーザーは、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、カラー、追加オプションなどの機能を組み込んで、プレーンテキストのタイトルを書式設定でき、視覚的なプレゼンテーションとカスタマイズが強化されます。これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせる際の柔軟性とクリエイティブなコントロールが向上します。\
+  「**タイトルのリッチテキストを許可**」 チェックボックスをオンにすると、コンポーネントのタイトルをスタイル設定するための書式設定オプションが表示されます。使用可能なすべての書式設定オプションにアクセスするには、![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
 
   ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 

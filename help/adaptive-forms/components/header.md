@@ -4,7 +4,7 @@ description: アダプティブフォームのヘッダーコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: e4274194026c3370b52be17171776847374a86b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
 ht-degree: 100%
 
