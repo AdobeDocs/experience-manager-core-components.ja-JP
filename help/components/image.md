@@ -3,9 +3,9 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、アダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: ht
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ ht-degree: 100%
 ### Dynamic Media のアセット編集 {#dynamic-media-assets}
 
 [Dynamic Media の機能を有効](#dynamic-media)にしている場合は、画像自体の編集をアセットコンソールで実行する必要があります。
-
-### 次世代の Dynamic Media のアセット編集 {#next-gen-dm-assets}
-
-[次世代の Dynamic Media を設定](#next-gen-dm)している場合は、コンポーネントのコンテキストメニューで「**スマート切り抜き**」オプションを使用できます。
-
-![スマート切り抜き](/help/assets/image-smart-crop.png)
-
-ダイアログを使用して、スマート切り抜きを調整します。
-
-![スマート切り抜きダイアログ](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->スマート切り抜きについて詳しくは、[機能に関するこのビデオ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=ja)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
