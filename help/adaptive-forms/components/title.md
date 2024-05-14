@@ -3,14 +3,14 @@ title: アダプティブフォームのコアコンポーネント - タイト�
 description: アダプティブフォームのタイトルコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '863'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
 
-# タイトル {#title-input-adaptive-forms-core-component}
+# タイトルコンポーネント{#title-input-adaptive-forms-core-component}
 
 アダプティブフォームの「タイトル」とは、フォームの上部（通常、ヘッダーの下）に表示されるテキストを指します。タイトルは、タイトルコンポーネントを使用して指定します。このコンポーネントをフォームレイアウトに追加し、そのテキストをフォームの目的やトピックに合わせて編集できます。 タイトルは、ユーザーに対するフォームのラベルまたは短い説明として機能し、フォームを区別するのに役立ちます。
 

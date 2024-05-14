@@ -3,14 +3,14 @@ title: アダプティブフォームのコアコンポーネント - 画像
 description: アダプティブフォームの画像コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
-workflow-type: ht
-source-wordcount: '1057'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
 
-# 画像 {#image-adaptive-forms-core-component}
+# 画像コンポーネント{#image-adaptive-forms-core-component}
 
 アダプティブフォームの画像コンポーネントでは、フォームに画像を含めることができます。これらの画像を使用して、フォームの全体的なデザインを引き立てたり、追加情報を提供したり、ユーザーがフォームの目的を理解できるように視覚的な要素として機能させたりすることができます。画像コンポーネントを使用して、フォームにロゴ、写真またはグラフィックを追加できます。
 

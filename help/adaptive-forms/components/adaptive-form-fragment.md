@@ -1,66 +1,63 @@
 ---
-title: アダプティブフォームのコアコンポーネント - 水平タブ
-description: アダプティブフォームの水平タブコアコンポーネントの使用またはカスタマイズ。
+title: アダプティブフォームフラグメント
+description: フォームフラグメントを使用して、フォームセグメントやフィールドのグループを作成し、アダプティブフォーム全体で再利用することで、効率性と再利用性を向上できます。
 role: Architect, Developer, Admin, User
-exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '1895'
 ht-degree: 98%
 
 ---
 
-# 水平タブ（上部のタブ）コンポーネント{#horizontal-tabs-adaptive-forms-core-component}
+# アダプティブフォームフラグメントコンポーネント {#form-fragment-component-adaptive-forms-core-component}
 
 <span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
-アダプティブフォームの水平タブとは、フォームの複数のセクションがグループ化され、別々のタブとして水平方向に表示されるデザインパターンを指します。ユーザーはタブを切り替えて、フォームの異なるセクションにアクセスできます。 各タブは、関連するフォームコンテンツの表示と非表示を切り替えるトリガーとして機能します。 水平タブを使用すると、長いフォームを管理しやすいセクションに整理して、ユーザーエクスペリエンスを改善できます。 タブは、キーボードナビゲーションを使用してセクションを切り替えることができるので、障がいのあるユーザーがフォームにアクセスしやすくなります。
+アダプティブフォームには、パネルやフィールドのグループなどのフォームセグメントを作成して、別のアダプティブフォームで再利用するための便利な機能が用意されています。この再利用可能なスタンドアロンのセグメントは、[アダプティブフォームフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ja)と呼ばれます。
 
-タブは通常、一連のリンクまたはボタンとして作成され、各リンクまたはボタンはフォームのセクションに対応します。 ユーザーがタブをクリックすると、フォームのコンテンツが動的に更新され、対応するセクションが表示されます。
+[フラグメントを 1 つのドキュメントに複数回追加し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ja#insert-a-fragment-in-an-adaptive-form)、そのコンポーネントのデータ連結プロパティを使用すると、フラグメントを別のデータソースやスキーマに結び付けることができます。例えば、同じアドレスフラグメントを永続アドレス、通信アドレス、請求先アドレスに使用し、それをデータソースやスキーマの様々なフィールドに接続することができます。
 
-![例](/help/adaptive-forms/assets/horizontal-example-new.png)
+![例](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
-## 使用方法 {#reasons-to-use-horizontal-tabs}
 
-アダプティブフォームで水平タブを使用する一般的な理由は次のとおりです。
+[繰り返しオプション](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)を使用すると、フォームフラグメントコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。
 
-- **ユーザビリティの向上**：水平タブを使用すると、特にフォームに複数のセクションがある場合や多数のフィールドがある場合に、ユーザーがフォーム内を簡単に移動できます。
+>[!NOTE]
+>
+> 最初から[アダプティブフォームフラグメントを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ja#create-a-fragment)することも、既存のアダプティブフォーム内のパネルをフラグメントとして保存することもできます。
 
-- **スペース管理**：水平タブは、関連するフォームセクションをタブにグループ化し、一度に 1 つのセクションのみを表示することで、画面のスペースを節約するのに役立ちます。
+## 使用方法 {#usage}
 
-- **フォームの整理**：フォームがすっきりと整理された構造になるため、ユーザーが理解して完了しやすくなります。
+- **再利用性**：フォームフラグメントを使用する主な利点は、複数のアダプティブフォームでフォームフラグメントを再利用できることです。フラグメントに対する変更は、そのフラグメントが使用されるすべてのインスタンスに反映されるので、デザインと機能の一貫性を維持するのに役立ちます。
 
-- **ユーザーエンゲージメントの向上**：フォームをより視覚的にしてユーザーを惹きつけ、フォームの完了率を向上できます。
+- **一貫性のあるユーザーエクスペリエンス**：ヘッダーやフッターなどの共通の要素にフォームフラグメントを使用すると、一貫性のあるユーザーエクスペリエンスを実現できます。
+
+- **容易なメンテナンス**：フォームフラグメントに対する変更や修正は、そのフラグメントが使用されているすべてのインスタンスに反映されます。これによりメンテナンスが容易化され、エラーが発生するリスクを低減できます。
+
+- **効率性**：デザイナーや開発者は、フォームフラグメントの構築とテストを 1 回だけ行うことで、時間を節約できます。その後、冗長な作業を必要とせずに、複数のアダプティブフォームにフォームフラグメントを簡単に組み込むことができます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームの水平タブコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブフォームフラグメントのコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.50 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.26 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
-|  |  |
-|---|---|
-| コンポーネントのバージョン | AEM as a Cloud Service |
-| --- | --- |
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
+|---|---|---|
+| v1 | <br>[リリース 2.0.50](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.26](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
-
-
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの水平タブのコアコンポーネントに関する最新情報については、 [GitHub] のテクニカルドキュメント（https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs）をご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームフラグメントのコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログを使用すると、水平タブエクスペリエンスを訪問者に合わせて簡単にカスタマイズできます。 また、簡単に水平タブオプションを定義して、シームレスなユーザーエクスペリエンスを実現できます。
+設定ダイアログを使用すると、フラグメントエクスペリエンスを訪問者に合わせて簡単にカスタマイズできます。また、フラグメントのプロパティを簡単に定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
 
 ### 「基本」タブ {#basic-tab}
 
-![「基本」タブ](/help/adaptive-forms/assets/tabs-on-top-basic.png)
+![「基本」タブ](/help/adaptive-forms/assets/fragment-basictab.png)
 
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
@@ -71,7 +68,6 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
   ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
-
 - **フォームの送信時に子コンポーネントのデータをグループ化（オブジェクトにデータを含める）** - このオプションを選択すると、子コンポーネントのデータが親コンポーネントの JSON オブジェクト内にネストされます。ただし、このオプションを選択しないと、送信した JSON データは、親コンポーネントのオブジェクトを持たないフラットな構造になります。例：
 
    - このオプションを選択すると、子コンポーネント（番地、市区町村、郵便番号など）のデータが、JSON オブジェクトとして親コンポーネント（住所）内にネストされます。これにより、階層構造が作成され、データは親コンポーネントの下に整理されます。
@@ -95,47 +91,35 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-<!-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. -->
+- **フラグメント参照** - フラグメント参照は、外部データソースに保存され、フォーム内で使用されるフォームフラグメントへの参照です。フラグメント参照を使用すると、フォームフラグメントをフォームに動的に連結できます。
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このように AEM Formsで外部データソースとやり取りするフォームを作成して、データの収集と管理のためのシームレスなユーザーエクスペリエンスを提供できます。
+
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 - **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 - **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
-### 上部の繰り返しタブ {#repeat-tabs-on-top}
+### 「フラグメントを繰り返す」タブ {#repeat-tab}
 
-![「アクセシビリティ」タブ](/help/adaptive-forms/assets/repeat-tabsontop.png)
+![「フラグメントを繰り返す」タブ](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-繰り返しオプションを使用すると、水平タブコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。水平タブコンポーネントを操作してその設定にアクセスすると、次のオプションが表示されます。
-
-- **上部のタブを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチの機能です。
-- **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
-- **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
-水平タブ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
-
-### 「項目」タブ {#items-tab}
-
-![「項目」タブ](/help/adaptive-forms/assets/items-tabs-on-top.png)
-
-「**追加**」ボタンを使用すると、「コンポーネント選択」ウィンドウからパネルとして追加するコンポーネントを選択できます。 コンポーネントを追加すると、次のオプションが表示されます。
-
-- **アイコン** - アイコンは、リスト内のパネルのコンポーネントを識別します。アイコンの上にマウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
-- **説明** - パネルのテキストとして使用される説明。デフォルトでは、パネル用に選択されたコンポーネントの名前になります。
-- **削除** - タップまたはクリックすると、水平タブコンポーネントからパネルを削除できます。
-- **並べ替え** - タップまたはクリックしてドラッグすると、パネルを並べ替えることができます。
+- **フラグメントを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチの機能です。
+- **最小繰り返し回数**：フラグメントコンポーネントを繰り返すことができる最小回数を設定します。値 0 は、フラグメントコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
+- **最大繰り返し回数**：フラグメントコンポーネントを繰り返すことができる最大回数を設定します。デフォルトでは、この値は無制限です。
 
 ### 「ヘルプコンテンツ」タブ {#help-content}
 
-![「ヘルプコンテンツ」タブ](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
+![「ヘルプコンテンツ」タブ](/help/adaptive-forms/assets/fragment-helptab.png)
 
 - **短い説明** - 短い説明は、特定のフォームフィールドの目的に関する追加の情報や説明を提供する簡単な説明文です。これにより、ユーザーは、フィールドに入力するデータの種類を理解しやすくなります。また、入力された情報が有効で目的の条件を満たしていることを確認できるように、ガイドラインや例を提供できます。デフォルトでは、短い説明は非表示になっています。 「**短い説明を常に表示**」オプションを有効にすると、コンポーネントの下に説明が表示されます。
+
 - **短い説明を常に表示** - このオプションを有効にすると、コンポーネントの下に短い説明が表示されます。
 
 - **ヘルプテキスト** - ヘルプテキストとは、フォームフィールドの正しい入力を支援するためにユーザーに提供される追加の情報やガイダンスを指します。コンポーネントの横に配置されているヘルプアイコン（i）をクリックすると表示されます。 ユーザーがフィールドの要件や制約を理解できるように設計されているヘルプテキストは、フォームフィールドのラベルやプレースホルダーテキストよりも詳細な情報を提供できます。また、フォームへの入力をより簡単かつ正確にするための提案や例を提供することも可能です。
 
-### 「アクセシビリティ」タブ {#accessibility}
+### アクセシビリティ {#accessibility}
 
-![「アクセシビリティ」タブ](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
+![「アクセシビリティ」タブ](/help/adaptive-forms/assets/fragment-accessibilitytab.png)
 
 - **スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する、支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
 
@@ -143,32 +127,21 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がデフォルトでの表示方法を制御できます。アダプティブフォームの水平タブコンポーネントでは、次の設定を行うことができます。
-
-- フォーム作成者がアダプティブフォームエディターで水平タブに追加できるコアコンポーネント
-- スタイル（CSS クラス）のシンプルな名前。アダプティブフォームエディターの水平タブコンポーネントの「プロパティ」ダイアログで適用できます。
-
-この名前を使用することで、フォームの作成やカスタマイズのプロセスが、分かりやすく効率的になります。
-
-### 「許可されたコンポーネント」タブ {#allowed-components-tab}
-
-![「許可されたコンポーネント」タブ](/help/adaptive-forms/assets/tabs-allowed-component.png)
-
-「**許可されたコンポーネント**」タブを使用すると、アダプティブフォームエディターの水平タブコンポーネントで、パネルに項目として追加できるコンポーネントを、テンプレートエディターで設定できます。
+デザインダイアログでは、フォームフラグメントコンポーネントの CSS スタイルを定義および管理できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
-デザインダイアログは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブフォームの水平タブコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+アダプティブフォームのフォームフラグメントコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-![「スタイル」タブ](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![デザインダイアログ](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **デフォルトの CSS クラス**：アダプティブフォームの水平タブコアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームのフォームフラグメントコアコンポーネントにデフォルトの CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
-### 「カスタムプロパティ」タブ
+### カスタムプロパティ
 
-![「カスタムプロパティ」タブ](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![カスタムプロパティダイアログ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 カスタムプロパティを使用すると、フォームテンプレートを使用してカスタム属性（キーと値のペア）をアダプティブフォームのコアコンポーネントに関連付けることができます。カスタムプロパティは、コンポーネントのヘッドレスレンディションのプロパティセクションに反映されます。これにより、カスタム属性値に基づいて適応する動的なフォーム動作を作成できます。例えば、開発者は、モバイル、デスクトップ、web プラットフォーム上にヘッドレスフォームコンポーネントの様々なレンディションをデザインできるので、幅広いデバイスでのユーザーエクスペリエンスが大幅に向上します。
 
@@ -179,6 +152,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
    - **削除**：タップまたはクリックすると、カスタムプロパティ名とカスタムプロパティ値を削除できます。
 
    - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
+
 
 ## 関連記事 {#related-articles}
 
