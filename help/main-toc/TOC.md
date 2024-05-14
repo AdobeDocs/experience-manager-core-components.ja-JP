@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
-workflow-type: ht
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -112,15 +112,15 @@ ht-degree: 100%
       + [アダプティブフォームのチェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
       + [アダプティブフォームコンテナ](/help/adaptive-forms/components/form-container.md)
       + [アダプティブフォームの日付選択](/help/adaptive-forms/components/date-picker.md)
-      + [アダプティブフォームのドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
+      + [アダプティブフォームのドロップダウンリスト](/help/adaptive-forms/components/drop-down-list.md)
       + [アダプティブフォームのメール入力](/help/adaptive-forms/components/email-input.md)
-      + [アダプティブフォームのフォームフラグメント](/help/adaptive-forms/components/form-fragment.md)
+      + [アダプティブフォームのフォームフラグメント](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [アダプティブフォームの添付ファイル](/help/adaptive-forms/components/file-attachment.md)
       + [アダプティブフォームの垂直タブ](/help/adaptive-forms/components/vertical-tabs.md)
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
-      + [アダプティブフォームの数値入力](/help/adaptive-forms/components/number-input.md)
-      + [アダプティブフォームのパネル](/help/adaptive-forms/components/panel-container.md)
+      + [アダプティブFormsの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
+      + [アダプティブフォームのパネル](/help/adaptive-forms/components/panel.md)
       + [アダプティブフォームの CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
       + [アダプティブフォームのリセットボタン](/help/adaptive-forms/components/reset-button.md)
@@ -128,7 +128,7 @@ ht-degree: 100%
       + [アダプティブフォームのスイッチ](/help/adaptive-forms/components/switch.md)
       + [アダプティブフォームの電話入力](/help/adaptive-forms/components/telephone-input.md)
       + [アダプティブフォームのテキスト](/help/adaptive-forms/components/text.md)
-      + [アダプティブフォームのテキストボックス](/help/adaptive-forms/components/text-input.md)
+      + [アダプティブフォームのテキストボックス](/help/adaptive-forms/components/text-box.md)
       + [アダプティブフォームのタイトル](/help/adaptive-forms/components/title.md)
       + [アダプティブフォームのウィザードレイアウト](/help/adaptive-forms/components/wizard.md)
       + [アダプティブフォームの利用条件](/help/adaptive-forms/components/terms-and-conditions.md)

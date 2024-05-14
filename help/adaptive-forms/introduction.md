@@ -3,9 +3,9 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
-workflow-type: ht
-source-wordcount: '1267'
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 * [ボタン](/help/adaptive-forms/components/button.md)
 * [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
 * [日付選択](/help/adaptive-forms/components/date-picker.md)
-* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
+* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down-list.md)
 * [メール入力](/help/adaptive-forms/components/email-input.md)
 * [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
 * [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
@@ -83,13 +83,13 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 * [ヘッダー](/help/adaptive-forms/components/header.md)
 * [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
 * [画像](/help/adaptive-forms/components/image.md)
-* [数値入力](/help/adaptive-forms/components/number-input.md)
-* [パネルコンテナ](/help/adaptive-forms/components/panel-container.md)
+* [数値ボックス](/help/adaptive-forms/components/numeric-box.md)
+* [パネル](/help/adaptive-forms/components/panel.md)
 * [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
 * [リセットボタン](/help/adaptive-forms/components/reset-button.md)
 * [送信ボタン](/help/adaptive-forms/components/submit-button.md)
 * [電話入力](/help/adaptive-forms/components/telephone-input.md)
-* [テキスト入力](/help/adaptive-forms/components/text-input.md)
+* [テキストボックス](/help/adaptive-forms/components/text-box.md)
 * [テキスト](/help/adaptive-forms/components/text.md)
 * [タイトル](/help/adaptive-forms/components/title.md)
 * [ウィザード](/help/adaptive-forms/components/wizard.md)
@@ -100,7 +100,7 @@ AEM Forms as a Cloud Service のアダプティブフォームのコアコンポ
 
 アダプティブフォームのコアコンポーネントには、以下の要件があります。
 
-| AEMバージョン | AEM Forms のアドオン | アダプティブフォームのコアコンポーネント |
+| AEM のバージョン | AEM Forms のアドオン | アダプティブフォームのコアコンポーネント |
 |---|---|---|
 | AEM as a Cloud Service | Forms - デジタル登録 | [リリース 2.0.10](version.md)+ |
 | AEM 6.5 | Forms のアドオン | [リリース 1.1.12](version.md)+ |
