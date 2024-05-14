@@ -3,10 +3,10 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '3044'
-ht-degree: 100%
+source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
+workflow-type: tm+mt
+source-wordcount: '3041'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | このリリースでは、Dynamic Mediaの名前付き smartcrops のサポートが追加され、パフォーマンスとアクセシビリティの改善、様々なバグ修正が含まれています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024 年 5 月 2 日（Pt） |
+| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | このパッチリリースには、データレイヤーの初期化に関する改善が含まれています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024 年 4 月 22 日（Pt） |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | このパッチリリースでは、Sling モデルの初期化が修正されています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024 年 4 月 1 日（Pt） |
+| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | このパッチリリースでは、統合テストの安定性が向上しています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024 年 2 月 22 日（Pt） |
+| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | このリリースでは、Google Tag Manager Data Layer がサポートされるようになり、様々なバグ修正が含まれています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024 年 2 月 14 日（Pt） |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | このパッチリリースには、様々なバグ修正が含まれています。 | - | 6.5.17.0+ | 継続的 | 8、11 | 2023年9月15日（PT） |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | このパッチでは、リモートアセットの Dynamic Media スマート切り抜きを[画像](/help/components/image.md)コンポーネントと[ティーザーコンポーネント](/help/components/teaser.md)に追加し、多くのバグを修正しました。 | - | 6.5.17.0+ | 継続的 | 8、11 | 2023年8月4日（PT） |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | このリリースでは、[次世代の Dynamic Media リモートアセット](/help/developing/next-gen-dm.md)のサポートを追加しました。 | - | 6.5.17.0+ | 継続的 | 8、11 | 2023年6月6日（PT） |
@@ -101,7 +106,7 @@ ht-degree: 100%
 | **[ページ](components/page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[タイトル](components/title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[画像](components/image.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[リスト](components/list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3, v4 |
+| **[リスト](components/list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3、v4 |
 | **[パンくず](components/breadcrumb.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[ソーシャルメディア共有](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、非推奨 | v1、非推奨 | v1、非推奨 | v1、非推奨 |
 | **[フォームコンテナ](components/forms/form-container.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
