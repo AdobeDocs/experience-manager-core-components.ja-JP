@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - 電話入�
 description: アダプティブフォームの電話入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2142'
 ht-degree: 99%
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 # 電話入力コンポーネント{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの電話入力コアコンポーネントを使用すると、ユーザーは電話番号を入力できます。 電話の入力フィールドには、電話番号に関連するモバイルデバイスのキーボードが表示されます。 電話番号の形式と説明を指定するために、「パターン」や「プレースホルダー」などの追加の属性を使用してカスタマイズできます。
 

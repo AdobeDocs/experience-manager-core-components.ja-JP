@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - ボタン
 description: アダプティブフォームボタンのコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # ボタンコンポーネント  {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォーム内のボタンは、ユーザーがクリックしたときにアクションを開始できる UI 要素です。 ボタン要素を使用すると、フォームの送信、フォームのリセット、または別のページへの移動やカスタムコードのトリガーといった他のアクションを実行できます。 ボタンは、ボタンコアコンポーネントを使用して作成できます。
 

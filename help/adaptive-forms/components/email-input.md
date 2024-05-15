@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - メール�
 description: アダプティブフォームのメール入力コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # メール入力コンポーネント {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの電子メール入力コアコンポーネントは、ユーザーからメールアドレスを収集するために使用します。メール入力フィールドを使用すると、入力されたデータが有効なメールアドレス形式であるかどうかをブラウザーで検証できます。通常はテキストボックスとして表示され、有効なメールアドレスのみを受け入れるパターン検証が行われます。メール入力フィールドは、「必須」、「プレースホルダー」、「パターン」などの追加の属性を使用してさらにカスタマイズし、入力データの検証について設定できます。
 

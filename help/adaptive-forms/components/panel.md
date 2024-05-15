@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - パネル�
 description: アダプティブフォームのパネルコンテナコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # パネルコンポーネント{#panel-container-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームでは、パネルはコンテナ要素であり、関連するフォーム要素をグループ化するために使用できます。これにより、様々なフォーム要素を論理的で意味のある方法でグループ化して整理できます。また、フォームの全体的な構造と読みやすさが向上し、ユーザーがフォームを理解して移動しやすくなります。
 

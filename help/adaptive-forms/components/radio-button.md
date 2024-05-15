@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - ラジオ�
 description: アダプティブフォームのラジオボタンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # ラジオボタンコンポーネント {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  および  **オプションのリッチテキストを許可**   機能、プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**   および   **オプションのリッチテキストを許可**   機能、プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームのラジオボタンは、ユーザーが関連オプションのグループから 1 つのオプションを選択できる入力要素のひとつです。これは、このオプションが選択されているかどうかを示す、塗りつぶされた、または空の小さな円形のボタンで表示されます。ユーザーがいずれかのラジオボタンを選択すると、グループ内の他のラジオボタンの選択が解除されます。通常、ラジオボタンは相互に排他的な複数のオプションがあり、一度に 1 つのみ選択できる場合に使用されます。
 

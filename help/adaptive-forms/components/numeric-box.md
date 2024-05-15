@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - 数値入�
 description: アダプティブフォームの数値入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # 数値ボックスコンポーネント{#number-input-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの数値入力コンポーネントは、ユーザーが数値を入力できるフォームフィールドのひとつです。このコンポーネントは通常、数値を増やす上向き矢印と数値を減らす下向き矢印と共にテキストフィールドに表示されます。
 

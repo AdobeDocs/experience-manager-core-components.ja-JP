@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - チェッ�
 description: アダプティブフォームのチェックボックスグループコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # チェックボックスグループコンポーネント {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています  **タイトルのリッチテキストを許可**  および  **オプションのリッチテキストを許可**  機能、プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**   および   **オプションのリッチテキストを許可**   機能、プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームのチェックボックスグループは、ユーザーがリストから 1 つ以上のオプションを選択できる関連チェックボックスセットです。 各チェックボックスは、データ値（チェックボックスグループの項目を処理するために使用される値）と表示値（目的を説明する各チェックボックス項目のラベル）で表されます。
 **例**
