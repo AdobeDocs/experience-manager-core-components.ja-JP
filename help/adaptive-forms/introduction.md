@@ -3,18 +3,18 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
+source-git-commit: e15254b119194e14b5719de10a00b2990264756f
 workflow-type: tm+mt
-source-wordcount: '2154'
-ht-degree: 53%
+source-wordcount: '2175'
+ht-degree: 50%
 
 ---
 
-# アダプティブフォームのコアコンポーネントの概要 {#adaptive-forms-core-components-introduction}
+# アダプティブフォームのコアコンポーネント  {#adaptive-forms-core-components-introduction}
 
-Adobe Experience Manager のアダプティブフォームのコアコンポーネントを使用すると、柔軟性とカスタマイズオプションを利用して、魅力的な登録フォームを作成できます。
+Adobe Experience Managerのアダプティブ Forms コアコンポーネントを使用すると、魅力的な登録エクスペリエンスを作成できます。
 
-## コアコンポーネント  {#overview}
+## コアコンポーネント {#overview}
 
 Adobe Experience Manager（AEM）のコンポーネントとは、ページやフォームの作成に使用される構築ブロックを意味します。 作成者がコンテンツを作成および管理するためのシンプルで強力な方法が提供されると同時に、開発者はカスタムコンポーネントの作成に必要な柔軟性と拡張性を活用できます。 これらは、web サイトやフォームの開発時間を短縮し、メンテナンスコストを削減するように設計されており、特定のニーズに合わせて柔軟かつ容易にカスタマイズできます。
 
@@ -37,7 +37,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 |  |  |
 |---|---|
 | 本番で使用可能 | アダプティブフォームのコアコンポーネントは、24 個の堅牢な WCM コンポーネントです。 |
-| クラウド対応 | [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=ja) で使用可能です。 |
+| クラウド対応 | 利用可能 [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=ja). |
 | 用途が広い | コンポーネントは、ほぼすべてのレイアウトの作成にフォーム作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | テンプレートレベルの[コンテンツポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja#content-policies)で、許可される機能と許可されない機能を定義します。 |
 | 高いアクセシビリティ | ARIA ラベル、キーボードナビゲーションおよび支援テクノロジー（スクリーンリーダーなど）用のテキストを提供します。 |
@@ -71,20 +71,20 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 ## コアコンポーネント、基盤コンポーネントおよびフォームブロックコンポーネントの比較 {#components}
 
-現在のバージョンのAEMには、次のコアコンポーネントと基盤コンポーネントがあります。
+現在のAEMのバージョンには、次のコアコンポーネント、基盤コンポーネントおよびフォームブロックコンポーネント（Edge Delivery Services）があります。
 
 | コンポーネント | 基盤コンポーネント | コアコンポーネント | フォームブロックコンポーネント | 追加情報 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
-| Adobe Sign ブロック | ✔️ | | | Adobe Sign統合は、基盤コンポーネントでのみ使用できます。 |
-| アコーディオン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティでアコーディオンレイアウトを設定できます |
-| アダプティブフォームフラグメント | ✔️ | ✔️ | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティからフラグメントを追加できます。 |
-| アダプティブフォーム reCAPTCHA | ✔️ | ✔️ | ✔️ | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して、Google reCaptcha をフォームに追加します。 |
+| Adobe Sign ブロック | ✔️ | | | [Adobe Signの統合](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) は、基盤コンポーネントでのみ使用できます。 |
+| アコーディオン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 基盤コンポーネントの場合、次でアコーディオンレイアウトを設定できます [パネルコンポーネントのプロパティ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
+| アダプティブフォームフラグメント | ✔️ | ✔️ | | 基盤コンポーネントでは、次のことができます [フラグメントを追加](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) アセットブラウザーから。 |
+| アダプティブフォーム reCAPTCHA | ✔️ | ✔️ | ✔️ | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して以下を行います [Google reCaptcha のフォームへの追加](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | ボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| Captcha | ✔️ | | | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して、Google reCaptcha をフォームに追加します。 |
+| Captcha | ✔️ | | | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して以下を行います [Google reCaptcha のフォームへの追加](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | グラフ | ✔️ | | | |
 | チェックボックス | ✔️ | ✔️ | | |
 | チェックボックスグループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 基盤コンポーネントの場合は、チェックボックス コンポーネントを使用して複数のチェックボックスを追加します |
-| データ入力フィールド | ✔️ | | | コアコンポーネントの場合、日付選択を使用するか、別のテキストボックスまたは数値ボックスコンポーネントを使用して、日、月、年を取り込みます。 |
+| データ入力フィールド | ✔️ | | | コアコンポーネントには、 [日付選択](/help/adaptive-forms/components/date-picker.md) コンポーネント。 個別に追加することもできます [textbox](/help/adaptive-forms/components/text-box.md) または [数値ボックス](/help/adaptive-forms/components/numeric-box.md) 日、月および年を取得するためのコンポーネント。 |
 | 日付選択 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | ドロップダウンリスト | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | メール | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
@@ -92,34 +92,34 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 | ファイル添付リスト | ✔️ | | | |
 | フッター | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | 脚注プレースホルダー | ✔️ | | | |
-| フォームコンテナ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 基盤コンポーネントには、ルートパネルコンポーネントを使用します。 |
+| フォームコンテナ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 基盤コンポーネントには、 [ルートパネルコンポーネント](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | フォームタイトル | ✔️ | ✔️ | | 基盤コンポーネントの場合は、タイトル コンポーネントを使用します。 |
 | ヘッダー | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
-| 水平タブ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 基盤コンポーネントの場合、パネルコンポーネントのプロパティで上部のタブ（水平タブ）レイアウトを設定できます |
+| 水平タブ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 基盤コンポーネントの場合、 [上部のタブ（水平タブ）レイアウト](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) パネルコンポーネントのプロパティ。 |
 | 画像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
 | 画像選択 | ✔️ | | | |
-| 次へボタン | ✔️ | ✔️ | | 複数のパネル間を移動するには、次または前のボタンにウィザードコンポーネントを使用します。 |
+| 次へボタン | ✔️ | ✔️ | | の使用 [ウィザードコンポーネント](/help/adaptive-forms/components/wizard.md) 「次へ」ボタンと「前へ」ボタンが複数のパネル間を移動する。 |
 | 数値ボックス | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | 数値ステッパー | ✔️ | | | |
 | パネル | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | パスワードボックス | ✔️ | | ✔️ | |
 | 電話/電話 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
-| 前へボタン | ✔️ | | | 複数のパネル間を移動するには、次または前のボタンにウィザードコンポーネントを使用します。 |
+| 前へボタン | ✔️ | | | の使用 [ウィザードコンポーネント](/help/adaptive-forms/components/wizard.md) 「次へ」ボタンと「前へ」ボタンが複数のパネル間を移動する。 |
 | ラジオボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | ラジオボタングループ | | | ✔️ | |
 | リセットボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 手書き署名 | ✔️ | | | |
-| 区切り | ✔️ | | | |
+| 区切り文字 | ✔️ | | | |
 | 送信ボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 概要ステップ | ✔️ | | | |
-| スイッチ | ✔️ | ✔️ | | |
+| スイッチ | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
 | テーブル | ✔️ | | | |
 | 利用条件 | ✔️ | ✔️ | | |
 | テキスト | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | テキストボックス | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| タイトル | ✔️ | | | コアコンポーネントの場合は、フォームタイトルコンポーネントを使用します。 |
-| 垂直タブ | ✔️ | ✔️ | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティにある左側のタブ（垂直タブ）レイアウトを設定できます |
-| ウィザード | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティでウィザードレイアウトを設定できます |
+| タイトル | ✔️ | | | コアコンポーネントには、 [フォームタイトル](/help/adaptive-forms/components/title.md) コンポーネント。 |
+| 垂直タブ | ✔️ | ✔️ | | 基盤コンポーネントの場合、 [左側のタブ（垂直タブ）のレイアウト](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) パネルコンポーネントのプロパティ |
+| ウィザード | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 基盤コンポーネントの場合、 [ウィザードのレイアウト](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) パネルコンポーネントのプロパティ |
 
 
 
