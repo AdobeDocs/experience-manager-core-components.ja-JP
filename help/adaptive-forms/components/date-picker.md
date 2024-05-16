@@ -4,15 +4,15 @@ description: アダプティブフォームの日付選択コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 日付選択コンポーネント{#date-picker-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの日付選択コンポーネントは、ユーザーがカレンダーから日付を選択したり、特定の形式で手動で日付を入力したりできるユーザーインターフェイス要素です。日付選択コンポーネントは、様々な形式、検証およびデフォルト値を持つように設定できます。
 

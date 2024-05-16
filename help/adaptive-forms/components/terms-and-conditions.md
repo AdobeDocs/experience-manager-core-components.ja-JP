@@ -4,15 +4,15 @@ description: アダプティブフォームの利用条件コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 利用条件コンポーネント
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**   および   **オプションのリッチテキストを許可**   機能、プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能と、**オプションのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 **利用条件**&#x200B;コンポーネントとは、フォーム内のセクションのことで、サービスの使用時やコンテンツへのアクセス時にユーザーが同意したり準拠したりする必要がある利用条件の概要を示します。
 

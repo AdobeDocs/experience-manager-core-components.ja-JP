@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -119,8 +119,8 @@ ht-degree: 98%
       + [アダプティブフォームの垂直タブ](/help/adaptive-forms/components/vertical-tabs.md)
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
-      + [アダプティブFormsの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
-      + [アダプティブフォームのパネル](/help/adaptive-forms/components/panel.md)
+      + [アダプティブフォームの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
+      + [アダプティブフォームパネル](/help/adaptive-forms/components/panel.md)
       + [アダプティブフォームの CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
       + [アダプティブフォームのリセットボタン](/help/adaptive-forms/components/reset-button.md)
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [アダプティブフォームのテキスト](/help/adaptive-forms/components/text.md)
       + [アダプティブフォームのテキストボックス](/help/adaptive-forms/components/text-box.md)
       + [アダプティブフォームのタイトル](/help/adaptive-forms/components/title.md)
-      + [アダプティブFormsウィザード](/help/adaptive-forms/components/wizard.md)
+      + [アダプティブフォームウィザード](/help/adaptive-forms/components/wizard.md)
       + [アダプティブフォームの利用条件](/help/adaptive-forms/components/terms-and-conditions.md)
       + [ヘッダー](/help/adaptive-forms/components/header.md)
       + [フッター](/help/adaptive-forms/components/footer.md)

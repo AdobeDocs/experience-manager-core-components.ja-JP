@@ -4,15 +4,15 @@ description: アダプティブフォームのドロップダウンコアコン�
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2126'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # ドロップダウンリストコンポーネント{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームのドロップダウンリストを使用すると、定義済みオプションのリストから 1 つ以上のオプションを選択できます。 オプションの種類は、文字列、数字またはブール値です。また、ドロップダウンリストのコンポーネントは、様々な検証値とデフォルト値を持つように設定できます。
 

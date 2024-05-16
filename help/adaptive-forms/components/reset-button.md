@@ -4,15 +4,15 @@ description: アダプティブフォームのリセットボタンのコアコ�
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # リセットボタンコンポーネント {#reset-button}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームのリセットボタンでは、すべてのフォームフィールドを消去したり、デフォルト値にリセットしたりすることができます。 リセットボタンをクリックすると、フォームフィールドに入力されていたデータが削除され、フィールドが元の状態に戻ります。 通常、リセットボタンは送信ボタンの代わりに使用され、ユーザーが誤ったデータや不要なデータをフォームに入力した場合にやり直すことができます。
 

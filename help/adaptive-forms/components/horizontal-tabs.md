@@ -4,15 +4,15 @@ description: アダプティブフォームの水平タブコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2094'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 水平タブ（上部のタブ）コンポーネント{#horizontal-tabs-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの水平タブとは、フォームの複数のセクションがグループ化され、別々のタブとして水平方向に表示されるデザインパターンを指します。ユーザーはタブを切り替えて、フォームの異なるセクションにアクセスできます。 各タブは、関連するフォームコンテンツの表示と非表示を切り替えるトリガーとして機能します。 水平タブを使用すると、長いフォームを管理しやすいセクションに整理して、ユーザーエクスペリエンスを改善できます。 タブは、キーボードナビゲーションを使用してセクションを切り替えることができるので、障がいのあるユーザーがフォームにアクセスしやすくなります。
 

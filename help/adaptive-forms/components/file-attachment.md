@@ -4,15 +4,15 @@ description: アダプティブフォームのファイル添付コアコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1852'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # ファイル添付コンポーネント {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームのファイル添付コンポーネントを使用すると、ユーザーはローカルコンピューターまたはデバイスからファイルを選択してアップロードできます。ファイル添付コンポーネントは、特定のファイルタイプ、サイズ制限、複数の添付ファイルを許可するように設定できます。
 

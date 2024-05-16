@@ -4,15 +4,15 @@ description: アダプティブフォームの送信ボタンコアコンポー�
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1450'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 送信ボタンコンポーネント {#submit-button}
+# 送信ボタンのコンポーネント {#submit-button}
 
-<span class="preview"> この記事には、に関するコンテンツが含まれています   **タイトルのリッチテキストを許可**    機能：プレリリース機能。 プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
 
 アダプティブフォームの送信ボタンは、ユーザーがフォームデータをサーバーに送信するためのボタンです。 「送信」ボタンをクリックするとフォームデータがサーバーに送信され、メールの送信やデータベースの更新など、様々な目的で保存、処理、使用することができます。
 
