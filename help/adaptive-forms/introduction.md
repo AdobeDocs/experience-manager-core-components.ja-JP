@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: e15254b119194e14b5719de10a00b2990264756f
+source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 50%
+source-wordcount: '2215'
+ht-degree: 49%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 ## コアコンポーネント、基盤コンポーネントおよびフォームブロックコンポーネントの比較 {#components}
 
-現在のAEMのバージョンには、次のコアコンポーネント、基盤コンポーネントおよびフォームブロックコンポーネント（Edge Delivery Services）があります。
+現在のバージョンのAEMには、次のコアコンポーネントがあります。 [基盤コンポーネント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)、および [フォームブロックコンポーネント（Edge Delivery Services）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | コンポーネント | 基盤コンポーネント | コアコンポーネント | フォームブロックコンポーネント | 追加情報 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
@@ -203,6 +203,11 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
    * [REST エンドポイントへの送信](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
    * [OneDrive に送信](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
    * [AEM ワークフローを起動](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+* [Sites ページエディターでのアダプティブ Forms コアコンポーネント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page):AEM ページエディターおよびAEM エクスペリエンスフラグメントでアダプティブ Forms コアコンポーネントを有効にして使用することにより、Sites ページの構築と共にデータキャプチャエクスペリエンスを直接作成できます。
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
