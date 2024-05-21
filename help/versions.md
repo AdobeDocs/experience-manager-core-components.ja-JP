@@ -4,9 +4,9 @@ description: コアコンポーネントはリリースとして公開されま�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3079'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 98%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | これは、一部の IT 障害を修正するマイナーリリースです。 | - | 6.5.22.0+ | 継続的 | 8、11 | 2024 年 5 月 10 日（Pt） |
-| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | これは、一部の IT 障害を修正するマイナーリリースです。 | - | 6.5.22.0+ | 継続的 | 8、11 | 2024 年 5 月 9 日（Pt） |
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | これは、一部の IT エラーを修正するマイナーリリースです。 | - | 6.5.22.0+ | 継続的 | 8、11 | 2024年5月10日（PT） |
+| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | これは、一部の IT エラーを修正するマイナーリリースです。 | - | 6.5.22.0+ | 継続的 | 8、11 | 2024年5月9日（PT） |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | このリリースでは、Dynamic Media で名前付きスマート切り抜きのサポートが追加され、パフォーマンスおよびアクセシビリティの向上と、様々なバグ修正が含まれます。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年5月2日（PT） |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | このパッチリリースには、データレイヤーの初期化に関する改善が含まれます。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年4月22日（PT） |
 | [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | このパッチリリースでは、Sling モデルの初期化が修正されます。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年4月1日（PT） |
