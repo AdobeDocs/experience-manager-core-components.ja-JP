@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
-workflow-type: ht
-source-wordcount: '2215'
-ht-degree: 100%
+source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
+workflow-type: tm+mt
+source-wordcount: '2214'
+ht-degree: 98%
 
 ---
 
@@ -69,9 +69,9 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 * **[バージョン管理](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**：コアコンポーネントベースのアダプティブフォームの複数のバージョンを作成および管理し、コメントを通じて共同作業でディスカッションを行い、特定のフォームコンポーネントに注釈を添付することで、フォーム作成全体のエクスペリエンスを向上させることができます。
 
-## コアコンポーネント、基盤コンポーネントおよびフォームブロックコンポーネントの比較 {#components}
+## 使用可能なコンポーネント：コンポーネントタイプ別の分類
 
-AEM の現在のバージョンには、次のコアコンポーネント、[基盤コンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)および[フォームブロックコンポーネント（Edge Delivery Services）](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components)があります。
+現在のバージョンのAEM Formsには、次のコアコンポーネントがあります。 [基盤コンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)、および [フォームブロックコンポーネント（Edge Delivery Services）](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | コンポーネント | 基盤コンポーネント | コアコンポーネント | フォームブロックコンポーネント | 追加情報 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
