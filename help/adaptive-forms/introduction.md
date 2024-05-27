@@ -4,9 +4,9 @@ description: アダプティブフォームのコアコンポーネントの柔�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 ## 使用可能なコンポーネント：コンポーネントタイプ別の分類
 
-現在のバージョンのAEM Formsには、次のコアコンポーネントがあります。 [基盤コンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)、および [フォームブロックコンポーネント（Edge Delivery Services）](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+AEM Forms の現在のバージョンには、次のコアコンポーネント、[基盤コンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)および[フォームブロックコンポーネント（Edge Delivery Services）](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components)があります。
 
 | コンポーネント | 基盤コンポーネント | コアコンポーネント | フォームブロックコンポーネント | 追加情報 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
