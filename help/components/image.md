@@ -3,10 +3,10 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、アダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 100%
+source-wordcount: '1957'
+ht-degree: 96%
 
 ---
 
@@ -53,11 +53,9 @@ ht-degree: 100%
 
 コアコンポーネントで構築された web エクスペリエンスは、Adobe Sensei を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供できます。
 
-## 次世代の Dynamic Media サポート {#next-gen-dm}
+## リモートアセットのサポート {#remote-assets}
 
-画像コンポーネント（[リリース 2.23.2](/help/versions.md) 以降）は、次世代の Dynamic Media リモートアセットをサポートします。
-
-[設定が完了すると、](/help/developing/next-gen-dm.md)リモートの次世代の Dynamic Media サービスから画像コンポーネント用のアセットを選択できます。
+画像コンポーネント（ [リリース 2.23.2](/help/versions.md)）は、リモートアセットをサポートします。 [設定が完了したら、](/help/developing/remote-assets.md) 画像コンポーネント用にリモートサービスからアセットを選択できます。
 
 ## SVG のサポート {#svg-support}
 
@@ -87,7 +85,7 @@ ht-degree: 100%
 
 編集ダイアログでは、コンテンツ作成者は画像の切り抜きおよび画像のズームを行えます。
 
-[Dynamic Media](#dynamic-media) を有効にしているか、[次世代の Dynamic Media](#next-gen-dm) の機能を有効にしているかによって、画像の編集に使用できるオプションが異なります。
+以下があるかどうかに応じて、 [Dynamic Media](#dynamic-media) 有効または [リモートアセットのサポート](#remote-assets) を有効にした場合、画像の編集に使用できるオプションが異なります。
 
 ### 標準のアセット編集 {#standard-assets}
 
@@ -154,7 +152,7 @@ ht-degree: 100%
    * ローカルファイルシステムからアップロードするには、[アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ja)からアセットをドロップするか、「**参照**」オプションをタップします。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
    * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ja)を開いて画像を選択するには、「**選択**」をタップまたはクリックします。
-      * [次世代の Dynamic Media の機能](#next-gen-dm)が有効になっている場合、アセットを選択する次の複数のオプションがあります。
+      * 次の場合 [リモートアサートサポート](#remote-assets) が有効になっている場合、アセットを選択するために次の複数のオプションがあります。
          * **ローカル**：ローカルの AEM アセットライブラリから選択します。
          * **リモート**：AEM インスタンスの外部にある Dynamic Media ライブラリから選択します。
    * アセットエディターで[アセットのレンディションを管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)するには、「**編集**」をタップまたはクリックします。

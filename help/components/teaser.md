@@ -3,10 +3,10 @@ title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 95%
 
 ---
 
@@ -31,11 +31,9 @@ ht-degree: 100%
 | v2 | - | 互換性あり | 互換性あり |
 | [v1](v1/teaser.md) | 互換性あり | 互換性あり | 互換性あり |
 
-## 次世代の Dynamic Media サポート {#next-gen-dm}
+## リモートアセットのサポート {#remote-assets}
 
-ティーザーコンポーネント（[リリース 2.23.2](/help/versions.md) 以降）は、次世代の Dynamic Media リモートアセットをサポートします。
-
-[設定が完了すると、](/help/developing/next-gen-dm.md)リモートの次世代の Dynamic Media サービスからティーザーコンポーネント用のアセットを選択できます。
+ティーザーコンポーネント（ [リリース 2.23.2](/help/versions.md)）は、リモートアセットをサポートします。 [設定が完了したら、](/help/developing/remote-assets.md) ティーザーコンポーネント用にリモートサービスからアセットを選択できます。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -84,7 +82,7 @@ ht-degree: 100%
 * **画像アセット** - [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja)からアセットをドロップするか、「**参照**」オプションをタップしてローカルファイルシステムからアップロードします。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
    * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja)を開いて画像を選択するには、「**選択**」をタップまたはクリックします。
-      * [次世代の Dynamic Media の機能](#next-gen-dm)が有効になっている場合、アセットを選択する次の複数のオプションがあります。
+      * 次の場合 [リモートアセットのサポート](#remote-assets) が有効になっている場合、アセットを選択するために次の複数のオプションがあります。
          * **ローカル**：ローカルの AEM アセットライブラリから選択します。
          * **リモート**：AEM インスタンスの外部にある Dynamic Media ライブラリから選択します。
    * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ja)」をタップまたはクリックします。
@@ -116,7 +114,7 @@ ht-degree: 100%
 
 * **コールトゥアクション**
    * **コールトゥアクションを無効化** - 「**コールトゥアクション**」オプションをコンテンツ作成者に表示しません
-* **エレメント**
+* **要素**
    * **プリタイトルを非表示にする** - 「**プリタイトル**」オプションをコンテンツ作成者に表示しません
    * **タイトルを非表示にする** - 「**タイトル**」オプションをコンテンツ作成者に表示しません
       * オンにすると、「**タイトルのタイプ**」は非表示になります

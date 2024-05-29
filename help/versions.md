@@ -3,8 +3,8 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
-workflow-type: ht
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | このリリースでは、Google Tag Manager データレイヤーのサポートが追加され、様々なバグ修正が含まれます。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年2月14日（PT） |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | このパッチリリースには、様々なバグ修正が含まれています。 | - | 6.5.17.0+ | 継続的 | 8、11 | 2023年9月15日（PT） |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | このパッチでは、リモートアセットの Dynamic Media スマート切り抜きを[画像](/help/components/image.md)コンポーネントと[ティーザーコンポーネント](/help/components/teaser.md)に追加し、多くのバグを修正しました。 | - | 6.5.17.0+ | 継続的 | 8、11 | 2023年8月4日（PT） |
-| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | このリリースでは、[次世代の Dynamic Media リモートアセット](/help/developing/next-gen-dm.md)のサポートを追加しました。 | - | 6.5.17.0+ | 継続的 | 8、11 | 2023年6月6日（PT） |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | このリリースでは、[次世代の Dynamic Media リモートアセット](/help/developing/remote-assets.md)のサポートを追加しました。 | - | 6.5.17.0+ | 継続的 | 8、11 | 2023年6月6日（PT） |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | このパッチリリースでは、2 つの問題が修正されています。 | - | 6.5.14.0+ | 継続的 | 8、11 | 2023年5月25日（PT） |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | このパッチリリースでは、2 つの回帰が修正されています。 | - | 6.5.14.0+ | 継続的 | 8、11 | 2023年5月11日（PT） |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | このパッチリリースでは、以前のリリースで誤って削除された機能が復活しています。 | - | 6.5.14.0+ | 継続的 | 8、11 | 2023年5月9日（PT） |
