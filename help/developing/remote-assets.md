@@ -1,34 +1,34 @@
 ---
 title: リモートアセットのサポート
-description: OpenAPI でDynamic Mediaを使用してリモートアセットをサポートするように、コアコンポーネントの画像コンポーネントとティーザーコンポーネントを設定する方法について説明します。
+description: OpenAPI 搭載 Dynamic Media を使用してリモート アセットをサポートするコアコンポーネントの画像コンポーネントおよびティーザーコンポーネントを設定する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # リモートアセットのサポート {#remote-assets-support}
 
-OpenAPI でDynamic Mediaを使用してリモートアセットをサポートするように、コアコンポーネントの画像コンポーネントとティーザーコンポーネントを設定する方法について説明します。
+OpenAPI 搭載 Dynamic Media を使用してリモート アセットをサポートするコアコンポーネントの画像コンポーネントおよびティーザーコンポーネントを設定する方法について説明します。
 
 >[!NOTE]
 >
->OpenAPI を備えたDynamic Mediaは、以前、Next Generation Dynamic Mediaと呼ばれていました。 機能と使用方法は同じです。
+>OpenAPI 搭載 Dynamic Media は、以前は次世代の Dynamic Media と呼ばれていました。機能と使用方法は同じです。
 
 ## 最新バージョンの AEM の取得 {#latest}
 
-Dynamic Mediaと OpenAPI を使用してリモートアセットをサポートするには、次が必要です。
+OpenAPI 搭載 Dynamic Media を使用したリモートアセットのサポートには、以下が必要です。
 
 * AEM 6.5 SP 18 以降または AEM as a Cloud Service
 * コアコンポーネントリリース 2.23.2 以降
 
 ## HTTPS を設定 {#https}
 
-通常は、HTTP を使用して、すべての実稼動 AEM インスタンスを実行することをお勧めします。ただし、ローカル開発環境がこのように設定されていない場合があります。ただし、OpenAPI でDynamic Mediaを使用するリモートアセットが機能するには、HTTPS が必要です。
+通常は、HTTP を使用して、すべての実稼動 AEM インスタンスを実行することをお勧めします。ただし、ローカル開発環境がこのように設定されていない場合があります。しかし、OpenAPI 搭載 Dynamic Media を使用するリモートアセットを機能させるには HTTPS が必要です。
 
 [このガイドを使用](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=ja)して、開発環境を含むリモートアセットを使用する場所で HTTPS を設定します。
 
@@ -52,7 +52,7 @@ OSGi の設定方法について詳しくは、次のドキュメントを参照
 
 ## 設定の確認 {#verify}
 
-これで、OpenAPI でDynamic Mediaを使用したリモートアセット機能が機能していることを確認できます。 これを行うには、WKND サンプルサイトとコアコンポーネントをインストールします。
+OpenAPI 搭載 Dynamic Media を使用したリモートアセット機能が動作していることを確認できます。これを行うには、WKND サンプルサイトとコアコンポーネントをインストールします。
 
 * [コアコンポーネント](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip)リリース 2.23.2 以降が必要です。
 * [WKND サンプルサイト](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip)リリース 3.2.0 以降が必要です。

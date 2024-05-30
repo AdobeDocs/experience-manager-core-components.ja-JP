@@ -4,9 +4,9 @@ description: ティーザーコンポーネントでは、画像、タイトル�
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 ## リモートアセットのサポート {#remote-assets}
 
-ティーザーコンポーネント（ [リリース 2.23.2](/help/versions.md)）は、リモートアセットをサポートします。 [設定が完了したら、](/help/developing/remote-assets.md) ティーザーコンポーネント用にリモートサービスからアセットを選択できます。
+ティーザーコンポーネント（[リリース 2.23.2](/help/versions.md) 以降）は、リモートアセットをサポートします。[設定が完了すると、](/help/developing/remote-assets.md)リモートサービスからティーザーコンポーネント用のアセットを選択できます。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -82,7 +82,7 @@ ht-degree: 95%
 * **画像アセット** - [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja)からアセットをドロップするか、「**参照**」オプションをタップしてローカルファイルシステムからアップロードします。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
    * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja)を開いて画像を選択するには、「**選択**」をタップまたはクリックします。
-      * 次の場合 [リモートアセットのサポート](#remote-assets) が有効になっている場合、アセットを選択するために次の複数のオプションがあります。
+      * [リモートアセットのサポート](#remote-assets)が有効になっている場合、アセットを選択する次の複数のオプションがあります。
          * **ローカル**：ローカルの AEM アセットライブラリから選択します。
          * **リモート**：AEM インスタンスの外部にある Dynamic Media ライブラリから選択します。
    * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ja)」をタップまたはクリックします。

@@ -4,9 +4,9 @@ description: コアコンポーネントの画像コンポーネントは、ア�
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 ## リモートアセットのサポート {#remote-assets}
 
-画像コンポーネント（ [リリース 2.23.2](/help/versions.md)）は、リモートアセットをサポートします。 [設定が完了したら、](/help/developing/remote-assets.md) 画像コンポーネント用にリモートサービスからアセットを選択できます。
+画像コンポーネント（[リリース 2.23.2](/help/versions.md) 以降）は、リモートアセットをサポートします。[設定が完了すると](/help/developing/remote-assets.md)、リモートサービスから画像コンポーネント用のアセットを選択できます。
 
 ## SVG のサポート {#svg-support}
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
 編集ダイアログでは、コンテンツ作成者は画像の切り抜きおよび画像のズームを行えます。
 
-以下があるかどうかに応じて、 [Dynamic Media](#dynamic-media) 有効または [リモートアセットのサポート](#remote-assets) を有効にした場合、画像の編集に使用できるオプションが異なります。
+[Dynamic Media](#dynamic-media) を有効にしているか、[リモートアセットのサポート](#remote-assets)を有効にしているかによって、画像の編集に使用できるオプションが異なります。
 
 ### 標準のアセット編集 {#standard-assets}
 
@@ -152,7 +152,7 @@ ht-degree: 96%
    * ローカルファイルシステムからアップロードするには、[アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ja)からアセットをドロップするか、「**参照**」オプションをタップします。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
    * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=ja)を開いて画像を選択するには、「**選択**」をタップまたはクリックします。
-      * 次の場合 [リモートアサートサポート](#remote-assets) が有効になっている場合、アセットを選択するために次の複数のオプションがあります。
+      * [リモートアセットのサポート](#remote-assets)が有効になっている場合、アセットを選択する次の複数のオプションがあります。
          * **ローカル**：ローカルの AEM アセットライブラリから選択します。
          * **リモート**：AEM インスタンスの外部にある Dynamic Media ライブラリから選択します。
    * アセットエディターで[アセットのレンディションを管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)するには、「**編集**」をタップまたはクリックします。
