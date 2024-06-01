@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
-workflow-type: ht
-source-wordcount: '2214'
-ht-degree: 100%
+source-git-commit: d3a887338387b4d46c1f81c4a6ddf040a82a48b7
+workflow-type: tm+mt
+source-wordcount: '2210'
+ht-degree: 99%
 
 ---
 
@@ -78,9 +78,8 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | Adobe Sign ブロック | ✔️ | | | [Adobe Sign 統合](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government)は、基盤コンポーネントでのみ使用できます。 |
 | アコーディオン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 基盤コンポーネントの場合は、[パネルコンポーネントのプロパティ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)でアコーディオンレイアウトを設定できます。 |
 | アダプティブフォームフラグメント | ✔️ | ✔️ | | 基盤コンポーネントの場合は、アセットブラウザーから[フラグメントを追加](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)できます。 |
-| アダプティブフォーム reCAPTCHA | ✔️ | ✔️ | ✔️ | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して、[Google reCaptcha をフォームに追加](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)します。 |
+| reCAPTCHA | ✔️ | ✔️ | ✔️ | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して、[Google reCaptcha をフォームに追加](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)します。 |
 | ボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| Captcha | ✔️ | | | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して、[Google reCaptcha をフォームに追加](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)します。 |
 | グラフ | ✔️ | | | |
 | チェックボックス | ✔️ | ✔️ | | |
 | チェックボックスグループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 基盤コンポーネントの場合は、チェックボックスコンポーネントを使用して、複数のチェックボックスを追加します。 |
@@ -94,6 +93,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | 脚注プレースホルダー | ✔️ | | | |
 | フォームコンテナ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 基盤コンポーネントの場合は、[ルートパネルコンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel)を使用します。 |
 | フォームタイトル | ✔️ | ✔️ | | 基盤コンポーネントの場合は、タイトルコンポーネントを使用します。 |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | |
 | ヘッダー | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 水平タブ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティで[上部のタブ（水平タブ）レイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 | 画像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
@@ -118,6 +118,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | テキスト | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | テキストボックス | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
 | タイトル | ✔️ | | | コアコンポーネントの場合は、[フォームタイトル](/help/adaptive-forms/components/title.md)コンポーネントを使用します。 |
+| Turnstile Captcha | ✔️ | | | [Turnstile Captcha](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) は、基盤コンポーネントでのみ使用できます。 |
 | 垂直タブ | ✔️ | ✔️ | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティにある[左側のタブ（垂直タブ）レイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 | ウィザード | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティで[ウィザードレイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 

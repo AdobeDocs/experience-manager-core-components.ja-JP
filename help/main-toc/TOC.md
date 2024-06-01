@@ -4,11 +4,11 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
-feature-set: Experience Manager Sites
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+feature-set: Experience Manager Sites, Experience Manager Forms
+source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 100%
       + [アダプティブフォームのフォームフラグメント](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [アダプティブフォームの添付ファイル](/help/adaptive-forms/components/file-attachment.md)
       + [アダプティブフォームの垂直タブ](/help/adaptive-forms/components/vertical-tabs.md)
+      + [アダプティブForms hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
       + [アダプティブフォームの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
