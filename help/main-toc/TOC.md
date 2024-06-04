@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 96%
       + [アダプティブフォームのフォームフラグメント](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [アダプティブフォームの添付ファイル](/help/adaptive-forms/components/file-attachment.md)
       + [アダプティブフォームの垂直タブ](/help/adaptive-forms/components/vertical-tabs.md)
-      + [アダプティブForms hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
+      + [アダプティブフォームの hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
       + [アダプティブフォームの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
