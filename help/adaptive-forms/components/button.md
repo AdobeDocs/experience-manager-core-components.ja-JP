@@ -3,16 +3,14 @@ title: アダプティブフォームのコアコンポーネント - ボタン
 description: アダプティブフォームボタンのコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '1601'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '1660'
+ht-degree: 99%
 
 ---
 
-# ボタンコンポーネント  {#button-component-adaptive-forms-core-component}
-
-<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+# ボタンコンポーネント {#button-component-adaptive-forms-core-component}
 
 アダプティブフォーム内のボタンは、ユーザーがクリックしたときにアクションを開始できる UI 要素です。 ボタン要素を使用すると、フォームの送信、フォームのリセット、または別のページへの移動やカスタムコードのトリガーといった他のアクションを実行できます。 ボタンは、ボタンコアコンポーネントを使用して作成できます。
 
@@ -102,6 +100,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 
 - **スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する、支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
+   - **カスタムテキスト**：ARIA アクセシビリティラベルにカスタムテキストを使用する場合は、このオプションを選択します。 このオプションを選択すると、「カスタムテキスト」ダイアログボックスが表示されます。関連情報は、「カスタムテキスト」ダイアログボックスで追加できます。
+   - **説明**：ARIA アクセシビリティラベルの説明を使用する場合は、このオプションを選択します。
+   - **タイトル**：ARIA アクセシビリティラベルのタイトルを使用する場合は、このオプションを選択します。
+   - **名前**：ARIA アクセシビリティラベルの名前を使用する場合は、このオプションを選択します。
+   - **なし**：ARIA アクセシビリティラベルに追加しない場合は、このオプションを選択します。
 
 ## デザインダイアログ {#design-dialog}
 

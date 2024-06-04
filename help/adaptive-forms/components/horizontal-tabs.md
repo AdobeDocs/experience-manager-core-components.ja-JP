@@ -3,16 +3,14 @@ title: アダプティブフォームのコアコンポーネント - 水平タ�
 description: アダプティブフォームの水平タブコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2094'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2153'
+ht-degree: 96%
 
 ---
 
-# 水平タブ（上部のタブ）コンポーネント{#horizontal-tabs-adaptive-forms-core-component}
-
-<span class="preview">この記事には、プレリリース機能である&#x200B;**タイトルのリッチテキストを許可**&#x200B;する機能に関する内容が含まれます。プレリリース機能には、[プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)を通じてのみアクセスできます。</span>
+# 水平タブコンポーネント（上部のタブ）コンポーネント{#horizontal-tabs-adaptive-forms-core-component}
 
 アダプティブフォームの水平タブとは、フォームの複数のセクションがグループ化され、別々のタブとして水平方向に表示されるデザインパターンを指します。ユーザーはタブを切り替えて、フォームの異なるセクションにアクセスできます。 各タブは、関連するフォームコンテンツの表示と非表示を切り替えるトリガーとして機能します。 水平タブを使用すると、長いフォームを管理しやすいセクションに整理して、ユーザーエクスペリエンスを改善できます。 タブは、キーボードナビゲーションを使用してセクションを切り替えることができるので、障がいのあるユーザーがフォームにアクセスしやすくなります。
 
@@ -52,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの水平タブのコアコンポーネントに関する最新情報については、 [GitHub] のテクニカルドキュメント（https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs）をご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブなFormsの水平タブコアコンポーネントの最新情報については、に関するテクニカルドキュメントをご覧ください。 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -138,15 +136,20 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 ![「アクセシビリティ」タブ](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 - **スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する、支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
+   - **カスタムテキスト**：ARIA アクセシビリティラベルにカスタムテキストを使用する場合は、このオプションを選択します。 このオプションを選択すると、「カスタムテキスト」ダイアログボックスが表示されます。関連情報は、「カスタムテキスト」ダイアログボックスで追加できます。
+   - **説明**：ARIA アクセシビリティラベルの説明を使用する場合は、このオプションを選択します。
+   - **タイトル**：ARIA アクセシビリティラベルのタイトルを使用する場合は、このオプションを選択します。
+   - **名前**：ARIA アクセシビリティラベルの名前を使用する場合は、このオプションを選択します。
+   - **なし**：ARIA アクセシビリティラベルに追加しない場合は、このオプションを選択します。
 
 - **スクリーンリーダーが通知を行うための HTMLの役割** - HTMLの役割は、スクリーンリーダーなどの支援テクノロジーに対する HTML 要素の目的を指定するための属性です。役割の属性は、要素に追加のコンテキストと意味論的意味を提供するために使用されます。これにより、スクリーンリーダーがコンテンツを解釈して読み上げやすくなります。 例えば AEM Formsでは、フォームフィールドのラベルが「label」という役割を持ち、入力フィールドが「textbox」という役割を持つ場合があります。 これにより、スクリーンリーダーはラベルと入力フィールドの関係を理解し、ユーザーに対して正しく通知できるようになります。
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がデフォルトでの表示方法を制御できます。アダプティブフォームの水平タブコンポーネントでは、次の設定を行うことができます。
+デザインダイアログでは、テンプレート作成者がデフォルトでの表示方法を制御できます。アダプティブ Formsの水平タブコンポーネントでは、次の設定を行うことができます。
 
-- フォーム作成者がアダプティブフォームエディターで水平タブに追加できるコアコンポーネント
-- スタイル（CSS クラス）のシンプルな名前。アダプティブフォームエディターの水平タブコンポーネントの「プロパティ」ダイアログで適用できます。
+- フォーム作成者がアダプティブFormsエディターで水平タブに追加できるコアコンポーネント
+- スタイル（CSS クラス）のシンプルな名前。アダプティブ Forms エディターの水平タブコンポーネントの「プロパティ」ダイアログで適用できます。
 
 この名前を使用することで、フォームの作成やカスタマイズのプロセスが、分かりやすく効率的になります。
 

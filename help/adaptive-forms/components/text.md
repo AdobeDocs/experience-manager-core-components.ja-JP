@@ -3,14 +3,14 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキストコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: ht
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 100%
 
 ---
 
-# テキストコンポーネント  {#text-adaptive-forms-core-component}
+# テキストコンポーネント {#text-adaptive-forms-core-component}
 
 アダプティブフォームのテキストとは、ユーザーが読むためにフォームに表示されるコンテンツを表します。 これには、テキストフィールドなどのフォーム要素のグループにラベルを付けるために使用されるテキストや、ユーザーに提供される追加の説明や情報などを使用できます。
 

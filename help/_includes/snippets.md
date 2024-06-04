@@ -1,7 +1,7 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -57,29 +57,30 @@ ht-degree: 100%
 ## その他の類似項目 {#more-like-this}
 
 - [アコーディオン](/help/adaptive-forms/components/accordion.md)
+- [アダプティブフォームフラグメント](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [アダプティブフォーム reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [ボタン](/help/adaptive-forms/components/button.md)
 - [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
 - [チェックボックス](/help/adaptive-forms/components/checkbox.md)
 - [日付選択](/help/adaptive-forms/components/date-picker.md)
 - [ドロップダウンリスト](/help/adaptive-forms/components/drop-down-list.md)
-- [メール入力](/help/adaptive-forms/components/email-input.md)
+- [メール](/help/adaptive-forms/components/email.md)
 - [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
+- [フォームタイトル](/help/adaptive-forms/components/form-title.md)
 - [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
-- [アダプティブフォームフラグメント](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [フッター](/help/adaptive-forms/components/footer.md)
 - [ヘッダー](/help/adaptive-forms/components/header.md)
 - [画像](/help/adaptive-forms/components/image.md)
 - [数値ボックス](/help/adaptive-forms/components/numeric-box.md)
 - [パネル](/help/adaptive-forms/components/panel.md)
+- [電話](/help/adaptive-forms/components/phone.md)
 - [「水平」タブ](/help/adaptive-forms/components/horizontal-tabs.md)
 - [「垂直」タブ](/help/adaptive-forms/components/vertical-tabs.md)
 - [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
 - [リセットボタン](/help/adaptive-forms/components/reset-button.md)
 - [送信ボタン](/help/adaptive-forms/components/submit-button.md)
-- [電話入力](/help/adaptive-forms/components/telephone-input.md)
 - [テキストボックス](/help/adaptive-forms/components/text-box.md)
 - [テキスト](/help/adaptive-forms/components/text.md)
-- [タイトル](/help/adaptive-forms/components/title.md)
 - [「利用条件」タブ](/help/adaptive-forms/components/terms-and-conditions.md)
 - [ウィザード](/help/adaptive-forms/components/wizard.md)
 
