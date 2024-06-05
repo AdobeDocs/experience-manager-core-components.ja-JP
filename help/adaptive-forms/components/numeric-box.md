@@ -3,16 +3,16 @@ title: アダプティブフォームのコアコンポーネント - 数値入�
 description: アダプティブフォームの数値入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 98%
+source-wordcount: '2283'
+ht-degree: 92%
 
 ---
 
 # 数値ボックスコンポーネント{#number-input-adaptive-forms-core-component}
 
-アダプティブフォームの数値入力コンポーネントは、ユーザーが数値を入力できるフォームフィールドのひとつです。このコンポーネントは通常、数値を増やす上向き矢印と数値を減らす下向き矢印と共にテキストフィールドに表示されます。
+アダプティブフォームの数値ボックスコンポーネントは、ユーザーが数値を入力できるフォームフィールドのひとつです。 このコンポーネントは通常、数値を増やす上向き矢印と数値を減らす下向き矢印と共にテキストフィールドに表示されます。
 
 最小、最大、ステップ、値などの属性と共に使用することもできます。これらの属性を使用すると、フィールドで許可される最小値と最大値、数値の増減間隔、およびフィールドのデフォルト値を設定できます。
 
@@ -127,10 +127,21 @@ To experience the Accordion Component as well as see examples of its configurati
 ![「アクセシビリティ」タブ](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **表示形式** - このオプションでは、表示する様々な整数の数値形式を選択できます。ユーザーが「**タイプ**」ドロップダウンメニューからオプションを選択すると、「**形式**」オプションがパネルに表示されます。ユーザーに表示する数値の形式を選択できます。
+- **言語**  – この機能は、特定のフィールドを書式設定するために使用されます。 ユーザーがから任意の言語オプションを選択したとき **タイプ** ドロップダウンメニュー **IETF BCP 47 言語タグ** オプションがパネルに表示されます。 アダプティブフォームを特定の言語に翻訳する際に、フィールドの書式設定に使用する言語を選択できます。
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+言語セットはデフォルトでは表示されませんが、ユーザーはカスタムを入力できます **IETF BCP 47 言語タグ** テンプレートポリシーを更新すると、次のようになります。
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+1. テンプレートエディターで、アダプティブフォームに関連付けられている対応するテンプレートを開きます。
+2. 既存のポリシーをとして選択 `numberinput-default-policy` ドロップダウンメニューから。
+
+   ![日付選択テンプレートポリシー](/help/adaptive-forms/assets/numberinput-template-policy.png)
+
+3. 「**完了**」をクリックします。
+
+   >[!NOTE]
+   >
+   > アダプティブフォームを特定のロケールに翻訳する方法の詳細については、 [ここをクリック](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+
 
 ## デザインダイアログ {#design-dialog}
 
