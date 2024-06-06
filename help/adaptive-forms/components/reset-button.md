@@ -4,13 +4,13 @@ description: アダプティブフォームのリセットボタンのコアコ�
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# ボタンコンポーネントをリセット {#reset-button}
+# リセットボタンコンポーネント {#reset-button}
 
 アダプティブフォームのリセットボタンでは、すべてのフォームフィールドを消去したり、デフォルト値にリセットしたりすることができます。 リセットボタンをクリックすると、フォームフィールドに入力されていたデータが削除され、フィールドが元の状態に戻ります。 通常、リセットボタンは送信ボタンの代わりに使用され、ユーザーが誤ったデータや不要なデータをフォームに入力した場合にやり直すことができます。
 

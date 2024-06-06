@@ -4,7 +4,7 @@ description: アダプティブフォームのコアコンポーネントの柔�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2229'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | グラフ | ✔️ | | | |
 | チェックボックス | ✔️ | ✔️ | | |
 | チェックボックスグループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 基盤コンポーネントの場合は、チェックボックスコンポーネントを使用して、複数のチェックボックスを追加します。 |
-| データ入力フィールド | ✔️ | | | コアコンポーネントの場合は、[日付選択](/help/adaptive-forms/components/date-picker.md)コンポーネントを使用します。また、個別の[テキストボックス](/help/adaptive-forms/components/text-box.md)または[数値ボックス](/help/adaptive-forms/components/numeric-box.md)コンポーネントを追加して、日、月、年を取得することもできます。 |
+| データ入力フィールド | ✔️ | | | コアコンポーネントの場合は、[日付選択](/help/adaptive-forms/components/date-picker.md)コンポーネントを使用します。 また、個別の[テキストボックス](/help/adaptive-forms/components/text-box.md)または[数値ボックス](/help/adaptive-forms/components/numeric-box.md)コンポーネントを追加して、日、月、年を取得することもできます。 |
 | 日付選択 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | ドロップダウンリスト | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | メール | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email.md)</span> | ✔️ | |

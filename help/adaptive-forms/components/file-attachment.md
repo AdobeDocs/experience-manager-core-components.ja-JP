@@ -4,9 +4,9 @@ description: アダプティブフォームのファイル添付コアコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1911'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームのファイル添付のコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fileinput/v1/fileinput) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームのファイル添付のコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fileinput/v1/fileinput) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -85,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に添付ファイルを添付する必要があります。このオプションが選択されていると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」は選択できません。
 - **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンになっており、フィールドが空白の場合に表示されるメッセージを入力できます。
 
-- **スクリプト検証メッセージ** - このオプションを使用すると、スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
+- **スクリプト検証メッセージ** - スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 

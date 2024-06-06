@@ -1,18 +1,18 @@
 ---
-title: アダプティブ Forms コアコンポーネント - Google reCAPTCHA
-description: AEM Formsを使用すると、Google reCAPTCHA サービスでフォームのセキュリティを簡単に強化できます。 アダプティブフォームの reCaptcha プロパティの説明
+title: アダプティブフォームのコアコンポーネント - Google reCAPTCHA
+description: AEM Forms を使用すると、Google reCAPTCHA サービスでフォームのセキュリティを容易に強化できます。アダプティブフォーム reCaptcha のプロパティについて説明します
 role: Architect, Developer, Admin, User
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # アダプティブフォーム reCAPTCHA {#google-recaptcha}
 
-CAPTCHA （Completely Automated Public Turing Test to tell Computers and Humans Apart）は、オンライントランザクションで一般的に使用されるプログラムで、人間と自動プログラムまたはボットを区別します。 テストを行ってユーザーの反応を評価し、サイトを使用しているのが人間かボットかを判断します。テストが失敗した場合の続行を防ぎ、ボットによるスパムの投稿や悪意のある目的を防止することで、オンライントランザクションの安全性を高めます。
+CAPTCHA（コンピュータと人間を区別する完全に自動化された公開チューリングテスト）は、人間と自動化されたプログラム／ボットを区別するために、オンライントランザクションで一般的に使用されるプログラムです。テストを行ってユーザーの反応を評価し、サイトを使用しているのが人間かボットかを判断します。テストが失敗した場合の続行を防ぎ、ボットによるスパムの投稿や悪意のある目的を防止することで、オンライントランザクションの安全性を高めます。
 
 AEM Forms as a Cloud Service は、アダプティブフォームで Google reCAPTCHA v2 をサポートします。これを使用して、フォームの送信時に CAPTCHA の課題を提示できます
 
@@ -42,11 +42,11 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの Google reCAPTCHA コアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームの Google reCAPTCHA コアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログを使用すると、訪問者の Google reCAPTCHA エクスペリエンスを簡単にカスタマイズできます。また、簡単に Google reCAPTCHA オプションを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
+設定ダイアログを使用すると、訪問者の Google reCAPTCHA エクスペリエンスを簡単にカスタマイズできます。 また、簡単に Google reCAPTCHA オプションを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
 
 ### 「基本」タブ {#basic-tab}
 
@@ -57,21 +57,21 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 - **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
 
 - **タイトルのリッチテキストを許可** - この機能により、ユーザーは、太字、斜体、下線付きのテキスト、様々なフォント、フォントサイズ、カラー、追加オプションなどの機能を組み込んで、プレーンテキストのタイトルを書式設定でき、視覚的なプレゼンテーションとカスタマイズが強化されます。 これにより、ドキュメント、web サイト、アプリケーション内でタイトルを目立たせる際の柔軟性とクリエイティブなコントロールが向上します。\
-  **タイトルのリッチテキストを許可」チェックボックスを選択すると、コンポーネントのタイトルのスタイルを設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
+  タイトルのリッチテキストを許可チェックボックスをオンにすると、コンポーネントのタイトルをスタイル設定するための書式設定オプションが表示されます。使用可能なすべての書式設定オプションにアクセスするには、![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
 
   ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。このオプションを使用すると、データソースを更新せずにデータを保存できます。また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
-- **設定**:GoogleによってAEM Formsと reCAPTCHA サービスを接続するクラウド設定を含んだ設定コンテナを選択します。
+- **設定**：AEM Forms を Google の reCAPTCHA サービスに接続するクラウド設定を含む設定コンテナを選択します。
 
   >[!NOTE]
   >
-  > を参照してください。 [コアコンポーネントに基づくAEM アダプティブフォームでのGoogle reCAPTCHA の使用](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) お使いの環境に合わせてGoogle reCAPTCHA を作成および設定する方法を説明する記事です。
+  > 環境に合わせて Google reCAPTCHA を作成および設定する方法については、[コアコンポーネントに基づく AEM アダプティブフォームでの Google reCAPTCHA の使用](https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)の記事を参照してください。
 
-- **タイプ**:reCAPTCHA のサイズを選択する場合は、このオプションを選択します。
-   - **標準**:reCAPTCHA ウィジェットの標準の大きいバージョンを指します。特に、画面が大きいデバイスでは、ユーザーがよりわかりやすく、操作しやすくなる場合があります。
-   - **コンパクト**:reCAPTCHA ウィジェットの小さいバージョンを参照します。 このオプションは、モバイルデバイスや web ページの狭いレイアウトなど、スペースが制限される状況に適しています。
+- **タイプ**：rreCAPTCHA のサイズを選択するには、このオプションを選択します。
+   - **標準**：reCAPTCHA ウィジェットの標準の大きいバージョンを参照します。特に画面が大きいデバイスでは、可視性が高く、ユーザーが操作しやすくなります。
+   - **コンパクト**：reCAPTCHA ウィジェットの小型バージョンを参照します。このオプションは、モバイルデバイスや web ページの狭いレイアウトなど、スペースが限られている状況に適しています。
 
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 
@@ -83,9 +83,9 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 
 ![「検証」タブ](/help/adaptive-forms/assets/recaptcha-validationtab.png)
 
-- **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンになっていて、フォームフィールドは空白の場合に表示されるメッセージを指定できます。
+- **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンで、かつフォームフィールドが空白の場合に表示されるメッセージを入力できます。
 
-- **スクリプト検証メッセージ** - このオプションを使用すると、スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
+- **スクリプト検証メッセージ** - スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
 ## デザインダイアログ {#design-dialog}
 
@@ -93,11 +93,11 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 
 ### 「スタイル」タブ {#styles-design-tab}
 
-アダプティブ Formsの reCAPTCHA コアコンポーネントは、AEMをサポートしています [スタイルシステム](/help/get-started/authoring.md#component-styling).
+アダプティブフォームの reCAPTCHA コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![デザインダイアログ](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **デフォルトの CSS クラス**：アダプティブ Forms reCAPTCHA コアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームの reCAPTCHA コアコンポーネントのデフォルト CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 

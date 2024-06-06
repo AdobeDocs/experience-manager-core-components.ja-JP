@@ -4,9 +4,9 @@ description: アダプティブフォームの水平タブコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブなFormsの水平タブコアコンポーネントの最新情報については、に関するテクニカルドキュメントをご覧ください。 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームの水平タブコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -146,10 +146,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がデフォルトでの表示方法を制御できます。アダプティブ Formsの水平タブコンポーネントでは、次の設定を行うことができます。
+デザインダイアログでは、テンプレート作成者がデフォルトでの表示方法を制御できます。アダプティブフォームの水平タブコンポーネントでは、次の設定を行うことができます。
 
-- フォーム作成者がアダプティブFormsエディターで水平タブに追加できるコアコンポーネント
-- スタイル（CSS クラス）のシンプルな名前。アダプティブ Forms エディターの水平タブコンポーネントの「プロパティ」ダイアログで適用できます。
+- フォーム作成者がアダプティブフォームエディターで水平タブに追加できるコアコンポーネント
+- スタイル（CSS クラス）のシンプルな名前。アダプティブフォームエディターの水平タブコンポーネントの「プロパティ」ダイアログで適用できます。
 
 この名前を使用することで、フォームの作成やカスタマイズのプロセスが、分かりやすく効率的になります。
 

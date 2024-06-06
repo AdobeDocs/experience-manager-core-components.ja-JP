@@ -4,9 +4,9 @@ description: アダプティブフォームのラジオボタンコアコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 各「ラジオボタン」オプションには、一意のデータ値と表示テキスト属性があります。 ユーザーが「1-10」を選択すると、フォームの送信時に、対応するデータ値がサーバーに送信されます。 その後、このデータをサーバーサイドスクリプトで処理して、ユーザーが選択したオプションを判断し、フォーム内の他のフィールドを更新したり、フォームデータをサーバーサイドスクリプトに送信してさらに処理するなど、様々な操作を実行できます。
 
-さらに、アダプティブフォームルールエディターを使用して、各ラジオボタンの処理値をオプションごとに異なるように設定することもできます。
+さらに、アダプティブフォームルールエディターを使用して、各ラジオボタンの処理値をオプションごとに異なるように設定することもできます
 
 ## 使用方法 {#reasons-to-use-radio-button}
 
@@ -56,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームのラジオボタンコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームのラジオボタンコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -108,9 +108,9 @@ To experience the Accordion Component as well as see examples of its configurati
 ![「検証」タブ](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
 - **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に選択を行う必要があります。このオプションを選択すると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」は選択できなくなります。
-- **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンになっていて、フォームフィールドは空白の場合に表示されるメッセージを指定できます。
+- **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンで、かつフォームフィールドが空白の場合に表示されるメッセージを入力できます。
 
-- **スクリプト検証メッセージ** - このオプションを使用すると、スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
+- **スクリプト検証メッセージ** - スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
 ### 「ヘルプコンテンツ」タブ {#helpcontent-tab}
 

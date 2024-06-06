@@ -4,9 +4,9 @@ description: アダプティブフォームのチェックボックスグルー�
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームのチェックボックスグループコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームのチェックボックスグループコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -116,9 +116,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に選択を行う必要があります。このオプションを選択すると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」は選択できなくなります。
 
-- **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンになっていて、フォームフィールドは空白の場合に表示されるメッセージを指定できます。
+- **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンで、かつフォームフィールドが空白の場合に表示されるメッセージを入力できます。
 
-- **スクリプト検証メッセージ** - このオプションを使用すると、スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
+- **スクリプト検証メッセージ** - スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
 ### 「ヘルプコンテンツ」タブ {#helpcontent-tab}
 
