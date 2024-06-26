@@ -4,7 +4,7 @@ description: コアコンポーネントはリリースとして公開されま�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 39c9dd3374ea7c31b9f03cc02e883ab26f463368
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3079'
 ht-degree: 100%
 
