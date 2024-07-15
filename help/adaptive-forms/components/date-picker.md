@@ -4,7 +4,7 @@ description: アダプティブフォームの日付選択コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2299'
 ht-degree: 100%
 
@@ -134,10 +134,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **形式エラーメッセージ** - このオプションを使用すると、入力した日付が正しい形式でない場合に画面に表示されるメッセージを入力できます。
 - **言語** - この機能は、特定のフィールドを書式設定するために使用されます。ユーザーが&#x200B;**タイプ**&#x200B;ドロップダウンメニューから言語オプションを選択すると、「**IETF BCP 47 言語タグ**」オプションがパネルに表示されます。アダプティブフォームを特定の言語に翻訳する際に、フィールドの書式設定に使用する言語を選択できます。
 
-言語セットはデフォルトでは表示されませんが、次のようにテンプレートポリシーを更新すると、ユーザーはカスタムの **IETF BCP 47 言語タグ**&#x200B;を入力できます。
+言語セットはデフォルトでは表示されませんが、次のようにテンプレートポリシーを更新すると、ユーザーは、カスタムの **IETF BCP 47 言語タグ**&#x200B;を入力できます。
 
 1. テンプレートエディターで、アダプティブフォームに関連付けられている対応するテンプレートを開きます。
-2. ドロップダウンメニューから既存のポリシーを `datepicker-default-policy` として選択します。
+2. ドロップダウンメニューから、既存のポリシーを `datepicker-default-policy` として選択します。
 
    ![日付選択のテンプレートポリシー](/help/adaptive-forms/assets/date-picker-template-policy.png)
 

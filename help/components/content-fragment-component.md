@@ -4,8 +4,8 @@ description: コアコンポーネントのコンテンツフラグメントコ�
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '671'
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---

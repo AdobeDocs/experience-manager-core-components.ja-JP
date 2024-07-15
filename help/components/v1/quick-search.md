@@ -4,9 +4,9 @@ description: クイック検索コンポーネントは、Web サイトに検索
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

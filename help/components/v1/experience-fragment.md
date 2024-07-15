@@ -2,15 +2,15 @@
 title: エクスペリエンスフラグメントコンポーネント（v1）
 description: エクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者はエクスペリエンスフラグメントのバリエーションをページに追加できます。
 role: Architect, Developer, Admin, User
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '780'
+exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
-
-# エクスペリエンスフラグメントコンポーネント （v1） {#experience-fragment-component}
+# エクスペリエンスフラグメントコンポーネント（v1） {#experience-fragment-component}
 
 コンテンツ作成者は、コアコンポーネントのエクスペリエンスフラグメントコンポーネントを使用して、ローカライズされたサイト構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをページに配置できます。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 この動作は、テンプレートに追加されたエクスペリエンスフラグメントコンポーネントに限られます。個々のコンテンツページに追加されたエクスペリエンスフラグメントコンポーネントは、コンポーネント内で設定されたとおりのエクスペリエンスフラグメントレンディションをレンダリングします。
 
 * エクスペリエンスフラグメントコンポーネントのローカライゼーション機能の仕組みの例については、[以下のセクション](#example)を参照してください。
-* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能ページ](/help/get-started/localization.md)を参照してください。
+* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能](/help/get-started/localization.md)を参照してください。
 
 ### 例 {#example}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 このとき、エクスペリエンスフラグメントコンポーネント `/content/experience-fragments/wknd/us/en/footerTextXf` がテンプレートに配置される場合、ローカライズされたページをそのテンプレートに基づいて作成すると、ローカライズされたコンテンツページに対応するローカライズされたエクスペリエンスフラグメントが自動的にレンダリングされます。
 
-したがって、同じテンプレートを使用する `/content/wknd/ch/de` 下のコンテンツページに移動すると、`/content/experience-fragments/wknd/us/en/footerTextXf` ではなく `/content/experience-fragments/wknd/ch/de/footerTextXf` がレンダリングされます。
+したがって、同じテンプレートを使用する `/content/wknd/ch/de` 配下のコンテンツページに移動すると、`/content/experience-fragments/wknd/us/en/footerTextXf` ではなく `/content/experience-fragments/wknd/ch/de/footerTextXf` がレンダリングされます。
 
 ### フォールバック {#fallback}
 

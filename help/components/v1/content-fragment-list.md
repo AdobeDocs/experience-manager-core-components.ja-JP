@@ -2,15 +2,15 @@
 title: コンテンツフラグメントリストコンポーネント（v1）
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 96%
 
 ---
 
-
-# コンテンツフラグメントリストコンポーネント （v1） {#content-fragment-list-component}
+# コンテンツフラグメントリストコンポーネント（v1） {#content-fragment-list-component}
 
 コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)のリストを表示できます。
 
@@ -73,14 +73,14 @@ ht-degree: 100%
 >[!NOTE]
 >コアコンポーネントのリリース 2.7.0 では、「**並べ替え順**」、「**並べ替え順序**」、「**最大項目数**」の各オプションが導入されました。
 
-### 「エレメント」タブ
+### 「要素」タブ
 
 （「**最大項目数**」フィールドで制限されない限り）デフォルトでは、コンテンツフラグメントモデルのすべての要素がリストに含まれます。「**エレメント**」タブを使用すると、含める特定の要素を指定できます。
 
 ![コンテンツフラグメントリストコンポーネントの編集ダイアログの「要素」タブ](/help/assets/content-fragment-list-elements.png)
 
 * **エレメント** - 指定したリストに含まれているコンテンツフラグメントの要素のみ表示されます。
-   * 「**追加**」ボタンをクリックまたはタップすると、新しい要素を追加できます。
+   * 「**追加**」ボタンをクリックまたはタップして、新しい要素を追加します。
    * 「**削除**」ボタンをクリックまたはタップすると、選択した要素を削除できます。
    * 「**順序**」ハンドルをドラッグすると、要素の順序を並べ替えることができます。
 

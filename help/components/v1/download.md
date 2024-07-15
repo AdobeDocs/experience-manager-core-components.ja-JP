@@ -2,15 +2,15 @@
 title: ダウンロードコンポーネント（v1）
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: ht
-source-wordcount: '644'
+exl-id: ebd63522-218d-4784-bea0-1627c64f5230
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
 
-
-# ダウンロードコンポーネント （v1） {#download-component}
+# ダウンロードコンポーネント（v1） {#download-component}
 
 コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 

@@ -6,7 +6,7 @@ hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
 
@@ -45,11 +45,11 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの Google reCAPTCHA コアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームの Google reCAPTCHA コアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログを使用すると、訪問者の Google reCAPTCHA エクスペリエンスを簡単にカスタマイズできます。また、簡単に Google reCAPTCHA オプションを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
+設定ダイアログを使用すると、訪問者の Google reCAPTCHA エクスペリエンスを簡単にカスタマイズできます。 また、簡単に Google reCAPTCHA オプションを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
 
 ### 「基本」タブ {#basic-tab}
 

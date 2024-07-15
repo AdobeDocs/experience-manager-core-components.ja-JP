@@ -2,15 +2,15 @@
 title: ナビゲーションコンポーネント（v1）
 description: ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '1430'
-ht-degree: 100%
+exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 99%
 
 ---
 
-
-# ナビゲーションコンポーネント （v1） {#navigation-component}
+# ナビゲーションコンポーネント（v1） {#navigation-component}
 
 ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 Web サイトは、多くの場合、様々な地域向けに複数の言語で提供されています。通常、ローカライズされた各ページには、ページテンプレートの一部としてナビゲーション要素が含まれます。ナビゲーションコンポーネントは、サイトのあらゆるページのテンプレートに一度配置すれば、グローバル化されたサイト構造に基づいて、ローカライズされた個々のページに自動的に適応できます。
 
 * ナビゲーションコンポーネントのローカライゼーション機能の仕組みの例については、[以下のセクション](#example-localization)を参照してください。
-* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能ページ](/help/get-started/localization.md)を参照してください。
+* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能](/help/get-started/localization.md)を参照してください。
 
 ### 例 {#example-localization}
 

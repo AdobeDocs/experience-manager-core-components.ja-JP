@@ -4,8 +4,8 @@ description: ティーザーコンポーネントでは、画像、タイトル�
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: ht
-source-wordcount: '745'
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 * **コールトゥアクション**
    * **コールトゥアクションを無効化** - 「**コールトゥアクション**」オプションをコンテンツ作成者に表示しません
-* **エレメント**
+* **要素**
    * **プリタイトルを非表示にする** - 「**プリタイトル**」オプションをコンテンツ作成者に表示しません
    * **タイトルを非表示にする** - 「**タイトル**」オプションをコンテンツ作成者に表示しません
       * オンにすると、「**タイトルのタイプ**」は非表示になります

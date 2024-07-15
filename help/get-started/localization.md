@@ -4,8 +4,8 @@ description: コアコンポーネントのローカライゼーション機能
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '723'
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ AEM とそのコアコンポーネントのすべてのローカライゼーシ�
    * ここでは、フッターを表すフラグメントのオーサリング言語で、エクスペリエンスフラグメントコンポーネントにフラグメントパスを指定します。
    * 指定したフラグメントパスと、ローカライズされたページ構造を反映するエクスペリエンスフラグメントの構造に基づいて、コンポーネントは、対応するローカライズされたコンテンツを自動的に検索します。
 
-   ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
+  ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## ページ {#pages}
 

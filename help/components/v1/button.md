@@ -2,15 +2,15 @@
 title: ボタンコンポーネント（v1）
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
-
-# ボタンコンポーネント （v1） {#button-component}
+# ボタンコンポーネント（v1） {#button-component}
 
 コアコンポーネントのボタンコンポーネントを使用すると、ページ上にボタンアイテムを設定および表示することができます。
 

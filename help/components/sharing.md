@@ -4,8 +4,8 @@ description: コアコンポーネントのソーシャル共有コンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '400'
+workflow-type: tm+mt
+source-wordcount: '373'
 ht-degree: 100%
 
 ---

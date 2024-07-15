@@ -2,13 +2,13 @@
 title: アダプティブフォームのコアコンポーネントのカスタマイズ
 description: 組織に合わせて調整された機能を実装するための、アダプティブフォームのコアコンポーネントの拡張または作成について説明します。
 role: Architect, Developer, Admin
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: ht
-source-wordcount: '707'
+exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
+source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+workflow-type: tm+mt
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
-
 
 # アダプティブフォームのコアコンポーネントのカスタマイズ
 
@@ -57,4 +57,3 @@ ht-degree: 100%
 1. **実稼動環境でカスタムコンポーネントをデプロイ**
 
    ローカル開発環境でコンポーネントをテストしたら、実稼動環境にコンポーネントをデプロイします。
-

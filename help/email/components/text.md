@@ -4,9 +4,9 @@ description: メールテキストコンポーネントは、インプレース�
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: ht
-source-wordcount: '2291'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2261'
+ht-degree: 99%
 
 ---
 
@@ -374,7 +374,7 @@ ht-degree: 100%
 コンポーネントに対して次の書式設定オプションを有効または無効にすることができます。
 
 * テーブル
-* リスト（箇条書き、数値、インデント、アウトデント）
+* リスト（箇条書き、番号、インデント、インデント、インデント）
 * 整列（左、右、中央）
 * 太字、斜体、下線
 * リンク（およびリンク解除）
@@ -404,4 +404,4 @@ ht-degree: 100%
 
 ## 「スタイル」タブ {#styles-tab}
 
-テキストコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+メールテキストコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。

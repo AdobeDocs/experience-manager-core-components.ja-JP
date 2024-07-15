@@ -4,8 +4,8 @@ description: コアコンポーネントは、基盤コンポーネントとは�
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
-workflow-type: ht
-source-wordcount: '1267'
+workflow-type: tm+mt
+source-wordcount: '1227'
 ht-degree: 100%
 
 ---

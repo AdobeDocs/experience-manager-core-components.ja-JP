@@ -4,8 +4,8 @@ description: ナビゲーションコンポーネントを使用すれば、グ�
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1544'
+workflow-type: tm+mt
+source-wordcount: '1540'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 100%
 Web サイトは、多くの場合、様々な地域向けに複数の言語で提供されています。通常、ローカライズされた各ページには、ページテンプレートの一部としてナビゲーション要素が含まれます。ナビゲーションコンポーネントは、サイトのあらゆるページのテンプレートに一度配置すれば、グローバル化されたサイト構造に基づいて、ローカライズされた個々のページに自動的に適応できます。
 
 * ナビゲーションコンポーネントのローカライゼーション機能の仕組みの例については、[以下のセクション](#example-localization)を参照してください。
-* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能ページ](/help/get-started/localization.md)を参照してください。
+* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能](/help/get-started/localization.md)を参照してください。
 
 ### 例 {#example-localization}
 

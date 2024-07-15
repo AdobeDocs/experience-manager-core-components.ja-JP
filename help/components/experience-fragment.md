@@ -4,8 +4,8 @@ description: エクスペリエンスフラグメントコンポーネントを�
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '893'
+workflow-type: tm+mt
+source-wordcount: '885'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 100%
 この動作は、テンプレートに追加されたエクスペリエンスフラグメントコンポーネントに限られます。個々のコンテンツページに追加されたエクスペリエンスフラグメントコンポーネントは、コンポーネント内で設定されたとおりのエクスペリエンスフラグメントレンディションをレンダリングします。
 
 * エクスペリエンスフラグメントコンポーネントのローカライゼーション機能の仕組みの例については、[以下のセクション](#example)を参照してください。
-* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能ページ](/help/get-started/localization.md)を参照してください。
+* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能](/help/get-started/localization.md)を参照してください。
 
 ### 例 {#example}
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 このとき、エクスペリエンスフラグメントコンポーネント `/content/experience-fragments/wknd/us/en/footerTextXf` がテンプレートに配置される場合、ローカライズされたページをそのテンプレートに基づいて作成すると、ローカライズされたコンテンツページに対応するローカライズされたエクスペリエンスフラグメントが自動的にレンダリングされます。
 
-したがって、同じテンプレートを使用する `/content/wknd/ch/de` 下のコンテンツページに移動すると、`/content/experience-fragments/wknd/us/en/footerTextXf` ではなく `/content/experience-fragments/wknd/ch/de/footerTextXf` がレンダリングされます。
+したがって、同じテンプレートを使用する `/content/wknd/ch/de` 配下のコンテンツページに移動すると、`/content/experience-fragments/wknd/us/en/footerTextXf` ではなく `/content/experience-fragments/wknd/ch/de/footerTextXf` がレンダリングされます。
 
 ### フォールバック {#fallback}
 

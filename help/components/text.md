@@ -4,9 +4,9 @@ description: テキストコンポーネントは、インプレース編集機�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
-source-wordcount: '2210'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2180'
+ht-degree: 99%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 100%
    * 親フレーム
    * トップフレーム
 
-   リンクを適用する場合はチェックマークをタップまたはクリックし、キャンセルする場合は「x」をタップまたはクリックします。
+  リンクを適用する場合はチェックマークをタップまたはクリックし、キャンセルする場合は「x」をタップまたはクリックします。
 
 ### リンク解除
 
@@ -330,14 +330,14 @@ ht-degree: 100%
 * 挿入された画像の変更オプション
 * HTML ソースの編集
 
-### フォーマ {#formatting}
+### フォーマット {#formatting}
 
 ![デザインダイアログの書式設定](/help/assets/text-design-formatting.png)
 
 コンポーネントに対して次の書式設定オプションを有効または無効にすることができます。
 
 * テーブル
-* リスト（箇条書き、数値、インデント、アウトデント）
+* リスト（箇条書き、番号、インデント、インデント、インデント）
 * 整列（左、右、中央）
 * 太字、斜体、下線
 * リンク（およびリンク解除）

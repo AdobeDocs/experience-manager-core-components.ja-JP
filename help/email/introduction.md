@@ -4,9 +4,9 @@ description: メールコアコンポーネントの柔軟性を利用して、�
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '409'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 要件 {#requirements}
 
-電子メールコアコンポーネントには、以下の要件があります。
+メールコアコンポーネントには、以下の要件があります。
 
 | AEM | Adobe Campaign | コアコンポーネント |
 |---|---|---|
@@ -46,11 +46,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe Campaign の統合は AEM as a Cloud Service ではサポートされていないので、電子メールコアコンポーネントも同様に AEM as a Cloud Service ではサポートされません。
+>Adobe Campaign の統合は AEM as a Cloud Service ではサポートされていないので、メールコアコンポーネントも同様に AEM as a Cloud Service ではサポートされません。
 
 ## メールコンポーネント {#components}
 
-電子メールコアコンポーネントの現在のバージョンには、以下のコンポーネントが含まれています。
+メールコアコンポーネントの現在のバージョンには、以下のコンポーネントが含まれています。
 
 * [ページ](components/page.md)
 * [コンテナ](components/container.md)
@@ -65,4 +65,4 @@ ht-degree: 100%
 
 ## インストールと使用 {#installation-usage}
 
-電子メールコアコンポーネントのインストールについて詳しくは、[電子メールコアコンポーネントの使用](using.md)ドキュメントを参照してください。
+メールコアコンポーネントのインストールについて詳しくは、[メールコアコンポーネントの使用](using.md)ドキュメントを参照してください。
