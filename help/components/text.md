@@ -3,10 +3,10 @@ title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 99%
+source-wordcount: '2181'
+ht-degree: 98%
 
 ---
 
@@ -301,9 +301,9 @@ ht-degree: 99%
 
 ![インライン編集の例](/help/assets/text-edit-inline-example.png)
 
-### 設定と ID {#setting-id}
+### ID の設定 {#setting-id}
 
-このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+HTMLおよび [ データレイヤー ](/help/developing/data-layer/overview.md) 内のコンポーネントの一意の ID を制御できます。
 
 * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
 * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
