@@ -4,9 +4,9 @@ description: テキストコンポーネントは、インプレース編集機�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -303,7 +303,7 @@ ht-degree: 98%
 
 ### ID の設定 {#setting-id}
 
-HTMLおよび [ データレイヤー ](/help/developing/data-layer/overview.md) 内のコンポーネントの一意の ID を制御できます。
+このオプションでは、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の ID を制御できます。
 
 * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
 * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
@@ -337,7 +337,7 @@ HTMLおよび [ データレイヤー ](/help/developing/data-layer/overview.md)
 コンポーネントに対して次の書式設定オプションを有効または無効にすることができます。
 
 * テーブル
-* リスト（箇条書き、番号、インデント、インデント、インデント）
+* リスト（箇条書き、数値、インデント、アウトデント）
 * 整列（左、右、中央）
 * 太字、斜体、下線
 * リンク（およびリンク解除）
