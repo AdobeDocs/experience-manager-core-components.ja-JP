@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 100%
+source-wordcount: '2205'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,6 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | アダプティブフォームフラグメント | ✔️ | ✔️ | | 基盤コンポーネントの場合は、アセットブラウザーから[フラグメントを追加](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)できます。 |
 | アダプティブフォーム reCAPTCHA | ✔️ | ✔️ | ✔️ | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して、[Google reCaptcha をフォームに追加](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)します。 |
 | ボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| CAPTCHA | ✔️ |  |  | 基盤コンポーネントの場合は、Captcha コンポーネントを使用して、[Google reCaptcha をフォームに追加](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)します。 |
 | グラフ | ✔️ | | | |
 | チェックボックス | ✔️ | ✔️ | | |
 | チェックボックスグループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 基盤コンポーネントの場合は、チェックボックスコンポーネントを使用して、複数のチェックボックスを追加します。 |
@@ -105,12 +104,11 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | パネル | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | パスワードボックス | ✔️ | | ✔️ | |
 | 電話 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| 前へボタン | ✔️ | | | 複数のパネル間を移動するには、「次へ」ボタンと「前へ」ボタンに[ウィザードコンポーネント](/help/adaptive-forms/components/wizard.md)を使用します。 |
-| ラジオボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| ラジオボタングループ | | | ✔️ | |
+| 前へボタン | ✔️ | ✔️ | | 複数のパネル間を移動するには、「次へ」ボタンと「前へ」ボタンに[ウィザードコンポーネント](/help/adaptive-forms/components/wizard.md)を使用します。 |
+| ラジオボタングループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | リセットボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 手書き署名 | ✔️ | | | |
-| 区切り文字 | ✔️ | | | |
+| 区切り文字 | ✔️ | | | WCM [Seperator](/help/components/separator.md) コンポーネントの使用 |
 | 送信ボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 概要ステップ | ✔️ | | | |
 | スイッチ | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -118,7 +116,6 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | 利用条件 | ✔️ | ✔️ | | |
 | テキスト | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | テキストボックス | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| タイトル | ✔️ | | | コアコンポーネントの場合は、[フォームタイトル](/help/adaptive-forms/components/form-title.md)コンポーネントを使用します。 |
 | Turnstile Captcha | ✔️ | | | [Turnstile Captcha](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) は、基盤コンポーネントでのみ使用できます。 |
 | 垂直タブ | ✔️ | ✔️ | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティにある[左側のタブ（垂直タブ）レイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 | ウィザード | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティで[ウィザードレイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
