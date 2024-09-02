@@ -3,16 +3,16 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 39c9dd3374ea7c31b9f03cc02e883ab26f463368
+source-git-commit: 1df528aec070c21c836f2fd6a92c7c6460f30798
 workflow-type: tm+mt
-source-wordcount: '3079'
-ht-degree: 100%
+source-wordcount: '3087'
+ht-degree: 99%
 
 ---
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.25.4 で、[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) および[オンプレミス AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ja) のインストールと互換性があります。
+コアコンポーネントは、[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) および [ オンプレミス AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ja) インストールと互換性があります。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024 年 7 月 31 日（Pt） |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | これは、一部の IT エラーを修正するマイナーリリースです。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年5月10日（PT） |
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | これは、一部の IT エラーを修正するマイナーリリースです。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年5月9日（PT） |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | このリリースでは、Dynamic Media で名前付きスマート切り抜きのサポートが追加され、パフォーマンスおよびアクセシビリティの向上と、様々なバグ修正が含まれます。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年5月2日（PT） |
