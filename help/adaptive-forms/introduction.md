@@ -4,9 +4,9 @@ description: アダプティブフォームのコアコンポーネントの柔�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2205'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | ラジオボタングループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | リセットボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 手書き署名 | ✔️ | | | |
-| 区切り文字 | ✔️ | | | WCM [Seperator](/help/components/separator.md) コンポーネントの使用 |
+| 区切り文字 | ✔️ | | | WCM [区切り文字](/help/components/separator.md)コンポーネントを使用します |
 | 送信ボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 概要ステップ | ✔️ | | | |
 | スイッチ | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
