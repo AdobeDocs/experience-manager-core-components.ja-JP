@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキスト入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 100%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのアコーディオンコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.12 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsのテキストボックスコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -50,6 +50,8 @@ To experience the Accordion Component as well as see examples of its configurati
 ## 設定ダイアログ {#configure-dialog}
 
 設定ダイアログを使用すると、訪問者のテキスト入力エクスペリエンスを簡単にカスタマイズできます。 また、シームレスなユーザーエクスペリエンスを実現するために、簡単にテキスト入力オプションを定義できます。
+
+### 「基本」タブ
 
 ![「基本」タブ](/help/adaptive-forms/assets/textinput_basictab.png)
 

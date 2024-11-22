@@ -3,9 +3,9 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
-workflow-type: ht
-source-wordcount: '2205'
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
+workflow-type: tm+mt
+source-wordcount: '2198'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 ## アダプティブフォームのコアコンポーネント
 
-アダプティブフォームのコアコンポーネントとは、Adobe Experience Manager WCM コアコンポーネントの基盤上に構築され、BEM に準拠した、オープンソースの 29 個のコンポーネントのセットです。これらは、ユーザーのデバイス、ブラウザー、画面サイズに適合するアダプティブフォームの作成に使用するように特別に設計されています。
+アダプティブフォームのコアコンポーネントとは、Adobe Experience Manager WCM コアコンポーネントの基盤上に構築され、BEM に準拠した、オープンソースの 30 個のコンポーネントのセットです。これらは、ユーザーのデバイス、ブラウザー、画面サイズに適合するアダプティブフォームの作成に使用するように特別に設計されています。
 
 これらのコンポーネントは、テキストフィールド、チェックボックス、ドロップダウンメニューなど、様々なフォームフィールドオプションを提供することで、例外的なデータ取得および登録エクスペリエンスを作成するために使用できます。 また、検証、条件付きロジック、レスポンシブデザインなどの機能も含まれ、ユーザーフレンドリーで使いやすいフォームを作成できます。
 
@@ -97,12 +97,10 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | ヘッダー | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 水平タブ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティで[上部のタブ（水平タブ）レイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 | 画像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
-| 画像選択 | ✔️ | | | |
 | 次へボタン | ✔️ | ✔️ | | 複数のパネル間を移動するには、「次へ」ボタンと「前へ」ボタンに[ウィザードコンポーネント](/help/adaptive-forms/components/wizard.md)を使用します。 |
 | 数値ボックス | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | 数値ステッパー | ✔️ | | | |
 | パネル | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
-| パスワードボックス | ✔️ | | ✔️ | |
 | 電話 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | 前へボタン | ✔️ | ✔️ | | 複数のパネル間を移動するには、「次へ」ボタンと「前へ」ボタンに[ウィザードコンポーネント](/help/adaptive-forms/components/wizard.md)を使用します。 |
 | ラジオボタングループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
@@ -120,7 +118,9 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | 垂直タブ | ✔️ | ✔️ | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティにある[左側のタブ（垂直タブ）レイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 | ウィザード | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティで[ウィザードレイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 
-
+<!--| Password Box | ✔️ | ✔️| ✔️ | |
+| Image Choice | ✔️ | | | |
+-->
 
 
 >[!NOTE]

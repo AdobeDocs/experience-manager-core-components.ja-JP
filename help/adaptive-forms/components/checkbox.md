@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - チェッ�
 description: アダプティブフォームのチェックボックスコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 99%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 100%
 ## 設定ダイアログ {#configure-dialog}
 
 設定ダイアログでは、訪問者向けのチェックボックスエクスペリエンスを簡単にカスタマイズできます。 また、簡単にチェックボックスのオプションを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
+
+### 「基本」タブ
 
 ![「基本」タブ](/help/adaptive-forms/assets/checkbox-basic.png)
 

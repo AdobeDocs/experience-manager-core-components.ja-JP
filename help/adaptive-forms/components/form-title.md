@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - タイト�
 description: アダプティブフォームのタイトルコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのアコーディオンコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.12 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブForms タイトルコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|

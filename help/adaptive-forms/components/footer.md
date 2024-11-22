@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - フッタ�
 description: アダプティブフォームのフッターコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのアコーディオンコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.12 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsのフッターコアコンポーネントは、Cloud Service用のコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|

@@ -1,43 +1,48 @@
 ---
-title: アダプティブフォームのコアコンポーネント - 電話入力、電話
-description: アダプティブフォームの電話入力コアコンポーネントの使用またはカスタマイズ。
+title: アダプティブ Forms コアコンポーネント – パスワードボックス
+description: アダプティブFormsのパスワードボックスコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+hide: true
+hidefromtoc: true
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 98%
+source-wordcount: '1916'
+ht-degree: 90%
 
 ---
 
+# パスワードボックスコンポーネント
 
-# 電話コンポーネント{#telephone-input-adaptive-forms-core-component}
+<span class="preview"> これはプレリリース機能で、 [プレリリースチャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features). </span>
 
-アダプティブフォームの電話コアコンポーネントを使用すると、ユーザーは電話番号を入力できます。電話の入力フィールドには、電話番号に関連するモバイルデバイスのキーボードが表示されます。 電話番号の形式と説明を指定するために、「パターン」や「プレースホルダー」などの追加の属性を使用してカスタマイズできます。
+パスワードボックスコンポーネントを使用すると、ユーザーは機密情報を入力および編集でき、通常はプライバシーのためにマスクされます。 パスワードコンポーネントは、データの正確性を確保するために、様々な検証ルールを使用して設定できます。 フォームで一般的に使用されるパスワードフィールドは簡単で、データセキュリティを強化します。
 
-電話入力フィールドは、連絡手段として電話番号が必要な連絡先フォーム、登録フォーム、その他のフォームで一般的に使用されます。 また、「pattern」属性に基づいて、ブラウザーが電話番号の長さや形式などの特定の制約を適用できるので、ユーザーが必ず有効な電話番号を入力するようにもできます。
+**例**
 
-![例](/help/adaptive-forms/assets/emailid-example.png)
+![passwordbox の例 ](/help/adaptive-forms/assets/password.png)
 
-## 使用方法 {#reasons-to-use-telephone-input}
+目のアイコンをクリックすると、入力したパスワードテキストの表示を切り替えることができます。 セキュリティを強化しながら、ユーザーが機密情報を正確に入力できるようにします。
 
-アダプティブフォームで電話入力フィールドを使用する一般的な理由は次のとおりです。
+## 使用方法
 
-- **連絡先情報**：電話入力フィールドは通常、連絡手段としてユーザの電話番号を収集するために使用されます。
+アダプティブフォームでパスワードボックスコンポーネントを使用する理由はいくつかあります。
 
-- **データの正確性の向上**：電話入力フィールドを使用すると、フォームで電話番号の形式に特定の制約を適用して、入力されるデータを正確かつ完全なものにすることができます。
+- **安全なデータ収集**：パスワードボックスフィールドは、パスワード、PIN、その他の機密エントリなどの機密情報を収集し、プライバシーのためにマスクされた文字を表示するために使用されます。
 
-- **ユーザーエクスペリエンスの向上**：電話入力フィールドは、ユーザが電話番号を入力する際の明確で直感的な方法を提供し、ユーザが連絡先情報を素早く簡単に入力できるようにすることで、ユーザエクスペリエンスを向上させます。
+- **使いやすい**：パスワードボックスフィールドを使用すると、ユーザーは情報を画面に公開することなく、安全に入力および編集できます。
 
-## バージョンと互換性 {#version-and-compatibility}
+- **柔軟性**：パスワードボックスコンポーネントは、最小文字数、特殊文字、その他のカスタム検証など、セキュリティ要件を満たすように設定して、強力なデータ保護と正確性を確保できます。
 
-アダプティブForms Phone コアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+<!--
+## Version and Compatibility {#version-and-compatibility}
 
-| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
+The Adaptive Forms Password box Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -45,15 +50,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの電話入力コアコンポーネントの最新情報については、 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+上部コアコンポーネントの「アダプティブフォーム」タブに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、訪問者による電話入力の操作を簡単にカスタマイズできます。 また、電話入力オプションを簡単に定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
+設定ダイアログを使用すると、訪問者のテキスト入力エクスペリエンスを簡単にカスタマイズできます。 また、シームレスなユーザーエクスペリエンスを実現するために、簡単にテキスト入力オプションを定義できます。
 
 ### 「基本」タブ
 
-![「基本」タブ](/help/adaptive-forms/assets/telephoneinput_basictab.png)
+![「基本」タブ](/help/adaptive-forms/assets/password-basic.png)
 
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
@@ -64,8 +69,8 @@ To experience the Accordion Component as well as see examples of its configurati
   ![リッチテキストのサポート](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
-- **プレースホルダーテキスト** - フォームコンポーネント内のプレースホルダーテキストとは、入力フィールド内に表示される短いラベルまたはプロンプトのことで、そのフィールドに入力する必要のある情報の種類に関するヒントとしてユーザーに表示されます。 ユーザーがフィールドへの入力を開始するとプレースホルダーテキストが消え、フィールドが空のままの場合は再び表示されます。 ユーザーに視覚的なキューを提供しますが、フィールドの永続的なラベルや値としては機能しません。
 
+- **プレースホルダーテキスト** - フォームコンポーネント内のプレースホルダーテキストとは、入力フィールド内に表示される短いラベルまたはプロンプトのことで、そのフィールドに入力する必要のある情報の種類に関するヒントとしてユーザーに表示されます。 ユーザーがフィールドへの入力を開始するとプレースホルダーテキストが消え、フィールドが空のままの場合は再び表示されます。 ユーザーに視覚的なキューを提供しますが、フィールドの永続的なラベルや値としては機能しません。
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。 このオプションを使用すると、データソースを更新せずにデータを保存できます。 また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
 
@@ -75,13 +80,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
-- **デフォルト値** - このオプションを使用すると、フォームフィールドにデフォルト値を追加できます。 「**無効なコンポーネント**」または「**読み取り専用コンポーネント**」が選択されている場合は、デフォルト値が画面に表示されます。 ユーザーがフォームフィールドに値を入力しない場合、この値はフォームの送信時に送信されます。
-
-- **自動入力属性**：このオプションを使用すると、ユーザーは、保存された情報に基づいてフォームフィールド内に自動的に入力される値を入力できます。
-
 ### 「検証」タブ {#validation-tab}
 
-![「検証」タブ](/help/adaptive-forms/assets/telephoneinput_validationtab.png)
+![「検証」タブ](/help/adaptive-forms/assets/password-validation.png)
 
 - **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に値を入力する必要があります。 このオプションが選択されていると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」は選択できません。
 
@@ -97,24 +98,25 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **最小文字数エラーメッセージ** - **最小文字数エラーメッセージ**&#x200B;ダイアログボックスでは、「**最小文字数**」オプションで指定した値を下回る文字数を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
 
-「**検証パターン**」オプションでは、入力した電話番号を検証するパターンを指定できます。入力された電話番号は、「**パターン**」オプションで指定された値に対して検証されます。電話番号が「**パターン**」オプションで指定された値での検証に失敗すると、エラーメッセージが画面に表示されます。
+「**検証パターン**」オプションを使用すると、入力したテキストを検証するパターンを入力できます。 テキストが「**パターン**」オプションに入力された値の検証に失敗すると、エラーメッセージが画面に表示されます。
 
-- **パターン** - 電話番号に対して許可される検証パターンを指定できます。ここでは正規表現も使用できます。
+- **パターン** - このオプションを使用すると、テキストで許可される検証パターンを指定できます。 ここでは正規表現も使用できます。
 
-- **エラーメッセージ** - 入力した電話番号が、「**パターン**」オプションで指定された値に対する検証に失敗した場合に画面に表示されるメッセージを追加できます。
+- **エラーメッセージ** - このオプションを使用すると、入力したテキストが「**パターン**」オプションで指定した値での検証に失敗した場合に、画面に表示されるメッセージを指定できます
 
 ### 「ヘルプコンテンツ」タブ {#help-content-tab}
 
-![「ヘルプコンテンツ」タブ](/help/adaptive-forms/assets/telephoneinput_helptab.png)
+![「ヘルプコンテンツ」タブ](/help/adaptive-forms/assets/password-help.png)
 
 - **短い説明** - 短い説明は、特定のフォームフィールドの目的に関する追加の情報や説明を提供する簡単な説明文です。 これにより、ユーザーは、フィールドに入力するデータの種類を理解しやすくなります。また、入力された情報が有効で目的の条件を満たしていることを確認できるように、ガイドラインや例を提供できます。 デフォルトでは、短い説明は非表示になっています。 「**短い説明を常に表示**」オプションを有効にすると、コンポーネントの下に説明が表示されます。
+
 - **短い説明を常に表示** - このオプションを有効にすると、コンポーネントの下に短い説明が表示されます。
 
 - **ヘルプテキスト** - ヘルプテキストとは、フォームフィールドの正しい入力を支援するためにユーザーに提供される追加の情報やガイダンスを指します。 コンポーネントの横に配置されているヘルプアイコン（i）をクリックすると表示されます。 ユーザーがフィールドの要件や制約を理解できるように設計されているヘルプテキストは、フォームフィールドのラベルやプレースホルダーテキストよりも詳細な情報を提供できます。 また、フォームへの入力をより簡単かつ正確にするための提案や例を提供することも可能です。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
-![「アクセシビリティ」タブ](/help/adaptive-forms/assets/telephoneinput_accessibilitytab.png)
+![「アクセシビリティ」タブ](/help/adaptive-forms/assets/password-accessibilty.png)
 
 - **スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する、支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。 このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。 スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
    - **カスタムテキスト**：ARIA アクセシビリティラベルにカスタムテキストを使用する場合は、このオプションを選択します。 このオプションを選択すると、「カスタムテキスト」ダイアログボックスが表示されます。 関連情報は、「カスタムテキスト」ダイアログボックスで追加できます。
@@ -125,21 +127,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、電話コンポーネントの CSS スタイルを定義および管理できます。
+デザインダイアログは、テキストボックスコンポーネントの CSS スタイルを定義および管理するために使用します。
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブフォームの電話コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブフォームのテキストボックスコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-![デザインダイアログ](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
+![「スタイル」タブ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **デフォルトの CSS クラス**：アダプティブフォームの電話コアコンポーネントで、デフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームのテキストボックスコアコンポーネントのデフォルト CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。 アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
 ### カスタムプロパティ
 
-![カスタムプロパティダイアログ](/help/adaptive-forms/assets/telephoneinput-customproperties.png)
+![カスタムプロパティダイアログ](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 カスタムプロパティを使用すると、フォームテンプレートを使用してカスタム属性（キーと値のペア）をアダプティブフォームのコアコンポーネントに関連付けることができます。 カスタムプロパティは、コンポーネントのヘッドレスレンディションのプロパティセクションに反映されます。 これにより、カスタム属性値に基づいて適応する動的なフォーム動作を作成できます。 例えば、開発者は、モバイル、デスクトップ、web プラットフォーム上にヘッドレスフォームコンポーネントの様々なレンディションをデザインできるので、幅広いデバイスでのユーザーエクスペリエンスが大幅に向上します。
 
@@ -151,17 +153,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
 
-### 「形式」タブ {#format-tab}
+### 「形式」タブ {#formats-tab}
 
-「形式」タブでは、デフォルトとカスタムの形式を指定できます。
+「形式」タブでは、デフォルトおよびカスタムの日付形式を指定できます。
 
-![「形式」タブ](/help/adaptive-forms/assets/telephoneinput_format.png)
-
-### 「検証パターン」タブ {#validation-patterns-tab}
-
-「検証パターン」タブを使用すると、特定の形式で値を入力したり、特定の条件を満たすことができます。一部のオプションはデフォルトで使用可能で、対応するチェックボックスをオンにすることで選択できます。さらに、カスタマイズされた形式を追加するには、「**追加**」ボタンをクリックします。
-
-![垂直タブ](/help/adaptive-forms/assets/telephoneinput-validationpatterns.png)
+![「形式」タブ](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 <!--
 
@@ -170,7 +166,6 @@ To experience the Accordion Component as well as see examples of its configurati
 * [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
-
 
 ## 関連記事 {#related-articles}
 

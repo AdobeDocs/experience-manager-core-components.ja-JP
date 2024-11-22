@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - 送信ボ�
 description: アダプティブフォームの送信ボタンコアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 100%
+source-wordcount: '1510'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのアコーディオンコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.12 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブForms送信ボタンコアコンポーネントは、Cloud Service用のコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
