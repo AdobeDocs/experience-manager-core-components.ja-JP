@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 98%
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
       + [アダプティブフォームの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
-      + [アダプティブFormsのパスワードボックス](/help/adaptive-forms/components/password-box.md)
+      + [アダプティブフォームのパスワードボックス](/help/adaptive-forms/components/password-box.md)
       + [アダプティブフォームパネル](/help/adaptive-forms/components/panel.md)
       + [アダプティブフォームの CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
