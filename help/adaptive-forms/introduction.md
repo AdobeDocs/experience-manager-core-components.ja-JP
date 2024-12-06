@@ -4,9 +4,9 @@ description: アダプティブフォームのコアコンポーネントの柔�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2215'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | 脚注プレースホルダー | ✔️ | | | |
 | フォームコンテナ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 基盤コンポーネントの場合は、[ルートパネルコンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel)を使用します。 |
 | フォームタイトル | ✔️ | ✔️ | | 基盤コンポーネントの場合は、タイトルコンポーネントを使用します。 |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 基盤コンポーネントの場合、基盤コンポーネントベースのフォーム用に [ アダプティブフォームを hCaptcha に接続する ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html) ことができます。 |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 基盤コンポーネントの場合は、基盤コンポーネントベースのフォーム用に[アダプティブフォームを hCaptcha に接続](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html?lang=ja)できます。 |
 | ヘッダー | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 水平タブ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 基盤コンポーネントの場合は、パネルコンポーネントのプロパティで[上部のタブ（水平タブ）レイアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)を設定できます。 |
 | 画像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
