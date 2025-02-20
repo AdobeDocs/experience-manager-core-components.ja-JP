@@ -3,16 +3,22 @@ title: アダプティブ画像サーブレット
 description: コアコンポーネントで画像配信にアダプティブ画像サーブレットを使用する方法と、その使用を最適化する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 98%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
 # アダプティブ画像サーブレット {#adaptive-image-servlet}
 
 コアコンポーネントで画像配信にアダプティブ画像サーブレットを使用する方法と、その使用を最適化する方法について説明します。
+
+>[!WARNING]
+>
+>パフォーマンス上の理由から、画像を DAM に保存し、web に最適化された画像配信を使用することを強くお勧めします。
+>
+>画像をコンポーネントノードの直下に保存することは、一時的な使用を意図しています。 アダプティブ画像サーブレットでの処理を減らすための DAM レンディションを活用せず、Web に最適化された画像配信のパフォーマンスを向上させないので、パフォーマンス上の問題が発生する可能性があります。
 
 ## アダプティブ画像サーブレットか Web に最適化された画像配信か {#options}
 
