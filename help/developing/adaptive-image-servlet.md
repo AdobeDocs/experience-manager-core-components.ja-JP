@@ -3,10 +3,10 @@ title: アダプティブ画像サーブレット
 description: コアコンポーネントで画像配信にアダプティブ画像サーブレットを使用する方法と、その使用を最適化する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 1. 元の参照先アセットと同じ MIME タイプのものだけが選択されます。
    * 例えば、元のアセットが PNG の場合、PNG レンディションのみ考慮されます。
 1. これらのレンディションの寸法が考慮されて、画像を表示するコンテナのサイズと比較されます。
-   1. レンディションがコンテナサイズ以上の場合、候補レンディションのリストに追加されます。
-   1. レンディションがコンテナサイズより小さい場合は無視されます。
-   1. これらの条件により、レンディションはアップスケールされなくなります。アップスケールされると、画質に影響が出るおそれがあります。
+1. レンディションがコンテナサイズ以上の場合、候補レンディションのリストに追加されます。
+1. レンディションがコンテナサイズより小さい場合は無視されます。
+1. これらの条件により、レンディションはアップスケールされなくなります。アップスケールされると、画質に影響が出るおそれがあります。
 1. アダプティブ画像サーブレットは、候補リストから最も小さいファイルサイズのレンディションを選択します。
 
 ## レンディション選択の最適化 {#optimizing-rendition-selection}
@@ -56,4 +56,4 @@ ht-degree: 100%
 
 `Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
 
-[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。
+[AEM プロジェクトアーキタイプ ](/help/developing/archetype/overview.md) のサンプル Dispatcher設定には、既にこの設定が含まれています。
