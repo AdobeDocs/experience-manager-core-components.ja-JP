@@ -4,9 +4,9 @@ description: コアコンポーネントで画像配信にアダプティブ画�
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,6 +54,6 @@ ht-degree: 97%
 
 ## Last-Modified ヘッダーの使用 {#last-modified}
 
-`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
+`Last-Modified` ヘッダーを介した条件付きリクエストは、アダプティブ画像サーブレットでサポートされていますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
 
-[AEM プロジェクトアーキタイプ ](/help/developing/archetype/overview.md) のサンプル Dispatcher設定には、既にこの設定が含まれています。
+[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。
