@@ -3,10 +3,10 @@ title: コアコンポーネントの概要
 description: コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: b723ad29b035bbff58c56c8a5cce3a2b50e8b2b2
-workflow-type: ht
-source-wordcount: '808'
-ht-degree: 100%
+source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネントリリース | AEM as a Cloud Service | AEM 6.5 パッチレベル | Java SE バージョン | Maven バージョン |
 |---------|---------|---------|---------|---------|
-| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | 継続的 | 6.5.21.0+ | 8、11 | 3.3.9 以上 |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 継続的 | 6.5.21.0+ | 8、11 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
