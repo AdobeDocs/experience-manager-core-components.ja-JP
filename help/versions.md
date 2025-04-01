@@ -4,9 +4,9 @@ description: コアコンポーネントはリリースとして公開されま�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3019'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2025 年 3 月 17 日（Pt） |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2025年3月17日（PT） |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 継続的 | 11 | 2024年9月10日（PT） |
 | [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 継続的 | 11 | 2024年7月31日（PT） |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | これは、一部の IT エラーを修正するマイナーリリースです。 | - | 6.5.21.0+ | 継続的 | 8、11 | 2024年5月10日（PT） |
