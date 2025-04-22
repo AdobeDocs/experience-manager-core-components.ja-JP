@@ -3,10 +3,10 @@ title: パンくずコンポーネント
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '800'
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | 互換性あり | 互換性あり |
-| [v2](v2/breadcrumb.md) | 互換性あり | 互換性あり | 互換性あり |
-| [v1](v1/breadcrumb-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- | --- |--- |---|---|
+| v3 | - | 互換性あり | 互換性あり | 互換性あり |
+| [v2](v2/breadcrumb.md) | 互換性あり | 互換性あり | - | 互換性あり |
+| [v1](v1/breadcrumb-v1.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -103,6 +103,6 @@ ht-degree: 100%
 
 パンくずコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-パンくずコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+パンくずコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

@@ -3,10 +3,10 @@ title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: ht
-source-wordcount: '2181'
-ht-degree: 100%
+source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
+workflow-type: tm+mt
+source-wordcount: '2185'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり |
-| [v1](v1/text-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| [v1](v1/text-v1.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -369,6 +369,6 @@ ht-degree: 100%
 
 テキストコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-テキストコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+テキストコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

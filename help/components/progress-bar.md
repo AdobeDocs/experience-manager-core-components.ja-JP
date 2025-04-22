@@ -3,10 +3,10 @@ title: プログレスバーコンポーネント
 description: プログレスバーコンポーネントは、目標に向かう進行状況を視覚的に表します
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり | 互換性あり |
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -56,6 +56,6 @@ ht-degree: 100%
 
 プログレスバーコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-プログレスバーコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+プログレスバーコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

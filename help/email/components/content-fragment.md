@@ -1,12 +1,12 @@
 ---
-title: メールコンテンツフラグメントコンポーネント
+title: 'メールコンテンツフラグメントコンポーネント '
 description: メールコンテンツフラグメントコンポーネントを使用すると、コンテンツ内のコンテンツフラグメントを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 99%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 互換性あり | - |
+| コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 互換性あり | 互換性あり | - |
 
 メールコアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
 

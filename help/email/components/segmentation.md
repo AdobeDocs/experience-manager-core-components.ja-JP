@@ -3,10 +3,10 @@ title: メールセグメント化コンポーネント
 description: メールセグメント化コンポーネント
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 互換性あり | - |
+| コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 互換性あり | 互換性あり | - |
 
 ### 技術的詳細 {#technical-details}
 
@@ -135,6 +135,6 @@ ht-degree: 100%
 * **セグメント条件名** - 条件の説明
 * **セグメント条件** - Adobe Campaign のパーソナライゼーション変数に基づいて、満たす必要がある実際の条件
    * [Adobe Campaign Standard のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
-   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/
+   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。]&#x200B;(https://experienceleague.adobe.com/docs/
 * **削除** - タップしてクリックすると、条件を削除できます
 * **並べ替え** - タップまたはクリックしてドラッグすると、順序を並べ替えることができます

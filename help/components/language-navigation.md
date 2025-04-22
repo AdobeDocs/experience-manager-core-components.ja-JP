@@ -3,10 +3,10 @@ title: 言語ナビゲーションコンポーネント
 description: 言語ナビゲーションコンポーネントは、言語や国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 99%
 
 ---
 
@@ -29,10 +29,10 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | 互換性あり | 互換性あり |
-| [v1](v1/language-navigation.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
+| [v1](v1/language-navigation.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -124,6 +124,6 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 ![言語ナビゲーションコンポーネントの編集ダイアログの「スタイル」タブ](/help/assets/language-navigation-edit-styles.png)
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-言語ナビゲーションコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+言語ナビゲーションコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

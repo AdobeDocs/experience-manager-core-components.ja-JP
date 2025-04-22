@@ -3,10 +3,10 @@ title: メールエクスペリエンスフラグメントコンポーネント
 description: メールエクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者は、ローカライズされたコンテンツ構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをコンテンツに配置できます。
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 互換性あり | - |
+| コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 互換性あり | 互換性あり | - |
 
 メールコアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
 

@@ -3,10 +3,10 @@ title: 区切り文字コンポーネント
 description: 区切り文字コンポーネントは、ページ上のコンポーネント間に区切りを作成します
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり | 互換性あり |
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 

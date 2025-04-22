@@ -3,10 +3,10 @@ title: メール画像コンポーネント
 description: メール画像コンポーネントは、インプレース編集機能を備えたアダプティブ画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 100%
+source-wordcount: '1625'
+ht-degree: 99%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 互換性あり | - |
+| コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
 

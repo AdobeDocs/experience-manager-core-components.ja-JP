@@ -1,12 +1,12 @@
 ---
-title: ソーシャル共有コンポーネント
+title: 'ソーシャル共有コンポーネント '
 description: コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョンおよびコンポーネントの各バージョンと互換性のある AEM バージョンを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり、非推奨 | 互換性あり、非推奨 |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり、非推奨 | 互換性あり、非推奨 | 互換性あり、非推奨 |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 

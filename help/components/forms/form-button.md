@@ -3,10 +3,10 @@ title: フォームボタンコンポーネント
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、フォームに非表示フィールドを含めることができます。
 role: Architect, Developer, Admin, User
 exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり |
-| [v1](/help/components/v1/form-button-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | Campatible | 互換性あり |
+| [v1](/help/components/v1/form-button-v1.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 

@@ -3,10 +3,10 @@ title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | - | 互換性あり | 互換性あり |
-| [v1](v1/teaser.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
+| [v1](v1/teaser.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 ## リモートアセットのサポート {#remote-assets}
 
@@ -126,6 +126,6 @@ ht-degree: 100%
 
 ティーザーコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-ティーザーコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+ティーザーコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

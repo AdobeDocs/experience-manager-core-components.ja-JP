@@ -1,12 +1,12 @@
 ---
-title: リストコンポーネント
+title: 'リストコンポーネント '
 description: コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 100%
+source-wordcount: '1204'
+ht-degree: 99%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
 | v4 | - | 互換性あり | 互換性あり |
-| [v3](/help/components/v3/list.md) | - | 互換性あり | 互換性あり |
-| [v2](/help/components/v2/list.md) | 互換性あり | 互換性あり | 互換性あり |
-| [v1](/help/components/v1/list-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| [v3](/help/components/v3/list.md) | - | 互換性あり | 互換性あり | 互換性あり |
+| [v2](/help/components/v2/list.md) | 互換性あり | 互換性あり | - | 互換性あり |
+| [v1](/help/components/v1/list-v1.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -218,6 +218,6 @@ ht-degree: 100%
 
 画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-リストコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+リストコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

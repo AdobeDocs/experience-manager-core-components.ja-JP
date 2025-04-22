@@ -3,10 +3,10 @@ title: コアコンポーネントの概要
 description: コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
-workflow-type: ht
-source-wordcount: '807'
-ht-degree: 100%
+source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
+workflow-type: tm+mt
+source-wordcount: '811'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | 用途が広い | コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja#content-policies)で定義します。 |
 | [レスポンシブ](responsive.md) | すべてのコアコンポーネントは完全にレスポンシブに動作するように設計されており、デバイス間でのシームレスなエクスペリエンスを実現します。 |
-| 追跡可能 | [Adobe Client Data Layer との統合](/help/developing/data-layer/overview.md)により、訪問者エクスペリエンスのあらゆる側面を追跡できます。 |
+| 追跡可能 | [アドビクライアントデータレイヤーとの統合](/help/developing/data-layer/overview.md)により、訪問者エクスペリエンスのあらゆる側面を追跡できます。 |
 | 高いアクセシビリティ | [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします（[既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)を参照）。 |
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
 | Web アプリ対応 | [効率化された JSON 出力](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=ja)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ja)も依然として可能です。 |
@@ -108,9 +108,9 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## システム要件 {#system-requirements}
 
-| コアコンポーネントリリース | AEM as a Cloud Service | AEM 6.5 パッチレベル | Java SE バージョン | Maven バージョン |
-|---------|---------|---------|---------|---------|
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 継続的 | 6.5.21.0+ | 8、11 | 3.3.9 以上 |
+| コアコンポーネントリリース | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE バージョン | Maven バージョン |
+|---|---|---|---|---|---|
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 継続的 | 6.5 LTS GA | 6.5.21.0+ | 8、11 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 

@@ -3,9 +3,9 @@ title: コンテンツフラグメントリストコンポーネント
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '806'
 ht-degree: 98%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 98%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|----|---|---|
-| v2 | - | 互換性あり | 互換性あり |
-| [v1](v1/content-fragment-list.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|----|---|---|---|
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
+| [v1](v1/content-fragment-list.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 

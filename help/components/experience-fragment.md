@@ -3,10 +3,10 @@ title: エクスペリエンスフラグメントコンポーネント
 description: エクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者はエクスペリエンスフラグメントのバリエーションをページに追加できます。
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | 互換性あり | 互換性あり |
-| [v1](v1/experience-fragment.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
+| [v1](v1/experience-fragment.md) | 互換性あり | 互換性あり | - | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
