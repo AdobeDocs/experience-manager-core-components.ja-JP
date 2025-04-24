@@ -3,10 +3,10 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、アダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 99%
+source-wordcount: '2062'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,14 @@ ht-degree: 99%
 >[!TIP]
 >
 >デフォルトでは、画像コンポーネントはアダプティブ画像サーブレットを利用します。仕組みについて詳しくは、[アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)を参照してください。
+
+### v2 との違い {#v2-differences}
+
+画像コンポーネントのバージョン 2 とは異なり、バージョン 3 はブラウザーネイティブの応答を使用します。 つまり、幅の異なる画像のソースのセットがブラウザーに提供され、ブラウザーが最適な画像を選択します。
+
+ほとんどの場合、ブラウザーは、サーバーから小さい幅の画像を取得する代わりに、小さいビューポートに合わせて大きい幅をローカルで縮小することを好みます。 このような状況が想定され、画像コンポーネントをアートディレクション（ビューポートごとに異なる画像や切り抜き）に使用すべきでない理由があります。
+
+詳しくは [ 画像コンポーネントの技術ドキュメントを参照 ](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) てください。
 
 ## Dynamic Media サポート {#dynamic-media}
 
