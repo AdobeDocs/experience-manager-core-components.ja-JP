@@ -3,7 +3,7 @@ title: コアメールコンポーネントのバージョン
 description: コアメールコンポーネントはリリースとして公開されています。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 87%
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # コアメールコンポーネントのバージョン {#core-components-versions}
 
-メールコアコンポーネントの現在のリリースは 1.3.0 で、AEM 6.5 およびAEM 6.5 LTS と互換性があります。
+メールコアコンポーネントの現在のリリースは 1.3.0 で、オンプレミスと AMS の両方のAEM 6.5 と互換性があります。
 
 要件とインストールについて詳しくは、メールコアコンポーネントの概要ドキュメントの[要件セクション](/help/email/introduction.md#requirements)ならびにメールコアコンポーネントのユーザーガイドドキュメントの[インストールセクション](/help/email/using.md#installing-the-email-core-components)を参照してください。
 
