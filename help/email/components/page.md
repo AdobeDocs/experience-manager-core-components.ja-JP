@@ -3,9 +3,9 @@ title: メールページコンポーネント
 description: メールページコンポーネント
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '780'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 | コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 互換性あり | 互換性あり | - |
+| v1 | 互換性あり | - | - |
 
 メールコアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
 

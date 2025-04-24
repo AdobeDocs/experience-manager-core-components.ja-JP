@@ -3,9 +3,9 @@ title: メールテキストコンポーネント
 description: メールテキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '2265'
+source-wordcount: '2264'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 | コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 互換性あり | 互換性あり | - |
+| v1 | 互換性あり | - | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)のドキュメントを参照してください。
 

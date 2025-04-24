@@ -3,9 +3,9 @@ title: メールボタンコンポーネント
 description: メールボタンコンポーネントを使用すると、コンテンツ内のボタン項目を設定および表示できます。
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 | コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 互換性あり | 互換性あり | - |
+| v1 | 互換性あり | - | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)のドキュメントを参照してください。
 
