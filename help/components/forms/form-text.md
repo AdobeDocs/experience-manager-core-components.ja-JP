@@ -4,9 +4,9 @@ description: コアコンポーネントのフォームテキストコンポー�
 role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

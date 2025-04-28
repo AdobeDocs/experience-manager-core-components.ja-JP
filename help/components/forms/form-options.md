@@ -4,9 +4,9 @@ description: コアコンポーネントのフォームオプションコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

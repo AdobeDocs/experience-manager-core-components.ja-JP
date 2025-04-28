@@ -4,9 +4,9 @@ description: コアコンポーネントの問題の解決策を入手し、他�
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

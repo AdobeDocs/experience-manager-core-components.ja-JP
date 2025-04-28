@@ -4,9 +4,9 @@ description: コアコンポーネントのタイトルコンポーネントは�
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

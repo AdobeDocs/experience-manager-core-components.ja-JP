@@ -4,9 +4,9 @@ description: プログレスバーコンポーネントは、目標に向かう�
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
