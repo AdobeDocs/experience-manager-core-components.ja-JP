@@ -6,7 +6,7 @@ exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 87%
 
 | リリース | 説明 | AEM 6.5 | AEM 6.5 LTS | コアコンポーネント | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | このリリースでは、埋め込み jsoup ライブラリが更新されています。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8、11 | 2024 年 6 月 28 日（Pt） |
-| [1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | このメンテナンスリリースでは、セレクターフィルタリングが修正され、`SelectorParseException` ラーが解決されたほか、その他のエラーも修正されました。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8、11 | 2023 年 5 月 24 日（Pt） |
+| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | このリリースでは、埋め込みの jsoup ライブラリがアップデートされています。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8、11 | 2024年6月28日（PT） |
+| [1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | このメンテナンスリリースでは、セレクターフィルタリングが修正され、`SelectorParseException` が解決され、その他のエラーが修正されました。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8、11 | 2023年5月24日（PT） |
 | [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | このリリースでは、Selenium e2e テストが導入され、多くのバグ修正が含まれています。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8、11 | 2022年11月29日（PT） |
 | [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 初めての公開リリースについては、リリースノートを参照してください | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8、11 | 2022年11月29日（PT） |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | 修正 | 6.5.13.0+ |  |  | 8、11 | 2022年9月30日（PT） |
