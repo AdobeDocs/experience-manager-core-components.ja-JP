@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### Adobe XD 用 UI キットの使用 {#ui-kit}
 
-カスタムコンポーネントの必要性が明らかになった時点で、[こちらからダウンロードできる](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) Adobe XD 用 UI キットを活用して、設計者がコアコンポーネントを構成要素として使用してワイヤフレームや設計の作成を開始できるようにします。
+カスタムコンポーネントの必要性が明らかになった時点で、[こちらからダウンロードできる](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=ja) Adobe XD 用 UI キットを活用して、設計者がコアコンポーネントを構成要素として使用してワイヤフレームや設計の作成を開始できるようにします。
 
 ## 強力な機能を見落とさない {#powerful-features}
 

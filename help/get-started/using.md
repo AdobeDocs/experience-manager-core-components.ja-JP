@@ -46,7 +46,7 @@ AEM as a Cloud Service でコアコンポーネントを使用する際には、
 * 既にプロジェクトが `/apps` にコアコンポーネントを含んでいる場合は、[プロジェクトの調整が必要になる可能性があります。](/help/developing/overview.md#via-aemaacs)
 * 今はコアコンポーネントが `/libs` に含まれるようになっていますが、同じパスのオーバーレイを `/apps` に作成することはお勧めしません。コンポーネントの一部をカスタマイズする必要がある場合は、代わりに[プロキシコンポーネントパターン](/help/developing/guidelines.md#proxy-component-pattern)を使用してください。
 * [目次コンポーネント](/help/components/tableofcontents.md)でそのコンテンツをレンダリングするには、OSGi でフィルターを設定する必要があります。
-   * 詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)を参照してください。
+   * 詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)を参照してください。
 
 ### AEM 6.5 以前 {#aem-65}
 
