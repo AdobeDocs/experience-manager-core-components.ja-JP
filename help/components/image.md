@@ -4,9 +4,9 @@ description: コアコンポーネントの画像コンポーネントは、ア�
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2062'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +49,11 @@ ht-degree: 95%
 
 ### v2 との違い {#v2-differences}
 
-画像コンポーネントのバージョン 2 とは異なり、バージョン 3 はブラウザーネイティブの応答を使用します。 つまり、幅の異なる画像のソースのセットがブラウザーに提供され、ブラウザーが最適な画像を選択します。
+画像コンポーネントのバージョン 2 とは異なり、バージョン 3 ではブラウザーネイティブの応答性が使用されます。つまり、様々な幅の画像ソースのセットがブラウザーに用意され、ブラウザーで最適な画像を選択します。
 
-ほとんどの場合、ブラウザーは、サーバーから小さい幅の画像を取得する代わりに、小さいビューポートに合わせて大きい幅をローカルで縮小することを好みます。 このような状況が想定され、画像コンポーネントをアートディレクション（ビューポートごとに異なる画像や切り抜き）に使用すべきでない理由があります。
+ほとんどの場合、ブラウザーでは、サーバーからより小さい幅の画像を取得する代わりに、より大きい幅の画像をローカルでサイズを小さくして、より小さいビューポートに合わせることが優先されます。これは想定されている結果です。このため、画像コンポーネントをアートディレクション（ビューポートごとに異なる画像／切り抜き）に使用すべきではありません。
 
-詳しくは [ 画像コンポーネントの技術ドキュメントを参照 ](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) てください。
+詳しくは、[画像コンポーネントの技術ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings)を参照してください。
 
 ## Dynamic Media サポート {#dynamic-media}
 
