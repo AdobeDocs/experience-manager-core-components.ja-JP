@@ -135,6 +135,6 @@ ht-degree: 100%
 * **セグメント条件名** - 条件の説明
 * **セグメント条件** - Adobe Campaign のパーソナライゼーション変数に基づいて、満たす必要がある実際の条件
    * [Adobe Campaign Standard のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
-   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=ja
 * **削除** - タップしてクリックすると、条件を削除できます
 * **並べ替え** - タップまたはクリックしてドラッグすると、順序を並べ替えることができます
