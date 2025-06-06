@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - ファイ�
 description: アダプティブフォームのファイル添付コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: ht
-source-wordcount: '2043'
-ht-degree: 100%
+source-git-commit: 8a5133d8551f9e35340b40aa00876cfa0231deb5
+workflow-type: tm+mt
+source-wordcount: '2061'
+ht-degree: 97%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのファイル添付コアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降向けコアコンポーネント 1.1.12 の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブ Formsのファイル添付コアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
-| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms以降 |
 |---|---|---|
 | v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -103,6 +103,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **ファイルタイプのエラーメッセージ** - 「**許可されるファイルタイプ**」オプションに含まれないファイル形式をアップロードした場合に表示されるエラーメッセージを指定できます。
 
+>
+>
+> ファイルのタイプを許可されたファイルタイプ形式に変更して送信すると、フォームの送信中にエラーがスローされる。
+
+
 ### 「ヘルプコンテンツ」タブ {#help-content-tab}
 
 ![「ヘルプコンテンツ」タブ](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
@@ -157,7 +162,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 + アダプティブフォーム {#adaptive-forms}
    + [はじめに](/help/adaptive-forms/introduction.md)
    + [バージョン履歴](/help/adaptive-forms/version.md)
-   + アダプティブフォームのコンポーネント {#adaptive-forms-components}
+   + アダプティブ Forms コンポーネント {#adaptive-forms-components}
       + [アダプティブフォームのアコーディオン](/help/adaptive-forms/components/accordion.md)
       + [アダプティブフォームのボタン](/help/adaptive-forms/components/button.md)
       + [アダプティブフォームのチェックボックス](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [アダプティブフォームの CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
       + [アダプティブフォームのリセットボタン](/help/adaptive-forms/components/reset-button.md)
+      + [アダプティブフォームのレビュー](/help/adaptive-forms/components/review.md)
       + [アダプティブフォームの送信ボタン](/help/adaptive-forms/components/submit-button.md)
       + [アダプティブフォームのスイッチ](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [アダプティブフォームの電話](/help/adaptive-forms/components/phone.md)
@@ -150,7 +151,7 @@ ht-degree: 100%
    + [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)
    + [Web に最適化された画像配信](/help/developing/web-optimized-image-delivery.md)
    + [リモートアセットのサポート](/help/developing/remote-assets.md)
-   + Adobe Client Data Layer {#data-layer}
+   + Adobe クライアントデータレイヤー {#data-layer}
       + [データレイヤーの概要](/help/developing/data-layer/overview.md)
       + [データレイヤーとの統合](/help/developing/data-layer/integrations.md)
       + [データレイヤーの拡張](/help/developing/data-layer/extending.md)

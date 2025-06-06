@@ -3,9 +3,9 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
-workflow-type: ht
-source-wordcount: '2215'
+source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
+workflow-type: tm+mt
+source-wordcount: '2123'
 ht-degree: 100%
 
 ---
@@ -105,6 +105,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 | 前へボタン | ✔️ | ✔️ | | 複数のパネル間を移動するには、「次へ」ボタンと「前へ」ボタンに[ウィザードコンポーネント](/help/adaptive-forms/components/wizard.md)を使用します。 |
 | ラジオボタングループ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | リセットボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| レビュー |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | 手書き署名 | ✔️ | | | |
 | 区切り文字 | ✔️ | | | WCM [区切り文字](/help/components/separator.md)コンポーネントを使用します |
 | 送信ボタン | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
