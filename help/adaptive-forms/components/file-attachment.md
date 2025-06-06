@@ -3,7 +3,7 @@ title: アダプティブフォームのコアコンポーネント - ファイ�
 description: アダプティブフォームのファイル添付コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: a1a274b152b3a0fe0bcc72858721ef9830487bb9
+source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 97%
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -101,12 +101,8 @@ To experience the Accordion Component as well as see examples of its configurati
    - **削除** - ファイルタイプを削除する場合に、タップまたはクリックします。
    - **並べ替え** - ファイルタイプの順序を並べ替える場合は、タップまたはクリックしてドラッグします。
 
+  ファイルのタイプを許可されたファイルタイプ形式に変更して送信すると、フォームの送信中にエラーがスローされる。
 - **ファイルタイプのエラーメッセージ** - 「**許可されるファイルタイプ**」オプションに含まれないファイル形式をアップロードした場合に表示されるエラーメッセージを指定できます。
-
->
->
-> ファイルのタイプを許可されたファイルタイプ形式に変更して送信すると、フォームの送信中にエラーがスローされる。
-
 
 ### 「ヘルプコンテンツ」タブ {#help-content-tab}
 
@@ -162,7 +158,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
