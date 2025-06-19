@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 92%
    + [PDF ビューア](/help/components/pdf-viewer.md)
    + [プログレスバー](/help/components/progress-bar.md)
    + [クイック検索](/help/components/quick-search.md)
-   + [区切り文字](/help/components/separator.md)
+   + [区切り記号](/help/components/separator.md)
    + [ソーシャルメディア共有](/help/components/sharing.md)
    + [目次](/help/components/tableofcontents.md)
    + [テキスト](/help/components/text.md)
@@ -105,7 +105,7 @@ ht-degree: 92%
 + アダプティブフォーム {#adaptive-forms}
    + [はじめに](/help/adaptive-forms/introduction.md)
    + [バージョン履歴](/help/adaptive-forms/version.md)
-   + アダプティブ Forms コンポーネント {#adaptive-forms-components}
+   + アダプティブフォームのコンポーネント {#adaptive-forms-components}
       + [アダプティブフォームのアコーディオン](/help/adaptive-forms/components/accordion.md)
       + [アダプティブフォームのボタン](/help/adaptive-forms/components/button.md)
       + [アダプティブフォームのチェックボックス](/help/adaptive-forms/components/checkbox.md)
