@@ -3,7 +3,8 @@ title: メールコアコンポーネントの使用
 description: メールコアコンポーネントの基本的なインストール、設定および使用について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
@@ -67,7 +68,7 @@ Adobe Campaign がメールコアコンポーネントに基づいてメール�
 
 メールコンポーネントをインストールし、Adobe Campaign との統合を設定したら、メールコンポーネントを使用して AEM でメールコンテンツを作成したあと、Adobe Campaign を使用してそのコンテンツを受信者に送信できます。 以下は、そのワークフローの概要です。
 
-| 手順 | 説明 | ソリューション |
+| ステップ | 説明 | ソリューション |
 |---|---|---|
 | 1 | 作成者は、フォルダーとメールコンテンツで構成される自由形式の階層構造をページとして作成します。 | AEM |
 | 2 | [テンプレートエディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)を使用して、作成者は、このページテンプレートから生成されるすべてのメールページで共有されるメールのヘッダーやフッターを設定します。 | AEM |

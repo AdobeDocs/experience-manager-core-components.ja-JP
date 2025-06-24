@@ -1,29 +1,32 @@
 ---
-title: コアコンポーネントでの Adobe Client Data Layer の使用
-description: コアコンポーネントでの Adobe Client Data Layer の使用
+title: コアコンポーネントでのアドビクライアントデータレイヤーの使用
+description: コアコンポーネントでのアドビクライアントデータレイヤーの使用
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
 ---
 
-# コアコンポーネントでの Adobe Client Data Layer の使用 {#data-layer-core-components}
 
-Adobe Client Data Layer の目標は、あらゆるスクリプトであらゆる種類のデータを表示およびアクセスできる標準化された方法を提供し、Web サイトを測定する際の手間を軽減することです。
+# コアコンポーネントでのアドビクライアントデータレイヤーの使用 {#data-layer-core-components}
 
-Adobe Client Data Layer はプラットフォームに依存しませんが、AEM で使用するためにコアコンポーネントに完全に統合されています。
+アドビクライアントデータレイヤーの目標は、あらゆるスクリプトであらゆる種類のデータを表示およびアクセスできる標準化された方法を提供し、web サイトを測定する際の手間を軽減することです。
 
-Adobe Client Data Layer のコードは、コアコンポーネントと同様、開発者向けドキュメントと共に GitHub で入手できます。このドキュメントでは、コアコンポーネントがデータレイヤーとやり取りする方法の概要について説明しますが、技術的な詳細は GitHub ドキュメントに従います。
+アドビクライアントデータレイヤーはプラットフォームに依存しませんが、AEM で使用するためにコアコンポーネントに完全に統合されています。
+
+アドビクライアントデータレイヤーのコードは、コアコンポーネントと同様、開発者向けドキュメントと共に GitHub で入手できます。このドキュメントでは、コアコンポーネントがデータレイヤーとやり取りする方法の概要について説明しますが、技術的な詳細は GitHub ドキュメントに従います。
 
 >[!TIP]
 >
->Adobe Client Data Layer の詳細については、[GitHub リポジトリのリソースを参照してください。](https://github.com/adobe/adobe-client-data-layer)
+>アドビクライアントデータレイヤーの詳細については、[GitHub リポジトリのリソースを参照してください。](https://github.com/adobe/adobe-client-data-layer)
 >
->Adobe Client Data Layer とコアコンポーネントの統合に関する技術的な詳細については、コアコンポーネントリポジトリの [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) ファイルを参照してください。
+>アドビクライアントデータレイヤーとコアコンポーネントの統合に関する技術的な詳細については、コアコンポーネントリポジトリの [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) ファイルを参照してください。
+
+{{traditional-aem}}
 
 ## インストールとアクティベーション {#installation-activation}
 

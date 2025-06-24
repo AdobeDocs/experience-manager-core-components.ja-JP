@@ -1,9 +1,9 @@
 ---
-title: コアコンポーネントのカスタマイズ
+title: 'コアコンポーネントのカスタマイズ '
 description: コアコンポーネントには、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンがいくつか実装されています。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 # コアコンポーネントのカスタマイズ{#customizing-core-components}
 
 [コアコンポーネント](overview.md)には、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンがいくつか実装されています。
+
+{{traditional-aem}}
 
 ## 柔軟なアーキテクチャ {#flexible-architecture}
 

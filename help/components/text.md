@@ -3,16 +3,19 @@ title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '2185'
 ht-degree: 100%
 
 ---
 
+
 # テキストコンポーネント {#text-component}
 
 コアコンポーネントのテキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 

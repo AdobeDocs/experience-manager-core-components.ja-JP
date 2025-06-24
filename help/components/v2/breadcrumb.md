@@ -1,14 +1,16 @@
 ---
-title: パンくずコンポーネント（v2）
+title: 'パンくずコンポーネント（v2） '
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
 ---
+
 
 # パンくずコンポーネント（v2）  {#breadcrumb-component}
 
@@ -87,6 +89,6 @@ ht-degree: 100%
 
 パンくずコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-パンくずコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+パンくずコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

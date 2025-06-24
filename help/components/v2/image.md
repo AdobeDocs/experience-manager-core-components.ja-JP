@@ -3,12 +3,14 @@ title: 画像コンポーネント（v2）
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 100%
 
 ---
+
 
 # 画像コンポーネント（v2） {#image-component}
 
@@ -248,6 +250,6 @@ ht-degree: 100%
 
 画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-画像コンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+画像コンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

@@ -3,12 +3,13 @@ title: コンテンツフラグメントコンポーネント
 description: コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、コンテンツフラグメントを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 100%
 
 ---
+
 
 # コンテンツフラグメントコンポーネント {#content-fragment-component}
 
@@ -17,6 +18,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >コアコンポーネントのリリース 2.4.0 以前は、コンテンツフラグメントコンポーネントはコアコンポーネントの拡張機能として提供されており、別途ダウンロードして明示的に有効にする必要がありました。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 

@@ -3,7 +3,8 @@ title: Campaign 変数
 description: キャンペーン変数をプレースホルダーとして使用して、パーソナライズされたメールコンテンツを作成します。
 role: Architect, Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%

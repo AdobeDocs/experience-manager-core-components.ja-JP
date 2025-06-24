@@ -3,18 +3,21 @@ title: アダプティブフォームのコアコンポーネント - Google reC
 description: AEM Forms を使用すると、Google reCAPTCHA サービスでフォームのセキュリティを容易に強化できます。アダプティブフォーム reCaptcha のプロパティについて説明します
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 
 ---
 
+
 # アダプティブフォーム reCAPTCHA {#google-recaptcha}
 
 CAPTCHA（コンピュータと人間を区別する完全に自動化された公開チューリングテスト）は、人間と自動化されたプログラム／ボットを区別するために、オンライントランザクションで一般的に使用されるプログラムです。テストを行ってユーザーの反応を評価し、サイトを使用しているのが人間かボットかを判断します。テストが失敗した場合の続行を防ぎ、ボットによるスパムの投稿や悪意のある目的を防止することで、オンライントランザクションの安全性を高めます。
 
 AEM Forms as a Cloud Service は、アダプティブフォームで Google reCAPTCHA v2 をサポートします。これを使用して、フォームの送信時に CAPTCHA の課題を提示できます
+
+{{traditional-aem}}
 
 ## 使用方法 {#reasons-to-use-google-recaptcha}
 
@@ -67,7 +70,7 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 
   >[!NOTE]
   >
-  > 環境に合わせて Google reCAPTCHA を作成および設定する方法については、[コアコンポーネントに基づく AEM アダプティブフォームでの Google reCAPTCHA の使用](https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)の記事を参照してください。
+  > 環境に合わせて Google reCAPTCHA を作成および設定する方法については、[コアコンポーネントに基づく AEM アダプティブフォームでの Google reCAPTCHA の使用](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)の記事を参照してください。
 
 - **タイプ**：rreCAPTCHA のサイズを選択するには、このオプションを選択します。
    - **標準**：reCAPTCHA ウィジェットの標準の大きいバージョンを参照します。特に画面が大きいデバイスでは、可視性が高く、ユーザーが操作しやすくなります。

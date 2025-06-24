@@ -3,32 +3,18 @@ title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1130'
 ht-degree: 100%
 
 ---
 
 # コアコンポーネントの開発 {#developing-core-components}
 
-## コアコンポーネントを使用すべき状況 {#when-to-use-the-core-components}
+コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
 
-コアコンポーネントはまったく新しい技術であり、複数のメリットがあるので、新しい AEM プロジェクトではコアコンポーネントを使用することをお勧めします。既存のプロジェクトでは、リブランディングや全体的なリファクタリングなど、より大きなプロジェクト作業の一環として移行を行うようにしてください。
-
-そこで、アドビでは次のようなレコメンデーションを提供しています。
-
-* **新規プロジェクト**
-新規プロジェクトでは、常に、コアコンポーネントを使用するよう努めます。コアコンポーネントを直接使用または[拡張](customizing.md)してプロジェクト要件を満たすことができない場合は、コアコンポーネントで規定されているコンポーネントアーキテクチャに従ってカスタムコンポーネントを作成します。他に方法がない場合を除き、[基盤コンポーネント](/help/versions.md#foundation-component-support)を使用しないでください。
-* **既存プロジェクト**
-レコメンデーションは、サイトまたはコンポーネントのリファクタリングが予定されていない限り、[基盤コンポーネント](/help/versions.md#foundation-component-support)を使用し続けることです。\
-  ほとんどの既存プロジェクトで広く使用されているので、基盤コンポーネントは[引き続きサポートされます](/help/versions.md#foundation-component-support)。
-* **新規のカスタムコンポーネント**
-既存の[コアコンポーネントをカスタマイズしてよいか](customizing.md)どうかを評価します。\
-  カスタマイズできない場合のレコメンデーションは、[コンポーネントのガイドライン](guidelines.md)に従って新規のカスタムコンポーネントを作成することです。
-* **既存のカスタムコンポーネント**
-コンポーネントが期待どおりに動作する場合は、それらのコンポーネントをそのままにしておきます。\
-  そうでない場合は、上記の「新規のカスタムコンポーネント」を参照してください。
+{{traditional-aem}}
 
 ## コアコンポーネントの利用でプロジェクトを成功に導く方法 {#how-to-succeed}
 
@@ -130,13 +116,13 @@ AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロ�
 | [カルーセル](https://adobe.com/go/aem_cmp_tech_carousel_v1_jp) | コンテンツ作成者がコンテンツをスライドの回転カルーセルに整理できるようにする | `/libs/foundation/components/carousel` |
 | [コンテンツフラグメント](https://adobe.com/go/aem_cmp_tech_cf_v1_jp) | コンテンツフラグメントを表示できるようにする | `-` |
 | [コンテンツフラグメントリスト](https://adobe.com/go/aem_cmp_tech_cflist_v1_jp) | コンテンツフラグメントのリストを表示できるようにする | `-` |
-| [区切り文字](https://adobe.com/go/aem_cmp_tech_separator_v1_jp) | ページのコンテンツを区切る | `-` |
-| [アコーディオン](https://adobe.com/go/aem_cmp_tech_accordion_v1_jp) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
+| [区切り記号](https://adobe.com/go/aem_cmp_tech_separator_v1_jp) | ページのコンテンツを区切る | `-` |
+| [アコーディオン](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
 | [コンテナ](https://adobe.com/go/aem_cmp_tech_container_v1_jp) | コンテナ内のコンポーネントを整理する | `-` |
-| [ボタン](https://adobe.com/go/aem_cmp_tech_button_v1_jp) | ページ上にボタンを作成する | `-` |
-| [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1_jp) | ダウンロード可能なアセットをページに追加する | `-` |
+| [ボタン](https://adobe.com/go/aem_cmp_tech_button_v1) | ページ上にボタンを作成する | `-` |
+| [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1) | ダウンロード可能なアセットをページに追加する | `-` |
 | [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1_jp) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1_jp) | ページ内に外部リソースを埋め込む | - |
+| [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1) | ページ内に外部リソースを埋め込む | - |
 | [プログレスバー](https://adobe.com/go/aem_cmp_tech_progress_v1) | 目標に対する進捗を視覚的に表現する | - |
 | [PDF ビューア](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_jp) | ページに PDF ドキュメントを表示します。 | - |
 

@@ -4,8 +4,9 @@ description: アダプティブフォームのレビューコアコンポーネ�
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # レビューコンポーネント
 
 アダプティブフォームのレビューコンポーネントを使用すると、フォームを送信する前に、入力した情報を確認、検証できます。これは概要ページとして機能し、構造化された使いやすい形式ですべてのフィールドとその値の読み取り専用ビューを提供します。この機能により、ユーザーは送信の最終処理を行う前にエラーや欠落を特定して修正できるため、フォームの全体的なエクスペリエンスが向上します。 編集アイコンをクリックすると、フォームを送信する前に、入力した情報を変更できます。
+
+{{traditional-aem}}
 
 **例**
 
@@ -76,4 +79,3 @@ ht-degree: 100%
 ## 関連トピック {#see-also}
 
 {{see-also}}
-

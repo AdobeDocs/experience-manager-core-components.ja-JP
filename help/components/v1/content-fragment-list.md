@@ -3,12 +3,14 @@ title: コンテンツフラグメントリストコンポーネント（v1）
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
+
 
 # コンテンツフラグメントリストコンポーネント（v1） {#content-fragment-list-component}
 
@@ -80,7 +82,7 @@ ht-degree: 96%
 ![コンテンツフラグメントリストコンポーネントの編集ダイアログの「要素」タブ](/help/assets/content-fragment-list-elements.png)
 
 * **エレメント** - 指定したリストに含まれているコンテンツフラグメントの要素のみ表示されます。
-   * 「**追加**」ボタンをクリックまたはタップして、新しい要素を追加します。
+   * 「**追加**」ボタンをクリックまたはタップすると、新しい要素を追加できます。
    * 「**削除**」ボタンをクリックまたはタップすると、選択した要素を削除できます。
    * 「**順序**」ハンドルをドラッグすると、要素の順序を並べ替えることができます。
 

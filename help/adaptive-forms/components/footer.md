@@ -3,16 +3,19 @@ title: アダプティブフォームのコアコンポーネント - フッタ�
 description: アダプティブフォームのフッターコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 95%
 
 ---
+
 
 # フッター {#footer-adaptive-forms-core-component}
 
 通常、アダプティブフォームのフッターコンポーネントはフォームの下部に表示される領域であり、著作権表示、関連リソースへのリンク、連絡先情報などの情報が含まれます。 フッターでは、最後の更新日などの追加情報を提供できます。これは、アクセシビリティのニーズを持つユーザーにとって役立ちます。
+
+{{traditional-aem}}
 
 **例**
 
@@ -34,7 +37,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのフッターコアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降向けコアコンポーネント 1.1.12 の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsのフッターコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -44,7 +47,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -109,7 +112,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

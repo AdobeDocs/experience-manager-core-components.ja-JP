@@ -3,12 +3,13 @@ title: アダプティブフォームフラグメント
 description: フォームフラグメントを使用して、フォームセグメントやフィールドのグループを作成し、アダプティブフォーム全体で再利用することで、効率性と再利用性を向上できます。
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1952'
+ht-degree: 98%
 
 ---
+
 
 # アダプティブフォームフラグメントコンポーネント {#form-fragment-component-adaptive-forms-core-component}
 
@@ -25,6 +26,8 @@ ht-degree: 100%
 >
 > 最初から[アダプティブフォームフラグメントを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ja#create-a-fragment)することも、既存のアダプティブフォーム内のパネルをフラグメントとして保存することもできます。
 
+{{traditional-aem}}
+
 ## 使用方法 {#usage}
 
 - **再利用性**：フォームフラグメントを使用する主な利点は、複数のアダプティブフォームでフォームフラグメントを再利用できることです。 フラグメントに対する変更は、そのフラグメントが使用されるすべてのインスタンスに反映されるので、デザインと機能の一貫性を維持するのに役立ちます。
@@ -37,7 +40,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームフラグメントのコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.50 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.26 の一部としてリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブ Forms フラグメントコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.50 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.26 の一部としてリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|

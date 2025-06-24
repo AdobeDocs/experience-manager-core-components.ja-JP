@@ -3,18 +3,21 @@ title: アダプティブフォームのコアコンポーネント - 送信ボ�
 description: アダプティブフォームの送信ボタンコアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1510'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 97%
 
 ---
+
 
 # 送信ボタンコンポーネント {#submit-button}
 
 アダプティブフォームの送信ボタンは、ユーザーがフォームデータをサーバーに送信するためのボタンです。 「送信」ボタンをクリックするとフォームデータがサーバーに送信され、メールの送信やデータベースの更新など、様々な目的で保存、処理、使用することができます。
 
 通常、送信ボタンはフォーム入力プロセスの最後の手順であり、フォームデータをサーバーに送信するプロセスを開始するために使用します。
+
+{{traditional-aem}}
 
 **例**
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームの送信ボタンコアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降向けコアコンポーネント 1.1.12 の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブForms送信ボタンコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -42,7 +45,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 

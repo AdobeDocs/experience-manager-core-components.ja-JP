@@ -3,18 +3,21 @@ title: アダプティブフォームのアコーディオン
 description: アコーディオンを使用すると、長いフォームや複雑なフォームを、より小さく、管理しやすいセクションに分割して整理し、簡略化できます。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 100%
 
 ---
 
+
 # アコーディオンコンポーネント {#accordion-component-adaptive-forms-core-component}
 
 アコーディオンコアコンポーネントを使用すると、アダプティブフォーム内で展開と折りたたみが可能なセクションを作成できます。 多くの場合、長いフォームや複雑なフォームを、より小さく、管理しやすいセクションに分けて整理し、簡略化するために使用されます。 アコーディオンの各セクションは通常、ヘッダーで表示されます。ヘッダーをクリックすると、対応するコンテンツを展開または折りたたむことができます。 任意のコアコンポーネントをコンテンツにすることができます。
 
 ![例](/help/adaptive-forms/assets/example-accordion.png)
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 
@@ -54,7 +57,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 

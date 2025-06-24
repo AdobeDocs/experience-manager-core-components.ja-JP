@@ -3,12 +3,14 @@ title: ナビゲーションコンポーネント（v1）
 description: ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 role: Architect, Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 99%
 
 ---
+
 
 # ナビゲーションコンポーネント（v1） {#navigation-component}
 
@@ -175,6 +177,6 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 ナビゲーションコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-ナビゲーションコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+ナビゲーションコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

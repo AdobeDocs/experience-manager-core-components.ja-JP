@@ -3,12 +3,13 @@ title: アダプティブフォームのコアコンポーネント - ボタン
 description: アダプティブフォームボタンのコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1660'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
+
 
 # ボタンコンポーネント {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ ht-degree: 100%
 アダプティブフォームには、[送信ボタン](/help/adaptive-forms/components/submit-button.md)と[リセットボタン](/help/adaptive-forms/components/reset-button.md)の別々のコンポーネントが備わっているので、ユーザーはフォームを簡単に送信またはリセットできます。 ボタンコンポーネントは、特定のニーズに基づいて、これらのアクションを実行するように柔軟に設定できます。
 
 ユーザーはアダプティブフォームのルールエディターを使用して、ボタンコンポーネントでサポートされているすべてのアクションのリストにアクセスできます。 ルールエディターでは、ボタンがクリックされたとき、フォームが読み込まれたとき、またはフィールド値が変更されたときなど、様々なイベントによってトリガーされるルールを作成できます。 これらのルールを使用して、コンポーネントの表示や非表示、フィールド値の設定、フォームの送信など、様々なアクションを実行できます。
+
+{{traditional-aem}}
 
 **例**
 
@@ -40,7 +43,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのボタンコアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降向けコアコンポーネント 1.1.12 の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsボタンのコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -51,7 +54,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 

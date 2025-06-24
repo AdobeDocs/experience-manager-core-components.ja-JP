@@ -4,12 +4,13 @@ description: コアコンポーネントのパンくずコンポーネントは�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
+
 
 # パンくずコンポーネント（v1） {#breadcrumb-component-v}
 
@@ -35,7 +36,7 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >このドキュメントでは、パンくずコンポーネント v1 について説明します。
->パンくずコンポーネントの現在のバージョンについて詳しくは、[パンくずコンポーネント](/help/components/breadcrumb.md)のドキュメントを参照してください。
+>>パンくずコンポーネントの現在のバージョンについて詳しくは、[パンくずコンポーネント](/help/components/breadcrumb.md)のドキュメントを参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 

@@ -3,18 +3,22 @@ title: アダプティブフォームのコアコンポーネント - ドロッ�
 description: アダプティブフォームのドロップダウンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '2188'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 98%
 
 ---
+
 
 # ドロップダウンリストコンポーネント{#drop-down-list-adaptive-forms-core-component}
 
 アダプティブフォームのドロップダウンリストを使用すると、定義済みオプションのリストから 1 つ以上のオプションを選択できます。 オプションの種類は、文字列、数字またはブール値です。 また、ドロップダウンリストのコンポーネントは、様々な検証値とデフォルト値を持つように設定できます。
 
+{{traditional-aem}}
+
 **例**
+
 ![例](/help/adaptive-forms/assets/drop-down-list.png)
 
 ## 使用方法 {#reasons-to-use-drop-down-list}
@@ -43,7 +47,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのドロップダウリストコアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降向けコアコンポーネント 1.1.12 の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsドロップダウンリストのコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -53,7 +57,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 

@@ -3,8 +3,8 @@ title: アコーディオンコンポーネント
 description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # アコーディオンコンポーネント{#accordion-component}
 
 コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 
@@ -41,7 +43,7 @@ ht-degree: 100%
 
 ## 技術的詳細 {#technical-details}
 
-アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1_jp) を参照してください。
+アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

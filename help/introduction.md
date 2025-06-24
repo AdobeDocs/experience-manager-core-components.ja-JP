@@ -3,21 +3,17 @@ title: コアコンポーネントの概要
 description: コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 7b618358ca4689cb496fec7db6a6ec7cecbc8fdc
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 95%
+source-wordcount: '816'
+ht-degree: 99%
 
 ---
 
 
 # コアコンポーネントの概要{#core-components-introduction}
 
->[!TIP]
->
->**AEMのEdge Delivery Servicesを検討しましたか？**
->
->既存のプロジェクトには、このドキュメントで説明した方法を引き続き使用できます。 Adobeただし、新規プロジェクトの場合は、[Edge Delivery Services.](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/overview) を利用することをお勧めします
+{{traditional-aem}}
 
 Adobe Experience Manager では、コンポーネントは、オーサリングするページのコンテンツを構成する構造要素です。コンポーネントは常に AEM エクスペリエンスの基本要素となってきました。作成者はコンポーネントを使用することで単純かつ強力にページを作成し、開発者は柔軟かつ拡張可能なコンポーネントを開発できます。
 
@@ -48,7 +44,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
 | Web アプリ対応 | [効率化された JSON 出力](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=ja)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ja)も依然として可能です。 |
 | AMP のサポート | コンポーネントには、[AMP 標準に対する組み込みのサポート](/help/developing/amp.md)があり、モバイルエクスペリエンスの高速化に役立ちます。 |
-| デザインキット | [Adobe XD 用 UI キット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=ja)を使用すると、デザイナーはワイヤフレームを作成したあと、[必要に応じてスタイルを設定](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)できます。 |
+| デザインキット | [Adobe XD 用 UI キット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)を使用すると、デザイナーはワイヤフレームを作成したあと、[必要に応じてスタイルを設定](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)できます。 |
 | テーマ適用可能 | コンポーネントは[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)を実装し、マークアップは [BEM CSS の命名規則](https://getbem.com/)に従っています。 |
 | カスタマイズ可能 | いくつかのパターンが用意されているので、HTML の調整から高度な機能の再利用まで、[カスタマイズが容易](developing/customizing.md)になっています。 |
 | バージョン管理 | [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。 |
@@ -83,7 +79,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [コンテンツフラグメントリスト](components/content-fragment-list.md)
 * [埋め込み](components/embed.md)
 * [ソーシャルメディア共有](components/sharing.md)（非推奨）
-* [区切り文字](components/separator.md)
+* [区切り記号](components/separator.md)
 * [プログレスバー](components/progress-bar.md)
 * [PDF ビューア](components/pdf-viewer.md)
 

@@ -3,18 +3,21 @@ title: アダプティブフォームのコアコンポーネント - リセッ�
 description: アダプティブフォームのリセットボタンのコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1551'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1549'
+ht-degree: 97%
 
 ---
+
 
 # リセットボタンコンポーネント {#reset-button}
 
 アダプティブフォームのリセットボタンでは、すべてのフォームフィールドを消去したり、デフォルト値にリセットしたりすることができます。 リセットボタンをクリックすると、フォームフィールドに入力されていたデータが削除され、フィールドが元の状態に戻ります。 通常、リセットボタンは送信ボタンの代わりに使用され、ユーザーが誤ったデータや不要なデータをフォームに入力した場合にやり直すことができます。
 
 ![例](/help/adaptive-forms/assets/example-reset.png)
+
+{{traditional-aem}}
 
 ## 使用方法 {#reasons-to-use-reset-button}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのリセットボタンコアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降向けコアコンポーネント 1.1.12 の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsのリセットボタンコアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -42,7 +45,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 

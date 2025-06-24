@@ -3,18 +3,21 @@ title: アダプティブフォームのコアコンポーネント - ファイ�
 description: アダプティブフォームのファイル添付コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 100%
 
 ---
 
+
 # ファイル添付コンポーネント {#file-attachment-adaptive-forms-core-component}
 
 <span class="preview">**送信された値のデータタイプ**&#x200B;機能は、早期導入プログラムで利用できます。早期導入プログラムに参加し、機能へのアクセスをリクエストするには、公式メール ID から aem-forms-ea@adobe.com にメールを送信してください。</span>
 
 アダプティブフォームのファイル添付コンポーネントを使用すると、ユーザーはローカルコンピューターまたはデバイスからファイルを選択してアップロードできます。ファイル添付コンポーネントは、特定のファイルタイプ、サイズ制限、複数の添付ファイルを許可するように設定できます。
+
+{{traditional-aem}}
 
 **例**
 
@@ -47,7 +50,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -158,7 +161,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

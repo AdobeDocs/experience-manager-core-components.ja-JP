@@ -3,12 +3,14 @@ title: ボタンコンポーネント（v1）
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
 role: Architect, Developer, Admin, User
 exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 98%
 
 ---
+
 
 # ボタンコンポーネント（v1） {#button-component}
 
@@ -37,7 +39,7 @@ ht-degree: 98%
 
 ## 技術的詳細 {#technical-details}
 
-ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_button_v1_jp) を参照してください。
+ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_button_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -72,6 +74,6 @@ ht-degree: 98%
 
 ボタンコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-ボタンコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+ボタンコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

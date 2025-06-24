@@ -3,16 +3,19 @@ title: 埋め込みコンポーネント
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 100%
 
 ---
 
+
 # 埋め込みコンポーネント  {#embed-component}
 
 コアコンポーネントの埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 

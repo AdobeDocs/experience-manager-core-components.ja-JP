@@ -1,14 +1,16 @@
 ---
-title: リストコンポーネント（v2）
+title: 'リストコンポーネント（v2） '
 description: コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-source-git-commit: 241c86240377858a73f4a022368d428da9c11100
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 100%
 
 ---
+
 
 # リストコンポーネント（v2）  {#list-component}
 
@@ -197,6 +199,6 @@ ht-degree: 100%
 
 画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-リストコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+リストコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

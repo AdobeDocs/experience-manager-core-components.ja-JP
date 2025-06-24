@@ -3,16 +3,19 @@ title: PDF ビューアコンポーネント
 description: PDF ビューアコンポーネントを使用すると、PDF ドキュメントを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 
 ---
 
+
 # PDF ビューアコンポーネント {#pdf-viewer-component}
 
 コアコンポーネントの PDF ビューアコンポーネントを使用すると、ページに PDF ドキュメントを含めることができます。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 

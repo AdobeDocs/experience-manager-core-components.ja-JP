@@ -3,16 +3,19 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキスト入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '2120'
 ht-degree: 100%
 
 ---
 
+
 # テキストボックスコンポーネント{#text-input-adaptive-forms-core-component}
 
 テキスト入力（テキストボックス）コンポーネントを使用すると、入力要素の type 属性に応じて、1 行または複数行のテキストを入力および編集できます。 テキスト入力コンポーネントは、フォーム内に配置でき、通常は目的を簡単に識別できる便利なテキストでラベル付けされます。 これらはあらゆるフォームの基本要素で、ユーザーから様々な種類のデータを収集するために広く利用されています。簡単で柔軟なこの要素は、入力を検証し、データ収集の精度を高めるために設定できます。
+
+{{traditional-aem}}
 
 **例**
 
@@ -33,7 +36,7 @@ ht-degree: 100%
 
 アダプティブフォームのテキストボックスコアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 フォームのコアコンポーネント 1.1.12 以降の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
-| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 フォーム以降 |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
 | v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
 
@@ -41,7 +44,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -164,7 +167,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

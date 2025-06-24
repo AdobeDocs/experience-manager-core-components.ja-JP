@@ -3,8 +3,8 @@ title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # タブコンポーネント {#tabs-component}
 
 コアコンポーネントのタブコンポーネントを使用すれば、コンテンツを複数のタブ上に配置できます。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 

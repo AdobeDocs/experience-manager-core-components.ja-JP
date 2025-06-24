@@ -3,16 +3,19 @@ title: ボタンコンポーネント
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 
 ---
 
+
 # ボタンコンポーネント {#button-component}
 
 コアコンポーネントのボタンコンポーネントを使用すると、ページ上にボタンアイテムを設定および表示することができます。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 
@@ -40,7 +43,7 @@ ht-degree: 100%
 
 ## 技術的詳細 {#technical-details}
 
-ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_button_v2_jp) を参照してください。
+ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_button_v2) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

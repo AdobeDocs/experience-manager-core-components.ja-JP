@@ -3,12 +3,13 @@ title: アダプティブフォームのコアコンポーネント - パネル�
 description: アダプティブフォームのパネルコンテナコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 100%
 
 ---
+
 
 # パネルコンポーネント{#panel-container-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 100%
 パネルを使用して、折りたたみ可能なセクションを作成することもできます。このセクションは、複雑なフォームフィールドやあまり頻繁に使用されないフォームフィールドを隠すのに役立ち、フォームをシンプルで使いやすいものにできます。 また、テキスト、チェックボックス、ボタンなど、他のコンポーネントを含めることもできます。
 
 また、フォームの送信、web サイトを開く、コンポーネントの表示／非表示、パネルのインスタンスの追加など、様々なルールベースのアクションを設定する場合にも使用できます。
+
+{{traditional-aem}}
 
 **例**
 
@@ -48,7 +51,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -198,7 +201,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -3,16 +3,19 @@ title: クイック検索コンポーネント
 description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 100%
 
 ---
 
+
 # クイック検索コンポーネント {#quick-search-component}
 
 クイック検索コンポーネントは、Web サイトに検索機能を提供し、検索結果を提示することで、訪問者が一致するコンテンツを簡単に見つけて結果を表示できるようにします。
+
+{{traditional-aem}}
 
 ## 使用方法 {#usage}
 

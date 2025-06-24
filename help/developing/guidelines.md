@@ -1,20 +1,22 @@
 ---
 title: コンポーネントのガイドライン
-description: コアコンポーネントは、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
+description: コアコンポーネントは、基盤コンポーネントとはまったく異なる実装パターンに従います。
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 97%
 
 ---
 
 # コンポーネントのガイドライン {#component-guidelines}
 
-[コアコンポーネント](overview.md)は、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
+[ コアコンポーネント ](overview.md) は、基盤コンポーネントとはまったく異なる実装パターンに従います。
 
 このページでは、それらのパターンと、それらを使ってオーサリング可能な独自のコンポーネントを構築すべき場合について説明します。最初の節の[一般的なコンポーネントのパターン](#general-component-patterns)は、あらゆる種類のコンポーネントに適用されますが、2 番目の節の[再利用可能なコンポーネントのパターン](#reusable-component-patterns)は、コアコンポーネントのように、複数のサイトやプロジェクトにわたる再利用を目的としたコンポーネントに適用されます。
+
+{{traditional-aem}}
 
 ## 一般的なコンポーネントのパターン {#general-component-patterns}
 

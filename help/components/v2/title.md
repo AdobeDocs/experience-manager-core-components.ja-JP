@@ -1,14 +1,16 @@
 ---
-title: タイトルコンポーネント（v2）
+title: 'タイトルコンポーネント（v2） '
 description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 
 ---
+
 
 # タイトルコンポーネント（v2）  {#title-component}
 
@@ -80,6 +82,6 @@ ht-degree: 100%
 
 タイトルコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-## Adobe Client Data Layer {#data-layer}
+## アドビクライアントデータレイヤー {#data-layer}
 
-タイトルコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
+タイトルコンポーネントは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)をサポートしています。

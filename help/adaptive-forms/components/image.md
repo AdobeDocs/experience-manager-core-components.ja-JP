@@ -3,18 +3,21 @@ title: アダプティブフォームのコアコンポーネント - 画像
 description: アダプティブフォームの画像コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1058'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 96%
 
 ---
+
 
 # 画像コンポーネント{#image-adaptive-forms-core-component}
 
 アダプティブフォームの画像コンポーネントでは、フォームに画像を含めることができます。これらの画像を使用して、フォームの全体的なデザインを引き立てたり、追加情報を提供したり、ユーザーがフォームの目的を理解できるように視覚的な要素として機能させたりすることができます。画像コンポーネントを使用して、フォームにロゴ、写真またはグラフィックを追加できます。
 
 アクセシビリティについては、視覚に障害があるユーザーのために、**代替テキスト**&#x200B;を画像に追加して、画像に代わる短い説明文を指定することが重要です。
+
+{{traditional-aem}}
 
 **例**
 
@@ -35,7 +38,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームの画像コアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降向けコアコンポーネント 1.1.12 の一部として、2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブForms画像コアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.4 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.12 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -46,7 +49,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 

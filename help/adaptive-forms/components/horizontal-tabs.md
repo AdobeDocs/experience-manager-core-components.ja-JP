@@ -3,12 +3,13 @@ title: アダプティブフォームのコアコンポーネント - 水平タ�
 description: アダプティブフォームの水平タブコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 100%
 
 ---
+
 
 # 水平タブコンポーネント（上部のタブ）コンポーネント{#horizontal-tabs-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 100%
 タブは通常、一連のリンクまたはボタンとして作成され、各リンクまたはボタンはフォームのセクションに対応します。 ユーザーがタブをクリックすると、フォームのコンテンツが動的に更新され、対応するセクションが表示されます。
 
 ![例](/help/adaptive-forms/assets/horizontal-example-new.png)
+
+{{traditional-aem}}
 
 ## 使用方法 {#reasons-to-use-horizontal-tabs}
 

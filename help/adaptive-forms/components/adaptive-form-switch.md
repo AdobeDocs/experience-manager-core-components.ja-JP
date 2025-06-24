@@ -3,12 +3,13 @@ title: アダプティブフォームのコアコンポーネント - スイッ�
 description: アダプティブフォームのスイッチコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 100%
 
 ---
+
 
 # アダプティブフォームのスイッチコンポーネント{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 100%
 スイッチコンポーネントは、値を true または false に設定するブーリアン型のコントロール要素です。例えば、サウンドのミュート／ミュート解除、Bluetooth や WiFi の有効化／無効化など、機能のオンとオフを切り替えるために使用されます。
 
 ![スイッチコンポーネントの例](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## 使用方法 {#reasons-to-use-switch}
 
