@@ -4,9 +4,9 @@ description: アダプティブフォームの利用条件コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3253'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> AEM 6.5 Formsの場合、このコンポーネントはAEM 6.5 Forms サービスパック 19 で導入されました（6.5.19.0）。 このコンポーネントを有効にするには、Forms コアコンポーネントと WCM コアコンポーネントの両方に、必要なバージョンがインストールされていることを確認します。 アダプティブフォームのコアコンポーネントのリリースについて詳しくは、[アダプティブフォームのコアコンポーネントリリース](/help/adaptive-forms/version.md)を参照してください。
+> AEM 6.5 Forms の場合、このコンポーネントは AEM 6.5 Forms Service Pack 19（6.5.19.0）で導入されました。 このコンポーネントを有効にするには、Forms コアコンポーネントと WCM コアコンポーネントの両方に、必要なバージョンがインストールされていることを確認します。 アダプティブフォームのコアコンポーネントのリリースについて詳しくは、[アダプティブフォームのコアコンポーネントリリース](/help/adaptive-forms/version.md)を参照してください。
 
 {{traditional-aem}}
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsの利用条件コアコンポーネントは、Cloud Serviceのコアコンポーネント 2.0.62 およびAEM 6.5.16.0 Forms以降のコアコンポーネント 1.1.28 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブフォームの利用条件コアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.62 および AEM 6.5.16.0 Forms 向けコアコンポーネント 1.1.28 以降の一部として、2023年2月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|

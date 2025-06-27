@@ -4,7 +4,7 @@ description: ナビゲーションコンポーネントを使用すれば、グ�
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
 ht-degree: 100%
 

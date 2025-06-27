@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->ソーシャル共有コンポーネントは、コアコンポーネント [ リリース 2.18.0.](/help/versions.md) で非推奨（廃止予定）となりました
+>ソーシャル共有コンポーネントは、コアコンポーネント[リリース 2.18.0](/help/versions.md) で廃止されました。
 
 {{traditional-aem}}
 

@@ -4,7 +4,7 @@ description: アダプティブフォームの水平タブコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
 ht-degree: 100%
 

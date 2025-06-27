@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 技術的詳細 {#technical-details}
 
-埋め込みコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_jp) を参照してください。
+埋め込みコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

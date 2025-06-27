@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -136,6 +136,6 @@ ht-degree: 100%
 * **セグメント条件名** - 条件の説明
 * **セグメント条件** - Adobe Campaign のパーソナライゼーション変数に基づいて、満たす必要がある実際の条件
    * [Adobe Campaign Standard のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
-   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=ja
+   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。]&#x200B;(https://experienceleague.adobe.com/docs/
 * **削除** - タップしてクリックすると、条件を削除できます
 * **並べ替え** - タップまたはクリックしてドラッグすると、順序を並べ替えることができます

@@ -4,7 +4,7 @@ description: コアコンポーネントは、豊富な機能、継続的配信�
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
 ht-degree: 100%
 
@@ -117,12 +117,12 @@ AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロ�
 | [コンテンツフラグメント](https://adobe.com/go/aem_cmp_tech_cf_v1_jp) | コンテンツフラグメントを表示できるようにする | `-` |
 | [コンテンツフラグメントリスト](https://adobe.com/go/aem_cmp_tech_cflist_v1_jp) | コンテンツフラグメントのリストを表示できるようにする | `-` |
 | [区切り記号](https://adobe.com/go/aem_cmp_tech_separator_v1_jp) | ページのコンテンツを区切る | `-` |
-| [アコーディオン](https://adobe.com/go/aem_cmp_tech_accordion_v1_jp) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
+| [アコーディオン](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
 | [コンテナ](https://adobe.com/go/aem_cmp_tech_container_v1_jp) | コンテナ内のコンポーネントを整理する | `-` |
-| [ボタン](https://adobe.com/go/aem_cmp_tech_button_v1_jp) | ページ上にボタンを作成する | `-` |
-| [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1_jp) | ダウンロード可能なアセットをページに追加する | `-` |
+| [ボタン](https://adobe.com/go/aem_cmp_tech_button_v1) | ページ上にボタンを作成する | `-` |
+| [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1) | ダウンロード可能なアセットをページに追加する | `-` |
 | [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1_jp) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1_jp) | ページ内に外部リソースを埋め込む | - |
+| [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1) | ページ内に外部リソースを埋め込む | - |
 | [プログレスバー](https://adobe.com/go/aem_cmp_tech_progress_v1) | 目標に対する進捗を視覚的に表現する | - |
 | [PDF ビューア](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_jp) | ページに PDF ドキュメントを表示します。 | - |
 

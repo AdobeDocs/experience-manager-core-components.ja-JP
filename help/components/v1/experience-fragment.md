@@ -1,18 +1,18 @@
 ---
-title: エクスペリエンスフラグメントコンポーネント（v1）
+title: エクスペリエンスフラグメントのコンポーネント（v1）
 description: エクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者はエクスペリエンスフラグメントのバリエーションをページに追加できます。
 role: Architect, Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
 
-# エクスペリエンスフラグメントコンポーネント（v1） {#experience-fragment-component}
+# エクスペリエンスフラグメントのコンポーネント（v1） {#experience-fragment-component}
 
 コンテンツ作成者は、コアコンポーネントのエクスペリエンスフラグメントコンポーネントを使用して、ローカライズされたサイト構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをページに配置できます。
 
