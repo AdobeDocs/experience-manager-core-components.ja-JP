@@ -3,12 +3,12 @@ sub-product: AEM Core Components
 user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
-user-guide-description: 従来のAEM プロジェクトの場合は、作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
+user-guide-description: 従来の AEM プロジェクトでは、拡張可能なコアコンポーネントを使用すると、作成者はコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
