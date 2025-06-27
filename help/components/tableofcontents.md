@@ -43,11 +43,11 @@ ht-degree: 100%
 >
 >AEM as a Cloud Service では、コンポーネントのコンテンツをレンダリングするために、管理者がコンポーネントのフィルターを有効にする必要があります。
 >
->詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)を参照してください。
+>詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-目次コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)してください。
+目次コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
