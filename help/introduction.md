@@ -4,9 +4,9 @@ description: コアコンポーネントの問題の解決策を入手し、他�
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 85bf8a06109976bce6f0be2408118247ccb2e096
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
 | Web アプリ対応 | [効率化された JSON 出力](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=ja)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ja)も依然として可能です。 |
 | AMP のサポート | コンポーネントはビルトインで [AMP 標準をサポート](/help/developing/amp.md)しており、モバイルエクスペリエンスの高速化に役立ちます。 |
-| デザインキット | [Adobe XD 用 UI キット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=ja)を使用すると、デザイナーはワイヤフレームを作成したあと、[必要に応じてスタイルを設定](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)できます。 |
+| デザインキット | [Adobe XD 用 UI キット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)を使用すると、デザイナーはワイヤフレームを作成したあと、[必要に応じてスタイルを設定](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)できます。 |
 | テーマ適用可能 | コンポーネントは[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)を実装し、マークアップは [BEM CSS の命名規則](https://getbem.com/)に従っています。 |
 | カスタマイズ可能 | いくつかのパターンが用意されているので、HTML の調整から高度な機能の再利用まで、[カスタマイズが容易](developing/customizing.md)になっています。 |
 | バージョン管理 | [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。 |
@@ -131,4 +131,4 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 AEM 作成者が使用できる追加のコンポーネントがあり、コアコンポーネント上に構築されています。
 
 * [メールコアコンポーネント](/help/email/introduction.md) - コアコンポーネントの上に構築され、特に Adobe Campaign で使用するためのコンポーネントを検出します。
-* [ アダプティブ Forms コアコンポーネント ](/help/adaptive-forms/introduction.md) - Adobe Experience Managerのアダプティブ Forms コアコンポーネントを使用すると、魅力的な登録エクスペリエンスを作成できます。
+* [アダプティブフォームのコアコンポーネント](/help/adaptive-forms/introduction.md) - Adobe Experience Manager でアダプティブフォームのコアコンポーネントを使用すると、魅力的な登録エクスペリエンスを作り出すことができます。
