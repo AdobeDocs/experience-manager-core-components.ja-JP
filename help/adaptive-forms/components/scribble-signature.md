@@ -2,15 +2,17 @@
 title: アダプティブ Forms コアコンポーネント – 手書き署名
 description: アダプティブFormsの手書き署名コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: 4218af42d947e19a65efe8839ccd4eb102fe2f21
+source-git-commit: 246a608e4c23a9075813a64691d583584164578c
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 80%
+source-wordcount: '1761'
+ht-degree: 79%
 
 ---
 
 
 # 手書き署名コンポーネント
+
+<span> 手書き署名コンポーネントは早期導入プログラムの下にあります。 公式メール ID から `aem-forms-ea@adobe.com` に書き込んで、早期導入プログラムに参加し、機能へのアクセスをリクエストできます。</span>
 
 アダプティブフォームの手書き署名コンポーネントは、ユーザーがマウス、スタイラス、タッチスクリーンを使用してフォーム内に直接 **署名** を描画できるユーザーインターフェイス要素です。 手書きの同意、承認または検証を、デジタルワークフローで正確にキャプチャできます。
 
