@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 従来の AEM プロジェクトでは、拡張可能なコアコンポーネントを使用すると、作成者はコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
+source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 97%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 100%
       + [アダプティブフォームのチェックボックス](/help/adaptive-forms/components/checkbox.md)
       + [アダプティブフォームのチェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
       + [アダプティブフォームコンテナ](/help/adaptive-forms/components/form-container.md)
+      + [アダプティブFormsの日時](/help/adaptive-forms/components/date-time-component.md)
       + [アダプティブフォームの日付選択](/help/adaptive-forms/components/date-picker.md)
       + [アダプティブフォームのドロップダウンリスト](/help/adaptive-forms/components/drop-down-list.md)
       + [アダプティブフォームのメール](/help/adaptive-forms/components/email.md)
@@ -127,6 +128,7 @@ ht-degree: 100%
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
       + [アダプティブフォームのリセットボタン](/help/adaptive-forms/components/reset-button.md)
       + [アダプティブフォームのレビュー](/help/adaptive-forms/components/review.md)
+      + [アダプティブFormsの手書き署名](/help/adaptive-forms/components/scribble-signature.md)
       + [アダプティブフォームの送信ボタン](/help/adaptive-forms/components/submit-button.md)
       + [アダプティブフォームのスイッチ](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [アダプティブフォームの電話](/help/adaptive-forms/components/phone.md)

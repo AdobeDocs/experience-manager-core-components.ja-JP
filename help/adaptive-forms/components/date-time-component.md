@@ -1,65 +1,55 @@
 ---
-title: アダプティブフォームのコアコンポーネント - 日付選択
-description: アダプティブフォームの日付選択コアコンポーネントを使用またはカスタマイズ。
+title: アダプティブ Forms コアコンポーネント – 日時
+description: アダプティブFormsの日時コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '1898'
+ht-degree: 74%
 
 ---
 
 
-# 日付選択コンポーネント{#date-picker-adaptive-forms-core-component}
+# 日時コンポーネント
 
-アダプティブフォームの日付選択コンポーネントは、ユーザーがカレンダーから日付を選択したり、特定の形式で手動で日付を入力したりできるユーザーインターフェイス要素です。日付選択コンポーネントは、様々な形式、検証およびデフォルト値を持つように設定できます。
+アダプティブフォームの日付と時間コンポーネントは、ユーザーがカレンダーおよび時計インターフェイスを使用して **日付と時間** の両方を選択したり、特定の形式で手動で値を入力したりできるユーザーインターフェイス要素です。 日付と時刻の両方が重要なユースケースに対して、正確で標準化された入力を保証します。
 
 **例**
 
-![例](/help/adaptive-forms/assets/date-picker.png)
+![例](/help/adaptive-forms/assets/date-time-picker.png)
 
-## 使用方法 {#reasons-to-use-drop-date-picker}
+## 使用方法 {#reasons-to-use-date-time-picker}
 
-アダプティブフォームに日付選択を含めると便利な理由はいくつかあります。以下に例を示します。
+日付と時刻の選択をフォームに含める方がメリットが大きい理由は、次のようにいくつかあります。
 
-- **利便性**：ユーザーはテキストフィールドに日付を手動で入力しなくても、カレンダーから簡単に日付を選択できます。これにより、時間を節約してエラーを減らすことができます。
-
-- **ユーザーエクスペリエンス**：ユーザーが日付を選択する際に直感的で明確な方法を提供することで、より使いやすいフォームを作成できます。
-
-- **データ分析**：様々なソースからデータを収集して分析したり、追加の処理を行うための入力として使用したりできます。
-
-- **イベントの管理**：イベント管理 web サイトでイベントの日付を選択できます。
-
-- **予約**：予約サイトで使用すると、チェックイン日とチェックアウト日を選択できます。
-
-- **日付フォーマット**：日付が表示、入力される形式を変更できます。フォーム全体で日付形式の一貫性を確保して、一貫性のあるユーザーエクスペリエンスを提供します。
+- **利便性**：ユーザーが値を手動で入力しなくても、日時を簡単に選択できます。
+- **一貫性**：フォーム全体で日付と時刻の入力に標準形式を適用します。
+- **ユーザーエクスペリエンスの向上**：カレンダーおよび時間セレクターを含む直感的な UI を提供します。
+- **イベントのスケジュール設定**：予約、面接、または会議のスケジュール設定フォームで役立ちます。
+- **旅行および予約**：ユーザーがチェックイン/チェックアウトの日時を選択できるようにします。
+- **データの正確性**：フリーテキスト入力と比較して入力エラーを減らします。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームの日付選択コアコンポーネントは、Cloud Service 向けコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 向けコアコンポーネント 1.1.12 以降の一部として、2023年2月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブForms日時コアコンポーネントは、Cloud Service以降の **コアコンポーネント 2.24.6** の一部として **2025 年 8 月** にリリースされました。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
+| v1 | <br>[リリース 2.24.6](/help/adaptive-forms/version.md) 以降と互換性あり | |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+バージョンについて詳しくは、[ コアコンポーネントのバージョン ](/help/adaptive-forms/version.md) を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの日付選択コアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+[GitHub](https://github.com/adobe/aem-core-forms-components) のアダプティブForms日時コアコンポーネントに関する最新の技術的な詳細について説明します。 コアコンポーネントの開発について詳しくは、[ コアコンポーネント開発者向けドキュメント ](/help/developing/overview.md) を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-「設定」では、訪問者による日付選択の操作を簡単にカスタマイズできます。また、シームレスなユーザーエクスペリエンスを実現するために、簡単に日付選択オプションを定義できます。
+設定ダイアログでは、日付と時刻をカスタマイズできます。
 
 ### 「基本」タブ {#basic-tab}
 
-![「基本」タブ](/help/adaptive-forms/assets/datepicker_basictab.png)
+![「基本」タブ](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **名前** - 名前によって、ルールエディターでコンポーネントを一意に識別できます。 名前文字列には特殊文字とスペースを使用できません。
 
@@ -79,12 +69,11 @@ To experience the Accordion Component as well as see examples of its configurati
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 - **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 - **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
-- **デフォルトの日付** - このオプションを使用すると、フォームフィールドに日付を追加できます。 入力した日付は、デフォルトでコンポーネントの場所に表示されます。ユーザーが日付を入力しない場合、この値はフォームの送信時に送信されます。「**無効なコンポーネント**」または「**読み取り専用コンポーネント**」が選択されている場合、デフォルトの日付が画面に表示され、フォームの送信時に送信されます。
-
+- **デフォルトの日時** – このオプションを使用すると、フォームフィールドに日時を追加できます。 入力した日付は、デフォルトでコンポーネントの場所に表示されます。ユーザーが日時を入力しない場合、この値はフォームの送信時に送信されます。 **無効なコンポーネント** または **読み取り専用コンポーネント** が選択されている場合、デフォルトの日時が画面に表示され、フォームの送信時に送信されます。
 
 ### 「検証」タブ {#validation-tab}
 
-![「検証」タブ](/help/adaptive-forms/assets/datepicker_validation.png)
+![「検証」タブ](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に選択を行う必要があります。このオプションが選択されていると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」選択できません。
 
@@ -92,20 +81,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **スクリプト検証メッセージ** - スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
-- **最短の日付** - 必要となる最短の日付を指定できます。「最短の日付」で指定した日付より前の日付を入力すると、エラーメッセージが画面に表示されます。**最短エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
+- **最短の日付** - 必要となる最短の日付を指定できます。「最短の日付と時刻」で指定した日付より前の日付を入力すると、エラーメッセージが画面に表示されます。 **最短エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
 
-- **最短エラーメッセージ** - **最短エラーメッセージ**&#x200B;ダイアログボックスでは、「**最短の日付**」オプションで指定した日付よりも前の日付を入力した場合に表示されるエラーメッセージを追加できます。
-- **最短の日付を除外** - このオプションを使用すると、指定された日付範囲または日付セットの最短の日付を省略できます。
+- **最短エラーメッセージ** - **最短エラーメッセージ** ダイアログボックスでは、「**最短の日付**」オプションで指定した日付または時刻以前の日付または時刻を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
 
-- **最長の日付** - 必要となる最長の日付を指定できます。「最長の日付」で指定した日付より後の日付を入力すると、エラーメッセージが画面に表示されます。**最長エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
+- **最長の日付** – 必要となる最長の日時を指定できます。 「最長の日付」で指定した日付または時刻より後の日付または時刻を入力すると、エラーメッセージが画面に表示されます。 **最長エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
 
-- **最長エラーメッセージ** - **最長エラーメッセージ**&#x200B;ダイアログボックスでは、「**最長の日付**」オプションで指定した日付より後の日付を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
-
-- **最長の日付を除外** - このオプションを使用すると、指定された日付範囲または日付セットの最長の日付を省略できます。
+- **最長エラーメッセージ** - **最長エラーメッセージ** ダイアログボックスでは、「**最長の日付**」オプションで指定した日付または時刻より後の日付または時刻を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
 
 ### 「ヘルプコンテンツ」タブ {#help-content-tab}
 
-![「ヘルプコンテンツ」タブ](/help/adaptive-forms/assets/datepicker_helptab.png)
+![「ヘルプコンテンツ」タブ](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **短い説明** - 短い説明は、特定のフォームフィールドの目的に関する追加の情報や説明を提供する簡単な説明文です。 これにより、ユーザーは、フィールドに入力するデータの種類を理解しやすくなります。また、入力された情報が有効で目的の条件を満たしていることを確認できるように、ガイドラインや例を提供できます。 デフォルトでは、短い説明は非表示になっています。 「**短い説明を常に表示**」オプションを有効にすると、コンポーネントの下に短い説明が表示されます。
 
@@ -116,7 +102,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
-![「アクセシビリティ」タブ](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![「アクセシビリティ」タブ](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する、支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。 このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。 スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
    - **カスタムテキスト**：ARIA アクセシビリティラベルにカスタムテキストを使用する場合は、このオプションを選択します。 このオプションを選択すると、「カスタムテキスト」ダイアログボックスが表示されます。 関連情報は、「カスタムテキスト」ダイアログボックスで追加できます。
@@ -125,42 +111,44 @@ To experience the Accordion Component as well as see examples of its configurati
    - **名前**：ARIA アクセシビリティラベルの名前を使用する場合は、このオプションを選択します。
    - **なし**：ARIA アクセシビリティラベルに追加しない場合は、このオプションを選択します。
 
-### 「形式」タブ {#format-tab}
+<!--
+### Formats Tab {#format-tab}
 
-![「形式」タブ](/help/adaptive-forms/assets/datepicker_formattab.png)
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **表示形式** - ユーザーに表示される日付形式を表します。「**タイプ**」オプションを使用すると、ユーザーが日付形式を選択できるようになります。また、「**タイプ**」ドロップダウンメニューの「**カスタム**」オプションでは、日付形式をカスタマイズできます。
+-   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-- **形式を編集** - ユーザーが日付を編集できる日付形式を表します。「**タイプ**」オプションを使用すると、ユーザーが日付形式を選択できるようになります。また、「**タイプ**」ドロップダウンメニューの「**カスタム**」オプションでは、日付形式をカスタマイズできます。
-- **形式エラーメッセージ** - このオプションを使用すると、入力した日付が正しい形式でない場合に画面に表示されるメッセージを入力できます。
-- **言語** - この機能は、特定のフィールドを書式設定するために使用されます。ユーザーが&#x200B;**タイプ**&#x200B;ドロップダウンメニューから言語オプションを選択すると、「**IETF BCP 47 言語タグ**」オプションがパネルに表示されます。アダプティブフォームを特定の言語に翻訳する際に、フィールドの書式設定に使用する言語を選択できます。
+-   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-言語セットはデフォルトでは表示されませんが、次のようにテンプレートポリシーを更新すると、ユーザーは、カスタムの **IETF BCP 47 言語タグ**&#x200B;を入力できます。
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-1. テンプレートエディターで、アダプティブフォームに関連付けられている対応するテンプレートを開きます。
-2. ドロップダウンメニューから、既存のポリシーを `datepicker-default-policy` として選択します。
+  3. Click **Done**.
 
-   ![日付選択のテンプレートポリシー](/help/adaptive-forms/assets/date-picker-template-policy.png)
-
-3. 「**完了**」をクリックします。
-
-   >[!NOTE]
-   >
-   > アダプティブフォームを特定のロケールに翻訳する方法について詳しくは、[こちらをクリック](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components)してください。
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、日付選択コンポーネントの CSS スタイルを定義および管理できます。
+デザインダイアログでは、日時コンポーネントの CSS スタイルを定義および管理できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームの日付選択コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブForms日時コアコンポーネントは、AEM[ スタイルシステム ](/help/get-started/authoring.md#component-styling) をサポートしています。
 
 ![「スタイル」タブ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **デフォルトの CSS クラス**：アダプティブフォームの日付選択コアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブForms日時コアコンポーネントのデフォルト CSS クラスを指定できます。
 
-- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定することで、スタイルを定義できます。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。 アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。 アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
 ### カスタムプロパティ
 
@@ -176,13 +164,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
 
-### 「形式」タブ {#formats-tab}
-
-「形式」タブでは、デフォルトおよびカスタムの日付形式を指定できます。
-
-![「形式」タブ](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
-
 <!--
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+
 
 ## Related article {#related-article}
 
