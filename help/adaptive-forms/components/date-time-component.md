@@ -1,18 +1,18 @@
 ---
-title: アダプティブ Forms コアコンポーネント – 日時
-description: アダプティブFormsの日時コアコンポーネントの使用またはカスタマイズ。
+title: アダプティブフォームのコアコンポーネント - 日付と時刻
+description: アダプティブフォームの日付と時刻コアコンポーネントを使用またはカスタマイズします。
 role: Architect, Developer, Admin, User
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
-# 日時コンポーネント
+# 日付と時刻コンポーネント
 
-アダプティブフォームの日付と時間コンポーネントは、ユーザーがカレンダーおよび時計インターフェイスを使用して **日付と時間** の両方を選択したり、特定の形式で手動で値を入力したりできるユーザーインターフェイス要素です。 日付と時刻の両方が重要なユースケースに対して、正確で標準化された入力を保証します。
+アダプティブフォームの日付と時刻コンポーネントは、ユーザーが&#x200B;**日付と時刻**&#x200B;の両方を選択できるユーザーインターフェイス要素です。ユーザーはカレンダーと時計のインターフェイスを使用するか、特定の形式で値を手動で入力します。日付と時刻の両方が重要なユースケースにおいて、正確で標準化された入力を保証します。
 
 **例**
 
@@ -20,28 +20,28 @@ ht-degree: 74%
 
 ## 使用方法 {#reasons-to-use-date-time-picker}
 
-日付と時刻の選択をフォームに含める方がメリットが大きい理由は、次のようにいくつかあります。
+日付と時刻ピッカーをフォームに含めることのメリットは、次のようにいくつかあります。
 
-- **利便性**：ユーザーが値を手動で入力しなくても、日時を簡単に選択できます。
+- **利便性**：ユーザーが値を手動で入力しなくても、日付と時刻の両方を簡単に選択できます。
 - **一貫性**：フォーム全体で日付と時刻の入力に標準形式を適用します。
 - **ユーザーエクスペリエンスの向上**：カレンダーおよび時間セレクターを含む直感的な UI を提供します。
-- **イベントのスケジュール設定**：予約、面接、または会議のスケジュール設定フォームで役立ちます。
-- **旅行および予約**：ユーザーがチェックイン/チェックアウトの日時を選択できるようにします。
-- **データの正確性**：フリーテキスト入力と比較して入力エラーを減らします。
+- **イベントのスケジュール設定**：予約、面接、会議のスケジュール設定フォームに便利です。
+- **旅行および予約**：ユーザーがチェックイン／チェックアウトの日付と時刻を選択できるようにします。
+- **データの正確性**：フリーテキスト入力と比較して入力エラーが減ります。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブForms日時コアコンポーネントは、Cloud Service以降の **コアコンポーネント 2.24.6** の一部として **2025 年 8 月** にリリースされました。
+アダプティブフォームの日付と時刻コアコンポーネントは、Cloud Service 以降の&#x200B;**コアコンポーネント 2.24.6** の一部として **2025年8月**&#x200B;にリリースされました。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
 | v1 | <br>[リリース 2.24.6](/help/adaptive-forms/version.md) 以降と互換性あり | |
 
-バージョンについて詳しくは、[ コアコンポーネントのバージョン ](/help/adaptive-forms/version.md) を参照してください。
+バージョンについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-[GitHub](https://github.com/adobe/aem-core-forms-components) のアダプティブForms日時コアコンポーネントに関する最新の技術的な詳細について説明します。 コアコンポーネントの開発について詳しくは、[ コアコンポーネント開発者向けドキュメント ](/help/developing/overview.md) を参照してください。
+アダプティブフォームの日付と時刻コアコンポーネントに関する最新の技術的詳細は、[GitHub](https://github.com/adobe/aem-core-forms-components) で入手できます。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -69,7 +69,7 @@ ht-degree: 74%
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 - **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 - **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
-- **デフォルトの日時** – このオプションを使用すると、フォームフィールドに日時を追加できます。 入力した日付は、デフォルトでコンポーネントの場所に表示されます。ユーザーが日時を入力しない場合、この値はフォームの送信時に送信されます。 **無効なコンポーネント** または **読み取り専用コンポーネント** が選択されている場合、デフォルトの日時が画面に表示され、フォームの送信時に送信されます。
+- **デフォルトの日付と時刻** - このオプションを使用すると、フォームフィールドに日付と時刻を追加できます。入力した日付は、デフォルトでコンポーネントの場所に表示されます。ユーザーが日付または時刻を入力しない場合、この値はフォームの送信時に送信されます。「**無効なコンポーネント**」または「**読み取り専用コンポーネント**」が選択されている場合、デフォルトの日付と時刻が画面に表示され、フォームの送信時に送信されます。
 
 ### 「検証」タブ {#validation-tab}
 
@@ -81,13 +81,13 @@ ht-degree: 74%
 
 - **スクリプト検証メッセージ** - スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
-- **最短の日付** - 必要となる最短の日付を指定できます。「最短の日付と時刻」で指定した日付より前の日付を入力すると、エラーメッセージが画面に表示されます。 **最短エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
+- **最短の日付** - 必要となる最短の日付を指定できます。「最短の日付と時刻」で指定した日付より前の日付を入力すると、エラーメッセージが画面に表示されます。**最短エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
 
-- **最短エラーメッセージ** - **最短エラーメッセージ** ダイアログボックスでは、「**最短の日付**」オプションで指定した日付または時刻以前の日付または時刻を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
+- **最短エラーメッセージ** - **最短エラーメッセージ**&#x200B;ダイアログボックスでは、「**最短の日付**」オプションで指定した日付／時刻よりも前の日付／時刻を入力した場合に表示されるエラーメッセージを追加できます。
 
-- **最長の日付** – 必要となる最長の日時を指定できます。 「最長の日付」で指定した日付または時刻より後の日付または時刻を入力すると、エラーメッセージが画面に表示されます。 **最長エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
+- **最長の日付** - 必要となる最長の日付と時刻を指定できます。「最長の日付」で指定した日付／時刻より後の日付／時刻を入力すると、エラーメッセージが画面に表示されます。**最長エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムのエラーメッセージを追加できます。
 
-- **最長エラーメッセージ** - **最長エラーメッセージ** ダイアログボックスでは、「**最長の日付**」オプションで指定した日付または時刻より後の日付または時刻を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
+- **最長エラーメッセージ** - **最長エラーメッセージ**&#x200B;ダイアログボックスでは、「**最長の日付**」オプションで指定した日付／時刻より後の日付／時刻を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
 
 ### 「ヘルプコンテンツ」タブ {#help-content-tab}
 
@@ -133,20 +133,20 @@ The set of languages is not visible by default, but users can input a custom **I
 
         >[!NOTE]
         >
-        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 -->
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、日時コンポーネントの CSS スタイルを定義および管理できます。
+デザインダイアログでは、日付と時刻コンポーネントの CSS スタイルを定義および管理できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブForms日時コアコンポーネントは、AEM[ スタイルシステム ](/help/get-started/authoring.md#component-styling) をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブフォームの日付と時刻コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![「スタイル」タブ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **デフォルトの CSS クラス**：アダプティブForms日時コアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームの日付と時刻コアコンポーネントにデフォルトの CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。 アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
@@ -175,7 +175,7 @@ The formats tab allows you to specify default and custom date formats.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
