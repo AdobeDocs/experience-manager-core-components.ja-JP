@@ -4,8 +4,8 @@ description: コアコンポーネントの画像コンポーネントは、イ�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->画像コンポーネントは、アダプティブ画像サーブレットを利用しています。アダプティブ画像サーブレットの仕組みについて詳しくは、[ドキュメント](#adaptive-image-servlet)を参照してください。
+>画像コンポーネントは、アダプティブ画像サーブレットを利用しています。アダプティブ画像サーブレットの仕組みについて詳しくは、[ドキュメント](/help/developing/adaptive-image-servlet.md)を参照してください。
 
 ## Dynamic Media のサポート {#dynamic-media}
 
@@ -206,7 +206,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->幅を慎重に定義してレンディションの選択を最適化するためのヒントについては、[アダプティブ画像サーブレット](#adaptive-image-servlet)のドキュメントを参照してください。
+>幅を慎重に定義してレンディションの選択を最適化するためのヒントについては、[アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)のドキュメントを参照してください。
 
 ### 「機能」タブ {#features-tab}
 
