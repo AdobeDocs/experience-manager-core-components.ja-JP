@@ -4,9 +4,9 @@ description: コアコンポーネントはリリースとして公開されま�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
-| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | このリリースでは、アセットや Dynamic Media の多くの問題に対処し、LTS のサポートを明確にし、多数のバグ修正に対処しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025 年 9 月 4 日（Pt） |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | このリリースでは、アセットや Dynamic Media の多くの問題に対処し、LTS のサポートを明確にし、多数のバグ修正に対処しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025年9月4日（PT） |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | このリリースでは、Sites コアコンポーネントでのアセットのプレビューバージョンのオーサリングのサポートが追加され、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025年4月21日（PT） |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025年3月17日（PT） |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | - | 継続的 | 11 | 2024年9月10日（PT） |
