@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - 数値入�
 description: アダプティブフォームの数値入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2282'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -176,15 +176,31 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「形式」タブ {#formats-tab}
 
-「形式」タブでは、デフォルトおよびカスタムの日付形式を指定できます。
+「形式」タブでは、デフォルトおよびカスタムの日付形式を指定できます。 また、「**追加** ボタンを使用して、新しいカスタムの数値形式を追加することもできます。
 
 ![「形式」タブ](/help/adaptive-forms/assets/emailinput_formattab.png)
+
+#### コンポーネントのテンプレートポリシーにフォーマットを追加
+
+コンポーネントで使用可能な形式を表示するには、それらをコンポーネントのテンプレートポリシーに追加する必要があります。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477976?quality=12&learn=on)
+
+テンプレートポリシーに形式を追加するには：
+
+1. テンプレートエディターで、アダプティブフォームまたはアダプティブサイトに関連付けられている対応するテンプレートを開きます。
+2. **許可されたコンポーネント** セクションで、**[!UICONTROL 数値入力]** コンポーネントを選択します。
+   ![ 日付選択テンプレートポリシー ](/help/adaptive-forms/assets/number-input-policy.png)
+3. **[!UICONTROL 追加]** アイコンをクリックして、数値入力コンポーネントの新しいポリシーを作成します。
+4. ポリシーの名前を入力し、「**形式** タブで必要なすべての形式を選択します。
+   ![ ポリシーの作成 ](/help/adaptive-forms/assets/date-picker-format-policy.png)
+5. 「**[!UICONTROL 完了]**」をクリックします。
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

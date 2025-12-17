@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - 日付選�
 description: アダプティブフォームの日付選択コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術的詳細 {#technical-details}
 
@@ -86,7 +86,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![「検証」タブ](/help/adaptive-forms/assets/datepicker_validation.png)
 
-- **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。 オプションを選択した後、フォームの送信を続行する前に選択を行う必要があります。このオプションが選択されていると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」選択できません。
+- **必須** - コンポーネントをアダプティブフォームに表示する場合は、このオプションを選択します。オプションを選択した後、フォームの送信を続行する前に選択を行う必要があります。このオプションが選択されていると、「**基本**」タブの「**コンポーネントを非表示**」または「**コンポーネントの無効化**」選択できません。
 
 - **エラーメッセージ** - このオプションを使用すると、「**必須**」チェックボックスがオンで、かつフォームフィールドが空白の場合に表示されるメッセージを入力できます。
 
@@ -178,15 +178,31 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「形式」タブ {#formats-tab}
 
-「形式」タブでは、デフォルトおよびカスタムの日付形式を指定できます。
+「形式」タブでは、デフォルトおよびカスタムの日付形式を指定できます。 さらに、「**追加** ボタンを使用して、新しいカスタム日付形式を追加することもできます。
 
 ![「形式」タブ](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+#### コンポーネントのテンプレートポリシーにフォーマットを追加
+
+コンポーネントで使用可能な形式を表示するには、それらをコンポーネントのテンプレートポリシーに追加する必要があります。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
+
+テンプレートポリシーに形式を追加するには：
+
+1. テンプレートエディターで、アダプティブフォームまたはアダプティブサイトに関連付けられている対応するテンプレートを開きます。
+2. 「**許可されたコンポーネント**」セクションで、**[!UICONTROL 日付選択]** コンポーネントを選択します。
+   ![ 日付選択テンプレートポリシー ](/help/adaptive-forms/assets/date-picker-policy.png)
+3. **[!UICONTROL 追加]** アイコンをクリックして、日付選択コンポーネントの新しいポリシーを作成します。
+4. ポリシーの名前を入力し、「**形式** タブで必要なすべての形式を選択します。
+   ![ ポリシーの作成 ](/help/adaptive-forms/assets/number-input-format-policy.png)
+5. 「**[!UICONTROL 完了]**」をクリックします。
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
