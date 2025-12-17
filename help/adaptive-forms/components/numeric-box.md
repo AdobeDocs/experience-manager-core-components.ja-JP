@@ -190,10 +190,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 1. テンプレートエディターで、アダプティブフォームまたはアダプティブサイトに関連付けられている対応するテンプレートを開きます。
 2. **許可されたコンポーネント** セクションで、**[!UICONTROL 数値入力]** コンポーネントを選択します。
-   ![ 日付選択テンプレートポリシー ](/help/adaptive-forms/assets/number-input-policy.png)
+   ![&#x200B; 日付選択テンプレートポリシー &#x200B;](/help/adaptive-forms/assets/number-input-policy.png)
 3. **[!UICONTROL 追加]** アイコンをクリックして、数値入力コンポーネントの新しいポリシーを作成します。
 4. ポリシーの名前を入力し、「**形式** タブで必要なすべての形式を選択します。
-   ![ ポリシーの作成 ](/help/adaptive-forms/assets/date-picker-format-policy.png)
+   ![&#x200B; ポリシーの作成 &#x200B;](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. 「**[!UICONTROL 完了]**」をクリックします。
 
 <!--
