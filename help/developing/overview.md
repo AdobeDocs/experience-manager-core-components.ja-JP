@@ -123,7 +123,7 @@ AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロ�
 | [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1_jp) | ダウンロード可能なアセットをページに追加する | `-` |
 | [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1_jp) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1_jp) | ページ内に外部リソースを埋め込む | - |
-| [プログレスバー](https://adobe.com/go/aem_cmp_tech_progress_v1) | 目標に対する進捗を視覚的に表現する | - |
+| [プログレスバー](https://adobe.com/go/aem_cmp_tech_progress_v1_jp) | 目標に対する進捗を視覚的に表現する | - |
 | [PDF ビューア](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_jp) | ページに PDF ドキュメントを表示します。 | - |
 
 ## コアコンポーネントのアップグレード {#upgrade-of-core-components}

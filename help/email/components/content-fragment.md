@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 技術的詳細 {#technical-details}
 
-メールコンテンツフラグメントコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
+メールコンテンツフラグメントコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_cf_v1_jp)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメントを参照してください。](/help/developing/overview.md)
 

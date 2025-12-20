@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-メール画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_image_v1)
+メール画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_image_v1_jp)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
