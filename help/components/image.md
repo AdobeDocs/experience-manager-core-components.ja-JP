@@ -3,10 +3,10 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、アダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '2062'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 画像コンポーネント（[リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=ja) アセットをサポートします。これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
-コアコンポーネントで構築された web エクスペリエンスは、Adobe Sensei を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供できます。
+コアコンポーネントで構築された web エクスペリエンスは、Adobe AI を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media Image 機能を提供できます。
 
 ## リモートアセットのサポート {#remote-assets}
 

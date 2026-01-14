@@ -4,10 +4,10 @@ description: コアコンポーネントの画像コンポーネントは、イ�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2050'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 画像コンポーネント（[リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
-コアコンポーネントで構築された web エクスペリエンスは、Adobe Sensei を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供できます。
+コアコンポーネントで構築された web エクスペリエンスは、Adobe AI を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media Image 機能を提供することはできません。
 
 ## SVG のサポート {#svg-support}
 

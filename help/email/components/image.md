@@ -4,10 +4,10 @@ description: メール画像コンポーネントは、インプレース編集�
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 メール画像コンポーネントは、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。 これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
-メールコアコンポーネントで構築されたメールエクスペリエンスは、Sensei を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供することができます。
+メールコアコンポーネントで構築されたメールエクスペリエンスは、Adobe AI を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供することができます。
 
 ## SVG のサポート {#svg-support}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-メール画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_image_v1_jp)
+メール画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
