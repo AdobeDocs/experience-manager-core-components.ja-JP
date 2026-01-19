@@ -3,10 +3,10 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: ht
-source-wordcount: '3087'
-ht-degree: 100%
+source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+workflow-type: tm+mt
+source-wordcount: '3110'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | このリリースでは、PDF ビューアに関連するローカライズされていない文字列が修正されました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025 年 10 月 23 日（Pt） |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | このリリースでは、アセットや Dynamic Media の多くの問題に対処し、LTS のサポートを明確にし、多数のバグ修正に対処しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025年9月4日（PT） |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | このリリースでは、Sites コアコンポーネントでのアセットのプレビューバージョンのオーサリングのサポートが追加され、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025年4月21日（PT） |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8、11 | 2025年3月17日（PT） |
