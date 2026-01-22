@@ -3,17 +3,17 @@ title: AEM アダプティブフォームのコアコンポーネントのバー
 description: AEM コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 92%
 
 ---
 
 
 # アダプティブフォームのコアコンポーネントのリリース {#core-components-versions}
 
-使用する環境において最新のアダプティブフォームのコアコンポーネントをアクティブ化するのに必要な、フォームコアコンポーネントと WCM コアコンポーネントの両方で、依存関係の正確なバージョンを特定します。さらに、アダプティブフォームのコアコンポーネントの各リリースで有効化されているコンポーネントと機能を確認します。
+Forms コアコンポーネントと WCM コアコンポーネントの依存関係の両方の正確なバージョンを特定します。 さらに、アダプティブフォームのコアコンポーネントの各リリースで有効化されているコンポーネントと機能を確認します。
 
 ## AEM as a Cloud Service のバージョン履歴 {#aem-as-cs-version-history}
 

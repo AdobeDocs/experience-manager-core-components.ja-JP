@@ -6,9 +6,9 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1239'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1233'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
 **これらのテーマの取得方法？**
 これらのテーマは、**AEM as a Cloud Service** 環境で以下に示す手順を使用して取得します。
 
-1. [アダプティブフォームコアコンポーネントを有効にします](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)
+<!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) -->
 1. [AEM Archetype 47 プロジェクト以降を環境にデプロイ](https://github.com/adobe/aem-project-archetype)
 
 
@@ -57,11 +57,11 @@ AEM アーキタイプをデプロイする場合、フォームで使用でき�
 
 1. **AEM 6.5**
 
-    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=ja)
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
     1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
-    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=ja) to deploy the themes.
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
 
 -->
 
@@ -74,13 +74,13 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
-1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja) to deploy these themes.
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
     
-1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=ja) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=ja) to deploy these themes.
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
 
-[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja). 
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
 
-[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=ja).
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
 
 -->
 
@@ -147,7 +147,7 @@ FSI テーマは、フォームにすっきりとした実用的な外観を与�
 
 ### Basic {#Basic}
 
-A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja). It provides a wizard layout for section-by-section presentation of data.
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -186,21 +186,21 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ### フィードバック送信 {#Give-Feedback}
 
-フィードバック送信フォームのテンプレートは、別のユーザーやチームに建設的なフィードバックを提供するためのフォームを作成する際に役立ちます。このフォームは、明確かつ具体的で施策につながるフィードバックを保証するのに役立ち、オープンなコミュニケーションと改善を促進します。
+フィードバック送信フォームテンプレートは、別のユーザーやチームに建設的なフィードバックを提供するためのフォームを作成する際に役立ちます。このフォームは、明確かつ具体的で施策につながるフィードバックを保証するのに役立ち、オープンなコミュニケーションと改善を促進します。
 
 ![フィードバック送信テンプレート](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
 
 ### 福利厚生加入 {#Benefits-Enrollment}
 
-福利厚生加入フォームのテンプレートを使用すると、希望する福利厚生や補償範囲のオプションに関する必須の情報を従業員から収集するためのフォームを作成できます。通常は、年間の福利厚生加入期間に付随します。
+福利厚生加入フォームテンプレートを使用すると、希望する福利厚生や補償範囲のオプションに関する必須の情報を従業員から収集するためのフォームを作成できます。通常は、年間の福利厚生加入期間に付随します。
 
 ![福利厚生加入テンプレート](/help/adaptive-forms/assets/Benefits-enrollment-form-template.png)
 
 
 ### 従業員福利厚生概要 {#Employee-Benefits-Summary}
 
-従業員福利厚生概要フォームのテンプレートを使用すると、個人の福利厚生に関する必須の詳細情報を収集するためのフォームを作成できます。このフォームは、効率的な支援とサポートのための包括的な概要を提供して、補償内容の迅速かつ正確な評価に役立ちます。
+従業員福利厚生概要フォームテンプレートを使用すると、個人の福利厚生に関する必須の詳細情報を収集するためのフォームを作成できます。このフォームは、効率的な支援とサポートのための包括的な概要を提供して、補償内容の迅速かつ正確な評価に役立ちます。
 ![従業員福利厚生概要](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
@@ -212,20 +212,20 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ### 安全点検 {#Safety-Inspection}
 
-安全点検フォームのテンプレートは、安全な作業環境の詳細を入力するフォームの作成に役立ちます。このフォームを使用して定期検査を実施することで、潜在的な危険性を特定することができます。このフォームは、非常口、火災安全、電気安全、危険物、個人用保護具、ワークステーションの人間工学など、従業員、訪問者および顧客の安全と福祉に関する様々な側面をカバーしています。
+安全点検フォームテンプレートは、安全な作業環境の詳細を入力するフォームの作成に役立ちます。このフォームを使用して定期検査を実施することで、潜在的な危険性を特定することができます。このフォームは、非常口、火災安全、電気安全、危険物、個人用保護具、ワークステーションの人間工学など、従業員、訪問者および顧客の安全と福祉に関する様々な側面をカバーしています。
 
 ![安全点検フォーム](/help/adaptive-forms/assets/Safety-inspection-form.png)
 
 ### 品質管理検査 {#Quality-Control-Inspection}
 
-品質管理検査フォームのテンプレートを使用すると、製品やアイテムの外観、寸法、機能、ドキュメント、テスト結果および全体的な品質を評価および文書化するためのフォームを作成できます。欠陥、不適合および品質基準の確実な遵守に必要な是正措置を特定するのに役立ちます。
+品質管理検査フォームテンプレートを使用すると、製品やアイテムの外観、寸法、機能、ドキュメント、テスト結果および全体的な品質を評価および文書化するためのフォームを作成できます。欠陥、不適合および品質基準の確実な遵守に必要な是正措置を特定するのに役立ちます。
 
 ![品質管理検査](/help/adaptive-forms/assets/Quality-Control-Inspection.png)
 
 
 ### 購入リクエスト {#Purchase-Request}
 
-購入リクエストフォームのテンプレートは、調達プロセスを開始し、作業に必要な商品やサービスの購入を従業員が正式にリクエストできるフォームの作成に役立ちます。このフォームでは、アイテムの説明、数量、希望するサプライヤー（該当する場合）、予算配分、購入理由、配送情報、必要な承認など、必須の詳細情報が取得されます。
+購入リクエストフォームテンプレートは、調達プロセスを開始し、作業に必要な商品やサービスの購入を従業員が正式にリクエストできるフォームの作成に役立ちます。このフォームでは、アイテムの説明、数量、希望するサプライヤー（該当する場合）、予算配分、購入理由、配送情報、必要な承認など、必須の詳細情報が取得されます。
 
 ![購入リクエストフォーム](/help/adaptive-forms/assets/Purchase-request-form.png)
 

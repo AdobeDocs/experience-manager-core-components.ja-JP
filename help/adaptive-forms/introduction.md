@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2123'
-ht-degree: 100%
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -170,7 +170,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
 
 * **使い慣れた UI 要素と設定**：フォームコンポーネントのプロパティを設定する際、WCM コアコンポーネントで使用しているプロパティと同様のプロパティダイアログが表示されます。これにより、必要なオプションをより早く見つけることができます。WCM コアコンポーネントと同様に、フォームコンポーネントのプロパティダイアログはエディターの中央に表示されます。ダイアログには、基本オプションと詳細オプション、ヘルプテキスト、アクセシビリティ情報がわかりやすいタブ形式で表示され、容易にナビゲートできます。
 
-* **[ルールエディター](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**：コードを記述せずに、フォームにロジックと動的機能を追加できます。組み込みのルールエディターを使用して、次を実行できます。
+* **[ルールエディター](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**：コードを記述せずに、フォームにロジックと動的機能を追加できます。ビルトインのルールエディターを使用して、次を実行できます。
    * ユーザーの選択に基づいてフィールドを表示または非表示にする
    * オブジェクトの有効／無効を切り替える
    * オブジェクトの値を設定する
@@ -178,7 +178,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
    * オブジェクトのプロパティを設定する
    * データ入力を検証する
    * サービスを呼び出す（外部機能を呼び出す）
-   * 組み込み関数（一般的なタスク用の定義済み関数）を使用する
+   * ビルトインの関数（一般的なタスク用の定義済み関数）を使用する
    * カスタム関数（特定のニーズに合わせた独自のコード）を使用する
    * フィールドとパネルを検証する（データが要件を満たしていることを確認する）
    * オブジェクトの値を検証する
@@ -211,30 +211,31 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
    * [AEM ワークフローを起動](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Sites ページエディターでのアダプティブフォームのコアコンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page)：AEM ページエディターおよび AEM エクスペリエンスフラグメントでアダプティブフォームのコアコンポーネントを有効にして使用すると、Sites ページの構築と共にデータキャプチャエクスペリエンスを直接作成できます。
+* [Sites ページエディターのアダプティブ Forms コアコンポーネント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page):AEM ページエディターおよびAEM エクスペリエンスフラグメントでアダプティブ Forms コアコンポーネントを使用することで、Sites ページの構築と共にデータキャプチャエクスペリエンスを直接作成できます。
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
 * **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
--->
 
 
 
-## アダプティブフォームのコアコンポーネントの有効化
 
-AEM Forms as a Cloud Service のアダプティブフォームのコアコンポーネントを有効にすると、AEM Forms Cloud Service インスタンスを使用して、複数のチャネルへのコアコンポーネントベースのアダプティブフォームとヘッドレスフォームの作成、公開、配信を開始できます。 アダプティブフォームのコアコンポーネントを有効にする手順について詳しくは、[AEM Forms as a Cloud Service およびローカル開発環境でアダプティブフォームのコアコンポーネントを有効にする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)を参照してください。
+## Enable Adaptive Forms Core Components
 
-アダプティブフォームのコアコンポーネントには、以下の要件があります。
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
-| AEM のバージョン | AEM Forms のアドオン | アダプティブフォームのコアコンポーネント |
+The Adaptive Forms Core Components have the following requirements.
+
+|AEM Version|AEM Forms add-on|Adaptive Forms Core Components|
 |---|---|---|
-| AEM as a Cloud Service | Forms - デジタル登録 | [リリース 2.0.10](version.md)+ |
-| AEM 6.5 | Forms のアドオン | [リリース 1.1.12](version.md)+ |
+|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
+|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-AEM Cloud Service SDK バージョンが 2023.02.0 より前の場合は、2023.02.0 リリースより前にアダプティブフォームのコアコンポーネントがプレリリースの一部であったので、[お使いの環境で `prerelease` フラグが有効になっていることを確認してください](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)。
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 
+-->
 
 ## コアコンポーネントベースのアダプティブフォームの作成
 
