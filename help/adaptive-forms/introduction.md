@@ -211,7 +211,7 @@ AEM Forms の現在のバージョンには、次のコアコンポーネント�
    * [AEM ワークフローを起動](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Sites ページエディターのアダプティブ Forms コアコンポーネント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page):AEM ページエディターおよびAEM エクスペリエンスフラグメントでアダプティブ Forms コアコンポーネントを使用することで、Sites ページの構築と共にデータキャプチャエクスペリエンスを直接作成できます。
+* [Sites ページエディターのアダプティブ Forms コアコンポーネント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page):AEM ページエディターおよびAEM エクスペリエンスフラグメントでアダプティブ Forms コアコンポーネントを使用することで、Sites ページの構築と共にデータキャプチャエクスペリエンスを直接作成できます。
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
