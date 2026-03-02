@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 従来の AEM プロジェクトでは、拡張可能なコアコンポーネントを使用すると、作成者はコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
       + [フッター](/help/adaptive-forms/components/footer.md)
    + [アダプティブフォームのコアコンポーネントのカスタマイズ](/help/developing/customize-adaptive-forms-core-components.md)
    + [サンプルテーマおよびテンプレート](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [テキスト入力検証パターンを有効にする](/help/adaptive-forms/enable-validation-patterns.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](/help/developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
