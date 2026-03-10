@@ -85,4 +85,4 @@ ht-degree: 98%
 
 ### 「スタイル」タブ {#styles-tab}
 
-目次コンポーネントでは、AEM[ スタイルシステム ](/help/get-started/authoring.md#component-styling) をサポートしています。
+目次コンポーネントでは、AEM[&#x200B; スタイルシステム &#x200B;](/help/get-started/authoring.md#component-styling) をサポートしています。
