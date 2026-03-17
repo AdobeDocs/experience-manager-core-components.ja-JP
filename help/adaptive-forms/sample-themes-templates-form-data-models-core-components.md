@@ -201,7 +201,7 @@ A basic template helps you quickly create an enrollment experience form. You can
 ### 従業員福利厚生概要 {#Employee-Benefits-Summary}
 
 従業員福利厚生概要フォームテンプレートを使用すると、個人の福利厚生に関する必須の詳細情報を収集するためのフォームを作成できます。 迅速かつ正確な対象範囲の評価に役立ち、効率的な支援とサポートのための包括的な概要を提供します。
-![従業員福利厚生要約 ](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+![従業員福利厚生要約 &#x200B;](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### 取引明細書の請求 {#Request-for-Account-Statement}

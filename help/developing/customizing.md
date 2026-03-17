@@ -43,7 +43,7 @@ ht-degree: 96%
 
 各ダイアログには一貫したノード構造があります。 継承する側のコンポーネントでこの構造を複製することをお勧めします。そうすれば、[Sling Resource Merger](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) や[非表示条件](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/hide-conditions.html)を使用して元のダイアログのセクションの非表示、置換または並べ替えを行うことができます。 複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
 
-現在のバージョンのダイアログに対する変更との互換性を完全に持たせるには、タブ項目レベル配下にある構造に対して変更（非表示、追加、置換、並べ替えなど）を加えないことが非常に重要となります。 代わりに、親のタブ項目は `sling:hideResource` プロパティを介して非表示にし（[Sling Resource Merger プロパティ ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/sling-resource-merger.html) を参照）、カスタムの設定フィールドを含む新しいタブ項目を追加する必要があります。`sling:orderBefore` 必要に応じて、タブ項目を並べ替えるために使用できます。
+現在のバージョンのダイアログに対する変更との互換性を完全に持たせるには、タブ項目レベル配下にある構造に対して変更（非表示、追加、置換、並べ替えなど）を加えないことが非常に重要となります。 代わりに、親のタブ項目は `sling:hideResource` プロパティを介して非表示にし（[Sling Resource Merger プロパティ &#x200B;](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/sling-resource-merger.html) を参照）、カスタムの設定フィールドを含む新しいタブ項目を追加する必要があります。`sling:orderBefore` 必要に応じて、タブ項目を並べ替えるために使用できます。
 
 以下の図では、推奨されるダイアログの構造と、前述した、継承される側のタブを非表示にして置換する方法を示しています。
 

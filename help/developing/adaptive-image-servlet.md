@@ -31,7 +31,7 @@ ht-degree: 89%
 
 ## 概要 {#overview}
 
-デフォルトでは、画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用して画像を配信します。[アダプティブ画像サーブレット ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) は、画像処理とストリーミングを担当し、開発者が [ コアコンポーネントのカスタマイズ ](/help/developing/customizing.md) に活用できます。
+デフォルトでは、画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用して画像を配信します。[アダプティブ画像サーブレット &#x200B;](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) は、画像処理とストリーミングを担当し、開発者が [&#x200B; コアコンポーネントのカスタマイズ &#x200B;](/help/developing/customizing.md) に活用できます。
 
 ## レンディションの選択 {#rendition-selection}
 
@@ -54,6 +54,6 @@ ht-degree: 89%
 
 ## Last-Modified ヘッダーの使用 {#last-modified}
 
-`Last-Modified` ヘッダーを介した条件付きリクエストは、アダプティブ画像サーブレットでサポートされていますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
+`Last-Modified` ヘッダーを介した条件付きリクエストは、アダプティブ画像サーブレットでサポートされていますが、`Last-Modified` ヘッダーのキャッシュを[&#x200B; Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
 
 [AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。

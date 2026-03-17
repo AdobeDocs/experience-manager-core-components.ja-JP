@@ -183,7 +183,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ラジオボタン（v2）コンポーネントは `<fieldset>` 要素内でレンダリングされ、グループラベルは最初の子として `<legend>` でラップされます。 冗長な、または無効な ARIA 属性は削除され、個々のラベルは各入力に正しく関連付けられます。 これにより、スクリーンリーダーは、各ラジオボタンラベルとそのグループコンテキストを明確に読み取ることができます。
 
-![ ラジオボタン ](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+![&#x200B; ラジオボタン &#x200B;](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## 関連記事 {#related-articles}
 

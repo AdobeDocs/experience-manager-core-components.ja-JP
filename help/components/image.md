@@ -59,13 +59,13 @@ ht-degree: 95%
 
 ## Dynamic Media サポート {#dynamic-media}
 
-画像コンポーネント（[ リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=ja) アセットをサポートしています。[有効にすると ](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
+画像コンポーネント（[&#x200B; リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=ja) アセットをサポートしています。[有効にすると &#x200B;](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
 コアコンポーネントで構築された web エクスペリエンスは、Adobe AIを利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供できます。
 
 ## リモートアセットのサポート {#remote-assets}
 
-画像コンポーネント（[ リリース 2.23.2](/help/versions.md) 現在）は、リモートアセットをサポートしています。[設定が完了すると ](/help/developing/remote-assets.md) 画像コンポーネントのアセットをリモートサービスから選択できるようになります。
+画像コンポーネント（[&#x200B; リリース 2.23.2](/help/versions.md) 現在）は、リモートアセットをサポートしています。[設定が完了すると &#x200B;](/help/developing/remote-assets.md) 画像コンポーネントのアセットをリモートサービスから選択できるようになります。
 
 ## SVG のサポート {#svg-support}
 

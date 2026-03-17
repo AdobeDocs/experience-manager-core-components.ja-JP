@@ -44,7 +44,7 @@ ht-degree: 96%
 
 ## Dynamic Media のサポート {#dynamic-media}
 
-画像コンポーネント（[ リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートしています。[有効にすると ](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
+画像コンポーネント（[&#x200B; リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートしています。[有効にすると &#x200B;](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
 コアコンポーネントで構築された web エクスペリエンスは、Adobe AIを利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media Image 機能を提供することはできません。
 

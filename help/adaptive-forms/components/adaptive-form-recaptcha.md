@@ -39,7 +39,7 @@ AEM Forms as a Cloud Service は、アダプティブフォームで Google reCA
 
 | コンポーネントのバージョン | AEM as a Cloud Service |
 |--- |--- |
-| v1 | <br>[ リリース 2.0.4](/help/versions.md) 以降との互換性\|互換性\|互換性あり |
+| v1 | <br>[&#x200B; リリース 2.0.4](/help/versions.md) 以降との互換性\|互換性\|互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)ドキュメントをご覧ください。
 

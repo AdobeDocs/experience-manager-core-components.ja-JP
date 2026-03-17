@@ -28,7 +28,7 @@ ht-degree: 92%
 
 * **WKND チュートリアル** - アーキタイプの活用方法など、AEM での開発に関する概要について詳しくは、[AEM Sites の概要 - WKND チュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)を参照して、アーキタイプを使用した単純なプロジェクトの実装手順を示す実例を確認してください。
 * **WKND イベントチュートリアル** - AEM でのシングルページアプリケーション（SPA）の開発に特に関心がある場合は、専用の [WKND イベントチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ja)を確認してください。
-* **自分で開始** - [GitHub で入手可能な最新のプロジェクトアーキタイプ ](https://github.com/adobe/aem-project-archetype) を簡単にダウンロードし、最初のプロジェクトを自分で作成できます。
+* **自分で開始** - [GitHub で入手可能な最新のプロジェクトアーキタイプ &#x200B;](https://github.com/adobe/aem-project-archetype) を簡単にダウンロードし、最初のプロジェクトを自分で作成できます。
 
 ## アーキタイプの使用方法 {#how-to-use-the-archetype}
 
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### モジュール構造 {#module-structure}
 
-親 POM の `<modules>` セクションは、プロジェクトが構築するモジュールを定義します。 デフォルトでは、プロジェクトのビルドは [ 事前に定義された標準モジュール ](#what-you-get) です。 プロジェクトの発展に合わせて、いつでもモジュールを追加できます。
+親 POM の `<modules>` セクションは、プロジェクトが構築するモジュールを定義します。 デフォルトでは、プロジェクトのビルドは [&#x200B; 事前に定義された標準モジュール &#x200B;](#what-you-get) です。 プロジェクトの発展に合わせて、いつでもモジュールを追加できます。
 
 ### 依存関係 {#dependencies}
 
@@ -95,7 +95,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### コアコンポーネント {#core-components}
 
-もちろん、アーキタイプは [ コアコンポーネント ](/help/introduction.md) を活用します。 したがって、すべてのデプロイメントでコアコンポーネントを活用するには、コアコンポーネントを Maven プロジェクトの一部に含めることがベストプラクティスです。
+もちろん、アーキタイプは [&#x200B; コアコンポーネント &#x200B;](/help/introduction.md) を活用します。 したがって、すべてのデプロイメントでコアコンポーネントを活用するには、コアコンポーネントを Maven プロジェクトの一部に含めることがベストプラクティスです。
 
 core.wcm.components.examples は、コアコンポーネントの例を示す一連のサンプルページです。 ベストプラクティスとして、実稼動用にプロジェクトをデプロイする場合は、この依存関係とサブパッケージのインクルージョンを削除する必要があります。
 

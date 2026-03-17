@@ -22,7 +22,7 @@ Accelerated Mobile Pages（AMP）は、元々 Google がモバイルブラウジ
 
 ## コアコンポーネントの AMP {#amp-in-core-components}
 
-コアコンポーネントでの AMP のサポートは [ 完全に設定可能 ](#enabling-amp) AMP バージョンのページは、標準のHTML バージョンと一緒に排他的に提供することも、まったく提供しないこともできます。
+コアコンポーネントでの AMP のサポートは [&#x200B; 完全に設定可能 &#x200B;](#enabling-amp) AMP バージョンのページは、標準のHTML バージョンと一緒に排他的に提供することも、まったく提供しないこともできます。
 
 コアコンポーネントは、AMP ページをレンダリングするために Sling セレクターとして `amp` を使用します。 例えば、`example.html` は通常のページをレンダリングし、`example.amp.html` は AMP バージョンになります。
 

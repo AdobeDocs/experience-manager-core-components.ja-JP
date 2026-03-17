@@ -47,7 +47,7 @@ ht-degree: 96%
 
 ## Dynamic Media のサポート {#dynamic-media}
 
-メール画像コンポーネントは、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。[有効にすると ](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
+メール画像コンポーネントは、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。[有効にすると &#x200B;](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
 メールコアコンポーネントで構築されたメールエクスペリエンスは、Adobe AIを利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供することができます。
 

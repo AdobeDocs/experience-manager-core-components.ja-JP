@@ -41,7 +41,7 @@ ht-degree: 98%
 |---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[ リリース 2.0.64](/help/adaptive-forms/version.md) 以降と互換性あり\|互換性あり\|互換性あり |
+| v1 | <br>[&#x200B; リリース 2.0.64](/help/adaptive-forms/version.md) 以降と互換性あり\|互換性あり\|互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 

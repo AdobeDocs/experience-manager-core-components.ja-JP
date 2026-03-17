@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## チュートリアル
 
-データレイヤーとコアコンポーネントの詳細について知りたい場合は、[この実践チュートリアル ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ja) をご覧ください。
+データレイヤーとコアコンポーネントの詳細について知りたい場合は、[この実践チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ja) をご覧ください。
 
 >[!TIP]
 >

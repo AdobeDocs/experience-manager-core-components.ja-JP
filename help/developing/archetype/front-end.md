@@ -60,7 +60,7 @@ Webpack を使用すると、ui.frontend モジュール内の AEM Web ページ
 
 ### Storybook の使用 {#using-storybook}
 
-[Storybook ](https://storybook.js.org)を使用すると、よりアトミックなフロントエンド開発を実行できます。 Storybook は AEM プロジェクトのアーキタイプには含まれていませんが、Storybook をインストールすると、ui.frontend モジュール内に Storybook アーティファクトを保存することができます。 AEM 内でテストをおこなう準備が整ったら、`npm run dev` を実行して Storybook を clientlib としてデプロイできます。
+[Storybook &#x200B;](https://storybook.js.org)を使用すると、よりアトミックなフロントエンド開発を実行できます。 Storybook は AEM プロジェクトのアーキタイプには含まれていませんが、Storybook をインストールすると、ui.frontend モジュール内に Storybook アーティファクトを保存することができます。 AEM 内でテストをおこなう準備が整ったら、`npm run dev` を実行して Storybook を clientlib としてデプロイできます。
 
 >[!NOTE]
 >
