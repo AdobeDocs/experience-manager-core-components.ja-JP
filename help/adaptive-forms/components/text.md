@@ -1,11 +1,11 @@
 ---
 title: アダプティブフォームのコアコンポーネント - テキスト
 description: アダプティブフォームのテキストコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '996'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1016'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 アダプティブフォームのテキストとは、ユーザーが読むためにフォームに表示されるコンテンツを表します。 これには、テキストフィールドなどのフォーム要素のグループにラベルを付けるために使用されるテキストや、ユーザーに提供される追加の説明や情報などを使用できます。
 
-これにより、フォームの構造を論理セクションに分割して、フォームを理解して完了しやすくすることができます。さらに、関連付けられている要素の簡単な説明を提供するアクセシビリティの目的でも使用できます。このようなテキストフィールドは、通常はフォームコンポーネントの近く（前後など）に表示されます。
+これにより、フォームの構造を論理セクションに分割して、フォームを理解して完了しやすくすることができます。 さらに、関連付けられている要素の簡単な説明を提供するアクセシビリティの目的でも使用できます。 このようなテキストフィールドは、通常はフォームコンポーネントの近く（前後など）に表示されます。
 
 {{traditional-aem}}
 
@@ -45,17 +45,19 @@ ht-degree: 100%
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームのテキストコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームのテキストコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログを使用すると、訪問者のテキストエクスペリエンスを簡単にカスタマイズできます。また、シームレスなユーザーエクスペリエンスを実現するために、簡単にテキストオプションを定義できます。
+設定ダイアログを使用すると、訪問者のテキストエクスペリエンスを簡単にカスタマイズできます。 また、シームレスなユーザーエクスペリエンスを実現するために、簡単にテキストオプションを定義できます。
 
 ### 「基本」タブ
 
@@ -63,7 +65,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
-- **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
+- **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。 このオプションを使用すると、データソースを更新せずにデータを保存できます。 また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
   <!--    **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
@@ -74,13 +76,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームのテキストコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブフォームのテキストコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![デザインダイアログ](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **デフォルトの CSS クラス**：アダプティブフォームのテキストコアコンポーネントのデフォルト CSS クラスを指定できます。
 
-- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義できます。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。 アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。 アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
 ### カスタムプロパティ
 

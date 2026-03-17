@@ -1,19 +1,19 @@
 ---
 title: アダプティブフォームのコアコンポーネント - 水平タブ
 description: アダプティブフォームの水平タブコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2153'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '2213'
+ht-degree: 98%
 
 ---
 
 
 # 水平タブコンポーネント（上部のタブ）コンポーネント{#horizontal-tabs-adaptive-forms-core-component}
 
-アダプティブフォームの水平タブとは、フォームの複数のセクションがグループ化され、別々のタブとして水平方向に表示されるデザインパターンを指します。ユーザーはタブを切り替えて、フォームの異なるセクションにアクセスできます。 各タブは、関連するフォームコンテンツの表示と非表示を切り替えるトリガーとして機能します。 水平タブを使用すると、長いフォームを管理しやすいセクションに整理して、ユーザーエクスペリエンスを改善できます。 タブは、キーボードナビゲーションを使用してセクションを切り替えることができるので、障がいのあるユーザーがフォームにアクセスしやすくなります。
+アダプティブフォームの水平タブとは、フォームの複数のセクションがグループ化され、別々のタブとして水平方向に表示されるデザインパターンを指します。 ユーザーはタブを切り替えて、フォームの異なるセクションにアクセスできます。 各タブは、関連するフォームコンテンツの表示と非表示を切り替えるトリガーとして機能します。 水平タブを使用すると、長いフォームを管理しやすいセクションに整理して、ユーザーエクスペリエンスを改善できます。 タブは、キーボードナビゲーションを使用してセクションを切り替えることができるので、障がいのあるユーザーがフォームにアクセスしやすくなります。
 
 タブは通常、一連のリンクまたはボタンとして作成され、各リンクまたはボタンはフォームのセクションに対応します。 ユーザーがタブをクリックすると、フォームのコンテンツが動的に更新され、対応するセクションが表示されます。
 
@@ -35,25 +35,27 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームの水平タブコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブ Formsの水平タブコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 |  |  |
 |---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり | 互換性あり |
+| v1 | <br>[ リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり\|互換性あり\|互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!-- 
+## Sample Component Output {#sample-component-output}
 
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). 
+-->
 
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの水平タブコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームの水平タブコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -107,11 +109,11 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ![「アクセシビリティ」タブ](/help/adaptive-forms/assets/repeat-tabsontop.png)
 
-繰り返しオプションを使用すると、水平タブコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。水平タブコンポーネントを操作してその設定にアクセスすると、次のオプションが表示されます。
+繰り返しオプションを使用すると、水平タブコンポーネントとその子コンポーネントのレプリケーション、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションのレプリケーションを簡単に行うことができます。 水平タブコンポーネントを操作してその設定にアクセスすると、次のオプションが表示されます。
 
 - **上部のタブを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチの機能です。
-- **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
-- **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
+- **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。 値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
+- **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
 水平タブ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
 
 ### 「項目」タブ {#items-tab}

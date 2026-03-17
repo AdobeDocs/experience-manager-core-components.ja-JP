@@ -1,9 +1,9 @@
 ---
 title: アダプティブフォームのコアコンポーネント - パネルコンテナ
 description: アダプティブフォームのパネルコンテナコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: d1e1a1aea38de931dc3902c43db8c48f4bc7c0cb
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 96%
@@ -45,13 +45,15 @@ ht-degree: 96%
 |---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり | 互換性あり |
+| v1 | <br>[ リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり\|互換性あり\|互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
@@ -100,7 +102,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **セクション見出しの下のグループフィールド**：関連するフォームフィールドを共通のセクション見出しの下に整理するには、このオプションを選択します。 このグループ化により、スクリーンリーダーなどの支援テクノロジーで、グループ化されたフィールドを単一の包括的なユニットとして識別して読み上げることができ、すべてのユーザーに対するフォームのアクセシビリティとナビゲーションが向上します。
 
-  ![&#x200B; パネルグループフィールド &#x200B;](/help/adaptive-forms/assets/panel-fieldset.png)
+  ![ パネルグループフィールド ](/help/adaptive-forms/assets/panel-fieldset.png)
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
@@ -205,7 +207,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -1,12 +1,12 @@
 ---
 title: メールタイトルコンポーネント
 description: メールタイトルコンポーネントは、インプレース編集機能を備えたメールのセクション見出しコンポーネントです。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '596'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '606'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-タイトルコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_email_title_v1_jp) を参照してください。
+タイトルコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_email_title_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -50,9 +50,9 @@ ht-degree: 100%
 * **タイトル** - 空白の場合、ページタイトルが使用されます
    * キャンペーンアイコンをクリックして、[Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
 * **種類 / サイズ** - タイトルの見出しレベルを定義します
-* **リンク** - タイトルのリンク先のコンテンツを定義します。コンテンツページへのパス、外部 URL、ページアンカーのいずれかを指定できます。
+* **リンク** - タイトルのリンク先のコンテンツを定義します。 コンテンツページへのパス、外部 URL、ページアンカーのいずれかを指定できます。
    * キャンペーンアイコンをクリックして、[Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
-* **ID** - このオプションを使用すると、HTML 内のコンポーネントの一意の ID を制御できます。
+* **ID** - このオプションを使用すると、HTML 内のコンポーネントの一意の ID を制御することができます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS に影響を与える可能性があります。
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 メールタイトルコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
+ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。 編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
 
 ドロップダウンメニューを使用するには、[デザインダイアログ](#design-dialog)でこのコンポーネントのスタイルを設定する必要があります。
 

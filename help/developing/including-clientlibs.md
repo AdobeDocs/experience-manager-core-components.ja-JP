@@ -1,12 +1,12 @@
 ---
 title: クライアントライブラリとコアコンポーネント
 description: コアコンポーネントには多数のクライアントライブラリが付属しているほか、独自のクライアントライブラリを組み込むこともできます。
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## クライアントライブラリを含める {#including}
 
-ユースケースに応じて[クライアントライブラリ](/help/developing/archetype/front-end.md#clientlibs)を含める方法は多数あります。それぞれのサンプル [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja)を含んだ例を以下に示します。
+ユースケースに応じて[クライアントライブラリ](/help/developing/archetype/front-end.md#clientlibs)を含める方法は多数あります。 それぞれのサンプル [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja)を含んだ例を以下に示します。
 
 ### 推奨されるデフォルトの使用方法 {#recommended-default-usage}
 

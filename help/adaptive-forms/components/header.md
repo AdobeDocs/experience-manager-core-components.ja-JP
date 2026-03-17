@@ -1,11 +1,11 @@
 ---
 title: アダプティブフォームのコアコンポーネント - ヘッダー
 description: アダプティブフォームのヘッダーコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '672'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # ヘッダー {#header-adaptive-forms-core-component}
 
-アダプティブフォームのヘッダーコンポーネントとは、フォームのタイトル、ロゴまたは名前など、通常はフォーム上部のセクションを指します。ヘッダーには、フォームの目的の簡単な説明、フォームを作成した組織の名前、フォームに関するサポート連絡先など、その他の情報も含めることができます。ヘッダーは、ユーザーにフォームの概要を提供し、入力する情報のコンテキストを提供するために使用されます。これは、ユーザーがフォームの目的や正しい入力方法を理解するのに役立ちます。
+アダプティブフォームのヘッダーコンポーネントとは、フォームのタイトル、ロゴまたは名前など、通常はフォーム上部のセクションを指します。 ヘッダーには、フォームの目的の簡単な説明、フォームを作成した組織の名前、フォームに関するサポート連絡先など、その他の情報も含めることができます。 ヘッダーは、ユーザーにフォームの概要を提供し、入力する情報のコンテキストを提供するために使用されます。 これは、ユーザーがフォームの目的や正しい入力方法を理解するのに役立ちます。
 
 {{traditional-aem}}
 
@@ -44,13 +44,15 @@ ht-degree: 100%
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームのヘッダーコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームのヘッダーコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -62,12 +64,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![Imagetab](/help/adaptive-forms/assets/header_image.png)
 
-- **画像アセット** - このオプションを使用すると、マウスでのドラッグ&amp;ドロップによって画像などのアセットをドロップできます。また、「**参照**」ボタンを使って、ローカルファイルシステムからファイルをアップロードすることも可能です。画像を追加すると、画像の下部に 3 つのボタンが表示されます。画像を追加すると、画像の下部に 3 つのボタンが表示されます。
+- **画像アセット** - このオプションを使用すると、マウスでのドラッグ&amp;ドロップによって画像などのアセットをドロップできます。 また、「**参照**」ボタンを使って、ローカルファイルシステムからファイルをアップロードすることも可能です。 画像を追加すると、画像の下部に 3 つのボタンが表示されます。 画像を追加すると、画像の下部に 3 つのボタンが表示されます。
    - **編集** - アセットエディターでアセットのレンディションを管理するには、「**編集**」をタップまたはクリックします。
    - **消去** - 現在選択されている画像を選択解除するには、「**消去**」をタップまたはクリックします。
    - **選択** - 「**選択**」オプションをタップまたはクリックすると、アセットフォルダーから別の画像を選択できます。
 
-- **タイトル** - このオプションは、ヘッダーに見出しを追加するために使用します。定義済みのテキストはダイアログボックスに含まれ、ユーザーが変更できます。
+- **タイトル** - このオプションは、ヘッダーに見出しを追加するために使用します。 定義済みのテキストはダイアログボックスに含まれ、ユーザーが変更できます。
 - **リンク先** - **参照**&#x200B;アイコンから見出しをフォルダーにリンクすることができます。
 - **説明** - 説明とは、特定の画像の目的に関する追加情報や説明を提供する簡単な説明文です。
 - **サイズ (px)** - ピクセルを増減して画像の長さと幅を調整できます。
@@ -76,7 +78,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **代替テキスト** - このオプションは、視覚に障害のあるユーザー向けに、画像の代わりとなる短い説明文を入力するために使用されます。
 
-- **画像は装飾画像** - 画像が支援テクノロジーによって無視される場合（したがってその代替テキストが不要な場合）はオンにします。これは、装飾画像にのみ適用されます。
+- **画像は装飾画像** - 画像が支援テクノロジーによって無視される場合（したがってその代替テキストが不要な場合）はオンにします。 これは、装飾画像にのみ適用されます。
 
 ### 「テキスト」タブ {#text-tab}
 
@@ -86,7 +88,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

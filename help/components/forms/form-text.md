@@ -1,11 +1,11 @@
 ---
 title: フォームテキストコンポーネント
 description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '578'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-フォームテキストコンポーネントを使用すれば、各種テキストを送信できます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。テキスト検証のタイプ、ラベル、ヘルプメッセージは、コンテンツ編集者が[設定ダイアログ](#configure-dialog)で定義できます。
+フォームテキストコンポーネントを使用すれば、各種テキストを送信できます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。 テキスト検証のタイプ、ラベル、ヘルプメッセージは、コンテンツ編集者が[設定ダイアログ](#configure-dialog)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 * **ラベルを非表示にします** - ラベルがアクセシビリティのためにのみ必要で、フィールドに関するその他の視覚的情報には影響しない場合に必要です
 * **要素名** - フォームデータと共に送信されるフィールドの名前
 * **値** - フィールドに事前入力されるデフォルト値
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。

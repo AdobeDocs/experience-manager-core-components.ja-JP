@@ -2,12 +2,12 @@
 title: コアコンポーネントでのアドビクライアントデータレイヤーの使用
 description: コアコンポーネントでのアドビクライアントデータレイヤーの使用
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 アドビクライアントデータレイヤーはプラットフォームに依存しませんが、AEM で使用するためにコアコンポーネントに完全に統合されています。
 
-アドビクライアントデータレイヤーのコードは、コアコンポーネントと同様、開発者向けドキュメントと共に GitHub で入手できます。このドキュメントでは、コアコンポーネントがデータレイヤーとやり取りする方法の概要について説明しますが、技術的な詳細は GitHub ドキュメントに従います。
+アドビクライアントデータレイヤーのコードは、コアコンポーネントと同様、開発者向けドキュメントと共に GitHub で入手できます。 このドキュメントでは、コアコンポーネントがデータレイヤーとやり取りする方法の概要について説明しますが、技術的な詳細は GitHub ドキュメントに従います。
 
 >[!TIP]
 >
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 ## インストールとアクティベーション {#installation-activation}
 
-コアコンポーネントリリース 2.9.0 の時点では、データレイヤーはコアコンポーネントとともに AEM クライアントライブラリとして配布され、インストールの必要はありません。[AEM Project Archetype v. 24 以降](/help/developing/archetype/overview.md)で生成されるすべてのプロジェクトには、アクティブ化されたデータレイヤーがデフォルトで含まれます。
+コアコンポーネントリリース 2.9.0 の時点では、データレイヤーはコアコンポーネントとともに AEM クライアントライブラリとして配布され、インストールの必要はありません。 [AEM プロジェクトアーキタイプ v.で生成されたすべてのプロジェクト デフォルトでは、24+](/help/developing/archetype/overview.md) にはアクティブ化されたデータレイヤーが含まれています。
 
 データレイヤーを手動でアクティブにするには、[コンテキストに応じた設定](/help/developing/context-aware-configs.md)を作成する必要があります。
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 1. `sling:configRef` プロパティを `/content` 配下のサイトの `jcr:content` ノード（例：`/content/<mySite>/jcr:content`）に追加し、以前の手順の `/conf/<mySite>` に設定します。
 
-1. 有効にすると、エディター外のサイトのページを読み込んで、アクティベーションを検証できます。例えば、エディターで「**公開されているとおりに表示**」オプションを使用します。ページソースを検査し、`<body>` タグには属性 `data-cmp-data-layer-enabled` を含める必要があります。
+1. 有効にすると、エディター外のサイトのページを読み込んで、アクティベーションを検証できます。例えば、エディターで「**公開されているとおりに表示**」オプションを使用します。 ページソースを検査し、`<body>` タグには属性 `data-cmp-data-layer-enabled` を含める必要があります。
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -61,7 +61,7 @@ ht-degree: 96%
        </script>
    ```
 
-1. また、ブラウザーの開発者ツールを開き、コンソールで `adobeDataLayer` JavaScript オブジェクトを使用できるようにします。次のコマンドを入力して、現在のページのデータレイヤーの状態を取得します。
+1. また、ブラウザーの開発者ツールを開き、コンソールで `adobeDataLayer` JavaScript オブジェクトを使用できるようにします。 次のコマンドを入力して、現在のページのデータレイヤーの状態を取得します。
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -152,7 +152,7 @@ id: {
 }
 ```
 
-ページの読み込み時に `cmp:show` イベントがトリガーされます。このイベントは、開始 `<body>` タグのすぐ下にあるインライン JavaScript からディスパッチされるので、データレイヤーイベントキューで最も早いイベントになります。
+ページの読み込み時に `cmp:show` イベントがトリガーされます。 このイベントは、開始 `<body>` タグのすぐ下にあるインライン JavaScript からディスパッチされるので、データレイヤーイベントキューで最も早いイベントになります。
 
 ### コンテナスキーマ {#container}
 
@@ -258,12 +258,12 @@ id: {
 
 ## コアコンポーネントのイベント {#events}
 
-コアコンポーネントがデータレイヤーを介してトリガーするイベントは多数あります。データレイヤーを操作する際のベストプラクティスは、[イベントリスナーを登録](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)し&#x200B;*、*&#x200B;イベントタイプや、イベントをトリガーしたコンポーネントに基づいてアクションを実行することです。これにより、非同期スクリプトで競合が発生する可能性を回避できます。
+コアコンポーネントがデータレイヤーを介してトリガーするイベントは多数あります。 データレイヤーを操作する際のベストプラクティスは、[イベントリスナーを登録](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)し&#x200B;*、*&#x200B;イベントタイプや、イベントをトリガーしたコンポーネントに基づいてアクションを実行することです。 これにより、非同期スクリプトで競合が発生する可能性を回避できます。
 
 AEM コアコンポーネントが提供する初期設定のイベントを以下に示します。
 
 * **`cmp:click`** - クリック可能な要素（`data-cmp-clickable` 属性を持つ要素）をクリックすると、データレイヤーによって `cmp:click` イベントがトリガーされます。
-* **`cmp:show`** および **`cmp:hide`** - アコーディオン（展開/折りたたみ）、カルーセル（次へ／前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがそれぞれ `cmp:show` および `cmp:hide` イベントをトリガーします。`cmp:show` イベントはページの読み込み時にもディスパッチされ、最初のイベントと見なされます。
+* **`cmp:show`** および **`cmp:hide`** - アコーディオン（展開/折りたたみ）、カルーセル（次へ／前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがそれぞれ `cmp:show` および `cmp:hide` イベントをトリガーします。 `cmp:show` イベントはページの読み込み時にもディスパッチされ、最初のイベントと見なされます。
 * **`cmp:loaded`** - データレイヤーにページ上のコアコンポーネントが入力されるとすぐに、データレイヤーが `cmp:loaded` イベントをトリガーします。
 
 ### コンポーネントによってトリガーされるイベント {#events-components}
@@ -292,7 +292,7 @@ eventInfo: {
 }
 ```
 
-ここでは、`<component-path>` はイベントをトリガーしたデータレイヤー内のコンポーネントへの JSON パスです。`event.eventInfo.path` を介して使用できる値は、パラメーターとして `adobeDataLayer.getState(<component-path>)` に使用できるので重要です。このパラメーターは、イベントをトリガーしたコンポーネントの現在の状態を取得し、カスタムコードが追加のデータにアクセスしてデータレイヤーに追加できるようにします。
+ここでは、`<component-path>` はイベントをトリガーしたデータレイヤー内のコンポーネントへの JSON パスです。  `event.eventInfo.path` を介して使用できる値は、パラメーターとして `adobeDataLayer.getState(<component-path>)` に使用できるので重要です。このパラメーターは、イベントをトリガーしたコンポーネントの現在の状態を取得し、カスタムコードが追加のデータにアクセスしてデータレイヤーに追加できるようにします。
 
 次に例を示します。
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## チュートリアル
 
-データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、[次の実践チュートリアルをご覧ください](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ja)。
+データレイヤーとコアコンポーネントの詳細について知りたい場合は、[この実践チュートリアル ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ja) をご覧ください。
 
 >[!TIP]
 >

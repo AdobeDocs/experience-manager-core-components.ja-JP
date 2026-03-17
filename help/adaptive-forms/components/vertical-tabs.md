@@ -1,12 +1,12 @@
 ---
 title: アダプティブフォームのコアコンポーネント - 垂直タブ
 description: アダプティブフォームの垂直タブコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 100%
+source-wordcount: '2214'
+ht-degree: 98%
 
 ---
 
@@ -38,13 +38,13 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームの垂直タブコアコンポーネントは、コアコンポーネント 2.0.18 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsの垂直タブコアコンポーネントは、コアコンポーネント 2.0.18 の一部としてリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 |  |  |
 |---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[リリース 2.0.18](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり | 互換性あり |
+| v1 | <br>[ リリース 2.0.18](/help/adaptive-forms/version.md) 以降と互換性あり\|互換性あり\|互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 

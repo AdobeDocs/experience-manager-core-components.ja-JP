@@ -1,12 +1,12 @@
 ---
 title: メールコアコンポーネントの概要
 description: メールコアコンポーネントの柔軟性を利用して、説得力のあるメールコンテンツを作成し、Adobe Campaign の機能を活用して提供します。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '376'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---

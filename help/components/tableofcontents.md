@@ -1,9 +1,9 @@
 ---
 title: 目次コンポーネント
 description: 目次コンポーネントは、ページコンテンツ内のタイトルに基づいて目次（ToC）を作成するので、読者がページを素早く移動できるようになります。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 98%
@@ -43,11 +43,11 @@ ht-degree: 98%
 >
 >AEM as a Cloud Service では、コンポーネントのコンテンツをレンダリングするために、管理者がコンポーネントのフィルターを有効にする必要があります。
 >
->詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)を参照してください。
+>詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-目次コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)してください。
+目次コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -85,4 +85,4 @@ ht-degree: 98%
 
 ### 「スタイル」タブ {#styles-tab}
 
-目次コンポーネントでは、AEM[&#x200B; スタイルシステム &#x200B;](/help/get-started/authoring.md#component-styling) をサポートしています。
+目次コンポーネントでは、AEM[ スタイルシステム ](/help/get-started/authoring.md#component-styling) をサポートしています。

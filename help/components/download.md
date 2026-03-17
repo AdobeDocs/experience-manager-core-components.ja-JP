@@ -1,17 +1,17 @@
 ---
-title: 'ダウンロードコンポーネント '
+title: ダウンロードコンポーネント
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '741'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
 
-# ダウンロードコンポーネント {#download-component}
+# ダウンロードコンポーネント{#download-component}
 
 コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ダウンロードコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download_jp)を参照してください。
+ダウンロードコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 ダウンロードコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
+ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。 編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
 
 ドロップダウンメニューを使用するには、[デザインダイアログ](#design-dialog)でこのコンポーネントのスタイルを設定する必要があります。
 

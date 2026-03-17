@@ -1,12 +1,12 @@
 ---
 title: タイトルコンポーネント（v1）
 description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '320'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 タイトルコンポーネントは、コンテンツのセクションのタイトルまたは見出しとして使用するためのものです。
 
-使用可能な見出しレベルは、[デザインダイアログ](#design-dialog)でテンプレート作成者が定義できます。コンテンツ編集者は、[編集ダイアログ](#edit-dialog)で、使用可能な見出しレベルから選択できます。利便性の向上のため、見出しテキストの簡単なインプレース編集も可能です。
+使用可能な見出しレベルは、[デザインダイアログ](#design-dialog)でテンプレート作成者が定義できます。 コンテンツ編集者は、[編集ダイアログ](#edit-dialog)で、使用可能な見出しレベルから選択できます。 利便性の向上のため、見出しテキストの簡単なインプレース編集も可能です。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](/help/versions.md)を参照してください。
+>コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。 詳しくは、[コアコンポーネント v1 の互換性情報](/help/versions.md)を参照してください。
 
 ## 編集ダイアログ {#edit-dialog}
 

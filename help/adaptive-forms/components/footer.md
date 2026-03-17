@@ -1,12 +1,12 @@
 ---
 title: アダプティブフォームのコアコンポーネント - フッター
 description: アダプティブフォームのフッターコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '783'
+ht-degree: 94%
 
 ---
 
@@ -45,38 +45,40 @@ ht-degree: 100%
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームのフッターコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームのフッターコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログを使用すると、訪問者のフッターエクスペリエンスを簡単にカスタマイズできます。また、簡単にフッターのオプションを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
+設定ダイアログを使用すると、訪問者のフッターエクスペリエンスを簡単にカスタマイズできます。 また、簡単にフッターのオプションを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
 
 ![「プロパティ」タブ](/help/adaptive-forms/assets/footer_propertiestab.png)
 
 - **「編集ダイアログ」ボックス**
 「編集ダイアログ」には、ユーザーがフッターのテキストを作成できる、標準のリッチテキスト形式のツールが用意されています。
 
-- **太字** - 選択したテキストやカーソルの後の入力したテキストを太字にすることができます。`Ctrl+B` は、キーボードショートカットです。
+- **太字** – 選択したテキストや太字に太字書式を適用します   カーソルの後に入力するテキストを書式設定します。`Ctrl+B` は、キーボードショートカットです。
 
-- **斜体** - 選択したテキストやカーソルの後の入力したテキストを斜体にすることができます。`Ctrl+I` は、キーボードショートカットです。
+- **斜体** – 選択したテキストに斜体の書式を適用します。   カーソルの後に入力したテキストを斜体にします。`Ctrl+I` は、キーボードショートカットです。
 
 ![「箇条書き」オプション](/help/adaptive-forms/assets/footer_bullet.png)
 
 
 - **箇条書き**
 
-   - **箇条書きアイコン** - 選択したテキストを箇条書きリストとして書式設定するか、カーソルの後に箇条書きリストを挿入するために使用します。箇条書きリストを終了するには、「箇条書き」ボタンをタップまたはクリックするか、キャリッジリターンを 2 回入力します。
+   - **箇条書きアイコン** - 選択したテキストを箇条書きリストとして書式設定するか、カーソルの後に箇条書きリストを挿入するために使用します。 箇条書きリストを終了するには、「箇条書き」ボタンをタップまたはクリックするか、キャリッジリターンを 2 回入力します。
 
-   - **番号付きリストアイコン** - 選択したテキストを番号付きリストとして書式設定するか、カーソルの後に番号付きリストを挿入するために使用します。番号付きリストを終了するには、「番号付き」ボタンをタップまたはクリックするか、キャリッジリターンを 2 回入力します。
+   - **番号付きリストアイコン** - 選択したテキストを番号付きリストとして書式設定するか、カーソルの後に番号付きリストを挿入するために使用します。 番号付きリストを終了するには、「番号付き」ボタンをタップまたはクリックするか、キャリッジリターンを 2 回入力します。
 
-   - **アウトデントアイコン** - 選択したテキストまたはカーソルの後の入力テキストのインデントレベルを減らします。選択したテキストまたはカーソルの位置が既にインデントされている場合にのみ有効です。
+   - **アウトデントアイコン** - 選択したテキストまたはカーソルの後の入力テキストのインデントレベルを減らします。 選択したテキストまたはカーソルの位置が既にインデントされている場合にのみ有効です。
 
    - **インデントアイコン** - 選択したテキストまたはカーソルの後の入力テキストのインデントレベルを増やします。
 
@@ -98,9 +100,9 @@ To experience the Accordion Component as well as see examples of its configurati
       - 親フレーム
       - トップフレーム
 
-   - **リンク解除アイコン** - このオプションを選択すると、選択したテキストに適用されているリンクが削除されます。このオプションは、リンクが既に選択されている場合にのみ有効です。
+   - **リンク解除アイコン** - このオプションを選択すると、選択したテキストに適用されているリンクが削除されます。 このオプションは、リンクが既に選択されている場合にのみ有効です。
 
-   - **段落形式アイコン** - このオプションを使用すると、選択したテキストに段落形式を適用できます。また、カーソルの後に挿入するテキストの書式を設定することもできます。タイトルの見出しレベルを定義します。
+   - **段落形式アイコン** - このオプションを使用すると、選択したテキストに段落形式を適用できます。 また、カーソルの後に挿入するテキストの書式を設定することもできます。 タイトルの見出しレベルを定義します。
 
 - **ID**：このオプションでは、HTML 内およびデータレイヤー内のコンポーネントの一意の ID を制御できます。
 
@@ -112,7 +114,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

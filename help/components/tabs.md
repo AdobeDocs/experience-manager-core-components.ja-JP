@@ -1,11 +1,11 @@
 ---
 title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1038'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1128'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 タブコンポーネントを使用すれば、コンテンツ作成者はコンテンツを複数のタブ内に配置できます。
 
-[編集ダイアログ](#edit-dialog)では、コンテンツ作成者が、複数のタブを定義したりアクティブなタブを設定したりできます。[デザインダイアログ](#design-dialog)を使用すれば、テンプレート作成者は、タブに追加できるコンポーネントを定義したり、スタイルをカスタマイズしたりできます。
+[編集ダイアログ](#edit-dialog)では、コンテンツ作成者が、複数のタブを定義したりアクティブなタブを設定したりできます。 [デザインダイアログ](#design-dialog)を使用すれば、テンプレート作成者は、タブに追加できるコンポーネントを定義したり、スタイルをカスタマイズしたりできます。
 
 >[!TIP]
 >
@@ -63,13 +63,13 @@ ht-degree: 100%
 1. ID がアンカーになり、ハッシュ（`#`）を使用して URL に追加できます。
    * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが展開されないように設定されている場合は、自動的に展開されます。
+パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。 デフォルトでパネルが展開されないように設定されている場合は、自動的に展開されます。
 
 ## タブとレスポンシブデザイン {#responsive-design}
 
 すべてのコアコンポーネントは、完全にレスポンシブに動作するように設計されており、デバイス間のシームレスなエクスペリエンスを実現します。
 
-タブコンポーネントなど、一部の高度なコンポーネントでは、あらゆる状況での応答性を維持するために、実装プロジェクトのコンテキスト内で特定の検討が必要になる場合があります。 詳しくは、[コアコンポーネントのレスポンシブデザイン](/help/responsive.md)を参照してください。
+タブコンポーネントなど、一部の高度なコンポーネントでは、あらゆる状況での応答性を維持するために、実装プロジェクトのコンテキスト内で特定の検討が必要になる場合があります。 詳しくは、[コアコンポーネントのレスポンシブデザイン](/help/responsive.md)のドキュメントを参照してください。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -79,16 +79,16 @@ ht-degree: 100%
 
 ![タブコンポーネントの編集ダイアログの「項目」タブ](/help/assets/tabs-edit-items.png)
 
-タブとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。追加が完了すると、以下の列を含むエントリがリストに追加されます。
+タブとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。 追加が完了すると、以下の列を含むエントリがリストに追加されます。
 
-* **アイコン** - リスト内で簡単に識別できるようにするための、タブのコンポーネントタイプのアイコン。マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
+* **アイコン** - リスト内で簡単に識別できるようにするための、タブのコンポーネントタイプのアイコン。 マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
 * **説明** - タブのテキストとして使用される説明。デフォルトでは、タブ用に選択されたコンポーネントの名前に設定されます。
 * **削除** - タップまたはクリックすると、タブコンポーネントからタブが削除されます。
 * **再配置** - タップまたはクリックしてドラッグすると、タブの順序を並べ替えることができます。
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのタブコンポーネントにドラッグ＆ドロップ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#inserting-a-component)することで、コンポーネントをタブコンポーネントに追加できます。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。 [コンポーネントブラウザーからページエディターのタブコンポーネントにドラッグ＆ドロップ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#inserting-a-component)することで、コンポーネントをタブコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 コンポーネントツールバーの「**パネルを選択**」オプションを選択すると、設定済みのタブがドロップダウンとして表示されます。
 
-* リスト内のタブは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
+* リスト内のタブは割り当てられた順序で並べられ、その順序が通し番号に反映されます。
 * まずタブのコンポーネントタイプが表示され、次にタブの説明が明るい色のフォントで表示されます。
 
 ![「パネルを選択」ポップオーバー](/help/assets/select-panel-popover.png)
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[プレビュー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#preview-mode)**&#x200B;モードまたは「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。 公開されているコンテンツを読者と同じ立場でタブを操作するには、**[プレビュー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#preview-mode)**&#x200B;モードまたは「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
 
 ## デザインダイアログ {#design-dialog}
 

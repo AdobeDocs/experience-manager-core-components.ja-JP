@@ -1,11 +1,11 @@
 ---
 title: アダプティブフォームのコアコンポーネント - 電話入力、電話
 description: アダプティブフォームの電話入力コアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2232'
 ht-degree: 98%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # 電話コンポーネント{#telephone-input-adaptive-forms-core-component}
 
-アダプティブフォームの電話コアコンポーネントを使用すると、ユーザーは電話番号を入力できます。電話の入力フィールドには、電話番号に関連するモバイルデバイスのキーボードが表示されます。 電話番号の形式と説明を指定するために、「パターン」や「プレースホルダー」などの追加の属性を使用してカスタマイズできます。
+アダプティブフォームの電話コアコンポーネントを使用すると、ユーザーは電話番号を入力できます。 電話の入力フィールドには、電話番号に関連するモバイルデバイスのキーボードが表示されます。 電話番号の形式と説明を指定するために、「パターン」や「プレースホルダー」などの追加の属性を使用してカスタマイズできます。
 
 電話入力フィールドは、連絡手段として電話番号が必要な連絡先フォーム、登録フォーム、その他のフォームで一般的に使用されます。 また、「pattern」属性に基づいて、ブラウザーが電話番号の長さや形式などの特定の制約を適用できるので、ユーザーが必ず有効な電話番号を入力するようにもできます。
 
@@ -41,13 +41,15 @@ ht-degree: 98%
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの電話入力コアコンポーネントの最新情報については、 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームの電話入力コアコンポーネントの最新情報については、 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -91,7 +93,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **スクリプト検証メッセージ** - スクリプトの検証が失敗した場合に表示するメッセージを入力できます。
 
-- **最大文字数** - このオプションを使用すると、コンポーネントで許可する最大文字数を指定できます。 「**最大文字数**」に指定した値を超えて文字を入力すると、エラーメッセージが画面に表示されます。 **最大文字数のエラーメッセージ**&#x200B;ダイアログボックスでは、カスタムエラーメッセージを追加できます。
+- **最大文字数** - このオプションを使用すると、コンポーネントで許可する最大文字数を指定できます。 「**最大文字数**」で指定した値を超える文字数を入力すると、エラーメッセージが画面に表示されます。 **最大文字数のエラーメッセージ**&#x200B;ダイアログボックスでは、カスタムエラーメッセージを追加できます。
 
 - **最大文字数のエラーメッセージ** - **最大文字数のエラーメッセージ**&#x200B;ダイアログボックスでは、「**最大文字数**」オプションで指定した値を超える文字数を入力したときに表示されるカスタムのエラーメッセージを追加できます。
 
@@ -99,9 +101,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **最小文字数エラーメッセージ** - **最小文字数エラーメッセージ**&#x200B;ダイアログボックスでは、「**最小文字数**」オプションで指定した値を下回る文字数を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
 
-「**検証パターン**」オプションでは、入力した電話番号を検証するパターンを指定できます。入力された電話番号は、「**パターン**」オプションで指定された値に対して検証されます。電話番号が「**パターン**」オプションで指定された値での検証に失敗すると、エラーメッセージが画面に表示されます。
+「**検証パターン**」オプションでは、入力した電話番号を検証するパターンを指定できます。 入力された電話番号は、「**パターン**」オプションで指定された値に対して検証されます。 電話番号が「**パターン**」オプションで指定された値での検証に失敗すると、エラーメッセージが画面に表示されます。
 
-- **パターン** - 電話番号に対して許可される検証パターンを指定できます。ここでは正規表現も使用できます。
+- **パターン** - 電話番号に対して許可される検証パターンを指定できます。 ここでは正規表現も使用できます。
 
 - **エラーメッセージ** - 入力した電話番号が、「**パターン**」オプションで指定された値に対する検証に失敗した場合に画面に表示されるメッセージを追加できます。
 
@@ -161,7 +163,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「検証パターン」タブ {#validation-patterns-tab}
 
-「検証パターン」タブを使用すると、特定の形式で値を入力したり、特定の条件を満たすことができます。一部のオプションはデフォルトで使用可能で、対応するチェックボックスをオンにすることで選択できます。さらに、カスタマイズされた形式を追加するには、「**追加**」ボタンをクリックします。
+「検証パターン」タブを使用すると、特定の形式で値を入力したり、特定の条件を満たすことができます。 一部のオプションはデフォルトで使用可能で、対応するチェックボックスをオンにすることで選択できます。 さらに、カスタマイズされた形式を追加するには、「**追加**」ボタンをクリックします。
 
 ![垂直タブ](/help/adaptive-forms/assets/telephoneinput-validationpatterns.png)
 
@@ -169,7 +171,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

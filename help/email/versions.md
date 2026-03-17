@@ -1,13 +1,13 @@
 ---
 title: コアメールコンポーネントのバージョン
 description: コアメールコンポーネントはリリースとして公開されています。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '444'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
-メールコアコンポーネントは、柔軟性を備え、サポートされるすべての AEM バージョンと互換性があるように設計されています。メールコアコンポーネントのバージョン履歴の完全な詳細[に関しては GitHub を参照してください。](https://github.com/adobe/aem-core-email-components/releases) ただし、メールコアコンポーネントのリリースと、AEM リリースおよび Java バージョンとの互換性の概要を次の表に示します。
+メールコアコンポーネントは、柔軟性を備え、サポートされるすべての AEM バージョンと互換性があるように設計されています。 メールコアコンポーネントのバージョン履歴の完全な詳細については [GitHub を参照してください。](https://github.com/adobe/aem-core-email-components/releases) ただし、メールコアコンポーネントのリリースと、AEM リリースおよび Java バージョンとの互換性の概要を次の表に示します。
 
 | リリース | 説明 | AEM 6.5 | AEM 6.5 LTS | コアコンポーネント | Java | リリース日 |
 |---|---|---|---|---|---|---|

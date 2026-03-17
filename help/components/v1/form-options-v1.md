@@ -1,12 +1,12 @@
 ---
 title: フォームオプションコンポーネント（v1）
 description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](/help/versions.md)を参照してください。
+>コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。 詳しくは、[コアコンポーネント v1 の互換性情報](/help/versions.md)を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 

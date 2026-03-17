@@ -1,12 +1,12 @@
 ---
 title: フォームコンテナコンポーネント
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 フォームコンテナコンポーネントは、シンプルな WCM フォームをサポートしており、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#configure-dialog)を使用すると、フォーム送信でトリガーされるアクション、送信を処理する URL、ワークフローをトリガーするかどうかをコンテンツ編集者が定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
+[設定ダイアログ](#configure-dialog)を使用すると、フォーム送信でトリガーされるアクション、送信を処理する URL、ワークフローをトリガーするかどうかをコンテンツ編集者が定義できます。 テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
 >[!NOTE]
 >
->コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。[基盤コンポーネント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=ja)のフォームコンポーネントをコアコンポーネントのフォームコンテナ内で使用すること（およびその逆の使用）はサポートされていません。
+>コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。 [基盤コンポーネント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=ja)のフォームコンポーネントをコアコンポーネントのフォームコンテナ内で使用すること（およびその逆の使用）はサポートされていません。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 設定ダイアログでは、コンポーネントの送信時に実行されるアクションをコンテンツ作成者が定義できます。
 
-選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
+選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。 使用可能なアクションタイプは次のとおりです。
 
 * [Post Form Data](#post-data)
 * [Mail](#mail)
@@ -69,11 +69,11 @@ ht-degree: 100%
 * **エラーメッセージ** - 送信が成功しなかった場合に表示するメッセージ
 
 >[!TIP]
->転送されたフォームデータを処理するためにシステム管理者が調整できる追加のタイムアウトオプションが用意されています。[詳しくは、GitHub の技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>転送されたフォームデータの処理を行うためにシステム管理者が調整できる追加のタイムアウトオプションがあります。[詳しくは、GitHub の技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Mail {#mail}
 
-アクションタイプが「Mail」の場合、フォームが送信されると、指定した受信者にメールが送信されます。
+アクションタイプが「メール」の場合、フォームが送信されると、指定した受信者にメールが送信されます。
 
 ![フォームコンテナコンポーネントの編集ダイアログのメールオプション](/help/assets/form-container-edit-mail.png)
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 * **ありがとうページ** - フォーム送信の完了後、ユーザーは指定したページにリダイレクトされます。
    * 選択ダイアログを使用して、AEM 内のリソースを選択します。
-   * ありがとうページが AEM にない場合は、絶対 URL を指定します。絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
+   * ありがとうページが AEM にない場合は、絶対 URL を指定します。 絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
    * 空白のままにすると、送信後にフォームが再度表示されます。
 * **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。

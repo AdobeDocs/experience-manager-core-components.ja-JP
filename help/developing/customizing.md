@@ -1,12 +1,12 @@
 ---
-title: 'コアコンポーネントのカスタマイズ '
+title: コアコンポーネントのカスタマイズ
 description: コアコンポーネントには、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンがいくつか実装されています。
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 柔軟なアーキテクチャ {#flexible-architecture}
 
-コアコンポーネントは、柔軟性と拡張性を兼ね備えるように一から設計されました。アーキテクチャの概要を見れば、カスタマイズが可能な場所がわかります。
+コアコンポーネントは、柔軟性と拡張性を兼ね備えるように一から設計されました。 アーキテクチャの概要を見れば、カスタマイズが可能な場所がわかります。
 
 ![コアコンポーネントのアーキテクチャ](/help/assets/screen_shot_2018-12-07at093742.png)
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 コアコンポーネントのダイアログ（[デザインダイアログ、編集ダイアログ](/help/get-started/authoring.md)のいずれか）で利用可能な設定オプションのカスタマイズが必要になることがあります。
 
-各ダイアログには一貫したノード構造があります。継承する側のコンポーネントでこの構造を複製することをお勧めします。そうすれば、[Sling Resource Merger](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) や[非表示条件](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/hide-conditions.html)を使用して元のダイアログのセクションの非表示、置換または並べ替えを行うことができます。複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
+各ダイアログには一貫したノード構造があります。 継承する側のコンポーネントでこの構造を複製することをお勧めします。そうすれば、[Sling Resource Merger](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) や[非表示条件](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/hide-conditions.html)を使用して元のダイアログのセクションの非表示、置換または並べ替えを行うことができます。 複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
 
-現在のバージョンのダイアログに対する変更との互換性を完全に持たせるには、タブ項目レベル配下にある構造に対して変更（非表示、追加、置換、並べ替えなど）を加えないことが非常に重要となります。代わりに、`sling:hideResource` プロパティ（[Sling Resource Merger のプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)を参照）を使用して親のタブ項目を非表示にし、カスタム設定フィールドを含む新しいタブ項目を追加してください。必要に応じて、`sling:orderBefore` を使用してタブ項目を並べ替えることもできます。
+現在のバージョンのダイアログに対する変更との互換性を完全に持たせるには、タブ項目レベル配下にある構造に対して変更（非表示、追加、置換、並べ替えなど）を加えないことが非常に重要となります。 代わりに、親のタブ項目は `sling:hideResource` プロパティを介して非表示にし（[Sling Resource Merger プロパティ ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/sling-resource-merger.html) を参照）、カスタムの設定フィールドを含む新しいタブ項目を追加する必要があります。`sling:orderBefore` 必要に応じて、タブ項目を並べ替えるために使用できます。
 
 以下の図では、推奨されるダイアログの構造と、前述した、継承される側のタブを非表示にして置換する方法を示しています。
 
@@ -78,9 +78,9 @@ ht-degree: 100%
 
 ### コアコンポーネントのロジックのカスタマイズ {#customizing-the-logic-of-a-core-component}
 
-コアコンポーネントのビジネスロジックは、Sling モデルで実装されています。このロジックは Sling 委任パターンを使用して拡張できます。
+コアコンポーネントのビジネスロジックは、Sling モデルで実装されています。 このロジックは Sling 委任パターンを使用して拡張できます。
 
-例えば、タイトルコアコンポーネントは、要求されたリソースの `jcr:title` プロパティを使用してタイトルのテキストを提供します。`jcr:title` プロパティが定義されていない場合は、現在のページのタイトルへのフォールバックが実行されます。ここで、現在のページのタイトルを常に表示するように動作を変更したいとします。
+例えば、タイトルコアコンポーネントは、要求されたリソースの `jcr:title` プロパティを使用してタイトルのテキストを提供します。 `jcr:title` プロパティが定義されていない場合は、現在のページのタイトルへのフォールバックが実行されます。 ここで、現在のページのタイトルを常に表示するように動作を変更したいとします。
 
 コアコンポーネントのモデルの実装が非公開になっているので、委任パターンを使用して拡張する必要があります。
 
@@ -119,9 +119,9 @@ public class PageHeadline implements Title {
 
 カスタマイズの最初の形式は、CSS スタイルを適用することです。
 
-これが簡単になるよう、コアコンポーネントではセマンティックなマークアップをレンダリングし、[Bootstrap](https://getbootstrap.com/) を参考にして標準化された命名規則に従います。また、個々のコンポーネントのスタイルを容易にターゲット化および名前空間化できるよう、各コアコンポーネントは「`cmp`」および「`cmp-<name>`」クラスを持つ DIV 要素内にラップされます。
+これが簡単になるよう、コアコンポーネントではセマンティックなマークアップをレンダリングし、[Bootstrap](https://getbootstrap.com/) を参考にして標準化された命名規則に従います。 また、個々のコンポーネントのスタイルを容易にターゲット化および名前空間化できるよう、各コアコンポーネントは「`cmp`」および「`cmp-<name>`」クラスを持つ DIV 要素内にラップされます。
 
-例えば、v1 パンくずコアコンポーネントの HTL ファイル [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html) を確認すると、要素出力の階層が `ol.breadcrumb > li.breadcrumb-item > a` となっていることがわかります。そのため、CSS ルールをそのコンポーネントのパンくずクラスのみに適用するには、次のようにすべてのルールを名前空間化する必要があります。
+例えば、v1 パンくずコアコンポーネントの HTL ファイル [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html) を確認すると、要素出力の階層が `ol.breadcrumb > li.breadcrumb-item > a` となっていることがわかります。 そのため、CSS ルールをそのコンポーネントのパンくずクラスのみに適用するには、次のようにすべてのルールを名前空間化する必要があります。
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -129,7 +129,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=ja)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
+さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=ja)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。 また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
 
 ## アップグレード時のカスタマイズの互換性 {#upgrade-compatibility-of-customizations}
 
@@ -143,7 +143,7 @@ public class PageHeadline implements Title {
 
 コアコンポーネントを新しいメジャーバージョンに切り替えずにアップグレードしても、このページで説明したカスタマイズパターンが使用されている限り、カスタマイズには何の影響もありません。
 
-コアコンポーネントを新しいメジャーバージョンに切り替えた場合、互換性が保たれるのはコンテンツの構造のみであり、カスタマイズはリファクタリングが必要となることがあります。コンポーネントバージョンごとに明瞭な変更ログが公開され、このページで説明した種類のカスタマイズに影響する変更を強調します。
+コアコンポーネントを新しいメジャーバージョンに切り替えた場合、互換性が保たれるのはコンテンツの構造のみであり、カスタマイズはリファクタリングが必要となることがあります。 コンポーネントバージョンごとに明瞭な変更ログが公開され、このページで説明した種類のカスタマイズに影響する変更を強調します。
 
 ## カスタマイズのサポート {#support-of-customizations}
 
@@ -151,7 +151,7 @@ public class PageHeadline implements Title {
 
 1. **コアコンポーネントのコードを直接変更しないでください。**
 
-   そうしてしまうと、コアコンポーネントが完全にサポート対象外となり、将来のコンポーネントのアップデートが困難になってしまいます。代わりに、このページで説明したカスタマイズ方法を使用してください。
+   そうしてしまうと、コアコンポーネントが完全にサポート対象外となり、将来のコンポーネントのアップデートが困難になってしまいます。 代わりに、このページで説明したカスタマイズ方法を使用してください。
 
 1. **カスタムコードはユーザー自身の責任になります。**
 

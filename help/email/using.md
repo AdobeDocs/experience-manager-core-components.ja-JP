@@ -1,13 +1,13 @@
 ---
 title: メールコアコンポーネントの使用
 description: メールコアコンポーネントの基本的なインストール、設定および使用について説明します。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## メールコアコンポーネントのインストール {#installation}
 
-メールコアコンポーネントは、AEM 6.5 で使用できます。詳しくは、[メールコアコンポーネントの概要ドキュメントの要件](introduction.md#requirements)を参照してください。
+メールコアコンポーネントは、AEM 6.5 で使用できます。 詳しくは、[ メールコアコンポーネントの概要ドキュメントの要件セクション ](introduction.md#requirements) を参照してください。
 
 ### コアコンポーネントのインストール {#core-components}
 

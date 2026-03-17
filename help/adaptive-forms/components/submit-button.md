@@ -1,11 +1,11 @@
 ---
 title: アダプティブフォームのコアコンポーネント - 送信ボタン
 description: アダプティブフォームの送信ボタンコアコンポーネントを使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1508'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1530'
 ht-degree: 100%
 
 ---
@@ -43,17 +43,19 @@ ht-degree: 100%
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブフォームの送信ボタンコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームの送信ボタンコアコンポーネントに関する最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、訪問者による送信ボタンの操作を簡単にカスタマイズできます。また、送信ボタンのオプションを簡単に定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
+設定ダイアログでは、訪問者による送信ボタンの操作を簡単にカスタマイズできます。 また、送信ボタンのオプションを簡単に定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
 
 ### 「基本」タブ {#basic-tab}
 
@@ -100,7 +102,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームの送信ボタンコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブフォームの送信ボタンコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![デザインダイアログ](/help/adaptive-forms/assets/checkbox-style.png)
 

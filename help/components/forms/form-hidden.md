@@ -1,16 +1,16 @@
 ---
 title: フォーム非表示コンポーネント
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '429'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# フォーム非表示コンポーネント {#form-hidden-component}
+# フォーム非表示コンポーネント{#form-hidden-component}
 
 コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 * **名前** - フィールドの名前（フォームデータと共に送信されます）
 * **値** - フィールドの値（フォームデータと共に送信されます）
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。

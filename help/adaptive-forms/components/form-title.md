@@ -1,11 +1,11 @@
 ---
 title: アダプティブフォームのコアコンポーネント - タイトル
 description: アダプティブフォームのタイトルコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '864'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '882'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # フォームタイトルコンポーネント{#title-input-adaptive-forms-core-component}
 
-アダプティブフォームの「タイトル」とは、フォームの上部（通常、ヘッダーの下）に表示されるテキストを指します。タイトルは、タイトルコンポーネントを使用して指定します。このコンポーネントをフォームレイアウトに追加し、そのテキストをフォームの目的やトピックに合わせて編集できます。 タイトルは、ユーザーに対するフォームのラベルまたは短い説明として機能し、フォームを区別するのに役立ちます。
+アダプティブフォームの「タイトル」とは、フォームの上部（通常、ヘッダーの下）に表示されるテキストを指します。 タイトルは、タイトルコンポーネントを使用して指定します。 このコンポーネントをフォームレイアウトに追加し、そのテキストをフォームの目的やトピックに合わせて編集できます。 タイトルは、ユーザーに対するフォームのラベルまたは短い説明として機能し、フォームを区別するのに役立ちます。
 
 {{traditional-aem}}
 
@@ -49,9 +49,11 @@ ht-degree: 100%
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 
 ## 技術的詳細 {#technical-details}
@@ -66,7 +68,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 編集ダイアログでは、コンテンツ作成者がタイトルテキストを定義したり、見出しレベルを選択したりできます。
 
-- **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
+- **タイトル** - タイトルを使用すると、フォーム内のコンポーネントを簡単に識別できます。デフォルトでは、コンポーネントの上にタイトルが表示されます。 タイトルを追加しない場合、コンポーネントの名前がタイトルテキストの代わりに表示されます。
 - **種類 / サイズ** - タイトルの見出しレベルを定義します.
 - **ID** - このオプションを使用すると、HTML 内およびデータレイヤー内のコンポーネントの一意の識別子を制御できます。
    - 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
@@ -89,7 +91,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームの日付選択コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。 アダプティブフォームの日付選択コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![デザインダイアログの「タイトル」タブ](/help/adaptive-forms/assets/title_styles.png)
 
@@ -107,7 +109,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

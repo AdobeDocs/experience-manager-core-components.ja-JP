@@ -1,11 +1,11 @@
 ---
 title: アダプティブフォームのコアコンポーネント - 数値入力
 description: アダプティブフォームの数値入力コアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2446'
 ht-degree: 95%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 95%
 
 # 数値ボックスコンポーネント{#number-input-adaptive-forms-core-component}
 
-アダプティブフォームの数値ボックスコンポーネントは、ユーザーが数値を入力できるフォームフィールドのひとつです。このコンポーネントは通常、数値を増やす上向き矢印と数値を減らす下向き矢印と共にテキストフィールドに表示されます。
+アダプティブフォームの数値ボックスコンポーネントは、ユーザーが数値を入力できるフォームフィールドのひとつです。 このコンポーネントは通常、数値を増やす上向き矢印と数値を減らす下向き矢印と共にテキストフィールドに表示されます。
 
-最小、最大、ステップ、値などの属性と共に使用することもできます。これらの属性を使用すると、フィールドで許可される最小値と最大値、数値の増減間隔、およびフィールドのデフォルト値を設定できます。
+最小、最大、ステップ、値などの属性と共に使用することもできます。 これらの属性を使用すると、フィールドで許可される最小値と最大値、数値の増減間隔、およびフィールドのデフォルト値を設定できます。
 
-このコンポーネントでは、年齢や数量などの数値データを収集できます。 また、加算や減算などの数学演算を行う場合にも使用できます。さらに、ユーザーが入力した数値データを検証することもできます。
+このコンポーネントでは、年齢や数量などの数値データを収集できます。 また、加算や減算などの数学演算を行う場合にも使用できます。 さらに、ユーザーが入力した数値データを検証することもできます。
 
 アクセシビリティについては、数値入力フィールドの目的と入力内容について説明する「ラベル」を指定することが重要です。
 
@@ -48,9 +48,11 @@ ht-degree: 95%
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
@@ -130,7 +132,7 @@ To experience the Accordion Component as well as see examples of its configurati
 ![「アクセシビリティ」タブ](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **表示形式** - このオプションでは、表示する様々な整数の数値形式を選択できます。 ユーザーが「**タイプ**」ドロップダウンメニューからオプションを選択すると、「**形式**」オプションがパネルに表示されます。 ユーザーに表示する数値の形式を選択できます。
-- **言語** - この機能は、特定のフィールドを書式設定するために使用されます。ユーザーが&#x200B;**タイプ**&#x200B;ドロップダウンメニューから言語オプションを選択すると、「**IETF BCP 47 言語タグ**」オプションがパネルに表示されます。アダプティブフォームを特定の言語に翻訳する際に、フィールドの書式設定に使用する言語を選択できます。
+- **言語** - この機能は、特定のフィールドを書式設定するために使用されます。 ユーザーが&#x200B;**タイプ**&#x200B;ドロップダウンメニューから言語オプションを選択すると、「**IETF BCP 47 言語タグ**」オプションがパネルに表示されます。 アダプティブフォームを特定の言語に翻訳する際に、フィールドの書式設定に使用する言語を選択できます。
 
 言語セットはデフォルトでは表示されませんが、次のようにテンプレートポリシーを更新すると、ユーザーは、カスタムの **IETF BCP 47 言語タグ**&#x200B;を入力できます。
 
@@ -190,17 +192,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 1. テンプレートエディターで、アダプティブフォームまたはアダプティブサイトに関連付けられている対応するテンプレートを開きます。
 2. **許可されたコンポーネント** セクションで、**[!UICONTROL 数値入力]** コンポーネントを選択します。
-   ![&#x200B; 日付選択テンプレートポリシー &#x200B;](/help/adaptive-forms/assets/number-input-policy.png)
+   ![ 日付選択テンプレートポリシー ](/help/adaptive-forms/assets/number-input-policy.png)
 3. **[!UICONTROL 追加]** アイコンをクリックして、数値入力コンポーネントの新しいポリシーを作成します。
 4. ポリシーの名前を入力し、「**形式** タブで必要なすべての形式を選択します。
-   ![&#x200B; ポリシーの作成 &#x200B;](/help/adaptive-forms/assets/date-picker-format-policy.png)
+   ![ ポリシーの作成 ](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. 「**[!UICONTROL 完了]**」をクリックします。
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

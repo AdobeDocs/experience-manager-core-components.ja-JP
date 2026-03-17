@@ -1,12 +1,12 @@
 ---
 title: アダプティブフォームのアコーディオン
 description: アコーディオンを使用すると、長いフォームや複雑なフォームを、より小さく、管理しやすいセクションに分割して整理し、簡略化できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2237'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '2303'
+ht-degree: 98%
 
 ---
 
@@ -37,27 +37,29 @@ ht-degree: 100%
 
 - アコーディオンのパネルの順序を定義するための[「パネルを選択」ポップオーバー](#select-panel-popover)。 これを使用することで、作成者は指定した順序でパネルを配置できます。
 
-- [デザインダイアログ](#design-dialog)で、フォームの作成者が特定の機能を有効／無効にするためのオプション。 例えば、作成者がフォームの特定のフィールドやセクションを無効にしたい場合は、これらのオプションでフォームのデザインや機能をより詳細に制御して、組織のニーズに合わせて調整されたフォームを簡単に作成できます。
+- [デザインダイアログ](#design-dialog)で、フォームの作成者が特定の機能を有効／無効にするためのオプション。 例えば、作成者がフォームの特定のフィールドやセクションを無効にしたい場合は、 これらのオプションでフォームのデザインや機能をより詳細に制御して、組織のニーズに合わせて調整されたフォームを簡単に作成できます。
 
 設定ダイアログ、「選択パネル」ポップオーバーおよびデザインダイアログは、すべてコアコンポーネントの一部です。これらのコンポーネントは、フォームのオーサリングを容易にし、複雑なフォームを効率的に作成するために構築されています。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
 
-アダプティブフォームのアコーディオンコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
+アダプティブ Forms アコーディオンコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 |  |  |
 |---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり | 互換性あり |
+| v1 | <br>[ リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり\|互換性あり\|互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 
@@ -118,7 +120,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![繰り返しアコーディオン](/help/adaptive-forms/assets/repeat-accordion.png)
 
-繰り返しオプションを使用すると、アコーディオンパネルとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。 アコーディオンコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
+繰り返しオプションを使用すると、アコーディオンパネルとその子コンポーネントのレプリケーション、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションのレプリケーションを簡単に行うことができます。 アコーディオンコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
 
 - **アコーディオンを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチ機能。
 - **最小繰り返し回数**：アコーディオンパネルを繰り返し可能な最小回数を設定します。 値 0 は、アコーディオンパネルが繰り返されないことを示します。デフォルト値は 0 です。
@@ -133,7 +135,7 @@ To experience the Accordion Component as well as see examples of its configurati
 「追加」ボタンを使用すると、「コンポーネント選択」ウィンドウからパネルとして追加するコンポーネントを選択できます。 コンポーネントを追加すると、次のオプションが表示されます。
 
 - **アイコン** - アイコンは、リスト内のパネルのコンポーネントを識別します。 アイコンの上にマウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
-- **説明** - パネルのテキストとして使用される説明。デフォルトでは、パネルに対してコンポーネントの名前が選択されます。
+- **説明** - パネルのテキストとして使用される説明。 デフォルトでは、パネルに対してコンポーネントの名前が選択されます。
 - **削除** - タップまたはクリックすると、アコーディオンコンポーネントからパネルを削除できます。
 - **並べ替え** - タップまたはクリックしてドラッグすると、パネルを並べ替えることができます。
 
@@ -162,7 +164,6 @@ To experience the Accordion Component as well as see examples of its configurati
    - **なし**：ARIA アクセシビリティラベルに追加しない場合は、このオプションを選択します。
 
 <!--
-
 ### Properties Tab {#properties-tab}
 
 ![Properties tab of the edit dialog of the Accordion Component](/help/assets/accordion-edit-properties.png)
@@ -186,7 +187,8 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 * The panels are displayed in a numbered list, reflecting the assigned arrangement.
 * Each panel is listed with its component type in bold, followed by a brief description in lighter font.
 * By clicking or tapping on a panel in the drop-down, you can easily switch the view in the editor to that specific panel.
-* To rearrange the panels, simply use the drag handles to move them into the desired order. -->
+* To rearrange the panels, simply use the drag handles to move them into the desired order. 
+-->
 
 ## デザインダイアログ {#design-dialog}
 

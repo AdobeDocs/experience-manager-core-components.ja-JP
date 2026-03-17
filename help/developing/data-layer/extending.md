@@ -1,17 +1,17 @@
 ---
-title: Adobe Client Data Layer の拡張
-description: Adobe Client Data Layer は、いくつかの基本的なパターンに従って拡張できます
+title: アドビクライアントデータレイヤーの拡張
+description: アドビクライアントデータレイヤーは、いくつかの基本的なパターンに従って拡張できます
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
 
-# Adobe Client Data Layer の拡張 {#extending-acdl}
+# アドビクライアントデータレイヤーの拡張 {#extending-acdl}
 
 コアコンポーネントは、カスタムダイアログオプションで拡張できます。このオプションを使用すると、コンテンツ作成者はデータレイヤーに関連する追加情報を入力できます。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 したがって、カスタム Sling モデルには、より多くのフィールドを返すように `ComponentData` を拡張するオブジェクトを返す `getData` メソッドがある場合があります。
 
-これにより、データレイヤーに入力されるデータの JSON を使用して、コンポーネントの HTML 要素に `data-cmp-data-layer` 属性が追加されます。この時点で、このデータをリッスンするスクリプトや関連するイベントを実装できます。
+これにより、データレイヤーに入力されるデータの JSON を使用して、コンポーネントの HTML 要素に `data-cmp-data-layer` 属性が追加されます。 この時点で、このデータをリッスンするスクリプトや関連するイベントを実装できます。
 
 >[!TIP]
 >

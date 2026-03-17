@@ -1,12 +1,12 @@
 ---
 title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 95%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 コアコンポーネントの[リリース 2.11.0](/help/versions.md) 以降で、[AMP（Accelerated Mobile Pages）](https://developers.google.com/amp)は完全にサポートされます。
 
-このドキュメントでは、AMP のサポート方法の概要と、サイトで AMP を有効にする方法を説明します。ただし、技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
+このドキュメントでは、AMP のサポート方法の概要と、サイトで AMP を有効にする方法を説明します。 ただし、技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
 
 ## AMP とは {#what-is-amp}
 
-Accelerated Mobile Pages（AMP）は、元々 Google がモバイルブラウジング用にページを最適化するために設計したオープンソースフレームワークです。通常、AMP ページは、標準の Web ページよりもさらに速く読み込まれ、優れたモバイルエクスペリエンスを提供します。
+Accelerated Mobile Pages（AMP）は、元々 Google がモバイルブラウジング用にページを最適化するために設計したオープンソースフレームワークです。 通常、AMP ページは、標準の Web ページよりもさらに速く読み込まれ、優れたモバイルエクスペリエンスを提供します。
 
 ## コアコンポーネントの AMP {#amp-in-core-components}
 
-コアコンポーネントでの AMP サポートは、[完全に設定可能です。](#enabling-amp)ページの AMP バージョンは、標準 HTML バージョンと一緒に排他的に提供する、またはまったく提供しないかを設定できます。
+コアコンポーネントでの AMP のサポートは [ 完全に設定可能 ](#enabling-amp) AMP バージョンのページは、標準のHTML バージョンと一緒に排他的に提供することも、まったく提供しないこともできます。
 
-コアコンポーネントは、AMP ページをレンダリングするために Sling セレクターとして `amp` を使用します。例えば、`example.html` は通常のページをレンダリングし、`example.amp.html` は AMP バージョンになります。
+コアコンポーネントは、AMP ページをレンダリングするために Sling セレクターとして `amp` を使用します。 例えば、`example.html` は通常のページをレンダリングし、`example.amp.html` は AMP バージョンになります。
 
-個々のプロジェクトで AMP を活用するかどうかを決定できます。さらに、AMP と標準の HTML ページは並行して提供できるので、プロジェクトの特定のページでのみ AMP を使用するように選択できます。
+個々のプロジェクトで AMP を活用するかどうかを決定できます。 さらに、AMP と標準の HTML ページは並行して提供できるので、プロジェクトの特定のページでのみ AMP を使用するように選択できます。
 
 ## プロジェクトでの AMP サポートの使用の手引き {#getting-started}
 

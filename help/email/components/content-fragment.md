@@ -1,24 +1,24 @@
 ---
-title: 'メールコンテンツフラグメントコンポーネント '
+title: メールコンテンツフラグメントコンポーネント
 description: メールコンテンツフラグメントコンポーネントを使用すると、コンテンツ内のコンテンツフラグメントを表示できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '607'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '645'
 ht-degree: 100%
 
 ---
 
 
-# メールコンテンツフラグメントコンポーネント  {#email-content-fragment-component}
+# メールコンテンツフラグメントコンポーネント {#email-content-fragment-component}
 
 メールコンテンツフラグメントコンポーネントを使用すると、コンテンツ内の[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)を表示できます。
 
 ## 使用方法 {#usage}
 
-メールコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)をメールコンテンツに含めることができます。 コンテンツフラグメントは、一元的に作成して容易に再利用できるマルチチャネル構造コンテンツです。
+メールコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)をメールコンテンツに含めることができます。 コンテンツフラグメントは、一元的に作成して容易に再利用できるマルチチャネルの構造化コンテンツです。
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択することができます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義することができます。
@@ -38,9 +38,9 @@ ht-degree: 100%
 
 ## 技術的詳細 {#technical-details}
 
-メールコンテンツフラグメントコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_cf_v1_jp)
+メールコンテンツフラグメントコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください。](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
 
-コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメントを参照してください。](/help/developing/overview.md)
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
@@ -102,4 +102,4 @@ ht-degree: 100%
 
 ### 「スタイル」タブ {#styles-tab}
 
-メールエクスペリエンスフラグメントコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+メールエクスペリエンスフラグメントコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。

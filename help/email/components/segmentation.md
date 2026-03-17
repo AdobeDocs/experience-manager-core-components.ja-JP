@@ -1,13 +1,13 @@
 ---
 title: メールセグメント化コンポーネント
 description: メールセグメント化コンポーネント
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-メールセグメント化コンポーネントを使用すると、Adobe Campaign から提供される、受信者に関する変数が満たす条件に基づいて、コンテンツ作成者がコンテンツの表示と非表示を切り替えることができます。このようにして、セグメント化に基づいてコンテンツが受信者に表示されます。
+メールセグメント化コンポーネントを使用すると、Adobe Campaign から提供される、受信者に関する変数が満たす条件に基づいて、コンテンツ作成者がコンテンツの表示と非表示を切り替えることができます。 このようにして、セグメント化に基づいてコンテンツが受信者に表示されます。
 
 * テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、セグメントとして追加できるコンポーネントを定義できます。
 * コンテンツ作成者は[設定ダイアログ](#configure-dialog)を使用して、コンポーネントをセグメントとして追加し、表示するセグメントを Adobe Campaign 変数に基づいて設定することができます。
@@ -37,40 +37,40 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_jp)してください。
+メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-編集ダイアログでは、コンテンツ作成者がセグメントの作成、名前変更、並べ替えを行ったり、アクティブなセグメントを定義したりできます。メールセグメント化コンポーネントでは、セグメントは、コンテンツの受信者が満たす条件に基づいて表示／非表示が切り替わる別のコンポーネントにすぎません。これを[コアコンポーネントタブコンポーネント](/help/components/tabs.md)になぞらえることができますが、セグメント化コンポーネントでは、条件が満たされるタブのコンテンツのみが表示されます。
+編集ダイアログでは、コンテンツ作成者がセグメントの作成、名前変更、並べ替えを行ったり、アクティブなセグメントを定義したりできます。 メールセグメント化コンポーネントでは、セグメントは、コンテンツの受信者が満たす条件に基づいて表示／非表示が切り替わる別のコンポーネントにすぎません。 これを[コアコンポーネントタブコンポーネント](/help/components/tabs.md)になぞらえることができますが、セグメント化コンポーネントでは、条件が満たされるタブのコンテンツのみが表示されます。
 
 ### 「項目」タブ {#items-tab}
 
 ![メールセグメント化コンポーネントの設定ダイアログの「項目」タブ](/help/email/assets/email-segmentation-configure-items.png)
 
-「**セグメントを追加**」ボタンを使用してコンポーネントセレクターを開くと、セグメントとして追加するコンポーネントを選択できます。追加が完了すると、以下の要素を含んだエントリがリストに追加されます。
+「**セグメントを追加**」ボタンを使用してコンポーネントセレクターを開くと、セグメントとして追加するコンポーネントを選択できます。 追加が完了すると、以下の要素を含んだエントリがリストに追加されます。
 
-* **アイコン** - セグメントのコンポーネントタイプのアイコンで、リスト内で識別しやすくするためのものです。マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
+* **アイコン** - セグメントのコンポーネントタイプのアイコンで、リスト内で識別しやすくするためのものです。 マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
 * **条件** - このセグメントがコンテンツの受信者に表示されるために満たする必要がある条件。
    * 使用可能な条件は、[デザインダイアログ](#design-dialog)で定義されます。
    * **デフォルト** - 他の条件を満たさない場合に表示するデフォルトのセグメントを定義します
    * **カスタム** - 条件を作成者が定義できるようにします
       * 条件は、Adobe Campaign のパーソナライゼーション変数に基づきます
-      * [Adobe Campaign Standard のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
-      * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)
+      * [Adobe Campaign Standardのパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
+      * [Adobe Campaign Classicのパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)
 * **削除** - タップまたはクリックすると、メールセグメント化コンポーネントからセグメントを削除できます。
 * **並べ替え** - タップまたはクリックしてドラッグすると、セグメントを並べ替えることができます。
 
 >[!TIP]
 >
->コンテンツのビューポートを縮小して編集ダイアログが全画面表示になるようにすると、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからコンテンツエディターのメールセグメント化コンポーネントにドラッグ＆ドロップ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#inserting-a-component)することで、コンポーネントをメールセグメント化コンポーネントに追加することはできます。
+>コンテンツのビューポートを縮小して編集ダイアログが全画面表示になるようにすると、「**追加**」ボタンが非表示になります。 [コンポーネントブラウザーからコンテンツエディターのメールセグメント化コンポーネントにドラッグ＆ドロップ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#inserting-a-component)することで、コンポーネントをメールセグメント化コンポーネントに追加することはできます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
 ![メールセグメント化コンポーネントの設定ダイアログの「プロパティ」タブ](/help/email/assets/email-segmentation-configure-properties.png)
 
-* **ID** - このオプションを使用すると、HTML 内のコンポーネントの一意の ID を制御できます。
+* **ID** - このオプションを使用すると、HTML 内のコンポーネントの一意の ID を制御することができます。
    * これを空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS に影響を与える可能性があります。
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 メールセグメント化コンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
+ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。 編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
 
 このタブを使用するには、[デザインダイアログ](#design-dialog)でこのコンポーネントのスタイルを設定する必要があります。
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->セグメントはページエディター内のタブとしてレンダリングされ、最終的なコンテンツに対して複数のオプションがあることを示します。作成者がページエディター内でこれらのタブを選択することはできません。選択パネルを使用すると、表示するセグメントを切り替えることができます。
+>セグメントはページエディター内のタブとしてレンダリングされ、最終的なコンテンツに対して複数のオプションがあることを示します。 作成者がページエディター内でこれらのタブを選択することはできません。 選択パネルを使用すると、表示するセグメントを切り替えることができます。
 
 ## デザインダイアログ {#design-dialog}
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 * **セグメント条件名** - 条件の説明
 * **セグメント条件** - Adobe Campaign のパーソナライゼーション変数に基づいて、満たす必要がある実際の条件
-   * [Adobe Campaign Standard のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
-   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=ja
+   * [Adobe Campaign Standardのパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
+   * [Adobe Campaign Classicのパーソナライゼーションリソースについては、こちらを参照してください。] （https://experienceleague.adobe.com/docs/
 * **削除** - タップしてクリックすると、条件を削除できます
 * **並べ替え** - タップまたはクリックしてドラッグすると、順序を並べ替えることができます

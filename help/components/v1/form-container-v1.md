@@ -1,12 +1,12 @@
 ---
 title: フォームコンテナコンポーネント（v1）
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '609'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 フォームコンテナコンポーネントは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#settings-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクションの種類、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
+[設定ダイアログ](#settings-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクションの種類、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。 テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1.png)
 
-選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
+選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。 使用可能なアクションタイプは次のとおりです。
 
 * [Mail](#mail)
 * [コンテンツを格納](#store-content)
@@ -100,7 +100,7 @@ ht-degree: 100%
 フォーム送信の完了後、ユーザーは指定したページにリダイレクトされます。
 
 * 選択ダイアログを使用して、AEM 内のリソースを選択します。
-* ありがとうページが AEM にない場合は、絶対 URL を指定します。絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
+* ありがとうページが AEM にない場合は、絶対 URL を指定します。 絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
 * 空白のままにすると、送信後にフォームが再度表示されます。
 
 ## デザインダイアログ {#design-dialog}

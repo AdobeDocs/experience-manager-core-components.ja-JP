@@ -1,12 +1,12 @@
 ---
 title: メールボタンコンポーネント
 description: メールボタンコンポーネントを使用すると、コンテンツ内のボタン項目を設定および表示できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 技術的詳細 {#technical-details}
 
-メールボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_email_button_v1_jp) を参照してください。
+メールボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_email_button_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 メールボタンコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
+ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。 編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
 
 このタブを使用するには、[デザインダイアログ](#design-dialog)でこのコンポーネントのスタイルを設定する必要があります。
 

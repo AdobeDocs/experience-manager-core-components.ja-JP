@@ -1,13 +1,13 @@
 ---
 title: ページコンポーネント（v2）
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '618'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 94%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-ページコンポーネントは、コアコンポーネントと編集可能なテンプレートを使用して設計されるあらゆるページの基礎となるものです。ページコンポーネントを使用すれば、ページのヘッダー、フッター、構造を、他のコアコンポーネントを使用する際のテンプレートとして定義できます。
+ページコンポーネントは、コアコンポーネントと編集可能なテンプレートを使用して設計されるあらゆるページの基礎となるものです。 ページコンポーネントを使用すれば、ページのヘッダー、フッター、構造を、他のコアコンポーネントを使用する際のテンプレートとして定義できます。
 
-[デザインダイアログ](#design-dialog)を使用すれば、カスタムのクライアント側ライブラリをページ用に定義できます。コンポーネントから編集ダイアログに直接アクセスできる他のコンポーネントとは異なり、ページコンポーネントはページそのものなので、ページコンポーネントの[編集ダイアログ](#edit-dialog)はページプロパティウィンドウになります。
+[デザインダイアログ](#design-dialog)を使用すれば、カスタムのクライアント側ライブラリをページ用に定義できます。 コンポーネントから編集ダイアログに直接アクセスできる他のコンポーネントとは異なり、ページコンポーネントはページそのものなので、ページコンポーネントの[編集ダイアログ](#edit-dialog)はページプロパティウィンドウになります。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## プログレッシブ ｗeb アプリのサポート {#pwa-support}
 
-コアコンポーネントのリリース 2.15.0 では、AEM as a Cloud Service の組み込み[プログレッシブ Web アプリ（PWA）機能をサポートするようになりました。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ja)サイトレベルでの簡単な設定で、AEM エクスペリエンスを PWA に変えることができます。
+コアコンポーネントのリリース 2.15.0 では、AEM as a Cloud Serviceに組み込まれた [ プログレッシブ web アプリケーション（PWA）機能 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ja) のサポートが導入されました。 サイトレベルで簡単に設定して、AEMのエクスペリエンスをPWAに変換できます。
 
 ### 技術的詳細 {#technical-details}
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 ページデザインウィンドウを使用すれば、読み込むクライアントライブラリとページの Web リソースライブラリを定義できます。
 
-* **クライアントライブラリ** - 読み込むクライアントライブラリカテゴリを定義します。JavaScript が本文の末尾に追加され、CSS がページの先頭に追加されます。
+* **クライアントライブラリ** - 読み込むクライアントライブラリカテゴリを定義します。 JavaScript が本文の末尾に追加され、CSS がページの先頭に追加されます。
 * **クライアントライブラリ JavaScript ページ先頭** - ページの先頭に読み込む JavaScript クライアントライブラリカテゴリを定義します。
    * ここで定義したカテゴリが「**クライアントライブラリ**」フィールドにも存在する場合は、JavaScript が本文の末尾ではなくページの先頭に読み込まれます。
    * カテゴリが「**クライアントライブラリ**」フィールドにも存在する場合を除き、CSS は読み込まれません。

@@ -1,9 +1,9 @@
 ---
 title: アダプティブフォームのコアコンポーネント - チェックボックスグループ
 description: アダプティブフォームのチェックボックスグループコアコンポーネントの使用またはカスタマイズ。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2315'
 ht-degree: 91%
@@ -62,9 +62,11 @@ ht-degree: 91%
 >
 > チェックボックスグループコアコンポーネント v1 バージョンは、WCAG 2.1 をサポートしています。このバージョンでは、使いやすさと読みやすさを向上させるため、ベストプラクティスに従ってコンテンツにアクセスできるようにすることに焦点を当てています。 v2 バージョンは WCAG 2.2 をサポートしています。これは、関連するフィールドを論理的およびセマンティックにグループ化することで、明確で予測可能かつ明確なアクセシビリティを強調することで、さらに一歩進んだ仕様となっており、包括的なフォームデザインの重要な要件となっています。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_jp). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術的詳細 {#technical-details}
 

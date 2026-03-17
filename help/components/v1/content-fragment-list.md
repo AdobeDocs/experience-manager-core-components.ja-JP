@@ -1,12 +1,12 @@
 ---
 title: コンテンツフラグメントのリストコンポーネント（v1）
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '694'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '738'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
+コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)のリストをページに組み込むことができます。 これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
 
 * リストとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * スタイルは、[デザインダイアログ](#design-dialog)でコンポーネントに適用できます。
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ### 「プロパティ」タブ
 
-「**プロパティ**」タブでは、リストに含めるコンテンツフラグメントを定義します。主に、選択したコンテンツフラグメントモデルに基づいていますが、他のフィルターオプションも使用できます。
+「**プロパティ**」タブでは、リストに含めるコンテンツフラグメントを定義します。 主に、選択したコンテンツフラグメントモデルに基づいていますが、他のフィルターオプションも使用できます。
 
 ![コンテンツフラグメントリストコンポーネントの編集ダイアログの「プロパティ」タブ](/help/assets/content-fragment-list-properties.png)
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 ### 「要素」タブ
 
-（「**最大項目数**」フィールドで制限されない限り）デフォルトでは、コンテンツフラグメントモデルのすべての要素がリストに含まれます。「**エレメント**」タブを使用すると、含める特定の要素を指定できます。
+（「**最大項目数**」フィールドで制限されない限り）デフォルトでは、コンテンツフラグメントモデルのすべての要素がリストに含まれます。 「**エレメント**」タブを使用すると、含める特定の要素を指定できます。
 
 ![コンテンツフラグメントリストコンポーネントの編集ダイアログの「要素」タブ](/help/assets/content-fragment-list-elements.png)
 

@@ -1,12 +1,12 @@
 ---
 title: メールティーザーコンポーネント
 description: メールティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示することができます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1002'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_jp)してください。
+メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、個々のティーザーのプロパティをコンテンツ作成者が定義できます。また、選択したティーザー画像を変更するための[編集ダイアログ](#edit-dialog)もあります。
+設定ダイアログでは、個々のティーザーのプロパティをコンテンツ作成者が定義できます。 また、選択したティーザー画像を変更するための[編集ダイアログ](#edit-dialog)もあります。
 
 ### 「リンク」タブ {#links-tab}
 
@@ -92,13 +92,13 @@ ht-degree: 100%
 
 メールティーザーコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
+ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。 編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
 
 このタブを使用するには、[デザインダイアログ](#design-dialog)でこのコンポーネントのスタイルを設定する必要があります。
 
 ## 編集ダイアログ {#edit-dialog}
 
-メールティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image.md)に委任します。そのため、コンテンツ作成者は画像コンポーネントの[編集ダイアログ](image.md#edit-dialog)を使用してティーザー画像を操作できます。
+メールティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image.md)に委任します。 そのため、コンテンツ作成者は画像コンポーネントの[編集ダイアログ](image.md#edit-dialog)を使用してティーザー画像を操作できます。
 
 ## デザインダイアログ {#design-dialog}
 

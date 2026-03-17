@@ -3,26 +3,26 @@ product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
 type: Documentation
 description: Adobe Experience Manager コアコンポーネントのドキュメント
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.ja-JP
-index: y
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+index: true
 recommendations: noDisplay
-source-git-commit: 55e5ef9271b07d8fffc7b396c890af1637309ff3
-workflow-type: ht
-source-wordcount: '101'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 1%
 
 ---
 
 
-# 内部使用メタデータ
+# 内部使用のメタデータ
 
-GitHub オーサリングシステムのメタデータは階層的で、次の増加する先例レベルが定義されます。
+GitHub オーサリングシステムのメタデータは階層的で、次の高レベルの前例として定義されています。
 
 1. metadata.md
-1. 目次
+1. から C
 1. 記事
 
-metadata.md ファイルで定義されたメタデータはリポジトリ全体に適用されますが、目次と記事のレベルで上書きできます。メタデータの上書きは、可能な限り低いレベルで行う必要があります。
+metadata.md ファイルで定義されたメタデータはリポジトリ全体に適用されますが、目次と記事のレベルで上書きできます。 メタデータの上書きは、できるだけ低いレベルで行う必要があります。
 
 最低限必要なのは、experience-manager-core-components.en リポジトリ内のメタデータです。
 
@@ -30,7 +30,7 @@ metadata.md
 
 * `product`
 * `git-repo`
-* `index: y`
+* `index: true`
 * `solution-title`
 * `solution-hub-url`
 * `getting-started-title`
@@ -38,7 +38,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-目次
+ToCs
 
 * `sub-product`
 * `user-guide-title`
@@ -47,6 +47,6 @@ metadata.md
 
 * `title`
 * `description`
-* `index: n`（以前のバージョンのコンポーネントのみ）
+* `index: false` （以前のバージョンのコンポーネントのみ）
 
-メタデータに関する追加情報は、[内部オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html?lang=ja#solution)を参照してください。
+メタデータに関する追加情報については、[ 内部オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution) を参照してください。

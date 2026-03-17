@@ -1,12 +1,12 @@
 ---
 title: Campaign 変数
 description: キャンペーン変数をプレースホルダーとして使用して、パーソナライズされたメールコンテンツを作成します。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '294'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 メールコアコンポーネントを使用すると、共通のテキストフィールドの横にあるパーソナライズ機能ボタンを使用して、キャンペーン変数に簡単にアクセスできます。 ボタンを押すと、パーソナライズ機能フィールドを選択できるダイアログが表示されます。
 
-使用可能なパーソナライズ機能フィールドのリストが Adobe Campaign インスタンスと同期されます。 このフィールドは、スキーマ `nms:seedMember` 内の Adobe Campaign で管理されます。`nms:seedMember` のすべてのフィールドはまた、受信者テーブルにも存在する必要があります。
+使用可能なパーソナライズ機能フィールドのリストが Adobe Campaign インスタンスと同期されます。 このフィールドは、スキーマ `nms:seedMember` 内の Adobe Campaign で管理されます。 `nms:seedMember` のすべてのフィールドはまた、受信者テーブルにも存在する必要があります。
 
 ## Adobe Campaign の変数ダイアログを選択 {#dialog}
 

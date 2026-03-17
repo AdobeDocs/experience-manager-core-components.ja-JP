@@ -1,11 +1,11 @@
 ---
 title: カルーセルコンポーネント
 description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1317'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1423'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 カルーセルコンポーネントを使用すれば、コンテンツ作成者は、複数のスライドから成る回転式のカルーセルとしてコンテンツを編成できます。
 
-[編集ダイアログ](#edit-dialog)では、コンテンツ作成者は、複数のスライドの作成、命名、並べ替えを行ったり、遅延時間の指定が可能な自動切り替え機能を有効にしたりできます。[デザインダイアログ](#design-dialog)を使用すれば、テンプレート作成者は、カルーセルに追加できるコンポーネントを定義したり、自動切り替えを有効化または無効化したり、スタイルをカスタマイズしたりできます。
+[編集ダイアログ](#edit-dialog)では、コンテンツ作成者は、複数のスライドの作成、命名、並べ替えを行ったり、遅延時間の指定が可能な自動切り替え機能を有効にしたりできます。 [デザインダイアログ](#design-dialog)を使用すれば、テンプレート作成者は、カルーセルに追加できるコンポーネントを定義したり、自動切り替えを有効化または無効化したり、スタイルをカスタマイズしたりできます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -57,13 +57,13 @@ ht-degree: 100%
 1. ID がアンカーになり、ハッシュ（`#`）を使用して URL に追加できます。
    * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
-パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが表示されないように設定されている場合は、自動的にスクロールされます。
+パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。 デフォルトでパネルが表示されないように設定されている場合は、自動的にスクロールされます。
 
 ## カルーセルおよびレスポンシブデザイン {#responsive-design}
 
 すべてのコアコンポーネントは、完全にレスポンシブに動作するように設計されており、デバイス間のシームレスなエクスペリエンスを実現します。
 
-カルーセルコンポーネントなどの一部の高度なコンポーネントでは、すべての状況での応答性を維持するために、実装プロジェクトのコンテキスト内で特別な配慮を必要とする場合があります。詳しくは、[コアコンポーネントのレスポンシブデザイン](/help/responsive.md)のドキュメントを参照してください。
+カルーセルコンポーネントなどの一部の高度なコンポーネントでは、すべての状況での応答性を維持するために、実装プロジェクトのコンテキスト内で特別な配慮を必要とする場合があります。 詳しくは、[コアコンポーネントのレスポンシブデザイン](/help/responsive.md)のドキュメントを参照してください。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -73,16 +73,16 @@ ht-degree: 100%
 
 ![カルーセルコンポーネントの編集ダイアログの「項目」タブ](/help/assets/carousel-edit-items.png)
 
-タブとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。追加が完了すると、以下の列を含むエントリがリストに追加されます。
+タブとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。 追加が完了すると、以下の列を含むエントリがリストに追加されます。
 
-* **アイコン** - リスト内で簡単に識別できるようにするための、タブのコンポーネントタイプのアイコン。マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
+* **アイコン** - リスト内で簡単に識別できるようにするための、タブのコンポーネントタイプのアイコン。 マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
 * **説明** - タブのテキストとして使用される説明。デフォルトでは、タブ用に選択されたコンポーネントの名前に設定されます。
 * **削除** - タップまたはクリックすると、タブコンポーネントからタブが削除されます。
 * **並べ替え** - タップまたはクリックしてドラッグすると、タブを並べ替えることができます。
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのカルーセルコンポーネントにドラッグ＆ドロップ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#inserting-a-component-from-the-components-browser)することで、コンポーネントをカルーセルコンポーネントに追加できます。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。 [コンポーネントブラウザーからページエディターのカルーセルコンポーネントにドラッグ＆ドロップ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#inserting-a-component-from-the-components-browser)することで、コンポーネントをカルーセルコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 * **アクティブな項目** - コンテンツ作成者は、ページの読み込み時にアクティブになるタブを定義できます。
 * **スライドを自動的に切り替え** - 有効にすると、コンポーネントは指定した遅延の後で、自動的に次のスライドへと進みます。
 * **切り替え遅延** - 「スライドを自動的に切り替え」を選択した場合、この値に基づいて切り替え間の遅延（ミリ秒単位）が定義されます。
-* **ポイント時に自動で一時停止する機能を無効にする** - 「**スライドを自動的に切り替え**」を選択した場合、カルーセルの上にマウスカーソルが置かれるたびに、カルーセルの切り替えが自動的に一時停止します。切り替えが一時停止しないようにするには、このオプションを選択します。
+* **ポイント時に自動で一時停止する機能を無効にする** - 「**スライドを自動的に切り替え**」を選択した場合、カルーセルの上にマウスカーソルが置かれるたびに、カルーセルの切り替えが自動的に一時停止します。 切り替えが一時停止しないようにするには、このオプションを選択します。
 * **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
@@ -101,9 +101,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#preview-mode)または「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。 公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#preview-mode)または「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。 公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを選択すると、設定済みのスライドがドロップダウンとして表示されます。
 
-* リスト内のスライドは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
+* リスト内のスライドは割り当てられた順序で並べられ、その順序が通し番号に反映されます。
 * まずスライドのコンポーネントタイプが表示され、次にスライドの説明が薄いフォントで表示されます。
 
 ![パネルを選択](/help/assets/select-panel-popover.png)

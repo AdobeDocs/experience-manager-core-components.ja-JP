@@ -1,24 +1,24 @@
 ---
-title: 'リストコンポーネント（v2） '
+title: リストコンポーネント（v2）
 description: コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1012'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
 
 
-# リストコンポーネント（v2）  {#list-component}
+# リストコンポーネント（v2） {#list-component}
 
 コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
 
 ## 使用方法 {#usage}
 
-リストコンポーネントを使用すれば、子ページの動的リストや、自由に定義した項目の静的リストなどを作成できます。[デザインダイアログ](#design-dialog)では、利用可能なリストの種類や書式設定のオプションをテンプレート作成者が定義できます。[編集ダイアログ](#edit-dialog)では、利用可能なリストタイプやリスト要素の書式設定方法の中から、コンテンツエディターが選択できます。
+リストコンポーネントを使用すれば、子ページの動的リストや、自由に定義した項目の静的リストなどを作成できます。 [デザインダイアログ](#design-dialog)では、利用可能なリストの種類や書式設定のオプションをテンプレート作成者が定義できます。 [編集ダイアログ](#edit-dialog)では、利用可能なリストタイプやリスト要素の書式設定方法の中から、コンテンツエディターが選択できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 

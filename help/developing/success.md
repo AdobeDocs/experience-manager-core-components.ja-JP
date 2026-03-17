@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントを利用したプロジェクトの成功への道筋
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 # コアコンポーネントを利用したプロジェクトの成功への道筋 {#paths-to-success}
 
-コアコンポーネントは、強力で柔軟性が高く、使いやすく、カスタマイズも簡単です。このドキュメントで大まかに説明しているいくつかの主要なガイドラインに従えば、コアコンポーネントを利用したプロジェクトを確実に成功させることができます。
+コアコンポーネントは、強力で柔軟性が高く、使いやすく、カスタマイズも簡単です。 このドキュメントで大まかに説明しているいくつかの主要なガイドラインに従えば、コアコンポーネントを利用したプロジェクトを確実に成功させることができます。
 
 ## 成功への 2 つの道筋 {#two-paths}
 
 コアコンポーネントをプロジェクトに実装するには 2 つの基本的なアプローチがあります。それぞれ、成功につながりますが、プロジェクトごとに考慮する必要がある固有のトレードオフがあります。
 
-1. デザインをコアコンポーネントにマッピングし、コアコンポーネントで提供される HTML を取り込みます。または
+1. デザインをコアコンポーネントにマッピングし、コアコンポーネントで提供される HTML を取り込みます。 または
 1. 定義済みの HTML 標準に準拠する必要がある場合は、より多くの手間がかかり、コアコンポーネントの利点を最大限活用することができません。
 
 ## コンポーネントの実装時に陥りやすい落とし穴 {#common-pitfalls}
@@ -37,26 +37,25 @@ ht-degree: 100%
 
 ### コンポーネントライブラリの使用 {#component-library}
 
-既に設計段階で[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)を参照します。コアコンポーネントは強力で柔軟性が高く、出発点として非常に役に立ちます。合理的に考えてコアコンポーネントでは実現できないような実際のビジネスニーズがある場合にのみ、カスタムコンポーネントを追加します。
+既に設計段階で[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)を参照します。 コアコンポーネントは強力で柔軟性が高く、出発点として非常に役に立ちます。 合理的に考えてコアコンポーネントでは実現できないような実際のビジネスニーズがある場合にのみ、カスタムコンポーネントを追加します。
 
 ### Adobe XD 用 UI キットの使用 {#ui-kit}
 
-カスタムコンポーネントの必要性が明らかになった時点で、[こちらからダウンロードできる](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=ja) Adobe XD 用 UI キットを活用して、設計者がコアコンポーネントを構成要素として使用してワイヤフレームや設計の作成を開始できるようにします。
+カスタムコンポーネントの必要性が明らかになった時点で、[こちらからダウンロードできる](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) Adobe XD 用 UI キットを活用して、設計者がコアコンポーネントを構成要素として使用してワイヤフレームや設計の作成を開始できるようにします。
 
 ## 強力な機能を見落とさない {#powerful-features}
 
-AEM とコアコンポーネントの機能は非常に強力ですが、同時に非常にとらえにくく、特定の機能が設計者にすぐにはわからない可能性もあります。
+AEM とコアコンポーネントの機能は非常に強力ですが、同時に非常にとらえにくく、特定の機能がデザイナーにすぐにはわからない可能性もあります。
 
 ### コンテンツフラグメント {#content-fragments}
 
-[コンテンツフラグメントを使用すると](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=ja)、チャネルに特化しないコンテンツをチャネル固有のバリエーションと共に作成できます。その後、コンテンツページをオーサリングする際に、これらのフラグメントとそれらのバリエーションを使用できます。
+[コンテンツフラグメントを使用すると](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=ja)、チャネルに特化しないコンテンツをチャネル固有のバリエーションと共に作成できます。 その後、コンテンツページをオーサリングする際に、これらのフラグメントとそれらのバリエーションを使用できます。
 
 更新された JSON エクスポーターと共に構造化コンテンツフラグメントを使用して、AEM コンテンツをコンテンツサービス経由で AEM ページ以外のチャネルに配信することもできます。
 
 ### エクスペリエンスフラグメントテンプレート {#experience-fragment-templates}
 
-作成者がページの一部（エクスペリエンスのフラグメント）を再利用する場合。[エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=ja)を使用しなければ、作成者はそのフラグメントをコピーして貼り付ける必要があります。これらのエクスペリエンスのコピー／貼り付けの作成と管理には時間がかかり、ユーザーエラーが発生しがちです。
-エクスペリエンスフラグメントは、コピー／貼り付けを不要にします。
+作成者がページの一部（エクスペリエンスのフラグメント）を再利用する場合。 [エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=ja)を使用しなければ、作成者はそのフラグメントをコピーして貼り付ける必要があります。 これらのエクスペリエンスのコピー／貼り付けの作成と管理には時間がかかり、ユーザーエラーが発生しがちです。 エクスペリエンスフラグメントは、コピー／貼り付けを不要にします。
 
 ### 埋め込みコンポーネント {#embed-component}
 
