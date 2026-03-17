@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)してください。
+メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_jp)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-プログレスバーコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1) を参照してください。
+プログレスバーコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

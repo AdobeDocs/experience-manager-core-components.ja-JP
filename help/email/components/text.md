@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-メールテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください](https://adobe.com/go/aem_cmp_tech_email_text_v1)。
+メールテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください](https://adobe.com/go/aem_cmp_tech_email_text_v1_jp)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
