@@ -36,7 +36,7 @@ ht-degree: 93%
 
 ## リモートアセットのサポート {#remote-assets}
 
-ティーザーコンポーネント（[ リリース 2.23.2](/help/versions.md)時点）は、リモートアセットをサポートしています。[](/help/developing/remote-assets.md)を設定したら、ティーザーコンポーネントのリモートサービスからアセットを選択できます。
+ティーザーコンポーネント（[&#x200B; リリース 2.23.2](/help/versions.md)時点）は、リモートアセットをサポートしています。[&#128279;](/help/developing/remote-assets.md)を設定したら、ティーザーコンポーネントのリモートサービスからアセットを選択できます。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
