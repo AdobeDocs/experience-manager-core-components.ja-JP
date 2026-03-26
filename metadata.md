@@ -1,12 +1,14 @@
 ---
 product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 description: Adobe Experience Manager コアコンポーネントのドキュメント
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.ja-JP
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: true
 recommendations: noDisplay
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: 1975e060e8db5526518dcf6fc722e3623c47dda6
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 1%
@@ -14,17 +16,17 @@ ht-degree: 1%
 ---
 
 
-# 内部使用のメタデータ
+# 内部使用のためのメタデータ
 
-GitHub オーサリングシステムのメタデータは階層的で、次の高レベルの前例として定義されています。
+GitHub オーサリングシステムのメタデータは階層であり、次のレベルの前例で定義されています。
 
 1. metadata.md
-1. から C
+1. ToC
 1. 記事
 
-metadata.md ファイルで定義されたメタデータはリポジトリ全体に適用されますが、目次と記事のレベルで上書きできます。 メタデータの上書きは、できるだけ低いレベルで行う必要があります。
+metadata.md ファイルで定義されたメタデータは、リポジトリ全体に適用されますが、ToC レベルとアーティクルレベルで上書きできます。 メタデータの上書きは、可能な限り低いレベルで行う必要があります。
 
-最低限必要なのは、experience-manager-core-components.en リポジトリ内のメタデータです。
+experience-manager-core-components.en リポジトリのメタデータは、必要な最小値です。
 
 metadata.md
 
@@ -49,4 +51,4 @@ ToCs
 * `description`
 * `index: false` （以前のバージョンのコンポーネントのみ）
 
-メタデータに関する追加情報については、[&#x200B; 内部オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution) を参照してください。
+メタデータに関する追加情報については、[社内オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)を参照してください。
