@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 従来の AEM プロジェクトでは、拡張可能なコアコンポーネントを使用すると、作成者はコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 98%
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
       + [アダプティブフォームの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
-      + [アダプティブフォームのパスワードボックス](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[&#x200B; アダプティブ Forms パスワード ボックス &#x200B;](/help/adaptive-forms/components/password-box.md)
       + [アダプティブフォームパネル](/help/adaptive-forms/components/panel.md)
       + [アダプティブフォームの CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
       + [アダプティブフォームのリセットボタン](/help/adaptive-forms/components/reset-button.md)
-      + [アダプティブフォームのレビュー](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[&#x200B; アダプティブフォームのレビュー](/help/adaptive-forms/components/review.md)
       + [アダプティブフォームの手書き署名](/help/adaptive-forms/components/scribble-signature.md)
       + [アダプティブフォームの送信ボタン](/help/adaptive-forms/components/submit-button.md)
       + [アダプティブフォームのスイッチ](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -141,7 +141,7 @@ ht-degree: 98%
       + [フッター](/help/adaptive-forms/components/footer.md)
    + [アダプティブフォームのコアコンポーネントのカスタマイズ](/help/developing/customize-adaptive-forms-core-components.md)
    + [サンプルテーマおよびテンプレート](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-   + [テキスト入力検証パターンを有効にする](/help/adaptive-forms/enable-validation-patterns.md)
+   + {hide-from-toc}[&#x200B; テキスト入力検証パターンを有効にする](/help/adaptive-forms/enable-validation-patterns.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](/help/developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
