@@ -3,7 +3,7 @@ title: Adobe Experience Manager アダプティブ Formsでテキスト入力検
 description: 電話番号、ソーシャルセキュリティ番号、郵便番号などの検証パターンを公開するようにテンプレートポリシーを設定し、アダプティブ Formsで使用する方法について説明します。
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
+source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
