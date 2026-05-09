@@ -1,7 +1,9 @@
 ---
 product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
@@ -52,4 +54,4 @@ ToCs
 * `description`
 * `index: false` （以前のバージョンのコンポーネントのみ）
 
-メタデータに関する追加情報については、[社内オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)を参照してください。
+メタデータに関する追加情報については、[社内オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)を参照してください。
