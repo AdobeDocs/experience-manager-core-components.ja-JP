@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 「Adobe Campaign の変数を選択」ダイアログは、メールコアコンポーネントの多くの編集ダイアログで使用できます。 該当するフィールドの横にある「**Adobe Campaign の変数を選択**」アイコンをクリックするだけで、これを使用することができます。 このアイコンは 2 つの形式で表示されます。
 
 ![Adobe Campaign ボタン](/help/email/assets/campaign-button.png)
-![Adobe Campaign の変数を選択アイコン](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![Adobe Campaign 変数を選択アイコン](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
 両方のアイコンをクリックすると、**Adobe Campaign の変数を選択** ダイアログが開きます。
 

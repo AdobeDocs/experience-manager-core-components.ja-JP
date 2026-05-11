@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 96%
 
 参照用サンプルテーマは、作成者がフォームのスタイル設定を使用、定義およびカスタマイズするのに役立ちます。作成者に CSS の基本知識さえあれば、テーマを必要に応じてカスタマイズできます。
 
-**これらのテーマを取得するにはどうすればよいですか？**
+**これらのテーマの取得方法？**
 これらのテーマは、**AEM as a Cloud Service** 環境で以下に示す手順を使用して取得します。
 
 <!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja) -->
-1. [AEM アーキタイプ 47 プロジェクト以降の環境へのデプロイ](https://github.com/adobe/aem-project-archetype)
+1. [AEM Archetype 47 プロジェクト以降を環境にデプロイ](https://github.com/adobe/aem-project-archetype)
 
 
 AEM アーキタイプをデプロイする場合、フォームで使用できるのは OOTB テーマのみです。必要に応じてテーマをカスタマイズするには、[フロントエンドパイプラインを使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja)してテーマをデプロイします。
@@ -200,8 +200,8 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ### 従業員福利厚生概要 {#Employee-Benefits-Summary}
 
-従業員福利厚生概要フォームテンプレートを使用すると、個人の福利厚生に関する必須の詳細情報を収集するためのフォームを作成できます。 迅速かつ正確な対象範囲の評価に役立ち、効率的な支援とサポートのための包括的な概要を提供します。
-![従業員福利厚生要約 &#x200B;](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+従業員福利厚生概要フォームテンプレートを使用すると、個人の福利厚生に関する必須の詳細情報を収集するためのフォームを作成できます。 このフォームは、効率的な支援とサポートのための包括的な概要を提供して、補償内容の迅速かつ正確な評価に役立ちます。
+![従業員福利厚生概要](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### 取引明細書の請求 {#Request-for-Account-Statement}

@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 ## プログレッシブ ｗeb アプリのサポート {#pwa-support}
 
-コアコンポーネントのリリース 2.15.0 では、AEM as a Cloud Serviceに組み込まれた [&#x200B; プログレッシブ web アプリケーション（PWA）機能 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ja) のサポートが導入されました。 サイトレベルで簡単に設定して、AEMのエクスペリエンスをPWAに変換できます。
+コアコンポーネントのリリース 2.15.0 では、AEM as a Cloud Service のビルトインの[プログレッシブ web アプリ（PWA）機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ja)をサポートするようになりました。サイトレベルでの簡単な設定で、AEM エクスペリエンスを PWA に変えることができます。
 
 ### 技術的詳細 {#technical-details}
 

@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ AEM as a Cloud Service では、[`ui.apps`](https://experienceleague.adobe.com/d
 
 OSGi フレームワークは、様々なコンポーネント間のコントラクト表現する[要件と機能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)を定義する強力な方法を提供します。 これらはメタデータを使用して記述され、実行時に適用されます。 バンドルスクリプトでは、このメカニズムを使用して、継承関係（`sling:resourceSuperType`）と委任（レンダリングプロセスにおける他のリソースタイプを含む）の両方を表現します。
 
-[`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#code-packages-%2F-osgi-bundles) で提供されるスクリプトに対応する要件と機能を抽出するには、[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) プロジェクトの `bnd` プラグインを使用できます コンテンツパッケージ
+[`ui.apps` によって提供されるスクリプトに対応する要件と機能を抽出するには、[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) プロジェクトの `bnd` プラグインを使用できます。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#code-packages-%2F-osgi-bundles)コンテンツパッケージ
 
 ## AEM プロジェクトアーキタイプのサポート {#support}
 

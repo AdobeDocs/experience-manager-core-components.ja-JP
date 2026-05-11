@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
@@ -219,7 +219,7 @@ ht-degree: 100%
 
    * **回転** - コンテンツ作成者が「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
    * **反転**
-コンテンツ作成が「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
+コンテンツ作成者が「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
 
   >[!CAUTION]
   >

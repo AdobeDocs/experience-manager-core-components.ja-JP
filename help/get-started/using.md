@@ -1,12 +1,12 @@
 ---
 title: コアコンポーネントの使用
-description: 独自のプロジェクトにコアコンポーネントを導入するには、次の 3 つの手順に従います。ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの許可です。
+description: コアコンポーネントを独自のプロジェクトで使用するには、次の手順に従います。ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレート上のコンポーネントの許可です。
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ AEM as a Cloud Service でコアコンポーネントを使用する際には、
 * コアコンポーネントが `/apps` にも含まれている場合は、プロジェクトビルドパイプラインでログに警告が出力され、プロジェクトの一部として組み込まれているバージョンが無視されます。
    * 今後のリリースでは、コアコンポーネントを再度組み込むと、パイプラインのビルドが失敗します。
 * 既にプロジェクトが `/apps` にコアコンポーネントを含んでいる場合は、[プロジェクトの調整が必要になる可能性があります。](/help/developing/overview.md#via-aemaacs)
-* コアコンポーネントは `/libs` でサポートされていますが、`/apps` で同じパスのオーバーレイを作成することはお勧めしません。[コンポーネントのいずれかの側面をカスタマイズする必要がある場合は &#x200B;](/help/developing/guidelines.md#proxy-component-pattern) 代わりにプロキシコンポーネントパターンを使用する必要があります。
+* 今はコアコンポーネントが `/libs` に含まれるようになっていますが、同じパスのオーバーレイを `/apps` に作成することはお勧めしません。 コンポーネントの一部をカスタマイズする必要がある場合は、代わりに[プロキシコンポーネントパターン](/help/developing/guidelines.md#proxy-component-pattern)を使用してください。
 * [目次コンポーネント](/help/components/tableofcontents.md)でそのコンテンツをレンダリングするには、OSGi でフィルターを設定する必要があります。
    * 詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)を参照してください。
 
@@ -64,16 +64,19 @@ AEM as a Cloud Service でコアコンポーネントを使用する際には、
 
 1. 対応するプロキシコンポーネントをサイトの components フォルダー内に作成します。
 
-   **例** - `/apps/my-site/components` 内に `cq:Component` タイプのタイトルノードを作成します
+   **例**
+`/apps/my-site/components` 内に タイプ `cq:Component` のタイトルノードを作成します
 
 1. 対応するコアコンポーネントバージョンをスーパータイプで参照します。
 
-   **例** - 次のプロパティを追加します。\
+   **例**
+次のプロパティを追加します。\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
 1. コンポーネントのグループ、タイトルのほか、オプションで説明を定義します。 これらの値はプロジェクト固有で、作成者に対するコンポーネントの表示を指定します。
 
-   **例** - 次のプロパティを追加します。
+   **例**
+次のプロパティを追加します。
 
    ```shell
    componentGroup="My Site"

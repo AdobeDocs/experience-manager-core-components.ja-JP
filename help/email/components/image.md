@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 96%
 
 ## Dynamic Media のサポート {#dynamic-media}
 
-メール画像コンポーネントは、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。[有効にすると &#x200B;](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
+メール画像コンポーネントは、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。 これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
-メールコアコンポーネントで構築されたメールエクスペリエンスは、Adobe AIを利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供することができます。
+メールコアコンポーネントで構築されたメールエクスペリエンスは、Adobe AI を活用した、堅牢でパフォーマンスの高い、クロスプラットフォームの Dynamic Media 画像機能を備えています。
 
 ## SVG のサポート {#svg-support}
 
