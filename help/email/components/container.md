@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 技術的詳細 {#technical-details}
 
-コンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_container_v1_jp)してください。
+コンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_container_v1)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

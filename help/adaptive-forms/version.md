@@ -4,16 +4,16 @@ description: AEM コアコンポーネントはリリースとして公開され
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # アダプティブフォームのコアコンポーネントのリリース {#core-components-versions}
 
-Forms コアコンポーネントと WCM コアコンポーネントの依存関係の両方の正確なバージョンを特定します。 さらに、アダプティブフォームのコアコンポーネントの各リリースで有効化されているコンポーネントと機能を確認します。
+フォームコアコンポーネントと WCM コアコンポーネントの両方の依存関係の正確なバージョンを特定します。さらに、アダプティブフォームのコアコンポーネントの各リリースで有効化されているコンポーネントと機能を確認します。
 
 ## AEM as a Cloud Service のバージョン履歴 {#aem-as-cs-version-history}
 

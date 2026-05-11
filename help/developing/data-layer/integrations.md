@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 カスタムコンポーネントをデータレイヤーに自動的に追加するには：
 
 1. 追跡する必要があるカスタムコンポーネントモデルのプロパティを定義します。
-1. `data-cmp-data-layer` 属性をカスタムコンポーネント HTL に追加します。例：`data-cmp-data-layer="${mycomponent.data.json}"`.
+1. カスタムコンポーネントの HTL に `data-cmp-data-layer` 属性を追加します。例：`data-cmp-data-layer="${mycomponent.data.json}"`. 
 
 カスタムコンポーネントの特定の要素がクリックされるたびにデータレイヤーに `cmp:click` イベントを自動的にトリガーさせるには、カスタムコンポーネントの HTL で追跡の対象となる要素に `data-cmp-clickable` 属性を追加します。
 

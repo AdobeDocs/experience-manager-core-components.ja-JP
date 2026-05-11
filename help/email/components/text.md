@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ### 技術的詳細 {#technical-details}
 
-メールテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください](https://adobe.com/go/aem_cmp_tech_email_text_v1_jp)。
+メールテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照してください](https://adobe.com/go/aem_cmp_tech_email_text_v1)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

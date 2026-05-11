@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 96%
 
 ### 技術的詳細 {#technical-details}
 
-メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_jp)してください。
+メールティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -57,8 +57,8 @@ ht-degree: 96%
    * **デフォルト** - 他の条件を満たさない場合に表示するデフォルトのセグメントを定義します
    * **カスタム** - 条件を作成者が定義できるようにします
       * 条件は、Adobe Campaign のパーソナライゼーション変数に基づきます
-      * [Adobe Campaign Standardのパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
-      * [Adobe Campaign Classicのパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)
+      * [Adobe Campaign Standard のパーソナライゼーションリソースについて詳しくは、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
+      * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)
 * **削除** - タップまたはクリックすると、メールセグメント化コンポーネントからセグメントを削除できます。
 * **並べ替え** - タップまたはクリックしてドラッグすると、セグメントを並べ替えることができます。
 
@@ -135,7 +135,7 @@ ht-degree: 96%
 
 * **セグメント条件名** - 条件の説明
 * **セグメント条件** - Adobe Campaign のパーソナライゼーション変数に基づいて、満たす必要がある実際の条件
-   * [Adobe Campaign Standardのパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
-   * [Adobe Campaign Classicのパーソナライゼーションリソースについては、こちらを参照してください。] （https://experienceleague.adobe.com/docs/?lang=ja
+   * [Adobe Campaign Standard のパーソナライゼーションリソースについて詳しくは、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
+   * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。]（https://experienceleague.adobe.com/docs/
 * **削除** - タップしてクリックすると、条件を削除できます
 * **並べ替え** - タップまたはクリックしてドラッグすると、順序を並べ替えることができます

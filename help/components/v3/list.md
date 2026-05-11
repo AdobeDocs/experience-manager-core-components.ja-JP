@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ ht-degree: 100%
    * **昇順**
    * **降順**
 * **最大項目数**
-リストに表示される項目の最大数。
+リストに表示される項目の最大数
    * すべての項目を返すには、空のままにします。
 * **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
@@ -207,12 +207,12 @@ ht-degree: 100%
 
 ![リストコンポーネントのデザインダイアログの項目設定](/help/assets/v3/list-design-item-settings.png)
 
-* **項目をリンク**
+* **項目をリンクする**
 [編集ダイアログ](#edit-dialog)で「項目をリンク」オプションを有効にします
-* **説明を表示**
+* **説明を表示する**
 [編集ダイアログ](#edit-dialog)で「説明を表示」オプションを有効にします
-* **日付を表示**
-[編集ダイアログ](#edit-dialog)で「日付を表示」オプションを有効にします
+* **日付を表示する**
+ [編集ダイアログ](#edit-dialog)で「日付を表示」オプションを有効にします
 
 ### 「スタイル」タブ {#styles-tab}
 

@@ -4,7 +4,7 @@ description: 埋め込みコンポーネントを使用すると、AEM コンテ
 role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-埋め込みコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_embed_jp)を参照してください。
+埋め込みコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_embed)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 

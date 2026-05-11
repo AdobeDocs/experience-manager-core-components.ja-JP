@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 96%
 >
 >画像コンポーネントは、アダプティブ画像サーブレットを利用しています。 アダプティブ画像サーブレットの仕組みについて詳しくは、[ドキュメント](/help/developing/adaptive-image-servlet.md)を参照してください。
 
-## Dynamic Media のサポート {#dynamic-media}
+## Dynamic Media サポート {#dynamic-media}
 
-画像コンポーネント（[&#x200B; リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートしています。[有効にすると &#x200B;](#design-dialog) これらの機能では、他の画像と同様に、簡単なドラッグ&amp;ドロップまたはアセットブラウザーを使用して Dynamic Media 画像アセットを追加できます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
+画像コンポーネント（[リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。 これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。 また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
-コアコンポーネントで構築された web エクスペリエンスは、Adobe AIを利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media Image 機能を提供することはできません。
+コアコンポーネントで構築された web エクスペリエンスは、Adobe AI を活用した、堅牢でパフォーマンスの高い、クロスプラットフォームの Dynamic Media 画像機能を利用できるようになりました。
 
 ## SVG のサポート {#svg-support}
 
@@ -225,7 +225,7 @@ ht-degree: 96%
 * **回転**
 コンテンツ作成者が「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
 * **反転**
-コンテンツ作成が「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
+コンテンツ作成者が「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
 
   >[!CAUTION]
   >
