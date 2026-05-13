@@ -3,9 +3,12 @@ title: アダプティブ画像サーブレット
 description: コアコンポーネントで画像配信にアダプティブ画像サーブレットを使用する方法と、その使用を最適化する方法について説明します。
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '487'
+TQID: https://experienceleague.adobe.com/zfjxGeTjON5PKCAp63gcBb76rDEmIPewkGcLFvsNb0c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 487
 ht-degree: 100%
 
 ---
@@ -39,7 +42,7 @@ ht-degree: 100%
 
 1. アダプティブ画像サーブレットは、画像アセットの使用可能なすべてのレンディションをレビューします。
 1. 元の参照先アセットと同じ MIME タイプのものだけが選択されます。
-   * 例：元のアセットが PNG の場合、PNG レンディションのみ考慮されます。
+   * E.g. 元のアセットが PNG の場合、PNG レンディションのみ考慮されます。
 1. これらのレンディションの寸法が考慮されて、画像を表示するコンテナのサイズと比較されます。
 1. レンディションがコンテナサイズ以上の場合、候補レンディションのリストに追加されます。
 1. レンディションがコンテナサイズより小さい場合は無視されます。

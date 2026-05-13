@@ -3,13 +3,16 @@ title: 目次コンポーネント
 description: 目次コンポーネントは、ページコンテンツ内のタイトルに基づいて目次（ToC）を作成するので、読者がページを素早く移動できるようになります。
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '753'
+TQID: https://experienceleague.adobe.com/zFTfdF-y3R8wvpGwKexpiRscC45wpFD9PI48S-8iXG8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 753
 ht-degree: 100%
 
 ---
-
 
 # 目次コンポーネント {#table-of-contents-component}
 
@@ -43,11 +46,11 @@ ht-degree: 100%
 >
 >AEM as a Cloud Service では、コンポーネントのコンテンツをレンダリングするために、管理者がコンポーネントのフィルターを有効にする必要があります。
 >
->詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)を参照してください。
+>詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-目次コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)してください。
+目次コンポーネントに関する最新の技術ドキュメントについては、[GitHub を参照](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

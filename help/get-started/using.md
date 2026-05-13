@@ -3,9 +3,15 @@ title: コアコンポーネントの使用
 description: コアコンポーネントを独自のプロジェクトで使用するには、次の手順に従います。ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレート上のコンポーネントの許可です。
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1043'
+TQID: https://experienceleague.adobe.com/a6e4uJvZZmYypwhs5IPNMz9flf0FyFrItvT9poO6Ly4
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1043
 ht-degree: 100%
 
 ---
@@ -46,7 +52,7 @@ AEM as a Cloud Service でコアコンポーネントを使用する際には、
 * 既にプロジェクトが `/apps` にコアコンポーネントを含んでいる場合は、[プロジェクトの調整が必要になる可能性があります。](/help/developing/overview.md#via-aemaacs)
 * 今はコアコンポーネントが `/libs` に含まれるようになっていますが、同じパスのオーバーレイを `/apps` に作成することはお勧めしません。 コンポーネントの一部をカスタマイズする必要がある場合は、代わりに[プロキシコンポーネントパターン](/help/developing/guidelines.md#proxy-component-pattern)を使用してください。
 * [目次コンポーネント](/help/components/tableofcontents.md)でそのコンテンツをレンダリングするには、OSGi でフィルターを設定する必要があります。
-   * 詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_jp)を参照してください。
+   * 詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)を参照してください。
 
 ### AEM 6.5 以前 {#aem-65}
 
