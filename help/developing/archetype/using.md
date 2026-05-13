@@ -4,13 +4,21 @@ description: AEM プロジェクトのアーキタイプを使用して、最小
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1326'
+TQID: https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1326
 ht-degree: 100%
 
 ---
-
 
 # AEM プロジェクトアーキタイプの使用 {#using-the-archetype}
 
@@ -79,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### モジュール構造 {#module-structure}
 
-親 POM の `<modules>` セクションは、プロジェクトが構築するモジュールを定義します。 デフォルトでは、プロジェクトは[定義済みの標準モジュールをビルドします。](#what-you-get)プロジェクトの拡大に合わせて、いつでもモジュールを追加できます。
+親 POM の `<modules>` セクションは、プロジェクトが構築するモジュールを定義します。 デフォルトでは、プロジェクトは[定義済みの標準モジュールをビルドします。](#what-you-get) プロジェクトの拡大に合わせて、いつでもモジュールを追加できます。
 
 ### 依存関係 {#dependencies}
 
@@ -87,7 +95,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-主要な依存関係の 1 つが [AEM Java API Jar です。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=ja)これは、AEM のバージョンに対応する 1 つの依存関係エントリだけで、すべての AEM API を組み込みます。
+主要な依存関係の 1 つが [AEM Java API Jar です。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=ja) これは、AEM のバージョンに対応する 1 つの依存関係エントリだけで、すべての AEM API を組み込みます。
 
 >[!NOTE]
 >
@@ -95,7 +103,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### コアコンポーネント {#core-components}
 
-もちろん、アーキタイプは[コアコンポーネントを利用します。](/help/introduction.md)そのため、すべてのデプロイメントでコアコンポーネントを使用するには、それらを Maven プロジェクトの一部に組み込むことが推奨されます。
+もちろん、アーキタイプは[コアコンポーネントを利用します。](/help/introduction.md) そのため、すべてのデプロイメントでコアコンポーネントを使用するには、それらを Maven プロジェクトの一部に組み込むことが推奨されます。
 
 core.wcm.components.examples は、コアコンポーネントの例を示す一連のサンプルページです。 ベストプラクティスとして、実稼動用にプロジェクトをデプロイする場合は、この依存関係とサブパッケージのインクルージョンを削除する必要があります。
 
