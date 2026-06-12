@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2213
-ht-degree: 100%
+source-wordcount: 2186
+ht-degree: 99%
 
 ---
 
@@ -124,8 +124,8 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 - **上部のタブを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチの機能です。
 - **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。 値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
-- **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
-水平タブ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
+- **最大繰り返し**：水平タブコンポーネントを繰り返すことができる最大回数を設定します。デフォルトでは、この値は無制限です。
+水平タブ内の繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事で説明されている手順に従います。
 
 ### 「項目」タブ {#items-tab}
 

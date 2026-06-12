@@ -18,8 +18,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1569
-ht-degree: 100%
+source-wordcount: 1527
+ht-degree: 99%
 
 ---
 
@@ -85,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。 このオプションを使用すると、データソースを更新せずにデータを保存できます。 また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
 
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
-- **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
+- **コンポーネントを無効にする** - コンポーネントを無効にするオプションを選択します。無効になっているコンポーネントは、エンドユーザーがアクティブまたは編集可能ではありません。ユーザーはフィールドの値を確認できますが、変更することはできません。コンポーネントは、ルールエディターでの計算に使用するなど、他の目的で引き続きアクセスできます。
   <!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
 ### 「ヘルプコンテンツ」タブ {#help-content}

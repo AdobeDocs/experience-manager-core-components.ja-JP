@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2316
-ht-degree: 100%
+source-wordcount: 2302
+ht-degree: 99%
 
 ---
 
@@ -114,7 +114,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
   ![オプションのリッチテキストのサポート](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  「**オプションのリッチテキストを許可**」 チェックボックスをオンにすると、コンポーネントのオプションをスタイル設定するための書式設定オプションが表示されます。 使用可能なすべての書式設定オプションにアクセスするには、`Fullscreen` ![全画面表示アイコン](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
+  「**オプションにリッチテキストを許可する**」のチェックボックスを選択すると、コンポーネントのオプションのスタイルを設定するための書式設定オプションが表示されます。使用可能なすべての書式設定オプションにアクセスするには、`Fullscreen` ![&#x200B; フルスクリーンアイコン &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) タブをクリックします。
   ![オプションのリッチテキストのサポート](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。

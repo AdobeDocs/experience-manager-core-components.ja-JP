@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2349
-ht-degree: 100%
+source-wordcount: 2334
+ht-degree: 99%
 
 ---
 
@@ -103,8 +103,8 @@ To experience the Accordion Component as well as see examples of its configurati
    - **データ値** — このオプションでは、オプションが選択された際に送信するコンテンツを指定できます。
    - **テキストを表示** - このオプションでは、アダプティブフォームに表示する内容を入力できます。
    - **削除** - タップまたはクリックすると、ラジオボタンのオプションが削除されます。
-   - **並べ替え** - タップまたはクリックしてドラッグすると、オプションの順序を並べ替えることができます。
-また、**オプションのリッチテキストを許可**&#x200B;を使用して、ラジオボタングループのオプションを書式設定することもできます。
+   - **並べ替え** - タップまたはクリック&amp;ドラッグして、オプションの順序を並べ替えます。
+**オプションのリッチテキストを許可**&#x200B;を使用して、ラジオボットングループのオプションを書式設定することもできます。
 
   ![オプションのリッチテキストのサポート](/help/adaptive-forms/assets/richtext-for-options.png)
 

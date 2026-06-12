@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2089
-ht-degree: 100%
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **最大ファイルサイズ (MB)** - このオプションを使用すると、最大のファイルサイズを指定できます。 ファイルサイズは MB 単位で指定します。
+- **最大ファイルサイズ （MB）** – このオプションを使用すると、最大ファイルサイズを指定できます。ファイルサイズはMBで指定します。
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **最大ファイルサイズのエラーメッセージ** - このオプションでは、**最大ファイルサイズ (MB)** オプションで指定したファイルサイズを超えるファイルをアップロードした場合に表示されるエラーメッセージを入力できます。
