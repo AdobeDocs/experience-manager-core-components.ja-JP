@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 100%
+source-wordcount: 1529
+ht-degree: 99%
 
 ---
 
@@ -85,9 +85,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **役割**：役割は、スクリーンリーダーなどの支援テクノロジーに対する HTML 要素の目的を指定するのに使用される、HTML 属性です。 役割の属性は、要素に追加のコンテキストと意味論的意味を提供するために使用されます。これにより、スクリーンリーダーがコンテンツを解釈して読み上げやすくなります。 例えば AEM Formsでは、フォームフィールドのラベルが「label」という役割を持ち、入力フィールドが「textbox」という役割を持つ場合があります。 これにより、スクリーンリーダーはラベルと入力フィールドの関係を理解し、ユーザーに対して正しく通知できるようになります。
 
-- **クライアントライブラリカテゴリ**：ユーザーはアダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 jQuery および underscore.js サードパーティライブラリに依存する再利用可能な関数のみを、ライブラリに保持することをお勧めします。
-**複雑な検証ルール**&#x200B;がある場合、正確な検証スクリプトがカスタム関数の中に存在し、ユーザーがこれらのカスタム関数をフィールド検証式から呼び出すことがあります。 このカスタム関数ライブラリをサーバーサイド検証中に認識させ、利用可能にするために、フォームユーザーは、「アダプティブフォームコンテナ」プロパティの「**[!UICONTROL 基本]**」タブで、AEM クライアントライブラリの名前を設定できます。
-ユーザーは、アダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 ライブラリには、jQuery および underscore.js サードパーティライブラリに依存する、再利用可能な関数のみを保持します。
+- **クライアントライブラリカテゴリ** - アダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。jqueryとunderscore.js サードパーティライブラリに依存する再利用可能な関数のみをライブラリに保持することをお勧めします。
+複雑な検証ルール **がある場合は、正確な検証スクリプトがカスタム関数に格納され、ユーザーはフィールド検証式からこれらのカスタム関数を呼び出すことがあります。このカスタム関数ライブラリを既知のものにし、サーバーサイドの検証を行う際に利用できるようにするには、フォームユーザーはアダプティブフォームコンテナプロパティの「**&#x200B;[!UICONTROL &#x200B;基本&#x200B;]**」タブでAEM クライアントライブラリの名前を設定できます。
+ユーザーは、アダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。ライブラリでは、再利用可能な関数のみを保持します。この関数は、jqueryおよびunderscore.js サードパーティライブラリに依存しています。**
 
 <!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 

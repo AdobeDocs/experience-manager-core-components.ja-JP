@@ -84,7 +84,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1-52.png)
 
-* Bold
+* 太字
 
   ![](/help/assets/chlimage_1-53.png)
 
