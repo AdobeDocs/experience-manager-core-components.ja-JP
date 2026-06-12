@@ -6,7 +6,7 @@ feature: Core Components
 user-guide-description: 従来の AEM プロジェクトでは、拡張可能なコアコンポーネントを使用すると、作成者はコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 

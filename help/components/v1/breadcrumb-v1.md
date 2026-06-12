@@ -14,8 +14,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 100%
+source-wordcount: 544
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このドキュメントでは、パンくずコンポーネント v1 について説明します。
->パンくずコンポーネントの現在のバージョンについて詳しくは、[パンくずコンポーネント](/help/components/breadcrumb.md)のドキュメントを参照してください。
+>このドキュメントでは、パンくずコンポーネント v1について説明します。
+>現在のバージョンのパンくずコンポーネントについて詳しくは、[&#x200B; パンくずコンポーネント &#x200B;](/help/components/breadcrumb.md)のドキュメントを参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
