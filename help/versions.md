@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
 workflow-type: tm+mt
-source-wordcount: 3887
-ht-degree: 100%
+source-wordcount: 3937
+ht-degree: 98%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
+| [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | このリリースでは、ページコンポーネントのJSON-LD データのサポートが導入され、多数のバグ修正に加えて、他のいくつかのコンポーネントのパフォーマンスが向上しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年5月19日（PT） |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | このリリースでは、パス検証の問題を修正しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年1月30日 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | このリリースでは、タイトルコンポーネントポリシーダイアログのリグレッションを修正しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年12月5日（PT） |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | このリリースでは、PDF ビューアに関連するローカライズされていない文字列が修正されました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年10月23日（PT） |
