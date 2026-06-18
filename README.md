@@ -1,5 +1,5 @@
 ---
-source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
+source-git-commit: 78c755d553fdb424fee36bcb2a2c52627c51eaad
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 4%
@@ -19,4 +19,5 @@ ht-degree: 4%
 
 ## コアコンポーネントリポジトリ
 
-[Adobe Experience Manager コアコンポーネント &#x200B;](https://github.com/adobe/aem-core-wcm-components)自体は、別のリポジトリのプロジェクトとして管理されます。 コンポーネントに関する技術ドキュメントや開発者ドキュメントが必要な場合、コンポーネント自体に貢献したい場合、またはコアコンポーネントの機能や機能に関する問題を報告する必要がある場合は、そのプロジェクトを参照してください。
+[Adobe Experience Manager コアコンポーネント ](https://github.com/adobe/aem-core-wcm-components)自体は、別のリポジトリのプロジェクトとして管理されます。 コンポーネントに関する技術ドキュメントや開発者ドキュメントが必要な場合、コンポーネント自体に貢献したい場合、またはコアコンポーネントの機能や機能に関する問題を報告する必要がある場合は、そのプロジェクトを参照してください。
+
