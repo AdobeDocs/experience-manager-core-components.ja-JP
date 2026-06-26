@@ -18,10 +18,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 662
-ht-degree: 100%
+source-wordcount: 753
+ht-degree: 90%
 
 ---
 
@@ -58,6 +58,12 @@ ht-degree: 100%
 ## 編集ダイアログ {#edit-dialog}
 
 ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ja)ウィンドウにあります。
+
+### 構造化データのサポート {#structured-data}
+
+コアコンポーネントの[&#x200B; バージョン 2.31.0](/help/versions.md)では、[schema.org](https://schema.org)型のページレベル構造化データ（JSON-LD）のサポートが、ページコンポーネントのすべてのバージョンに導入されました。  AEMは、これらのブロックをページヘッドのサーバーサイドにレンダリングします。
+
+AEM as a Cloud Service[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap)の リリース 2026.6.0では、作成者がページプロパティウィンドウを使用して、**詳細** タブの&#x200B;**SEO** セクションに1つ以上のJSON-LD ブロックをページに追加できるようになりました。
 
 ## デザインダイアログ {#design-dialog}
 
