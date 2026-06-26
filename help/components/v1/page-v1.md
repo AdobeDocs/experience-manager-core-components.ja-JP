@@ -696,7 +696,7 @@ ht-degree: 85%
 
 ## 編集ダイアログ {#edit-dialog}
 
-ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)ウィンドウにあります。
+ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)ウィンドウにあります。
 
 ### 構造化データのサポート {#structured-data}
 
