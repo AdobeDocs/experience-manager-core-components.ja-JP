@@ -121,7 +121,7 @@ ht-degree: 99%
       + [アダプティブフォームの hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
-      + {hide-from-toc}[ アダプティブ Formsの画像の選択肢](/help/adaptive-forms/components/image-choice.md)
+      + {hide-from-toc}[&#x200B; アダプティブ Formsの画像の選択肢](/help/adaptive-forms/components/image-choice.md)
       + [アダプティブフォームの数値ボックス](/help/adaptive-forms/components/numeric-box.md)
       + {hide-from-toc}[アダプティブフォームのパスワードボックス](/help/adaptive-forms/components/password-box.md)
       + [アダプティブフォームパネル](/help/adaptive-forms/components/panel.md)

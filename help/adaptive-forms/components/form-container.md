@@ -4,10 +4,18 @@ description: Web ページへのアダプティブフォームの追加。
 role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 TQID: https://experienceleague.adobe.com/kMG6SKHisAUmKhOh9AFLI8NG6w0vH7tP4XimBKAMo-I
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
 workflow-type: tm+mt
 source-wordcount: 2555
@@ -79,12 +87,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **クライアントライブラリカテゴリ**：ユーザーはアダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 jQuery および underscore.js サードパーティライブラリに依存する再利用可能な関数のみを、ライブラリに保持することをお勧めします。**複雑な検証ルール**&#x200B;がある場合、正確な検証スクリプトがカスタム関数の中に存在し、ユーザーがこれらのカスタム関数をフィールド検証式から呼び出すことがあります。 このカスタム関数ライブラリをサーバーサイド検証中に認識させ、利用可能にするために、フォームユーザーは、「アダプティブフォームコンテナ」プロパティの「**[!UICONTROL 基本]**」タブで、AEM クライアントライブラリの名前を設定できます。ユーザーは、アダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 ライブラリには、jQuery および underscore.js サードパーティライブラリに依存する、再利用可能な関数のみを保持します。
 
-- **モバイルビュー用のハンバーガーメニューを有効にする** - モバイルビュー用のフォームにハンバーガーメニューを統合するには、チェックボックスを選択します。 垂直方向に積み重ねられた3本の横線で表されるこのメニューは、特にモバイルデバイスの小さなデバイスのパネルに対して、明確で整然としたディスプレイを提供します。 ハンバーガーメニューについて詳しくは、[ ハンバーガーメニューの詳細](#learn-more-about-the-hamburger-menu)の節を参照してください。
+- **モバイルビュー用のハンバーガーメニューを有効にする** - モバイルビュー用のフォームにハンバーガーメニューを統合するには、チェックボックスを選択します。 垂直方向に積み重ねられた3本の横線で表されるこのメニューは、特にモバイルデバイスの小さなデバイスのパネルに対して、明確で整然としたディスプレイを提供します。 ハンバーガーメニューについて詳しくは、[&#x200B; ハンバーガーメニューの詳細](#learn-more-about-the-hamburger-menu)の節を参照してください。
 
 
 ### 「データモデル」タブ {#data-model-tab}
 
-![ データモデルタブ ](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+![&#x200B; データモデルタブ &#x200B;](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
 フォームデータモデルを使用してフォームをデータソースに接続し、ユーザーのアクションに基づいてデータを送受信することができます。 また、フォームを JSON スキーマに接続して、送信されたデータを事前定義済みの形式で受信することもできます。 必要に応じて、フォームを JSON スキーマまたはフォームデータモデルに接続します。
 - **なし** - フォームをデータモデルに関連付けません。
@@ -95,7 +103,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「ドラフト」タブ {#drafts-tab}
 
-![下書きタブ ](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+![下書きタブ &#x200B;](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **下書きを自動的に保存**：「**下書きを自動的に保存**」チェックボックスをオンにして、フォームを下書きとして保存できるようにします。
 - **環境設定を保存**：「**環境設定を保存**」を「**定期的に下書きを保存**」に設定して、特定の時間間隔でフォームを自動保存します。
@@ -123,9 +131,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「レコードのドキュメント」タブ {#document-of-record-tab}
 
-![ レコードのドキュメント タブ ](/help/adaptive-forms/assets/formcontainer_dortab.png)
+![&#x200B; レコードのドキュメント タブ &#x200B;](/help/adaptive-forms/assets/formcontainer_dortab.png)
 
-[ レコードのドキュメント（DoR） ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)は、フォームを通じて送信されたデータの正式な印刷可能な表現です。 ユーザーがフォームを送信したときにDoRを生成する方法を設定するには、「**レコードのドキュメント**」タブを使用します。
+[&#x200B; レコードのドキュメント（DoR） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)は、フォームを通じて送信されたデータの正式な印刷可能な表現です。 ユーザーがフォームを送信したときにDoRを生成する方法を設定するには、「**レコードのドキュメント**」タブを使用します。
 
 - **なし** - フォームのレコードのドキュメントを生成しません。
 - **フォームテンプレートをレコードのドキュメント テンプレートとして関連付ける** – 既存のフォームテンプレートをDoR テンプレートとして使用します。
@@ -186,11 +194,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### ハンバーガーメニューの構成要素
 
-![ ハンバーガーメニュー](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+![&#x200B; ハンバーガーメニュー](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
 
 **A.ハンバーガーメニュー**: ハンバーガーアイコンをクリックまたはタップすると、ナビゲーションパネルがスライドアウトまたはドロップダウンします。 メニューにはパネルの見出しが表示され、パネルを選択すると、そのパネルにフォーカスが移動します。 これにより、ユーザーは異なるパネル間を簡単に移動できます。
 
-![ ハンバーガーメニュー](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+![&#x200B; ハンバーガーメニュー](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
 
 **B.パンくずリスト**：パンくずリストは、フォーム内のユーザーの現在位置を示します。 利用者のナビゲーションパスを示す階層構造の証跡を提供し、フォーム内での利用者の位置を把握するのに役立ちます。
 
@@ -202,15 +210,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - パネルのプロパティを非表示に設定すると、ハンバーガーメニューのナビゲーションパネルにパネルの名前が表示されません。 例えば、`Financial Information` パネルのプロパティを`hidden`として設定した場合、パネル名はハンバーガーメニューのナビゲーションパネルに表示されません。
 
-     ![非表示パネル ](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+     ![非表示パネル &#x200B;](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
 
    - パネルのプロパティを`disabled`に設定すると、その名前はハンバーガーメニューのナビゲーションパネルに表示されますが、選択または編集することはできません。 例えば、`Financial Information` パネルのプロパティを`disabled`として設定すると、パネル名はナビゲーションパネルに表示されますが、選択または編集することはできません。
 
-     ![無効なパネル ](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
+     ![無効なパネル &#x200B;](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
 
    - パネルのタイトルを非表示にすると、ハンバーガーメニューのナビゲーションパネルに表示されません。 代わりに空白のスペースが表示されますが、そのスペースをクリックしてパネルのフィールドに移動できます。 例えば、`Financial Information` パネルのタイトルを非表示にすると、ハンバーガーメニューのナビゲーションパネルに空白が表示されます。 空白スペースをクリックすると、パネルのフィールドに移動できます。
 
-     ![非表示のタイトルパネル ](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
+     ![非表示のタイトルパネル &#x200B;](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
 
 - デフォルトでは、パンくずコンポーネントのナビゲーションペインは、最大3つのレベルのナビゲーションをサポートします。 ただし、カスタムコンポーネントを使用すると、必要な数のレベルに対応するようにナビゲーション階層を設定できます。
 - ハンバーガーメニューを使用する場合、ユーザーは矢印を使用してパネル間を移動できます。 ただし、パネルを選択すると、メニューは自動的に閉じ、選択したパネル内のフィールドにフォーカスが移動します。
