@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: 1077
 ht-degree: 98%
 
 ---
@@ -39,10 +39,10 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * **コンポーネントのドキュメント（本ドキュメント）：&#x200B;**&#x200B;開発者および作成者向けに、各コンポーネントの詳細を説明しています。
 * **[コアコンポーネント GitHub リポジトリ：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;開発者向けに、各コンポーネントおよびプロジェクトのダウンロードの詳細を説明しています。
 * 入門ガイド：
-   * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**&#x200B;コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
-   * **[WKND チュートリアル：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)**&#x200B;新しいサイトの構築に関する 2 日間のチュートリアルです。
-   * **[Adobe Summit のチュートリアル：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;新しいサイトの構築に関する 2 時間のチュートリアルです（US Summit 2019 のラボの内容）。
-   * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;コアコンポーネントのガイドツアー（2018年12月に録画）。
+  * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**&#x200B;コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
+  * **[WKND チュートリアル：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)**&#x200B;新しいサイトの構築に関する 2 日間のチュートリアルです。
+  * **[Adobe Summit のチュートリアル：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;新しいサイトの構築に関する 2 時間のチュートリアルです（US Summit 2019 のラボの内容）。
+  * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;コアコンポーネントのガイドツアー（2018年12月に録画）。
 
 ## 機能 {#features}
 
@@ -126,7 +126,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネントリリース | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE バージョン | Maven バージョン |
 |---|---|---|---|---|---|
-| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 継続的 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 以上 |
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 継続的 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
