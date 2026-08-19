@@ -29,7 +29,7 @@ ht-degree: 16%
 
 ## 使用方法 {#usage}
 
-コンテンツAI 検索コンポーネントを使用すると、訪問者はページから直接[&#x200B; コンテンツSource](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)を検索し、オプションで生成AIによる結果の概要を表示できます。 標準のフルテキスト/セマンティック検索ボックスと、AEM Content AIを活用した切り替え可能な&#x200B;**AI生成の概要を表示** パネルを組み合わせています。
+コンテンツAI 検索コンポーネントを使用すると、訪問者はページから直接[&#x200B; コンテンツSource](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/contentsources)を検索し、オプションで生成AIによる結果の概要を表示できます。 標準のフルテキスト/セマンティック検索ボックスと、AEM Content AIを活用した切り替え可能な&#x200B;**AI生成の概要を表示** パネルを組み合わせています。
 
 [編集ダイアログ &#x200B;](#edit-dialog)を使用すると、コンテンツ作成者は、検索、検索動作、および生成設定のコンテンツ範囲を定義できます。 テンプレートレベルで使用できる設定がないので、デザインダイアログはありません。
 
@@ -78,7 +78,7 @@ ht-degree: 16%
   * **CUSTOM** - AEMの独自の取り込みパイプラインの外部で登録されたソース
 * **コンテンツソース** – このコンポーネントが検索するコンテンツSourceを定義します。
   * 使用可能なエントリは、既に存在し、**使用可能**&#x200B;のコンテンツソースと一致し、**Content Source Type**&#x200B;で設定された型とも一致します
-  * 詳しくは、[&#x200B; コンテンツ AI ソースの設定と管理](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)のドキュメントを参照してください。
+  * 詳しくは、[&#x200B; コンテンツ AI ソースの設定と管理](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/contentsources)のドキュメントを参照してください。
 
 ### 「検索行動」タブ {#search-behavior}
 

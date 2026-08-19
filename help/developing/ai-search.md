@@ -26,8 +26,8 @@ ht-degree: 2%
 
 ## 前提条件 {#prerequisites}
 
-* 少なくとも1つの[Content Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)が既に作成され、ステータスは&#x200B;**Available**&#x200B;です。
-* 有効なAPI資格情報と&#x200B;**デフォルトのContent Source**&#x200B;値を使用して、オーサーとパブリッシュの両方で設定された&#x200B;**AEM Content AI Client** OSGi設定（`ContentAIClientImpl`）。 資格情報の取得方法については、[Adobe Developer Console プロジェクトの設定](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project)のドキュメントを参照してください。
+* 少なくとも1つの[Content Source](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/contentsources)が既に作成され、ステータスは&#x200B;**Available**&#x200B;です。
+* 有効なAPI資格情報と&#x200B;**デフォルトのContent Source**&#x200B;値を使用して、オーサーとパブリッシュの両方で設定された&#x200B;**AEM Content AI Client** OSGi設定（`ContentAIClientImpl`）。 資格情報の取得方法については、[Adobe Developer Console プロジェクトの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/setup-adc-project)のドキュメントを参照してください。
 
 ## プロキシコンポーネントの作成 {#proxy-component}
 
@@ -54,10 +54,10 @@ ht-degree: 2%
 
 * 標準的な検索クエリは、Content Sourceのインデックスと同じ取得レイヤーによって提供され、設定されたソースから一致するページ、フラグメント、またはアセットを返します。
 * AI生成の概要が有効になっている場合、コンポーネントはAEM Content AI生成エンドポイントを追加的に呼び出し、同じインデックス付きコンテンツで応答をグラウンディングし、サマリーにソースを表示して訪問者が検証できるようにします。
-* 両方の機能は同じ管理されたContent Sourceから読み取られるため、結果と概要は、現在インデックスに登録されているコンテンツと一貫性を維持します。 取得を再実行すると（[&#x200B; コンテンツソースの制御](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)を参照）、両方が更新されます。
+* 両方の機能は同じ管理されたContent Sourceから読み取られるため、結果と概要は、現在インデックスに登録されているコンテンツと一貫性を維持します。 取得を再実行すると（[&#x200B; コンテンツソースの制御](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/contentsources)を参照）、両方が更新されます。
 
 ## 次の手順 {#next-steps}
 
-* [&#x200B; コンテンツソースを管理](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) – このコンポーネントが検索するコンテンツSourceを作成および管理します。
-* [Adobe Developer Console プロジェクトの設定](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) — OSGi Content AI クライアント設定で使用される資格情報を取得します。
+* [&#x200B; コンテンツソースを管理](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/contentsources) – このコンポーネントが検索するコンテンツSourceを作成および管理します。
+* [Adobe Developer Console プロジェクトの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/setup-adc-project) — OSGi Content AI クライアント設定で使用される資格情報を取得します。
 * [&#x200B; コンテンツ AI API リファレンス &#x200B;](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) – このコンポーネントが呼び出す基礎となる検索と生成サマリーエンドポイントを理解します。

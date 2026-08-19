@@ -53,7 +53,7 @@ ht-degree: 41%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-クイック検索コンポーネントを体験し、そのコンフィギュレーションオプションやHTMLおよびJSON出力の例を確認するには、[&#x200B; コンポーネントライブラリ &#x200B;](https://adobe.com/go/aem_cmp_library_search)を参照してください。
+クイック検索コンポーネントを体験し、そのコンフィギュレーションオプションやHTMLおよびJSON出力の例を確認するには、[&#x200B; コンポーネントライブラリ &#x200B;](https://adobe.com/go/aem_cmp_library_search_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
