@@ -15,10 +15,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,19 +43,25 @@ ht-degree: 46%
 
 | コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | 互換性あり | 互換性あり | 互換性あり |
+| v3 | - | 互換* | 互換* | 互換性あり |
 | [v2](/help/components/v2/quick-search.md) | - | 互換性あり | 互換性あり | 互換性あり |
 | [v1](/help/components/v1/quick-search.md) | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | - | 互換性あり |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
+* セマンティック検索トグルは、AEM as a Cloud Serviceでのみ使用できます。
 
-### 技術的詳細 {#technical-details}
+コアコンポーネントのバージョンとリリースについて詳しくは、[&#x200B; コアコンポーネントのバージョン &#x200B;](/help/versions.md)を参照してください。
+
+## コンポーネント出力のサンプル {#sample-component-output}
+
+クイック検索コンポーネントを体験し、そのコンフィギュレーションオプションやHTMLおよびJSON出力の例を確認するには、[&#x200B; コンポーネントライブラリ &#x200B;](https://adobe.com/go/aem_cmp_library_search_jp)を参照してください。
+
+## 技術的詳細 {#technical-details}
 
 >[!NOTE]
 >
 >DOS 攻撃からの検索コンポーネントや AEM ベースアプリケーションの保護は、Dispatcher で `mod_security` を使用するなど、より高いレベルで実装する必要があります。
 
-クイック検索コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_jp) を参照してください。
+クイック検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_search_v3)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

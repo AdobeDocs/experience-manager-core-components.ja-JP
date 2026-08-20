@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: 4192
-ht-degree: 96%
+source-wordcount: 4244
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 96%
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | このリリースでは、バグ修正に対応しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月15日（PT） |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | このリリースでは、以前のバージョンの検索clientlibsのバグを修正しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月15日（PT） |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | このリリースでは、[&#x200B; コンテンツAI 検索コンポーネント、](/help/components/ai-search.md) オプションのAI 検索切り替えを備えた[&#x200B; クイック検索コンポーネント &#x200B;](/help/components/quick-search.md)の新しいバージョンが導入され、ローカライズのバグなどに対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月14日（PT） |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | このリリースでは、オプションのAI 検索切り替え機能を備えた[&#x200B; クイック検索コンポーネント &#x200B;](/help/components/quick-search.md)の新しいバージョンが導入され、ローカライズのバグなどに対処しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月14日（PT） |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | このリリースでは、特定の情報が適切に保持されなかったバグを修正します。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年6月22日（PT） |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | このリリースでは、ページコンポーネントのJSON-LD データのサポートが導入され、多数のバグ修正に加えて、他のいくつかのコンポーネントのパフォーマンスが向上しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年5月19日（PT） |
