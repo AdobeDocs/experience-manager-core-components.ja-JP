@@ -61,7 +61,7 @@ ht-degree: 41%
 >
 >DOS 攻撃からの検索コンポーネントや AEM ベースアプリケーションの保護は、Dispatcher で `mod_security` を使用するなど、より高いレベルで実装する必要があります。
 
-クイック検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_search_v3)
+クイック検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_search_v3_jp)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
