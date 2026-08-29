@@ -55,7 +55,7 @@ ht-degree: 16%
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツAI 検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
+コンテンツAI 検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_ai_search_v1_jp)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
