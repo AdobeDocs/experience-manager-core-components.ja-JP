@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
 workflow-type: tm+mt
-source-wordcount: 4244
-ht-degree: 95%
+source-wordcount: 4308
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 95%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
+| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | このリリースでは、AMS上の[&#x200B; コンテンツAI 検索コンポーネント &#x200B;](/help/components/ai-search.md)が有効になります。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年9月8日（PT） |
+| [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | このリリースでは、バグ修正に対応しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年8月10日（PT） |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | このリリースでは、バグ修正に対応しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月15日（PT） |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | このリリースでは、以前のバージョンの検索clientlibsのバグを修正しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月15日（PT） |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | このリリースでは、[&#x200B; コンテンツAI 検索コンポーネント、](/help/components/ai-search.md) オプションのAI 検索切り替えを備えた[&#x200B; クイック検索コンポーネント &#x200B;](/help/components/quick-search.md)の新しいバージョンが導入され、ローカライズのバグなどに対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月14日（PT） |
