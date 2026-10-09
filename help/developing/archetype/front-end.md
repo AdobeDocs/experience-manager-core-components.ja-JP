@@ -4,25 +4,37 @@ description: AEM プロジェクトアーキタイプの Webpack に基づく専
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-TQID: https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4
+TQID: 'https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '710'
 ht-degree: 100%
-
 ---
-
 # AEM プロジェクトアーキタイプを使用したフロントエンド開発 {#front-end}
 
 AEM プロジェクトのアーキタイプには、Webpack ベースの専用フロントエンドビルドメカニズム（オプション）が含まれています。 このように、ui.frontend モジュールは、JavaScript や CSS ファイルを含む、プロジェクトのすべてのフロントエンドリソースの中心となります。 この便利で柔軟な機能を最大限に活用するには、AEM プロジェクトにフロントエンド開発がどのように適合するかを理解することが重要です。
 
-このドキュメントでは、フロントエンドビルドモジュールの一般的な使用パターンおよびユーザーに与える影響について説明します。 ビルドオプションと技術的な手順について詳しくは、アーキタイプの GitHub リポジトリにあるドキュメントを参照してください。
+このドキュメントでは、フロントエンドビルドモジュールの一般的な使用パターンと、その機能について説明します。 ビルドオプションと技術的な手順について詳しくは、アーキタイプの GitHub リポジトリにあるドキュメントを参照してください。
 
 >[!TIP]
 >
@@ -33,9 +45,9 @@ AEM プロジェクトのアーキタイプには、Webpack ベースの専用�
 簡単に言えば、AEM プロジェクトは、2 つの異なる関連部分から成ると考えることができます。
 
 * AEM のロジックを駆動し、Java ライブラリ、OSGi サービスなどを生成するバックエンドの開発
-* 結果として作成される Web サイトの表示と動作を促し、JavaScript ライブラリと CSS ライブラリを生成するフロントエンド開発
+* 結果として作成される Web サイトの表示と動作を担い、JavaScript ライブラリと CSS ライブラリを生成するフロントエンド開発
 
-これらの 2 つの開発プロセスはプロジェクトの異なる部分に焦点を当てているので、バックエンドとフロントエンドの開発が並行して行われる可能性があります。
+これらの 2 つの開発プロセスはプロジェクトの異なる部分に焦点を当てているので、バックエンドとフロントエンドの開発は並行して進めることができます。
 
 ![フロントエンドワークフロー図](/help/assets/front-end-flow.png)
 
@@ -43,11 +55,11 @@ AEM プロジェクトのアーキタイプには、Webpack ベースの専用�
 
 ## マークアップの決定 {#determining-markup}
 
-プロジェクトに実装するフロントエンド開発ワークフローに関しては、まずバックエンド開発者とフロントエンド開発者がマークアップに同意する必要があります。 通常、AEM はマークアップを定義し、これがコアコンポーネントで提供されます。 [ただし、必要に応じてカスタマイズできます。](/help/developing/customizing.md#customizing-the-markup)
+プロジェクトに実装するフロントエンド開発ワークフローに関しては、まずバックエンド開発者とフロントエンド開発者がマークアップに同意する必要があります。 通常、AEM はコアコンポーネントによって提供されるマークアップを定義します。 [ただし、必要に応じてカスタマイズできます。](/help/developing/customizing.md#customizing-the-markup)
 
 ## 可能なフロントエンド開発ワークフロー {#possible-workflows}
 
-フロントエンドビルドモジュールは、便利で柔軟なツールですが、どのように使用されるすべきかについてはユーザーに任されています。 以下の 2 つは&#x200B;*可能な*&#x200B;使用例ですが、個々のプロジェクトでは他の使用モデルが必要になる場合があります。
+フロントエンドビルドモジュールは、便利で柔軟なツールですが、その使用方法について特定のやり方を課すものではありません。 以下の 2 つは&#x200B;*可能な*&#x200B;使用例ですが、個々のプロジェクトでは他の使用モデルが必要になる場合があります。
 
 ### Webpack 静的開発サーバーの使用 {#using-webpack}
 

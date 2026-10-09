@@ -5,25 +5,35 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-TQID: https://experienceleague.adobe.com/I1e4JXUCeP-y06cPdR2ycrhK1o1bgkkAkO1voVm-2Ic
+TQID: 'https://experienceleague.adobe.com/I1e4JXUCeP-y06cPdR2ycrhK1o1bgkkAkO1voVm-2Ic'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '730'
 ht-degree: 100%
-
 ---
-
 # hCaptcha コンポーネント{#hCaptcha-component-adaptive-forms-core-component}
 
 <span class="preview">この機能は早期導入プログラムに基づいています。 早期導入プログラムに参加し、機能へのアクセスをリクエストするには、公式メール ID から aem-forms-ea@adobe.com にメールを送信してください。</span>
@@ -36,7 +46,7 @@ hCaptcha® サービスは、ボット、スパム、自動化された不正使
 
 ## 使用方法 {#usage}
 
-hCaptcha テストをフォーム送信プロセスに含める方がメリットが大きい理由は、次のようにいくつかあります。
+フォーム送信プロセスに hCaptcha チャレンジを含めることが有益である理由は、次のようにいくつかあります。
 
 - **ボット防止**：フォームが人間によって送信されていることを確認し、スパムや自動送信を削減します。
 
@@ -52,7 +62,7 @@ hCaptcha テストをフォーム送信プロセスに含める方がメリッ�
 
 hCaptcha コンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md) のテクニカルドキュメントをご覧ください。 コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
 
-[設定ダイアログ](#configure-dialog)を使用して、hCaptcha コンポーネントのプロパティを指定します。 設定ダイアログは、コアコンポーネントの一部です。このコンポーネントは、フォームのオーサリングを容易にし、複雑なフォームを効率的に作成するために構築されています。
+[設定ダイアログ](#configure-dialog)を使用して、hCaptcha コンポーネントのプロパティを指定します。 設定ダイアログはコアコンポーネントの一部であり、これらのコンポーネントはフォームのオーサリングを容易にし、複雑なフォームを効率的に作成できるように構築されています。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
