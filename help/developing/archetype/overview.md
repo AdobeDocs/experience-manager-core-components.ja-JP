@@ -4,27 +4,41 @@ description: AEM ベースのアプリケーションのテンプレートとし
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-TQID: https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk
+TQID: 'https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: '705'
 ht-degree: 100%
-
 ---
-
 # AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
 AEM プロジェクトアーキタイプは、ベストプラクティスに基づく最小限の Adobe Experience Manager（AEM）プロジェクトを web サイトの出発点として作成する Maven テンプレートです。 このドキュメントでは、アーキタイプの利点の概要と一般的な使用方法を説明します。 技術的手順とドキュメントについて詳しくは、アーキタイプの GitHub リポジトリを参照してください。
@@ -37,7 +51,7 @@ AEM プロジェクトアーキタイプは、ベストプラクティスに基�
 
 ## アーキタイプを使用する理由 {#why-use-the-archetype}
 
-AEM プロジェクトのアーキタイプを使用すると、数回のキー操作で、ベストプラクティスベースの AEM プロジェクトを構築するためのパスが設定されます。 アーキタイプを使用すると、すべての要素が配置され、結果として生成されるプロジェクトを最小限に抑えながら、AEM の[主要機能](/help/developing/archetype/using.md#what-you-get)すべてが実装されることになります。これにより、必要な作業はその上に構築して拡張するだけとなります。
+AEM プロジェクトアーキタイプを使用すると、数回のキー操作だけで、ベストプラクティスに基づく AEM プロジェクトを構築するための基盤を用意できます。 アーキタイプを使用すると、すべての要素が配置され、結果として生成されるプロジェクトを最小限に抑えながら、AEM の[主要機能](/help/developing/archetype/using.md#what-you-get)すべてが実装されることになります。これにより、必要な作業はその上に構築して拡張するだけとなります。
 
 もちろん、[成功する AEM プロジェクト](/help/developing/success.md)には多数の要素がありますが、AEM プロジェクトのアーキタイプを使用することは堅固な基盤となるので、あらゆる AEM プロジェクトに強くお勧めします。
 
@@ -65,5 +79,5 @@ AEM プロジェクトのアーキタイプを使用すると、数回のキー�
 * **[アーキタイプの使用](using.md)** - プロジェクトでのアーキタイプの使用方法と結果として生成されるモジュールの概要
 * **[AEM プロジェクトアーキタイプを使用したフロントエンド開発](front-end.md)** - アーキタイプのフロントエンドモジュールの使用方法
 * **次のチュートリアルは、このアーキタイプに基づいています。**
-   * **[WKND サイト：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)**&#x200B;新しい web サイトを開始する方法を説明します。
-   * **[WKND シングルページアプリ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ja)** - AEM で完全にオーサリング可能な React または Angular web アプリを作成する方法について説明します。
+  * **[WKND サイト：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)**&#x200B;新しい web サイトを開始する方法を説明します。
+  * **[WKND シングルページアプリ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ja)** - AEM で完全にオーサリング可能な React または Angular web アプリを作成する方法について説明します。

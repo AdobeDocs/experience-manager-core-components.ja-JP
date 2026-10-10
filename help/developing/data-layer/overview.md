@@ -4,38 +4,53 @@ description: コアコンポーネントでのアドビクライアントデー�
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+TQID: 'https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
+    internal-label: Edge Delivery Services
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
   - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
   - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1024'
 ht-degree: 100%
-
 ---
-
 # コアコンポーネントでのアドビクライアントデータレイヤーの使用 {#data-layer-core-components}
 
-アドビクライアントデータレイヤーの目標は、あらゆるスクリプトであらゆる種類のデータを表示およびアクセスできる標準化された方法を提供し、web サイトを測定する際の手間を軽減することです。
+Adobe Client Data Layer の目標は、あらゆるスクリプトがあらゆる種類のデータを公開およびアクセスできるようにする標準化された方法を提供し、web サイトのインストルメント作業に必要な手間を削減することです。
 
-アドビクライアントデータレイヤーはプラットフォームに依存しませんが、AEM で使用するためにコアコンポーネントに完全に統合されています。
+Adobe Client Data Layer はプラットフォームに依存しませんが、AEM で使用するためにコアコンポーネントに完全に統合されています。
 
-アドビクライアントデータレイヤーのコードは、コアコンポーネントと同様、開発者向けドキュメントと共に GitHub で入手できます。 このドキュメントでは、コアコンポーネントがデータレイヤーとやり取りする方法の概要について説明しますが、技術的な詳細は GitHub ドキュメントに従います。
+Adobe Client Data Layer のコードは、コアコンポーネントと同様、開発者向けドキュメントと共に GitHub で入手できます。 このドキュメントでは、コアコンポーネントがデータレイヤーとどのように連携するかの概要を説明します。技術的な詳細については、GitHub のドキュメントを参照してください。
 
 >[!TIP]
 >
@@ -275,9 +290,9 @@ id: {
 
 ## コアコンポーネントのイベント {#events}
 
-コアコンポーネントがデータレイヤーを介してトリガーするイベントは多数あります。 データレイヤーを操作する際のベストプラクティスは、[イベントリスナーを登録](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)し&#x200B;*、*&#x200B;イベントタイプや、イベントをトリガーしたコンポーネントに基づいてアクションを実行することです。 これにより、非同期スクリプトで競合が発生する可能性を回避できます。
+コアコンポーネントがデータレイヤーを介してトリガーするイベントは多数あります。 データレイヤーを操作する際のベストプラクティスは、[イベントリスナーを登録](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)し&#x200B;*、*&#x200B;イベントタイプや、イベントをトリガーしたコンポーネントに基づいてアクションを実行することです。 これにより、非同期スクリプトによる競合状態が発生する可能性を回避できます。
 
-AEM コアコンポーネントが提供する初期設定のイベントを以下に示します。
+AEM コアコンポーネントが提供する標準のイベントを以下に示します。
 
 * **`cmp:click`** - クリック可能な要素（`data-cmp-clickable` 属性を持つ要素）をクリックすると、データレイヤーによって `cmp:click` イベントがトリガーされます。
 * **`cmp:show`** および **`cmp:hide`** - アコーディオン（展開/折りたたみ）、カルーセル（次へ／前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがそれぞれ `cmp:show` および `cmp:hide` イベントをトリガーします。 `cmp:show` イベントはページの読み込み時にもディスパッチされ、最初のイベントと見なされます。
@@ -291,7 +306,7 @@ AEM コアコンポーネントが提供する初期設定のイベントを以�
 |---|---|
 | [アコーディオン](/help/components/accordion.md) | `cmp:show` および `cmp:hide` |
 | [ボタン](/help/components/button.md) | `cmp:click` |
-| [パンくずリスト](/help/components/breadcrumb.md) | `cmp:click` |
+| [パンくず](/help/components/breadcrumb.md) | `cmp:click` |
 | [カルーセル](/help/components/carousel.md) | `cmp:show` および `cmp:hide` |
 | [言語ナビゲーション](/help/components/language-navigation.md) | `cmp:click` |
 | [ナビゲーション](/help/components/navigation.md) | `cmp:click` |
