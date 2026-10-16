@@ -4,22 +4,27 @@ description: コンテンツAI 検索コンポーネントは、生成AIを利�
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # コンテンツAI 検索コンポーネント {#content-ai-search-component}
 
@@ -29,33 +34,36 @@ ht-degree: 16%
 
 ## 使用方法 {#usage}
 
-コンテンツAI 検索コンポーネントを使用すると、訪問者はページから直接[&#x200B; コンテンツSource](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/contentsources)を検索し、オプションで生成AIによる結果の概要を表示できます。 標準のフルテキスト/セマンティック検索ボックスと、AEM Content AIを活用した切り替え可能な&#x200B;**AI生成の概要を表示** パネルを組み合わせています。
+コンテンツAI 検索コンポーネントを使用すると、訪問者はページから直接[ コンテンツSource](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)を検索し、オプションで生成AIによる結果の概要を表示できます。 標準のフルテキスト/セマンティック検索ボックスと、AEM Content AIを活用した切り替え可能な&#x200B;**AI生成の概要を表示** パネルを組み合わせています。
 
-[編集ダイアログ &#x200B;](#edit-dialog)を使用すると、コンテンツ作成者は、検索、検索動作、および生成設定のコンテンツ範囲を定義できます。 テンプレートレベルで使用できる設定がないので、デザインダイアログはありません。
+[編集ダイアログ ](#edit-dialog)を使用すると、コンテンツ作成者は、検索、検索動作、および生成設定のコンテンツ範囲を定義できます。 テンプレートレベルで使用できる設定がないので、デザインダイアログはありません。
 
 >[!NOTE]
 >
->コンテンツAI 検索コンポーネントを使用するには、コンテンツ AI Sourceにアクセスできる必要があり、管理者がプロジェクトのコンポーネントを有効にしている必要があります。 詳しくは、[&#x200B; コンテンツAI 検索コンポーネントの設定](/help/developing/ai-search.md)を参照してください。
+>コンテンツAI 検索コンポーネントを使用するには、コンテンツ AI Sourceにアクセスできる必要があり、管理者がプロジェクトのコンポーネントを有効にしている必要があります。 詳しくは、[ コンテンツAI 検索コンポーネントの設定](/help/developing/ai-search.md)を参照してください。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、コンテンツAI 検索コンポーネントの現在のバージョン（2026年7月にコアコンポーネントのリリース 2.32.0で導入されたv1）について説明します。
+このドキュメントでは、コンテンツAI 検索コンポーネントの現在のバージョン（2026年10月にコアコンポーネントのリリース 2.33.0で導入されたv2）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | 進行中 |
+| コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0以上* | 6.5 GA* | 互換性あり |
+| [v1](/help/components/v1/ai-search.md) | - | - | 互換性あり |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、[&#x200B; コアコンポーネントのバージョン &#x200B;](/help/versions.md)を参照してください。
+*AEM 6.5および6.5 LTSでのコンテンツAI 検索コンポーネントのサポートは、Adobe Managed Services（AMS）に限定されます。
+
+コアコンポーネントのバージョンとリリースについて詳しくは、[ コアコンポーネントのバージョン ](/help/versions.md)を参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-コンテンツAI 検索コンポーネントを体験し、そのコンフィギュレーションオプションやHTMLおよびJSON出力の例を確認するには、[&#x200B; コンポーネントライブラリ &#x200B;](https://adobe.com/go/aem_cmp_library_ai_search)を参照してください。
+コンテンツAI 検索コンポーネントを体験し、そのコンフィギュレーションオプションやHTMLおよびJSON出力の例を確認するには、[ コンポーネントライブラリ ](https://adobe.com/go/aem_cmp_library_ai_search)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツAI 検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_ai_search_v1_jp)
+コンテンツAI 検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -65,9 +73,9 @@ ht-degree: 16%
 
 ### 「コンテンツ範囲」タブ {#content-scope}
 
-![編集ダイアログの「コンテンツ範囲」タブ &#x200B;](/help/assets/content-ai-search-edit-content-scope.png)
+![編集ダイアログの「コンテンツ範囲」タブ ](/help/assets/content-ai-search-edit-content-scope.png)
 
-* **ID** – このオプションを使用すると、HTMLおよび[&#x200B; データレイヤー](/help/developing/data-layer/overview.md)のコンポーネントの一意のIDを制御できます。
+* **ID** – このオプションを使用すると、HTMLおよび[ データレイヤー](/help/developing/data-layer/overview.md)のコンポーネントの一意のIDを制御できます。
   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -78,11 +86,11 @@ ht-degree: 16%
   * **CUSTOM** - AEMの独自の取り込みパイプラインの外部で登録されたソース
 * **コンテンツソース** – このコンポーネントが検索するコンテンツSourceを定義します。
   * 使用可能なエントリは、既に存在し、**使用可能**&#x200B;のコンテンツソースと一致し、**Content Source Type**&#x200B;で設定された型とも一致します
-  * 詳しくは、[&#x200B; コンテンツ AI ソースの設定と管理](https://experienceleague.adobe.com/ja/docs/experience-manager-content-ai/using/contentsources)のドキュメントを参照してください。
+  * 詳しくは、[ コンテンツ AI ソースの設定と管理](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)のドキュメントを参照してください。
 
 ### 「検索行動」タブ {#search-behavior}
 
-![編集ダイアログの「検索行動」タブ &#x200B;](/help/assets/content-ai-search-edit-search-behavior.png)
+![編集ダイアログの「検索行動」タブ ](/help/assets/content-ai-search-edit-search-behavior.png)
 
 * **結果レイアウト** – このオプションは、検索結果を訪問者に表示する方法を定義します。
   * **カード** – このオプションは、結果をグリッド形式で表示します。
@@ -94,7 +102,7 @@ ht-degree: 16%
 
 ### 「生成検索」タブ {#generative-search}
 
-![編集ダイアログの「生成検索」タブ &#x200B;](/help/assets/content-ai-search-edit-generative-search.png)
+![編集ダイアログの「生成検索」タブ ](/help/assets/content-ai-search-edit-generative-search.png)
 
 * **生成サマリーの表示を訪問者に切り替えます** – オフにすると、訪問者はAI サマリーを表示するかどうかを変更できません。
   * デフォルト値は有効です。
