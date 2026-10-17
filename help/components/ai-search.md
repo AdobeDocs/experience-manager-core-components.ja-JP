@@ -4,22 +4,27 @@ description: コンテンツAI 検索コンポーネントは、生成AIを利�
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # コンテンツAI 検索コンポーネント {#content-ai-search-component}
 
@@ -39,13 +44,16 @@ ht-degree: 16%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、コンテンツAI 検索コンポーネントの現在のバージョン（2026年7月にコアコンポーネントのリリース 2.32.0で導入されたv1）について説明します。
+このドキュメントでは、コンテンツAI 検索コンポーネントの現在のバージョン（2026年10月にコアコンポーネントのリリース 2.33.0で導入されたv2）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | 進行中 |
+| コンポーネントのバージョン | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0以上* | 6.5 GA* | 互換性あり |
+| [v1](/help/components/v1/ai-search.md) | - | - | 互換性あり |
+
+*AEM 6.5および6.5 LTSでのコンテンツAI 検索コンポーネントのサポートは、Adobe Managed Services（AMS）に限定されます。
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[&#x200B; コアコンポーネントのバージョン &#x200B;](/help/versions.md)を参照してください。
 
@@ -55,7 +63,7 @@ ht-degree: 16%
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツAI 検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_ai_search_v1_jp)
+コンテンツAI 検索コンポーネント [に関する最新の技術ドキュメントは、GitHubにあります。](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

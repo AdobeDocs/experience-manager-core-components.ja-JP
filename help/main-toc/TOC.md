@@ -5,13 +5,11 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 従来の AEM プロジェクトでは、拡張可能なコアコンポーネントを使用すると、作成者はコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
-
+source-wordcount: '445'
+ht-degree: 96%
 ---
-
 
 # AEM コアコンポーネントヘルプ {#using}
 
@@ -71,6 +69,7 @@ ht-degree: 97%
     + [ページ（v1）](/help/components/v1/page-v1.md)
     + [ティーザー（v1）](/help/components/v1/teaser.md)
     + [クイック検索 (v1)](/help/components/v1/quick-search.md)
+    + [コンテンツAI 検索](/help/components/v1/ai-search.md)
     + [テキスト（v1）](/help/components/v1/text-v1.md)
     + [タイトル（v1）](/help/components/v1/title-v1.md)
     + v1 フォームコンポーネント {#v1-forms}
@@ -142,7 +141,7 @@ ht-degree: 97%
     + [アダプティブフォームの利用条件](/help/adaptive-forms/components/terms-and-conditions.md)
     + [ヘッダー](/help/adaptive-forms/components/header.md)
     + [フッター](/help/adaptive-forms/components/footer.md)
-  + [アダプティブフォームのコアコンポーネントのカスタマイズ](/help/developing/customize-adaptive-forms-core-components.md)
+  + [アダプティブフォームコアコンポーネントのカスタマイズ](/help/developing/customize-adaptive-forms-core-components.md)
   + [サンプルテーマおよびテンプレート](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
   + {hide-from-toc}[テキスト入力検証パターンを有効にする](/help/adaptive-forms/enable-validation-patterns.md)
 + 開発 {#developing}
@@ -158,7 +157,7 @@ ht-degree: 97%
   + [Web に最適化された画像配信](/help/developing/web-optimized-image-delivery.md)
   + [リモートアセットのサポート](/help/developing/remote-assets.md)
   + [コンテンツAI 検索の設定](/help/developing/ai-search.md)
-  + Adobe クライアントデータレイヤー {#data-layer}
+  + Adobe Client Data Layer {#data-layer}
     + [データレイヤーの概要](/help/developing/data-layer/overview.md)
     + [データレイヤーとの統合](/help/developing/data-layer/integrations.md)
     + [データレイヤーの拡張](/help/developing/data-layer/extending.md)

@@ -6,28 +6,38 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
+    internal-label: Accessibility
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: 4308
-ht-degree: 94%
-
+source-wordcount: '4354'
+ht-degree: 93%
 ---
-
 # コアコンポーネントのバージョン {#core-components-versions}
 
 コアコンポーネントは、[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) および[オンプレミス AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ja) のインストールと互換性があります。
@@ -44,6 +54,7 @@ ht-degree: 94%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
+| [2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0) | このリリースでは、コンテンツフラグメント関連のコンポーネントに関する多くの改善点に対応し、[&#x200B; コンテンツAI 検索コンポーネント &#x200B;](/help/components/ai-search.md)のバージョン 2が導入されています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年10月5日（PT） |
 | [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | このリリースでは、AMS上の[&#x200B; コンテンツAI 検索コンポーネント &#x200B;](/help/components/ai-search.md)が有効になります。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年9月8日（PT） |
 | [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | このリリースでは、バグ修正に対応しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年8月10日（PT） |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | このリリースでは、バグ修正に対応しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年7月15日（PT） |
@@ -55,8 +66,8 @@ ht-degree: 94%
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | このリリースでは、パス検証の問題を修正しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2026年1月30日 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | このリリースでは、タイトルコンポーネントポリシーダイアログのリグレッションを修正しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年12月5日（PT） |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | このリリースでは、PDF ビューアに関連するローカライズされていない文字列が修正されました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年10月23日（PT） |
-| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | このリリースでは、アセットや Dynamic Media の多くの問題に対処し、LTS のサポートを明確にし、多数のバグ修正に対処しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年9月4日（PT） |
-| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | このリリースでは、Sites コアコンポーネントでのアセットのプレビューバージョンのオーサリングのサポートが追加され、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年4月21日（PT） |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | このリリースでは、アセットや Dynamic Media の多くの問題に対処し、LTS のサポートを明確にし、多数のバグを修正しました。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年9月4日（PT） |
+| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | このリリースでは、Sites コアコンポーネントでのアセットのプレビューバージョンのオーサリングのサポートが追加され、多数のバグが修正されています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年4月21日（PT） |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | 6.5 LTS GA | 継続的 | 8, 11, 17, 21 | 2025年3月17日（PT） |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | - | 継続的 | 11 | 2024年9月10日（PT） |
 | [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | このリリースでは、多数のバグ修正に対処しています。 | - | 6.5.21.0+ | - | 継続的 | 11 | 2024年7月31日（PT） |
@@ -64,7 +75,7 @@ ht-degree: 94%
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | これは、一部の IT エラーを修正するマイナーリリースです。 | - | 6.5.21.0+ | - | 継続的 | 8、11 | 2024年5月9日（PT） |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | このリリースでは、Dynamic Media で名前付きスマート切り抜きのサポートが追加され、パフォーマンスおよびアクセシビリティの向上と、様々なバグ修正が含まれます。 | - | 6.5.21.0+ | - | 継続的 | 8、11 | 2024年5月2日（PT） |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | このパッチリリースには、データレイヤーの初期化に関する改善が含まれます。 | - | 6.5.21.0+ | - | 継続的 | 8、11 | 2024年4月22日（PT） |
-| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | このパッチリリースでは、Sling モデルの初期化が修正されます。 | - | 6.5.21.0+ | - | 継続的 | 8、11 | 2024年4月1日（PT） |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | このパッチリリースでは、Sling モデルの初期化に関する問題が修正されています。 | - | 6.5.21.0+ | - | 継続的 | 8、11 | 2024年4月1日（PT） |
 | [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | このパッチリリースでは、統合テストの安定性が向上します。 | - | 6.5.21.0+ | - | 継続的 | 8、11 | 2024年2月22日（PT） |
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | このリリースでは、Google Tag Manager データレイヤーのサポートが追加され、様々なバグ修正が含まれます。 | - | 6.5.21.0+ | - | 継続的 | 8、11 | 2024年2月14日（PT） |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | このパッチリリースには、様々なバグ修正が含まれています。 | - | 6.5.17.0+ | - | 継続的 | 8、11 | 2023年9月15日（PT） |
@@ -109,7 +120,7 @@ ht-degree: 94%
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | このリリースでは、[AMP のサポート](/help/developing/amp.md)が導入されました。 | 6.4.8.1+ | 6.5.5.0+ | - | 継続的 | 8、11 | 2020年7月20日（PT） |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | このリリースでは、[PDF ビューアコンポーネント](/help/components/pdf-viewer.md)が導入されました。 | 6.4.8.1+ | 6.5.5.0+ | - | 継続的 | 8、11 | 2020年6月17日（PT） |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | このリリースでは、[アドビクライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合が可能になり、[プログレスバーコンポーネント](/help/components/progress-bar.md)が導入されました。 | 6.4.8.0+ | 6.5.4.0+ | - | 継続的 | 8、11 | 2020年5月29日（PT） |
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは小規模の機能強化による修正に重点を置きました。 | 6.4.4.0+ | 6.5.0.0+ | - | 継続的 | 8、11 | 2019年12月5日（PT） |
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは、修正と小規模な機能強化に重点が置かれました。 | 6.4.4.0+ | 6.5.0.0+ | - | 継続的 | 8、11 | 2019年12月5日（PT） |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは、新しい[埋め込みコンポーネント](/help/components/embed.md)が導入されました。 | 6.4.4.0+ | 6.5.0.0+ | - | 継続的 | 8、11 | 2019年9月25日（PT） |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは、新しい[エクスペリエンスフラグメントコンポーネント](/help/components/experience-fragment.md)が導入されました. | 6.4.4.0+ | 6.5.0.0+ | - | 継続的 | 8、11 | 2019年9月6日（PT） |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | このリリースでは、[アコーディオン](/help/components/accordion.md)、[ボタン](/help/components/button.md)、[コンテナ](/help/components/container.md)、[ダウンロード](/help/components/download.md)の各コンポーネントが新しく導入されました。 | 6.4.2.0+ | 6.5.0.0+ | - | 継続的 | 8、11 | 2019年6月25日（PT） |
@@ -214,6 +225,6 @@ ht-degree: 94%
 
 ## 基盤コンポーネントのサポート {#foundation-component-support}
 
-Adobe の開発における重点は、コアコンポーネントに移行し、新機能の追加は今後も続けられます。
+アドビの開発の重点はコアコンポーネントに移っており、新機能は今後も追加され続けます。
 
 [ほとんどの基盤コンポーネントは AEM 6.5 では非推奨となり](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=ja)、今後は基盤コンポーネントに関する主なバグ修正のみが検討されます。
