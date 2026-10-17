@@ -3,22 +3,22 @@ product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: "Experience Manager"
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: "Experience Manager Sites"
 usetq: true
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 description: Adobe Experience Manager コアコンポーネントのドキュメント
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.ja-JP
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: true
 recommendations: noDisplay
 source-git-commit: 46e65d8dc8f5229e233747ffebe219734ec61adf
 workflow-type: tm+mt
-source-wordcount: 120
+source-wordcount: '113'
 ht-degree: 1%
-
 ---
-
 
 # 内部使用のためのメタデータ
 
@@ -55,4 +55,4 @@ ToCs
 * `description`
 * `index: false` （以前のバージョンのコンポーネントのみ）
 
-メタデータに関する追加情報については、[社内オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)を参照してください。
+メタデータに関する追加情報については、[社内オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)を参照してください。
